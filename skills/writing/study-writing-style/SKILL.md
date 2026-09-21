@@ -21,7 +21,7 @@ Before starting, confirm you have:
 1. **Author name** — exactly how they want it spelled in the guide.
 2. **Blog index URL** — the page that lists their posts. Archive page, "/blog/all", "/posts", or similar.
 3. **Output location** (optional) — defaults to `writing-styles/<author-slug>.md` in the current working directory's project root. `<author-slug>` is the author's handle or kebab-cased name (`tkdodo`, `julia-evans`, `dan-luu`).
-4. **Project writing rules** (auto-detected) — read the nearest `CLAUDE.md` (project, then user-global) for any writing-style constraints (no em-dashes, no emojis, sentence length caps). You will call these out in the guide as substitution rules when the studied author violates them.
+4. **Project writing rules** (auto-detected) — read the nearest `AGENTS.md`, then a project `CLAUDE.md` if no `AGENTS.md` is on the path, then the user-global `~/.claude/CLAUDE.md`, for any writing-style constraints (no em-dashes, no emojis, sentence length caps). You will call these out in the guide as substitution rules when the studied author violates them.
 
 ## The process
 
@@ -66,7 +66,7 @@ While reading, mentally (or in a scratch buffer) track:
 
 ### 4. Detect project writing rules
 
-Read the project's `CLAUDE.md` (and the user-global one at `~/.claude/CLAUDE.md` if present) for any writing constraints. Common ones to look for:
+Read the project's `AGENTS.md` (fall back to a project `CLAUDE.md` when no `AGENTS.md` is on the path) and the user-global `~/.claude/CLAUDE.md` if present, for any writing constraints. Common ones to look for:
 
 - Em-dash prohibition
 - Emoji restrictions
@@ -129,7 +129,7 @@ Output to `writing-styles/<author-slug>.md`. Use this exact section structure �
 
 ## Project rule substitutions
 
-<For each project-CLAUDE.md rule the author violates, give a before/after substitution. Example:
+<For each project instruction-file rule the author violates, give a before/after substitution. Example:
 
 > **No em-dashes (project rule).** The author uses them liberally. Substitute with parentheses, semicolons, or split into two sentences.
 >
@@ -165,7 +165,7 @@ Before finishing, check:
 - **Specificity**: No claim like "the author is engaging" or "the writing is clear". Every observation is mechanical: "opens with a personal admission", "uses italics on the single word that flips the meaning of the sentence", "lists are 3–5 noun phrases, no trailing periods".
 - **No hallucinated quotes**: Every blockquote must be copy-paste from an article you actually fetched. If you're tempted to write a quote from memory, fetch the article again instead.
 - **Worked example is in voice**: The "After" rewrite should be unmistakably the author's. If you read it back and it sounds like generic competent prose, redo it.
-- **Project rules called out**: If `CLAUDE.md` has writing rules and the author violates them, the substitutions section must exist and have at least one before/after.
+- **Project rules called out**: If `AGENTS.md` (or a project `CLAUDE.md`) has writing rules and the author violates them, the substitutions section must exist and have at least one before/after.
 - **Length**: 200–350 lines is the right range. Under 150 lines means you're being too abstract; over 400 means you're padding.
 
 ## Why this structure
@@ -180,8 +180,8 @@ The verbatim-quotes rule is the single most important constraint. A style guide 
 - **All sample articles are the same genre.** You'll miss range. Re-pick to cover opinion, technical, personal, principles.
 - **Quotes are too long.** Trim to the smallest excerpt that demonstrates the move. One sentence is usually enough.
 - **Writing about the topic, not the style.** If a section talks about what the author *thinks* about React, you're off-track. Talk about how they *write* about React.
-- **Skipped the project CLAUDE.md.** The guide is supposed to be usable in *this* project. Project rules matter.
+- **Skipped the project `AGENTS.md`.** The guide is supposed to be usable in *this* project. Project rules matter.
 
 ## Example output
 
-A reference example produced from this skill exists at `writing-styles/tkdodo.md` in the zubin.dev repo. When in doubt about depth, density of quotes, or section length, match that file.
+The quality bar above is the reference. When in doubt about depth, density of quotes, or section length, match that — a guide another person can apply without access to any private repo.

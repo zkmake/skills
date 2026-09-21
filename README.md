@@ -5,19 +5,19 @@ Personal collection of [agent skills](https://www.skills.sh/) for Claude Code an
 ## Install
 
 ```bash
-npx skills add zkMake/skills
+npx skills add zkmake/skills
 ```
 
 Pick the skills you want from the interactive prompt, or install everything.
 
 ## Skills
 
-### CLAUDE.md
+### AGENTS.md
 
 | Skill                                                        | Description                                                                                    |
 | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| [bootstrap-claude-md](skills/claude-md/bootstrap-claude-md) | Author a new CLAUDE.md scoped to the current app, package, or directory from scratch.          |
-| [update-claude-md](skills/claude-md/update-claude-md)       | Audit and refresh the nearest CLAUDE.md, prune task cruft, offload detail to context files.    |
+| [bootstrap-agents-md](skills/agents-md/bootstrap-agents-md) | Author a new AGENTS.md scoped to the current app, package, or directory from scratch.          |
+| [update-agents-md](skills/agents-md/update-agents-md)       | Audit and refresh the nearest AGENTS.md, prune task cruft, offload detail to context files.    |
 
 ### Game
 

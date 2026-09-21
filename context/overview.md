@@ -4,7 +4,7 @@ What this repo is, how it's laid out, and where everything lives.
 
 ## Purpose
 
-Personal collection of agent skills for Claude Code and other agents. Grown organically for day-to-day use; published to keep them versioned, recoverable, and installable anywhere. Consumers install with `npx skills add zkMake/skills` and pick skills from an interactive prompt.
+Personal collection of agent skills for Claude Code and other agents. Grown organically for day-to-day use; published to keep them versioned, recoverable, and installable anywhere. Consumers install with `npx skills add zkmake/skills` and pick skills from an interactive prompt.
 
 ## Directory map
 
@@ -23,7 +23,7 @@ Personal collection of agent skills for Claude Code and other agents. Grown orga
 
 | Category | Skills |
 | --- | --- |
-| `claude-md` | `bootstrap-claude-md`, `update-claude-md` |
+| `agents-md` | `bootstrap-agents-md`, `update-agents-md` |
 | `game` | `three-game-starter` |
 | `github` | `create-pr`, `update-pr`, `gh-cli` |
 | `media` | `optimize-audio` |

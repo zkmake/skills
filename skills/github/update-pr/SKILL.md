@@ -31,7 +31,7 @@ git diff origin/<base>...HEAD
 Format: `type(scope): description`
 
 - **type**: `feat` `fix` `refactor` `chore` `build` `docs` `test` `perf` `ci` `style` `hotfix`
-- **scope**: affected package or app (e.g. `platform-typing`, `virtual-room-three`)
+- **scope**: affected package or area (e.g. `api`, `web`)
 - **description**: imperative mood, lowercase, total title under 70 chars
 
 Derive type and scope from the diff and commit log. Use the dominant type when commits span multiple types.

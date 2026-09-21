@@ -8,18 +8,31 @@ disable-model-invocation: true
 
 ## Workflow
 
-### 1. Gather context
+### 1. Assignee and labels
 
-Run these commands to understand the branch:
+Before doing anything else, decide who to assign and which labels to apply.
+
+- If the message that triggered this skill already names a GitHub username, use it.
+- If it already names labels, use those.
+- If either is missing, ask in one question and wait for the answer:
+  - GitHub username to assign. They may say none.
+  - Labels to apply. They may say none.
+
+Do not invent a username or a default label. Only pass labels that already exist on the repo. If a named label is missing, say so and ask whether to skip it.
+
+### 2. Gather context
+
+Resolve the repo's default branch, then diff against it:
 
 ```bash
 git branch --show-current
-git log --oneline origin/master..HEAD
-git diff origin/master...HEAD --stat
-git diff origin/master...HEAD
+base=$(gh repo view --json defaultBranchRef --jq .defaultBranchRef.name)
+git log --oneline "origin/${base}..HEAD"
+git diff "origin/${base}...HEAD" --stat
+git diff "origin/${base}...HEAD"
 ```
 
-### 2. Push if needed
+### 3. Push if needed
 
 ```bash
 git status -sb
@@ -34,17 +47,17 @@ git push -u origin HEAD
 
 Do NOT force-push or amend commits.
 
-### 3. Compose the PR title
+### 4. Compose the PR title
 
 Format: `type(scope): description`
 
 - **type**: `feat` `fix` `refactor` `chore` `build` `docs` `test` `perf` `ci` `style` `hotfix`
-- **scope**: affected package or app (e.g. `platform-typing`, `virtual-room-three`)
+- **scope**: affected package or area (e.g. `api`, `web`)
 - **description**: imperative mood, lowercase, total title under 70 chars
 
 Derive type and scope from the diff and commit log. Use the dominant type when commits span multiple types.
 
-### 4. Compose the PR body
+### 5. Compose the PR body
 
 <pr-body-template>
 ## Summary
@@ -61,15 +74,15 @@ Omit the **Commits** section if there is only one commit.
 
 Group Summary bullets by change type when there are 4+ mixed-type commits.
 
-### 5. Create the PR
+### 6. Create the PR
 
-Always assign `zkmake` and apply the existing `WIP` label.
+Use the default branch from step 2 as `--base`. Add `--assignee` only when the user named one. Repeat `--label` once per label they named; omit it when they named none.
 
 ```bash
 gh pr create \
-  --base master \
-  --assignee zkmake \
-  --label WIP \
+  --base "$base" \
+  --assignee <username> \
+  --label <label> \
   --title "type(scope): description" \
   --body "$(cat <<'EOF'
 ## Summary
@@ -84,6 +97,6 @@ EOF
 )"
 ```
 
-### 6. Return the PR URL
+### 7. Return the PR URL
 
 Output the URL returned by `gh pr create`.

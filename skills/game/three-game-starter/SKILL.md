@@ -119,9 +119,9 @@ Done when: all three checks pass with output you actually looked at.
 
 ## 6. Write the docs
 
-Write a `CLAUDE.md` for the new project so the next agent inherits the architecture instead of rediscovering it. Invoke the `bootstrap-claude-md` skill in progressive-disclosure mode — the systems you just built are its `context/*.md` topics.
+Write an `AGENTS.md` for the new project so the next agent inherits the architecture instead of rediscovering it. Invoke the `bootstrap-agents-md` skill in progressive-disclosure mode — the systems you just built are its `context/*.md` topics.
 
-Done when: `CLAUDE.md` plus a `context/` file per system exists, and each names the files it covers.
+Done when: `AGENTS.md` plus a `context/` file per system exists, and each names the files it covers.
 
 ## 7. Report
 

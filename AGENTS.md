@@ -1,6 +1,6 @@
 # skills
 
-Orientation index for coding tasks on this personal agent-skills collection (published as `zkMake/skills`, installed via `npx skills add zkMake/skills`). The deep content lives in `context/*.md` — load only what's relevant to the task at hand. Extend the "Task-specific plan" section at the bottom for the actual change.
+Orientation index for coding tasks on this personal agent-skills collection (published as `zkmake/skills`, installed via `npx skills add zkmake/skills`). The deep content lives in `context/*.md` — load only what's relevant to the task at hand. Extend the "Task-specific plan" section at the bottom for the actual change.
 
 ## Must-know (always load this much)
 
