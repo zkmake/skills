@@ -5,7 +5,7 @@ Orientation index for coding tasks on this personal agent-skills collection (pub
 ## Must-know (always load this much)
 
 - **Markdown repo, release tooling only.** No build step; the repo tree is the distribution: skill directories are copied verbatim into consumers' skill folders, and `.claude-plugin/` ships the same tree as a Claude Code plugin. `package.json` exists only for Changesets; `npm run check` verifies the skill lists agree.
-- **Every change adds a changeset** (`npx changeset`, or a hand-written `.changeset/<slug>.md` bumping `zkmake-skills`). The release workflow does versioning, `CHANGELOG.md` and tags; never edit those by hand.
+- **Every skill change adds a changeset** (`npx changeset`, or a hand-written `.changeset/<slug>.md` bumping `zkmake-skills`). The release workflow does versioning, `CHANGELOG.md` and tags; never edit those by hand.
 - **One skill per directory** at `skills/<category>/<skill-name>/SKILL.md`, following the [Agent Skills](https://agentskills.io/) format.
 - **`description` frontmatter is the trigger surface.** It's what agents match against to decide when to invoke — the most load-bearing field in the repo. Write it with explicit trigger phrases.
 - **Four places must agree**: directory name, frontmatter `name`, the README table link path, and the `skills` array in `.claude-plugin/plugin.json`. Both installers key off the directory path; `npm run check` catches drift.

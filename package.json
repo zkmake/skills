@@ -5,7 +5,7 @@
   "description": "Zubin Khavarian's personal agent skills.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zkMake/skills"
+    "url": "https://github.com/zkmake/skills"
   },
   "license": "MIT",
   "scripts": {

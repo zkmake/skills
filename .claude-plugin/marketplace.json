@@ -2,7 +2,7 @@
   "name": "zkmake",
   "owner": {
     "name": "Zubin Khavarian",
-    "url": "https://github.com/zkMake"
+    "url": "https://github.com/zkmake"
   },
   "description": "Zubin Khavarian's agent skills, as an installable Claude Code plugin.",
   "plugins": [

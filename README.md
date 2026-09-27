@@ -7,7 +7,7 @@ Personal collection of [agent skills](https://www.skills.sh/) for Claude Code an
 **Claude Code**, as a plugin (every skill, versioned):
 
 ```bash
-claude plugin marketplace add zkMake/skills
+claude plugin marketplace add zkmake/skills
 claude plugin install zkmake-skills@zkmake
 ```
 

@@ -4,9 +4,9 @@
   "description": "Zubin Khavarian's personal agent skills for Claude Code and other agents.",
   "author": {
     "name": "Zubin Khavarian",
-    "url": "https://github.com/zkMake"
+    "url": "https://github.com/zkmake"
   },
-  "repository": "https://github.com/zkMake/skills",
+  "repository": "https://github.com/zkmake/skills",
   "license": "MIT",
   "keywords": [
     "skills",
