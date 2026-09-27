@@ -1,0 +1,17 @@
+{
+  "name": "zkmake",
+  "owner": {
+    "name": "Zubin Khavarian",
+    "url": "https://github.com/zkMake"
+  },
+  "description": "Zubin Khavarian's agent skills, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "zkmake-skills",
+      "source": "./",
+      "description": "Personal agent skills: 3D model passes, game and styling migrations, GitHub, React, writing and workflow.",
+      "category": "engineering",
+      "keywords": ["skills", "three.js", "react", "github", "workflow"]
+    }
+  ]
+}

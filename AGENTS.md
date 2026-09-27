@@ -4,11 +4,11 @@ Orientation index for coding tasks on this personal agent-skills collection (pub
 
 ## Must-know (always load this much)
 
-- **Pure markdown repo.** No package.json, build step, or tests; the repo tree is the distribution — skill directories are copied verbatim into consumers' `~/.claude/skills/`.
+- **Markdown repo, release tooling only.** No build step; the repo tree is the distribution: skill directories are copied verbatim into consumers' skill folders, and `.claude-plugin/` ships the same tree as a Claude Code plugin. `package.json` exists only for Changesets; `npm run check` verifies the skill lists agree.
+- **Every change adds a changeset** (`npx changeset`, or a hand-written `.changeset/<slug>.md` bumping `zkmake-skills`). The release workflow does versioning, `CHANGELOG.md` and tags; never edit those by hand.
 - **One skill per directory** at `skills/<category>/<skill-name>/SKILL.md`, following the [Agent Skills](https://agentskills.io/) format.
 - **`description` frontmatter is the trigger surface.** It's what agents match against to decide when to invoke — the most load-bearing field in the repo. Write it with explicit trigger phrases.
-- **Three names must agree**: directory name, frontmatter `name`, and the README table link path. The installer keys off the directory path.
-- **`README.md` tables are hand-maintained.** Adding, renaming, or moving a skill requires updating the matching category table.
+- **Four places must agree**: directory name, frontmatter `name`, the README table link path, and the `skills` array in `.claude-plugin/plugin.json`. Both installers key off the directory path; `npm run check` catches drift.
 
 ## Where to read deeper (load on demand)
 
@@ -20,6 +20,10 @@ Orientation index for coding tasks on this personal agent-skills collection (pub
 ## Task-specific plan
 
 (Extend below for the task at hand. Keep orientation section above unchanged.)
+
+### Versioned releases (2026-09-27)
+
+Adopted mattpocock/skills' setup: Changesets v2 (private `zkmake-skills` package, starts 0.0.0; first changeset is `major` → 1.0.0), `.claude-plugin/` plugin + `zkmake` marketplace, `release.yml` via `changesets/action`. Added `scripts/check-skills.mjs` since plugin.json is a fourth hand-kept skill list. Needs repo setting "Allow GitHub Actions to create and approve pull requests".
 
 ### Add model-pass skill (2026-09-27)
 

@@ -4,11 +4,26 @@ Personal collection of [agent skills](https://www.skills.sh/) for Claude Code an
 
 ## Install
 
+**Claude Code**, as a plugin (every skill, versioned):
+
+```bash
+claude plugin marketplace add zkMake/skills
+claude plugin install zkmake-skills@zkmake
+```
+
+Update with `claude plugin marketplace update zkmake && claude plugin update zkmake-skills@zkmake`.
+
+Plugin skills are namespaced: `/zkmake-skills:model-pass`.
+
+**Other agents**, or to pick individual skills:
+
 ```bash
 npx skills add zkmake/skills
 ```
 
-Pick the skills you want from the interactive prompt, or install everything.
+## Releases
+
+Versioned with [Changesets](https://github.com/changesets/changesets); see [CHANGELOG.md](CHANGELOG.md) and the GitHub releases. Every change adds a changeset (`npx changeset`). On push to `main`, the release workflow opens a "chore: version skills" PR that bumps the version, writes the changelog and syncs `.claude-plugin/plugin.json`; merging it tags the release.
 
 ## Skills
 

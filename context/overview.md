@@ -18,6 +18,11 @@ Personal collection of agent skills for Claude Code and other agents. Grown orga
 | `skills/react/tanstack-*/references/` | One reference sheet per branch of the library's surface, loaded on demand |
 | `skills/styling/tailwind-to-stylex/references/` | One sheet per migration phase, loaded when the phase starts (`mapping.md`, `tooling.md`, `tokens.md`, `verification.md`, `gotchas.md`) |
 | `README.md` | Install instructions + per-category tables listing every skill |
+| `.claude-plugin/` | `plugin.json` (version + `skills` array, the plugin's contents) and `marketplace.json` (the `zkmake` marketplace listing the plugin) |
+| `.changeset/` | Pending changesets + `config.json` (GitHub changelog, private package versioned and tagged) |
+| `.github/workflows/release.yml` | On push to `main`: `npm run check`, then `changesets/action` opens the version PR or tags the release |
+| `scripts/` | `sync-plugin-version.mjs` (package.json version → plugin.json, `--check` to verify), `check-skills.mjs` (directory, frontmatter, plugin.json and README agree) |
+| `package.json` | Release tooling only: Changesets devDependencies and the `changeset` / `version` / `check` scripts |
 | `LICENSE` | MIT |
 
 ## Categories
@@ -37,7 +42,9 @@ Personal collection of agent skills for Claude Code and other agents. Grown orga
 ## Gotchas
 
 - `skills/github/gh-cli/evals/` exists but is empty — placeholder, nothing consumes it yet.
-- README tables and link paths are maintained by hand; keep them in sync with the directory tree.
+- README tables, link paths and `plugin.json`'s `skills` array are maintained by hand; `npm run check` verifies them against the directory tree.
+- `.changeset/config.json` uses `@changesets/changelog-github`, which looks commits up on GitHub: `changeset version` fails locally on unpushed commits. Let CI run it.
+- Changesets is pinned to v2 (`changeset tag`); v3 renamed it `git-tag`.
 
 ## Related
 

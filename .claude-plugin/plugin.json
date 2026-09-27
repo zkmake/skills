@@ -1,0 +1,33 @@
+{
+  "name": "zkmake-skills",
+  "version": "0.0.0",
+  "description": "Zubin Khavarian's personal agent skills for Claude Code and other agents.",
+  "author": {
+    "name": "Zubin Khavarian",
+    "url": "https://github.com/zkMake"
+  },
+  "repository": "https://github.com/zkMake/skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "three.js",
+    "react",
+    "github",
+    "workflow"
+  ],
+  "skills": [
+    "./skills/3d/model-pass",
+    "./skills/agents-md/bootstrap-agents-md",
+    "./skills/agents-md/update-agents-md",
+    "./skills/game/three-game-starter",
+    "./skills/github/create-pr",
+    "./skills/github/gh-cli",
+    "./skills/github/update-pr",
+    "./skills/media/optimize-audio",
+    "./skills/react/tanstack-query",
+    "./skills/react/tanstack-router",
+    "./skills/styling/tailwind-to-stylex",
+    "./skills/workflow/implement-plan-phase",
+    "./skills/writing/study-writing-style"
+  ]
+}

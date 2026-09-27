@@ -22,6 +22,9 @@ How SKILL.md files in this repo are structured; load before creating or editing 
 2. Frontmatter `name` matches directory name.
 3. `description` includes trigger phrases; add `disable-model-invocation: true` unless the model should auto-trigger it.
 4. Add a row to the matching category table in `README.md` with a working relative link (new category = new table + heading).
+5. Add `./skills/<category>/<skill-name>` to the `skills` array in `.claude-plugin/plugin.json`.
+6. Add a changeset (`npx changeset`): `patch` for a new skill or fix, `minor` for a new category or a behaviour change, `major` for a rename or removal.
+7. `npm run check` passes.
 
 ## Related
 
