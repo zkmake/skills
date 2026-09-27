@@ -21,6 +21,10 @@ Orientation index for coding tasks on this personal agent-skills collection (pub
 
 (Extend below for the task at hand. Keep orientation section above unchanged.)
 
+### Add model-pass skill (2026-09-27)
+
+New `3d` category for three.js/R3F skills. `skills/3d/model-pass/` generalises keyboard-express's project-local `model-pass` (edtech-apps). First run writes `3D-STYLE.md` into the consumer project (survey → user-settled look/natures/budgets → studio → guide + AGENTS.md pointer); every pass reads and updates it. Assets are tested drop-in TS (typechecked against three + meshoptimizer; `zfight` checks neighbour buckets, has a same-mesh mode).
+
 ### Add tailwind-to-stylex skill (2026-08-24)
 
 New `styling` category. `skills/styling/tailwind-to-stylex/`: SKILL.md drives a 7-phase migration (Baseline → Tooling → Tokens → Reset → Migrate → Lift → Teardown); `references/` holds one sheet per phase. Design decisions grilled + settled: ground-truth CSS from the project's own compiled Tailwind (never memorized tables), literal-then-lift, screenshot + computed-style diff gates, `light-dark()` tokens, sanctioned plain-CSS escape hatches, Astro hybrid (islands = StyleX, `.astro` = scoped styles on bridge vars, babel+postcss wiring primary). README + overview.md tables updated.

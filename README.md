@@ -12,6 +12,12 @@ Pick the skills you want from the interactive prompt, or install everything.
 
 ## Skills
 
+### 3D
+
+| Skill                                        | Description                                                                                                   |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| [model-pass](skills/3d/model-pass)           | Remodel one three.js/R3F object at a time, measured and screenshot-verified in a model studio against the project's 3D style guide. |
+
 ### AGENTS.md
 
 | Skill                                                        | Description                                                                                    |
