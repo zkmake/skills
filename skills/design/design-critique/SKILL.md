@@ -1,6 +1,6 @@
 ---
 name: design-critique
-description: Critique the design of a site, app or game as an interactive page: annotated screenshots, ranked findings, and pickable improvement ideas with visual previews that copy out as a ready-to-paste implementation prompt. Re-run for a second round once the picks ship.
+description: "Critique the design of a site, app or game as an interactive page: annotated screenshots, ranked findings, and pickable improvement ideas with visual previews that copy out as a ready-to-paste implementation prompt. Re-run for a second round once the picks ship."
 disable-model-invocation: true
 ---
 
