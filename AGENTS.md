@@ -32,3 +32,7 @@ New `3d` category for three.js/R3F skills. `skills/3d/model-pass/` generalises k
 ### Add tailwind-to-stylex skill (2026-08-24)
 
 New `styling` category. `skills/styling/tailwind-to-stylex/`: SKILL.md drives a 7-phase migration (Baseline → Tooling → Tokens → Reset → Migrate → Lift → Teardown); `references/` holds one sheet per phase. Design decisions grilled + settled: ground-truth CSS from the project's own compiled Tailwind (never memorized tables), literal-then-lift, screenshot + computed-style diff gates, `light-dark()` tokens, sanctioned plain-CSS escape hatches, Astro hybrid (islands = StyleX, `.astro` = scoped styles on bridge vars, babel+postcss wiring primary). README + overview.md tables updated.
+
+### Add design-critique skill (2026-10-01)
+
+New `design` category. `skills/design/design-critique/` packages the critique loop run on edclub-experiences' Organize It! landing page: capture every state × shape → read the code for non-visual issues → ranked findings with evidence → ideas with previews in the subject's own look → publish `assets/critique-page.html` as a Claude artifact with a `db` picks store → user pastes the copied prompt → implement, then drop shipped ideas from the page. User-invoked. Before shots live in a durable round folder because an artifact can't copy files from its own earlier versions.

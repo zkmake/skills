@@ -1,0 +1,401 @@
+<title>Example App Critique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --bg: #f5f3fb; --surface: #ffffff; --surface-2: #efebf8; --ink: #1f1b33; --muted: #625c7d; --line: #e0dbef;
+  --accent: #6a52c8; --accent-soft: #ebe5ff; --accent-ink: #ffffff; --sel: #6a52c8;
+  --hi: #c2410c; --hi-bg: #fff1e8; --md: #a16207; --md-bg: #fff8e1; --lo: #3f6d5a; --lo-bg: #e8f5ee;
+  --shadow: 0 1px 2px rgba(31,27,51,.06), 0 8px 24px rgba(31,27,51,.06);
+  /* Subject backdrop behind previews: the subject's own background. */
+  --subject-bg: linear-gradient(180deg,#eef2fb 0%,#c9d6f2 100%);
+  /* Now / Idea labels on previews: dark on a light backdrop, white on a dark one. */
+  --preview-label: rgba(31,27,51,.55);
+  /* Display face: pick one that suits the subject (rounded for a kids' game,
+     a sharp grotesk for a dev tool). Load it in the <link> above. */
+  --display: "Fredoka", "Nunito", ui-rounded, system-ui, sans-serif;
+  --body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #14121d; --surface: #1d1a2a; --surface-2: #26223a; --ink: #eceaf6; --muted: #a39dbf; --line: #332e4a;
+    --accent: #a896ff; --accent-soft: #2e2752; --accent-ink: #14121d; --sel: #a896ff;
+    --hi: #ff9a66; --hi-bg: #3a2218; --md: #f2c14e; --md-bg: #332a14; --lo: #7fd0a8; --lo-bg: #173026;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #14121d; --surface: #1d1a2a; --surface-2: #26223a; --ink: #eceaf6; --muted: #a39dbf; --line: #332e4a;
+  --accent: #a896ff; --accent-soft: #2e2752; --accent-ink: #14121d; --sel: #a896ff;
+  --hi: #ff9a66; --hi-bg: #3a2218; --md: #f2c14e; --md-bg: #332a14; --lo: #7fd0a8; --lo-bg: #173026;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--body); padding: 0 16px 120px; }
+.wrap { max-width: 1120px; margin: 0 auto; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(30px, 5vw, 46px); font-weight: 700; line-height: 1.05; }
+h2 { font-size: 26px; font-weight: 600; }
+h3 { font-size: 17px; font-weight: 600; line-height: 1.25; }
+p { margin: 0; }
+code { font-family: var(--mono); font-size: 12px; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+header.top { padding-block: 40px 28px; display: grid; gap: 14px; }
+.eyebrow { font: 600 12px/1 var(--body); text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
+.lede { max-width: 70ch; color: var(--muted); font-size: 16px; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 18px; color: var(--muted); font-size: 13px; }
+.meta b { color: var(--ink); font-weight: 600; }
+section { padding-block: 28px; border-top: 1px solid var(--line); display: grid; gap: 18px; }
+.sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; }
+.sec-head p { color: var(--muted); max-width: 70ch; }
+
+.gallery { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
+.gallery > div:first-child { position: sticky; top: calc(16px + env(safe-area-inset-top, 0px)); }
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+.tab { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 12px; font-size: 13px; cursor: pointer; }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.shot { position: relative; border-radius: 14px; overflow: hidden; background: #8aa3cc; box-shadow: var(--shadow); margin-top: 12px; }
+.shot.portrait { max-width: 330px; margin-inline: auto; }
+.shot img { display: block; width: 100%; height: auto; }
+.pin { position: absolute; transform: translate(-50%, -50%); width: 28px; height: 28px; border-radius: 50%; background: #fff; color: #1f1b33; border: 2px solid #1f1b33; font: 700 12px/1 var(--display); display: grid; place-items: center; cursor: pointer; box-shadow: 0 3px 0 #1f1b33; padding: 0; }
+.pin.on { background: #ffd84d; transform: translate(-50%, -50%) scale(1.15); }
+.shot-cap { margin-top: 10px; color: var(--muted); font-size: 13px; }
+.pin-list { display: grid; gap: 8px; }
+.pin-item { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; padding: 10px; border-radius: 10px; border: 1px solid transparent; cursor: pointer; background: none; text-align: left; }
+.pin-item:hover, .pin-item.on { background: var(--surface); border-color: var(--line); }
+.pin-item .n { width: 26px; height: 24px; border-radius: 999px; border: 2px solid var(--ink); display: grid; place-items: center; font: 700 11px/1 var(--display); }
+.pin-item.on .n { background: #ffd84d; color: #1f1b33; border-color: #1f1b33; }
+.pin-item b { display: block; font-weight: 600; font-size: 14px; }
+.pin-item span.t { color: var(--muted); font-size: 13px; }
+
+.findings { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.finding { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 6px; align-content: start; }
+.finding .row { display: flex; align-items: center; gap: 8px; }
+.fid { font: 600 12px/1 var(--mono); color: var(--muted); }
+.sev { font: 600 11px/1 var(--body); text-transform: uppercase; letter-spacing: .06em; padding: 4px 7px; border-radius: 999px; }
+.sev.hi { color: var(--hi); background: var(--hi-bg); }
+.sev.md { color: var(--md); background: var(--md-bg); }
+.sev.lo { color: var(--lo); background: var(--lo-bg); }
+.finding p { color: var(--muted); font-size: 14px; }
+.files { font: 11.5px/1.5 var(--mono); color: var(--muted); word-break: break-word; }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip-btn { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 7px 13px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.chip-btn:hover { border-color: var(--accent); }
+.group-title { display: flex; align-items: baseline; gap: 10px; margin-top: 8px; }
+.group-title h3 { font-size: 20px; }
+.group-title span { color: var(--muted); font-size: 13px; }
+.ideas { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
+.idea { position: relative; background: var(--surface); border: 2px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 10px; align-content: start; cursor: pointer; transition: border-color .15s, box-shadow .15s; }
+.idea:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+.idea.sel { border-color: var(--sel); box-shadow: 0 0 0 4px var(--accent-soft); }
+.idea input { position: absolute; opacity: 0; pointer-events: none; }
+.idea .head { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: start; }
+.check { width: 24px; height: 24px; border-radius: 7px; border: 2px solid var(--line); display: grid; place-items: center; background: var(--surface); }
+.idea.sel .check { background: var(--sel); border-color: var(--sel); color: var(--accent-ink); }
+.check svg { width: 14px; height: 14px; opacity: 0; }
+.idea.sel .check svg { opacity: 1; }
+.idea:has(input:focus-visible) { outline: 3px solid var(--accent); outline-offset: 2px; }
+.idea .iid { font: 600 11px/1 var(--mono); color: var(--muted); margin-bottom: 4px; display: block; }
+.idea p { color: var(--muted); font-size: 14px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 11.5px; font-weight: 600; padding: 3px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
+.tag.impact-hi { background: var(--hi-bg); color: var(--hi); }
+.tag.impact-md { background: var(--md-bg); color: var(--md); }
+.tag.impact-lo { background: var(--lo-bg); color: var(--lo); }
+
+.pv { border-radius: 10px; overflow: hidden; height: 132px; position: relative; display: grid; place-items: center; background: var(--subject-bg); }
+.pv.split { grid-template-columns: 1fr 1fr; display: grid; place-items: stretch; }
+.pv.split > div { position: relative; display: grid; place-items: center; height: 100%; }
+.pv.split > div + div { border-left: 1px dashed color-mix(in srgb, var(--preview-label) 60%, transparent); }
+.pv .lbl { position: absolute; top: 7px; left: 8px; font: 700 10px/1 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--preview-label); }
+/* previews: rebuild the subject's own pieces here (copy its real colours,
+   radii, shadows, fonts) so each idea is judged in the actual look. */
+.mock-btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; border-radius: 10px; background: #2d5da8; color: #fff; font: 600 15px/1 var(--body); box-shadow: 0 4px 12px rgba(30,40,90,.25); }
+.mock-btn.old { background: transparent; color: #2d5da8; border: 2px solid #2d5da8; box-shadow: none; }
+.mock-token { font: 600 11px/1 var(--mono); padding: 4px 7px; border-radius: 6px; background: rgba(255,255,255,.85); color: #1f1b33; }
+
+textarea { width: 100%; min-height: 84px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); padding: 12px 14px; font: 14px/1.5 var(--body); resize: vertical; }
+.bar { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px)); background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: blur(10px); border-top: 1px solid var(--line); z-index: 10; }
+.bar .in { max-width: 1120px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+.bar .count { font: 600 20px/1 var(--display); }
+.bar .picked { flex: 1 1 260px; min-width: 0; color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar .status { font-size: 12px; color: var(--muted); }
+.ghost { background: none; border: 1px solid var(--line); border-radius: 999px; padding: 9px 14px; font-weight: 600; cursor: pointer; }
+@media (max-width: 860px) {
+  .gallery { grid-template-columns: 1fr; } .gallery > div:first-child { position: static; }
+  .ideas, .findings { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <span class="eyebrow">Example App · design critique · round 1</span>
+    <h1>Example App, round 1</h1>
+    <p class="lede">What the screen does today and what would make it better: annotated screenshots, ranked findings, and ideas you can pick. Tick the ideas worth doing; your picks save to this page. Copy prompt hands them back to be built.</p>
+    <div class="meta">
+      <span>Captured <b>DATE</b> at <b><code>COMMIT</code></b></span>
+      <span>Viewports <b>1440×900 · 768×1024 · 390×844 · 844×390</b></span>
+      <span>Frame rate <b>FPS</b></span>
+    </div>
+  </header>
+
+  <section id="look">
+    <div class="sec-head">
+      <h2>What it looks like</h2>
+      <p>Pins mark issues you can see. Findings that live in code have no pin.</p>
+    </div>
+    <div class="gallery">
+      <div>
+        <div class="tabs" role="tablist" id="tabs"></div>
+        <div class="shot" id="shot"><img id="shotImg" alt=""></div>
+        <p class="shot-cap" id="shotCap"></p>
+      </div>
+      <div class="pin-list" id="pinList"></div>
+    </div>
+  </section>
+
+  <section id="findings">
+    <div class="sec-head">
+      <h2>Findings</h2>
+      <p>Ranked highest first. Severity is about how much each holds the design back.</p>
+    </div>
+    <div class="findings" id="findingList"></div>
+  </section>
+
+  <section id="ideas">
+    <div class="sec-head">
+      <h2>Ideas to try</h2>
+      <div class="toolbar">
+        <span class="eyebrow" style="margin-right:4px">Quick picks</span>
+        <button class="chip-btn" data-bundle="must">Must-dos</button>
+        <button class="chip-btn" data-bundle="quick">Quick wins</button>
+        <button class="chip-btn" data-bundle="full">Everything</button>
+        <button class="chip-btn" data-bundle="none">Clear</button>
+      </div>
+    </div>
+    <div id="ideaGroups" style="display:grid;gap:22px"></div>
+  </section>
+
+  <section id="notes">
+    <div class="sec-head">
+      <h2>Notes for the build</h2>
+      <p>Anything else: things to leave alone, which screens matter most, constraints.</p>
+    </div>
+    <label for="note" class="eyebrow">Your notes</label>
+    <textarea id="note" placeholder="e.g. Keep the current colours. Phones matter most."></textarea>
+  </section>
+</div>
+
+<div class="bar" role="region" aria-label="Selection">
+  <div class="in">
+    <span class="count" id="count">0 picked</span>
+    <span class="picked" id="picked">Nothing picked yet</span>
+    <span class="status" id="status">Saving on this device only</span>
+    <button class="ghost" id="copy">Copy prompt</button>
+  </div>
+</div>
+
+<script>
+/* ===================== DATA: fill this block per round ===================== */
+const SUBJECT = "Example App";
+const STORE_KEY = "example-app-round-1-picks";
+
+const SHOTS = [
+  { id: "home", label: "Desktop · Home", src: "img/desktop-home.jpg", w: 1280, h: 800,
+    cap: "First view on a fresh visit.",
+    pins: [["F1",50,18],["F2",88,6]] },
+  { id: "phone", label: "Phone", src: "img/phone-home.jpg", w: 390, h: 844, portrait: true,
+    cap: "390×844 portrait.",
+    pins: [["F3",50,60]] },
+];
+
+const FINDINGS = [
+  ["F1","hi","Primary action reads as secondary","The main button is an outlined 32px pill (Home.tsx, .cta) next to a filled secondary one, so the eye lands on the wrong control."],
+  ["F2","md","No way to turn the sound off","Background audio starts on the first tap and nothing on screen mutes it."],
+  ["F3","md","Content crops on phones","At 390px the hero image overflows by 60px on each side."],
+];
+
+const GROUPS = [
+  { id: "ui", title: "Buttons and labels", sub: "What people read and press" },
+  { id: "screens", title: "Screens and sound", sub: "Phones, audio" },
+];
+
+const IDEAS = [
+  { id: "A1", g: "ui", title: "Fill the primary button", fixes: ["F1"], impact: "hi", effort: "S",
+    body: "Make the main action the only filled button, 44px tall, in the brand blue; demote the other to a text link.",
+    files: "src/Home.tsx · src/button.css",
+    pv: `<div class="split pv" style="width:100%;height:100%"><div><span class="lbl">Now</span><span class="mock-btn old">Start</span></div><div><span class="lbl">Idea</span><span class="mock-btn">Start</span></div></div>` },
+  { id: "A2", g: "screens", title: "Sound toggle in the header", fixes: ["F2"], impact: "md", effort: "S",
+    body: "A speaker button top right that mutes all audio and remembers the choice.",
+    files: "src/Header.tsx · src/audio.ts",
+    pv: `<span class="mock-token">🔈 on / off, remembered</span>` },
+  { id: "A3", g: "screens", title: "Fit the hero to the width", fixes: ["F3"], impact: "md", effort: "S",
+    body: "Scale the hero with the viewport width below 640px so nothing crops.",
+    files: "src/Hero.tsx",
+    pv: `<span class="mock-token">max-width: 100%</span>` },
+];
+
+const BUNDLES = {
+  must: ["A1"],
+  quick: IDEAS.filter(i => i.effort === "S").map(i => i.id),
+  full: IDEAS.map(i => i.id),
+  none: [],
+};
+/* ================== end DATA: rendering below needs no edits ================== */
+
+const IDEA_IDS = new Set(IDEAS.map(i => i.id));
+
+const clean = ids => (Array.isArray(ids) ? ids : []).filter(id => IDEA_IDS.has(id));
+const LS_KEY = STORE_KEY;
+let state = { selected: [], note: "" };
+try { const s = JSON.parse(localStorage.getItem(LS_KEY) || "null"); if (s) state = { selected: clean(s.selected), note: s.note || "" }; } catch (e) {}
+
+let pickDoc = null, saveTimer = null, lastWritten = "";
+const statusEl = document.getElementById("status");
+function persist() {
+  try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch (e) {}
+  if (!pickDoc) return;
+  clearTimeout(saveTimer);
+  statusEl.textContent = "Saving…";
+  saveTimer = setTimeout(async () => {
+    const payload = { selected: state.selected, note: state.note, updatedAt: new Date().toISOString() };
+    lastWritten = JSON.stringify([payload.selected, payload.note]);
+    try { await pickDoc.set(payload); statusEl.textContent = "Saved for Claude"; }
+    catch (e) { statusEl.textContent = "Couldn't save to the page. Picks are kept on this device."; }
+  }, 450);
+}
+
+/* gallery */
+const tabsEl = document.getElementById("tabs"), shotEl = document.getElementById("shot"), imgEl = document.getElementById("shotImg");
+const capEl = document.getElementById("shotCap"), pinListEl = document.getElementById("pinList");
+const F = Object.fromEntries(FINDINGS.map(f => [f[0], f]));
+let activePin = null;
+function renderShot(shot) {
+  [...tabsEl.children].forEach(b => b.setAttribute("aria-selected", b.dataset.id === shot.id ? "true" : "false"));
+  imgEl.src = shot.src; imgEl.width = shot.w; imgEl.height = shot.h;
+  imgEl.alt = shot.label + " screenshot of " + SUBJECT;
+  shotEl.classList.toggle("portrait", !!shot.portrait);
+  capEl.textContent = shot.cap;
+  shotEl.querySelectorAll(".pin").forEach(p => p.remove());
+  const uniq = [];
+  shot.pins.forEach(([fid, x, y]) => {
+    const b = document.createElement("button");
+    b.className = "pin"; b.textContent = fid.slice(1); b.style.left = x + "%"; b.style.top = y + "%";
+    b.dataset.fid = fid; b.setAttribute("aria-label", fid + ": " + F[fid][2]);
+    b.addEventListener("click", () => setActive(fid));
+    shotEl.appendChild(b);
+    if (!uniq.includes(fid)) uniq.push(fid);
+  });
+  pinListEl.innerHTML = "";
+  uniq.forEach(fid => {
+    const f = F[fid];
+    const row = document.createElement("button");
+    row.className = "pin-item"; row.dataset.fid = fid;
+    row.innerHTML = `<span class="n">${fid.slice(1)}</span><span><b></b><span class="t"></span></span>`;
+    row.querySelector("b").textContent = f[2];
+    row.querySelector(".t").textContent = f[3];
+    row.addEventListener("click", () => setActive(fid));
+    pinListEl.appendChild(row);
+  });
+  activePin = null; setActive(null);
+}
+function setActive(fid) {
+  activePin = activePin === fid ? null : fid;
+  document.querySelectorAll(".pin, .pin-item").forEach(el => el.classList.toggle("on", el.dataset.fid === activePin));
+}
+SHOTS.forEach(s => {
+  const b = document.createElement("button");
+  b.className = "tab"; b.setAttribute("role", "tab"); b.dataset.id = s.id; b.textContent = s.label;
+  b.addEventListener("click", () => renderShot(s));
+  tabsEl.appendChild(b);
+});
+renderShot(SHOTS[0]);
+
+/* findings */
+const sevLabel = { hi: "High", md: "Medium", lo: "Low" };
+const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+document.getElementById("findingList").innerHTML = FINDINGS.map(([id, sev, t, d]) => {
+  const fixers = IDEAS.filter(i => i.fixes.includes(id)).map(i => i.id).join(", ");
+  return `<article class="finding"><div class="row"><span class="fid">${id}</span><span class="sev ${sev}">${sevLabel[sev]}</span></div><h3>${esc(t)}</h3><p>${esc(d)}</p><span class="files">Fixed by: ${fixers || "—"}</span></article>`;
+}).join("");
+
+/* ideas */
+const groupsEl = document.getElementById("ideaGroups");
+const effortLabel = { S: "Small effort", M: "Medium effort", L: "Large effort" };
+const impactLabel = { hi: "High impact", md: "Medium impact", lo: "Low impact" };
+const CHECK = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3.2 3L13 4.5"/></svg>';
+GROUPS.forEach(g => {
+  const items = IDEAS.filter(i => i.g === g.id);
+  const wrap = document.createElement("div");
+  wrap.style.display = "grid"; wrap.style.gap = "12px";
+  wrap.innerHTML = `<div class="group-title"><h3>${g.title}</h3><span>${g.sub}</span></div><div class="ideas"></div>`;
+  const grid = wrap.querySelector(".ideas");
+  items.forEach(i => {
+    const lab = document.createElement("label");
+    lab.className = "idea"; lab.dataset.id = i.id; lab.htmlFor = "idea-" + i.id;
+    lab.innerHTML = `
+      <input type="checkbox" id="idea-${i.id}" value="${i.id}">
+      <div class="head"><div><span class="iid">${i.id}</span><h3>${i.title}</h3></div><span class="check" aria-hidden="true">${CHECK}</span></div>
+      <div class="pv">${i.pv}</div>
+      <p>${i.body}</p>
+      <div class="tags"><span class="tag impact-${i.impact}">${impactLabel[i.impact]}</span><span class="tag">${effortLabel[i.effort]}</span><span class="tag">Fixes ${i.fixes.join(", ")}</span></div>
+      <span class="files">${i.files}</span>`;
+    lab.querySelector("input").addEventListener("change", e => {
+      const set = new Set(state.selected);
+      e.target.checked ? set.add(i.id) : set.delete(i.id);
+      state.selected = IDEAS.map(x => x.id).filter(id => set.has(id));
+      syncUI(); persist();
+    });
+    grid.appendChild(lab);
+  });
+  groupsEl.appendChild(wrap);
+});
+document.querySelectorAll("[data-bundle]").forEach(b => b.addEventListener("click", () => {
+  state.selected = [...BUNDLES[b.dataset.bundle]]; syncUI(); persist();
+}));
+const noteEl = document.getElementById("note");
+noteEl.addEventListener("input", () => { state.note = noteEl.value; persist(); });
+function syncUI() {
+  const set = new Set(state.selected);
+  document.querySelectorAll(".idea").forEach(el => { const on = set.has(el.dataset.id); el.classList.toggle("sel", on); el.querySelector("input").checked = on; });
+  const n = state.selected.length;
+  document.getElementById("count").textContent = n + " picked";
+  document.getElementById("picked").textContent = n ? state.selected.map(id => id + " " + IDEAS.find(i => i.id === id).title).join(" · ") : "Nothing picked yet";
+  if (document.activeElement !== noteEl) noteEl.value = state.note || "";
+}
+syncUI();
+document.getElementById("copy").addEventListener("click", async () => {
+  const lines = state.selected.map(id => `- ${id}: ${IDEAS.find(x => x.id === id).title}`);
+  const text = `Implement these ${SUBJECT} ideas:\n${lines.join("\n")}${state.note ? "\n\nNotes: " + state.note : ""}`;
+  const btn = document.getElementById("copy");
+  try { await navigator.clipboard.writeText(text); btn.textContent = "Copied"; }
+  catch (e) { noteEl.value = text; noteEl.select(); btn.textContent = "Selected in notes box"; }
+  setTimeout(() => { btn.textContent = "Copy prompt"; syncUI(); }, 1600);
+});
+
+/* shared store */
+(async () => {
+  try {
+    const db = await window.claude?.use?.("db");
+    if (!db) return;
+    pickDoc = db.doc("picks/main");
+    statusEl.textContent = "Saved for Claude";
+    pickDoc.onSnapshot(snap => {
+      const d = snap.data && snap.data();
+      if (!d || !Array.isArray(d.selected)) return;
+      const incoming = JSON.stringify([d.selected, d.note || ""]);
+      if (incoming === lastWritten) return;
+      state = { selected: clean(d.selected), note: d.note || "" };
+      try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch (e) {}
+      syncUI();
+    }, () => { statusEl.textContent = "Picks are kept on this device"; });
+  } catch (e) { /* works without the store */ }
+})();
+</script>

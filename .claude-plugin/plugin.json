@@ -13,12 +13,14 @@
     "three.js",
     "react",
     "github",
-    "workflow"
+    "workflow",
+    "design"
   ],
   "skills": [
     "./skills/3d/model-pass",
     "./skills/agents-md/bootstrap-agents-md",
     "./skills/agents-md/update-agents-md",
+    "./skills/design/design-critique",
     "./skills/game/three-game-starter",
     "./skills/github/create-pr",
     "./skills/github/gh-cli",

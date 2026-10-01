@@ -40,6 +40,12 @@ Versioned with [Changesets](https://github.com/changesets/changesets); see [CHAN
 | [bootstrap-agents-md](skills/agents-md/bootstrap-agents-md) | Author a new AGENTS.md scoped to the current app, package, or directory from scratch.          |
 | [update-agents-md](skills/agents-md/update-agents-md)       | Audit and refresh the nearest AGENTS.md, prune task cruft, offload detail to context files.    |
 
+### Design
+
+| Skill                                                    | Description                                                                                                          |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [design-critique](skills/design/design-critique)        | Critique a site, app or game as an interactive page of annotated screenshots, findings and pickable ideas that copy out as a build prompt. |
+
 ### Game
 
 | Skill                                                          | Description                                                                                       |

@@ -14,6 +14,7 @@ Personal collection of agent skills for Claude Code and other agents. Grown orga
 | `skills/<category>/<skill-name>/SKILL.md` | The skill itself: YAML frontmatter + instructions |
 | `skills/github/gh-cli/references/` | Per-topic reference sheets the skill loads on demand (`pr.md`, `issues.md`, `actions.md`, `repo-release.md`, `core.md`) |
 | `skills/3d/model-pass/` | `references/` per step (`setup.md` first run, `studio.md`, `natures.md`, `gotchas.md`, `verification.md`, `style-template.md`); `assets/` drop-in TS copied into the consumer project (`studio-helpers.ts`, `lod.ts`, `chunked.ts`); `scripts/` shell (`shot.sh`, `compare.sh`) |
+| `skills/design/design-critique/` | `assets/critique-page.html` (page template: fill the `DATA` block per round); `references/` per step (`capture.md`, `page.md`) |
 | `skills/game/three-game-starter/references/` | One reference sheet per game system, loaded per interview answer (`core-runtime.md`, `assets.md`, `rendering.md`, `audio.md`, `physics.md`, `performance.md`, `debug-tooling.md`) |
 | `skills/react/tanstack-*/references/` | One reference sheet per branch of the library's surface, loaded on demand |
 | `skills/styling/tailwind-to-stylex/references/` | One sheet per migration phase, loaded when the phase starts (`mapping.md`, `tooling.md`, `tokens.md`, `verification.md`, `gotchas.md`) |
@@ -31,6 +32,7 @@ Personal collection of agent skills for Claude Code and other agents. Grown orga
 | --- | --- |
 | `3d` | `model-pass` |
 | `agents-md` | `bootstrap-agents-md`, `update-agents-md` |
+| `design` | `design-critique` |
 | `game` | `three-game-starter` |
 | `github` | `create-pr`, `update-pr`, `gh-cli` |
 | `media` | `optimize-audio` |
