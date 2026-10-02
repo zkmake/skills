@@ -1,0 +1,49 @@
+grade	unit	title	ccss
+K	1	Numbers to 5 & 10	K.CC.A.1,K.CC.A.3,K.CC.B.4,K.CC.B.5,K.CC.C.6,K.OA.A.3,K.MD.B.3
+K	2	Numbers to 10	K.CC.A.1,K.CC.B.4,K.CC.B.5,K.CC.C.6,K.OA.A.1,K.OA.A.3,K.MD.B.3,K.G.A.2,K.G.B.6
+K	3	Bikes & Bugs: Double, Add & Subtract	K.CC.A.1,K.CC.A.2,K.CC.B.4,K.CC.B.5,K.CC.C.6,K.OA.A.1,K.OA.A.2,K.OA.A.3,K.OA.A.4,K.OA.A.5
+K	4	Paths to Adding, Subtracting & Measuring	K.CC.A.1,K.CC.A.2,K.CC.A.3,K.CC.C.6,K.CC.C.7,K.OA.A.1,K.OA.A.2,K.MD.A.1,K.MD.A.2,K.MD.B.3
+K	5	Two-Dimensional Geometry	K.CC.A.2,K.CC.C.6,K.OA.A.3,K.MD.B.3,K.G.A.1,K.G.A.2,K.G.B.4,K.G.B.5,K.G.B.6
+K	6	Three-Dimensional Shapes & Numbers Beyond 10	K.CC.A.1,K.CC.A.3,K.CC.B.4,K.CC.C.6,K.OA.A.1,K.OA.A.2,K.OA.A.3,K.OA.A.5,K.NBT.A.1,K.MD.B.3,K.G.A.2,K.G.A.3,K.G.B.4,K.G.B.5
+K	7	Measurement & Teen Numbers	K.CC.A.1,K.CC.B.5,K.CC.C.6,K.CC.C.7,K.OA.A.1,K.OA.A.2,K.OA.A.3,K.OA.A.4,K.NBT.A.1,K.MD.A.1,K.MD.A.2,K.MD.B.3
+K	8	Computing & Measuring with Frogs & Bugs	K.CC.A.3,K.CC.B.5,K.CC.C.6,K.CC.C.7,K.OA.A.1,K.OA.A.2,K.OA.A.3,K.OA.A.4,K.OA.A.5,K.NBT.A.1,K.MD.A.1,K.MD.A.2
+1	1	Numbers All Around Us	1.OA.A.1,1.OA.B.3,1.OA.B.4,1.OA.C.5,1.OA.C.6,1.OA.D.8,1.NBT.A.1,1.NBT.B.2,1.MD.A.2,1.MD.C.4
+1	2	Developing Foundational Facts	1.OA.A.1,1.OA.B.3,1.OA.B.4,1.OA.C.5,1.OA.C.6,1.OA.D.7,1.OA.D.8,1.MD.C.4
+1	3	Adding, Subtracting, Counting & Comparing	1.OA.A.1,1.OA.A.2,1.OA.B.3,1.OA.B.4,1.OA.C.5,1.OA.C.6,1.OA.D.7,1.OA.D.8,1.NBT.A.1,1.NBT.B.2,1.NBT.C.4
+1	4	Leapfrogs on the Number Line	1.OA.A.1,1.OA.C.5,1.OA.D.8,1.NBT.A.1,1.NBT.B.2,1.NBT.B.3,1.NBT.C.4,1.NBT.C.5,1.NBT.C.6,1.MD.A.1,1.MD.A.2,1.MD.C.4
+1	5	Figure the Facts with Penguins	1.OA.A.1,1.OA.A.2,1.OA.B.3,1.OA.B.4,1.OA.C.6,1.OA.D.7,1.OA.D.8,1.NBT.B.3,1.MD.A.1,1.MD.A.2
+1	6	Geometry	1.OA.C.6,1.NBT.C.4,1.G.A.1,1.G.A.2,1.G.A.3
+1	7	One Hundred & Beyond	1.NBT.A.1,1.NBT.B.2,1.NBT.B.3,1.NBT.C.4,1.NBT.C.5,1.NBT.C.6
+1	8	Changes, Changes	1.OA.A.1,1.OA.C.6,1.OA.D.8,1.NBT.B.3,1.NBT.C.4,1.NBT.C.5,1.MD.A.1,1.MD.A.2,1.MD.B.3,1.MD.C.4
+2	1	Figure the Facts	2.OA.A.1,2.OA.B.2,2.OA.C.3,2.NBT.A.2,2.MD.D.10
+2	2	Setting Foundations for Place Value & Measurement	2.OA.B.2,2.OA.C.3,2.OA.C.4,2.NBT.A.1,2.NBT.A.2,2.NBT.A.3,2.NBT.A.4,2.NBT.B.5,2.MD.B.6,2.MD.C.7
+2	3	Addition & Subtraction Within 100	2.OA.A.1,2.NBT.A.1,2.NBT.A.2,2.NBT.A.3,2.NBT.A.4,2.NBT.B.5,2.NBT.B.6,2.NBT.B.9,2.MD.B.6,2.MD.D.10
+2	4	Measurement	2.OA.A.1,2.OA.B.2,2.OA.C.4,2.NBT.B.5,2.NBT.B.6,2.MD.A.1,2.MD.A.2,2.MD.A.3,2.MD.A.4,2.MD.B.5
+2	5	Place Value to 1,000	2.OA.B.2,2.OA.C.3,2.NBT.A.1,2.NBT.A.2,2.NBT.A.3,2.NBT.A.4,2.NBT.B.7,2.NBT.B.8,2.MD.C.8,2.MD.D.10
+2	6	Geometry	2.OA.B.2,2.OA.C.4,2.G.A.1,2.G.A.2,2.G.A.3
+2	7	Measurement, Fractions & Multidigit Computation	2.OA.A.1,2.NBT.A.1,2.NBT.B.5,2.NBT.B.6,2.NBT.B.7,2.NBT.B.9,2.MD.A.1,2.MD.A.2,2.MD.A.3,2.MD.A.4,2.MD.B.5,2.MD.C.8,2.G.A.3
+2	8	Measurement, Data & Multidigit Computation with Marble Rolls	2.NBT.A.1,2.NBT.A.2,2.NBT.A.3,2.NBT.A.4,2.NBT.B.7,2.NBT.B.8,2.NBT.B.9,2.MD.A.1,2.MD.A.3,2.MD.A.4,2.MD.B.5,2.MD.B.6,2.MD.D.9,2.MD.D.10
+3	1	Addition & Subtraction Patterns	3.OA.D.8,3.OA.D.9,3.NBT.A.2
+3	2	Introduction to Multiplication	3.OA.A.1,3.OA.A.3,3.OA.A.4,3.OA.C.7,3.OA.D.8,3.OA.D.9,3.MD.B.3
+3	3	Multidigit Addition & Subtraction	3.OA.D.8,3.NBT.A.1,3.NBT.A.2
+3	4	Measurement & Fractions	3.OA.D.8,3.NBT.A.2,3.NF.A.1,3.NF.A.2,3.NF.A.3,3.MD.A.1,3.MD.A.2,3.MD.B.4,3.G.A.2
+3	5	Multiplication, Division & Area	3.OA.A.1,3.OA.A.2,3.OA.A.3,3.OA.A.4,3.OA.B.6,3.OA.C.7,3.MD.C.5,3.MD.C.6,3.MD.C.7
+3	6	Geometry	3.NF.A.1,3.NF.A.3,3.MD.C.6,3.MD.C.7,3.MD.D.8,3.G.A.1,3.G.A.2
+3	7	Extending Multiplication & Fractions	3.OA.A.1,3.OA.B.5,3.OA.C.7,3.OA.D.8,3.OA.D.9,3.NBT.A.3,3.NF.A.1,3.NF.A.2,3.NF.A.3,3.MD.C.7,3.G.A.2
+3	8	Bridge Design & Construction: Data Collection & Analysis	3.MD.A.1,3.MD.A.2,3.MD.B.3,3.MD.B.4,3.MD.C.6,3.MD.C.7,3.MD.D.8,3.G.A.1,3.G.A.2
+4	1	Multiplicative Thinking	4.OA.A.1,4.OA.A.2,4.OA.B.4,4.OA.C.5,4.NBT.B.6,4.MD.A.1,4.MD.A.2
+4	2	Multidigit Multiplication & Early Division	4.OA.B.4,4.NBT.A.1,4.NBT.B.4,4.NBT.B.5,4.NBT.B.6,4.MD.A.1,4.MD.A.2
+4	3	Fractions & Decimals	4.NF.A.1,4.NF.A.2,4.NF.B.3,4.NF.B.4,4.NF.C.5,4.NF.C.6,4.NF.C.7
+4	4	Addition, Subtraction & Measurement	4.NBT.A.1,4.NBT.A.2,4.NBT.A.3,4.NBT.B.4,4.MD.A.1,4.MD.A.2
+4	5	Geometry & Measurement	4.NBT.B.4,4.NBT.B.5,4.MD.A.3,4.MD.C.5,4.MD.C.6,4.MD.C.7,4.G.A.1,4.G.A.2,4.G.A.3
+4	6	Multiplication & Division, Data & Fractions	4.OA.A.3,4.NBT.B.4,4.NBT.B.5,4.NBT.B.6,4.NF.B.3,4.NF.B.4,4.MD.A.2,4.MD.A.3,4.MD.B.4
+4	7	Reviewing & Extending Fractions, Decimals & Multidigit Multiplication	4.OA.A.3,4.NBT.A.1,4.NBT.B.5,4.NF.A.1,4.NF.A.2,4.NF.B.3,4.NF.C.5,4.NF.C.6,4.NF.C.7,4.MD.A.3
+4	8	Playground Design	4.MD.A.1,4.MD.A.2,4.MD.A.3,4.MD.C.5,4.MD.C.6,4.MD.C.7,4.G.A.1,4.G.A.3
+5	1	Expressions, Equations & Volume	5.OA.A.1,5.OA.A.2,5.NBT.B.6,5.MD.C.3,5.MD.C.4,5.MD.C.5
+5	2	Adding & Subtracting Fractions	5.NBT.B.7,5.NF.A.1,5.NF.A.2,5.NF.B.3,5.NF.B.4
+5	3	Place Value & Decimals	5.NBT.A.1,5.NBT.A.2,5.NBT.A.3,5.NBT.A.4,5.NBT.B.6,5.NBT.B.7,5.MD.A.1
+5	4	Multiplying & Dividing Whole Numbers & Decimals	5.NBT.B.5,5.NBT.B.6,5.NBT.B.7,5.NF.B.4
+5	5	Multiplying & Dividing Fractions	5.NBT.B.6,5.NF.A.1,5.NF.B.4,5.NF.B.5,5.NF.B.6,5.NF.B.7
+5	6	Graphing, Geometry & Volume	5.OA.A.1,5.OA.B.3,5.NF.B.4,5.NF.B.6,5.MD.B.2,5.MD.C.4,5.MD.C.5,5.G.A.1,5.G.A.2,5.G.B.3,5.G.B.4
+5	7	Division & Decimals	5.NBT.A.1,5.NBT.A.2,5.NBT.B.6,5.NBT.B.7,5.NF.B.3,5.NF.B.4,5.NF.B.7
+5	8	Solar Design	5.NBT.B.5,5.NBT.B.6,5.NBT.B.7,5.NF.B.4,5.NF.B.6,5.NF.B.7,5.MD.A.1,5.MD.C.5,5.G.A.2

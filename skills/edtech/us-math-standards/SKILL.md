@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # US K–5 math standards
 
-Everything learned building Mathness (mathness.app), a generated worksheet site aligned to Common Core, four own state frameworks, 53 state editions and six curricula, condensed for reuse. Facts are as of **2026-10-01**: standards change every school year, so check the watch list in [references/landscape.md](references/landscape.md) before quoting a state's current set.
+Everything learned building Mathness (mathness.app), a generated worksheet site aligned to Common Core, four own state frameworks, 54 state editions and ten curricula, condensed for reuse. Facts are as of **2026-10-01**: standards change every school year, so check the watch list in [references/landscape.md](references/landscape.md) before quoting a state's current set.
 
 ## Words used here
 

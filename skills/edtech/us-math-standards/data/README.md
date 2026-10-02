@@ -38,5 +38,9 @@ Unit (or module, topic, chapter) → Common Core standards, as mapped by the met
 | `envision.tsv` | enVision Mathematics ©2024 (topics) | 92 |
 | `go-math.tsv` | Go Math! ©2015 (chapters) | 71 |
 | `amplify.tsv` | Amplify Desmos Math K–5, national | 43 |
+| `into-math.tsv` | Into Math ©2020, national (modules) | 121 |
+| `zearn.tsv` | Zearn Math, 2026 Mission sequence (Missions) | 40 |
+| `bridges.tsv` | Bridges in Mathematics, 3rd ed. (2024) | 48 |
+| `everyday-math.tsv` | Everyday Mathematics 4 ©2020 | 52 |
 
-`amplify.tsv` lists the codes of the Mathness sheets mapped to each unit (our own reading of the unit topics; Amplify publishes no standards per unit), so some codes are other sets' codes rather than Common Core's.
+`amplify.tsv` lists the codes of the Mathness sheets mapped to each unit (our own reading of the unit topics; Amplify publishes no standards per unit), so some codes are other sets' codes rather than Common Core's. `into-math.tsv`'s K–2 rows are likewise our own reading of the lesson titles (no public tags); grades 3–5 are HMH's. The four added 2026-10-02 were exported from Mathness's `src/curricula/*.ts` (commit 6027778c), whose headers list every source URL.

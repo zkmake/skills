@@ -1,0 +1,41 @@
+grade	unit	title	ccss
+K	1	Numbers to 10	K.CC.A.3,K.CC.B.4,K.CC.B.5,K.OA.A.3,K.MD.B.3
+K	2	Two-Dimensional and Three-Dimensional Shapes	K.MD.B.3,K.G.A.1,K.G.A.2,K.G.A.3,K.G.B.4
+K	3	Comparison of Length, Weight, Capacity, and Numbers to 10	K.CC.B.5,K.CC.C.6,K.CC.C.7,K.MD.A.1,K.MD.A.2
+K	4	Number Pairs, Addition and Subtraction to 10	K.CC.A.3,K.OA.A.1,K.OA.A.2,K.OA.A.3,K.OA.A.4,K.OA.A.5
+K	5	Numbers 10–20 and Counting to 100	K.CC.A.1,K.CC.A.2,K.CC.A.3,K.CC.B.5,K.NBT.A.1
+K	6	Analyzing, Comparing, and Composing Shapes	K.OA.A.5,K.G.B.5,K.G.B.6
+1	1	Add and Subtract Small Numbers	1.OA.A.1,1.OA.B.3,1.OA.B.4,1.OA.C.5,1.OA.C.6,1.OA.D.7,1.OA.D.8
+1	2	Meet Place Value	1.OA.A.1,1.OA.A.2,1.OA.B.3,1.OA.B.4,1.OA.C.5,1.OA.C.6,1.OA.D.7,1.OA.D.8,1.NBT.B.2
+1	3	Measure Length	1.OA.A.1,1.MD.A.1,1.MD.A.2,1.MD.C.4
+1	4	Add and Subtract Bigger Numbers	1.OA.A.1,1.NBT.A.1,1.NBT.B.2,1.NBT.B.3,1.NBT.C.4,1.NBT.C.5,1.NBT.C.6
+1	5	Work with Shapes	1.MD.B.3,1.G.A.1,1.G.A.2,1.G.A.3
+1	6	Add and Subtract to 100	1.OA.A.1,1.NBT.A.1,1.NBT.B.2,1.NBT.B.3,1.NBT.C.4,1.NBT.C.5,1.NBT.C.6
+2	1	Add and Subtract Friendly Numbers	2.OA.A.1,2.OA.B.2,2.NBT.B.5
+2	2	Explore Length	2.MD.A.1,2.MD.A.2,2.MD.A.3,2.MD.A.4,2.MD.B.5,2.MD.B.6
+2	3	Counting and Place Value	2.NBT.A.1,2.NBT.A.2,2.NBT.A.3,2.NBT.A.4,2.NBT.B.8
+2	4	Add, Subtract, and Solve	2.OA.A.1,2.NBT.B.5,2.NBT.B.6,2.NBT.B.7,2.NBT.B.8,2.NBT.B.9
+2	5	Add and Subtract Big Numbers	2.NBT.B.7,2.NBT.B.8,2.NBT.B.9
+2	6	Equal Groups	2.OA.C.3,2.OA.C.4,2.G.A.2
+2	7	Length, Money, and Data	2.OA.A.1,2.NBT.B.5,2.MD.A.1,2.MD.A.2,2.MD.A.3,2.MD.A.4,2.MD.B.5,2.MD.B.6,2.MD.C.8,2.MD.D.9,2.MD.D.10
+2	8	Shapes, Time, and Fractions	2.MD.C.7,2.G.A.1,2.G.A.3
+3	1	Multiply and Divide Friendly Numbers	3.OA.A.1,3.OA.A.2,3.OA.A.3,3.OA.A.4,3.OA.B.5,3.OA.B.6,3.OA.C.7,3.OA.D.8
+3	2	Measure It	3.NBT.A.1,3.NBT.A.2,3.MD.A.1,3.MD.A.2
+3	3	Multiply and Divide Tricky Numbers	3.OA.A.1,3.OA.A.3,3.OA.A.4,3.OA.B.5,3.OA.B.6,3.OA.C.7,3.OA.D.8,3.OA.D.9,3.NBT.A.3
+3	4	Find the Area	3.MD.C.5,3.MD.C.6,3.MD.C.7
+3	5	Fractions as Numbers	3.NF.A.1,3.NF.A.2,3.NF.A.3,3.G.A.2
+3	6	Display Data	3.MD.B.3,3.MD.B.4
+3	7	Shapes and Measurement	3.OA.D.8,3.MD.B.4,3.MD.C.7,3.MD.D.8,3.G.A.1
+4	1	Add, Subtract, and Round	4.OA.A.3,4.NBT.A.1,4.NBT.A.2,4.NBT.A.3,4.NBT.B.4
+4	2	Measure and Solve	4.MD.A.1,4.MD.A.2
+4	3	Multiply and Divide Big Numbers	4.OA.A.1,4.OA.A.2,4.OA.A.3,4.OA.B.4,4.NBT.B.5,4.NBT.B.6,4.MD.A.3
+4	4	Construct Lines, Angles, and Shapes	4.MD.C.5,4.MD.C.6,4.MD.C.7,4.G.A.1,4.G.A.2,4.G.A.3
+4	5	Equivalent Fractions	4.OA.A.2,4.OA.C.5,4.NF.A.1,4.NF.A.2,4.NF.B.3,4.NF.B.4,4.MD.B.4
+4	6	Decimal Fractions	4.NF.A.1,4.NF.C.5,4.NF.C.6,4.NF.C.7,4.MD.A.2
+4	7	Multiply and Measure	4.OA.A.1,4.OA.A.2,4.OA.A.3,4.MD.A.1,4.MD.A.2,4.MD.A.3
+5	1	Place Value with Decimal Fractions	5.NBT.A.1,5.NBT.A.2,5.NBT.A.3,5.NBT.A.4,5.NBT.B.7,5.MD.A.1
+5	2	Base Ten Operations	5.OA.A.1,5.OA.A.2,5.NBT.A.1,5.NBT.A.2,5.NBT.B.5,5.NBT.B.6,5.NBT.B.7,5.MD.A.1
+5	3	Add and Subtract Fractions	5.NF.A.1,5.NF.A.2
+5	4	Multiply and Divide Fractions and Decimals	5.OA.A.1,5.OA.A.2,5.NBT.B.6,5.NBT.B.7,5.NF.A.2,5.NF.B.3,5.NF.B.4,5.NF.B.5,5.NF.B.6,5.NF.B.7,5.MD.A.1,5.MD.B.2
+5	5	Volume, Area, and Shapes	5.NF.B.4,5.NF.B.6,5.MD.C.3,5.MD.C.4,5.MD.C.5,5.G.B.3,5.G.B.4
+5	6	The Coordinate Plane	5.OA.A.2,5.OA.B.3,5.G.A.1,5.G.A.2

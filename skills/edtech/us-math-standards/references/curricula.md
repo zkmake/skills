@@ -11,13 +11,13 @@ Share of US elementary math teachers who use each program at least weekly, sprin
 | Eureka Math family | Great Minds; Eureka (2015) = EngageNY; Eureka Math² is the newer edition | up to 20.4% | ✓ 2015 |
 | i-Ready Classroom Mathematics | Curriculum Associates (formerly Ready Classroom Mathematics) | 18.5% | ✓ 2024 |
 | enVision Mathematics | Savvas; three editions in use | up to 16.8% | ✓ ©2024 |
-| HMH family | Go Math!, Into Math, Math Expressions, Math in Focus | up to 12.7% | ✓ Go Math! ©2015 |
-| Zearn | often a supplement | 9.6% | next |
-| Bridges in Mathematics | The Math Learning Center | 9.1% | next |
+| HMH family | Go Math!, Into Math, Math Expressions, Math in Focus | up to 12.7% | ✓ Go Math! ©2015, Into Math ©2020 |
+| Zearn | often a supplement; units are Missions | 9.6% | ✓ 2026 sequence |
+| Bridges in Mathematics | The Math Learning Center | 9.1% | ✓ 3rd ed. (2024) |
 | Illustrative Mathematics K–5 | IM; several distributors (Kendall Hunt, others) | up to 6.4% | ✓ |
 | Big Ideas Math: Modeling Real Life | | 4.3% | |
 | Reveal Math | McGraw Hill | 4.0% | |
-| Everyday Mathematics 4 | McGraw Hill, two editions | up to 3.8% | next |
+| Everyday Mathematics 4 | McGraw Hill, two editions | up to 3.8% | ✓ ©2020 |
 | Amplify Desmos Math | Amplify; K–5 units largely follow IM K–5's | 1.9% | ✓ |
 
 Inside the families (same survey): Eureka 10.1 + Eureka Math² 5.4 + EngageNY 4.9; enVision 2020 9.5 + 2.0 4.8 + 2012 2.5; Go Math! 5.2, Into Math 4.0, Math Expressions 2.4, Math in Focus 1.1; IM via Kendall Hunt 3.7 + Imagine Learning/McGraw Hill 2.0 + others; also STEMscopes 2.4, My Math 2.3, Investigations 1.7, Bluebonnet 0.3; teacher-made 17.9 and district-made 10.7. Zearn is required or recommended for only 6.4%. Report: https://www.rand.org/pubs/research_reports/RRA4594-1.html (published 2025-12-19; the annex workbook has the per-program tables).
@@ -30,7 +30,7 @@ Openly licensed curricula go first because their lesson-level standards are publ
 
 ## The method
 
-1. **Pin the edition** (year or ©) and use the publisher's own word for a unit: Eureka *modules*, enVision *topics*, Go Math! *chapters*, the rest *units*. Skip pre-K (none of the six has pre-K units) and end-of-year "Step Up to Grade N" topics (they teach next grade).
+1. **Pin the edition** (year or ©) and use the publisher's own word for a unit: Eureka and Into Math *modules*, enVision *topics*, Go Math! *chapters*, Zearn *Missions*, the rest *units*. Skip pre-K (none of the ten has pre-K units) and end-of-year "Step Up to Grade N" topics (they teach next grade).
 2. **Find lesson-level standard tags**: publisher correlations, scope and sequence, family-engagement pages, chapter-test record forms; IXL skill plans and ST Math correlations give unit membership and titles.
 3. **Choose a filter that fits the publisher's tagging style.** Raw unions over-claim when a publisher tags warm-ups and review:
 
@@ -42,6 +42,10 @@ Openly licensed curricula go first because their lesson-level standards are publ
    | enVision ©2024, 92 topics | a standard counts if it **leads a lesson or is tagged in two or more**; drop single "also" tags, off-topic tags on shape topics (counting in K, length in grades 1–2, fractions in grade 3) and fact-fluency tags on topics that aren't about multiplying | ©2024 topic titles equal ©2020's (checked against IXL's 2020 plans, grades 1–5) |
    | Go Math! ©2015, 71 chapters | union of HMH's lesson-by-lesson correlations; parts (K.CC.B.4a) given as their standard; keep an extra tag only when two sources agree (4.OA.A.2 in grade 4 chapter 4 from the chapter-test record forms; 3.OA.D.8 in grade 3 chapter 2 from two district maps) | single-source extras were noise |
    | Amplify Desmos Math, 43 units | hand-mapped skill ids from the units' public topics (no per-unit standards list is published) | say so on the page: the mapping is your own reading |
+   | Into Math ©2020, 121 modules | grades 3–5: union of HMH's lesson-level tags (Kentucky correlations, Common Core numbering); K–2: your own reading of the lesson titles | no public K–2 tags; say so on the page, as for Amplify; a California 2025 edition exists and isn't mapped |
+   | Zearn Math, 40 Missions | a standard counts if it's one of the Mission overview's focus standards or Zearn's 2024 lesson alignment tags it on 2 or more of the Mission's lessons | the alignment uses Common Core's own codes; K Missions 4–6 and grade 3 Missions 4–7 have no overview with standards, so they rest on the alignment; titles from Zearn's ©2026 companion guides |
+   | Bridges in Mathematics 3rd ed. (2024), 48 units | scope-and-sequence modules where the domain is the module's focus, or the standard is cited in 2 or more of the unit's sessions (MLC's Common Core and Iowa correlations) | titles from the family unit overviews |
+   | Everyday Mathematics 4 ©2020, 52 units | lesson Focus tags on 2 or more lessons within the unit's focus clusters or a district map, else 3 of 4 sources agreeing | EM tags Focus, Warm Up and Practice on every lesson and spirals review; Kindergarten's sections are numbered as units; the note names McGraw Hill and the University of Chicago |
 
 4. **Expand standards to sheets.** A unit lists Common Core codes; its sheets are each code's sheets in order, each once (`unitOf`: strip a trailing part letter, look the code up, take its sheets own-code first). Make an unknown code fail loudly, since `unitOf` silently dropping it is how a unit goes quietly thin.
 5. **Record every source URL and the date** in the data file's header (see [sources.md](sources.md), _Curricula_).
@@ -60,7 +64,7 @@ Known limits of standards-derived units: two units teaching the same standards a
 ## Trademark care (nominative use)
 
 - Name the curriculum in **plain text only**: no logos, no look-alike colours or type.
-- Every curriculum page carries a note naming the owner's legal entity: "Sheets matched to the {units} of {Name}, by the Common Core standards each {unit} teaches. {Unit} names help you find practice; the sheets are our own. {Product} is not affiliated with, sponsored or endorsed by {Great Minds | Illustrative Mathematics | Curriculum Associates | Savvas Learning Company | Houghton Mifflin Harcourt | Amplify}."
+- Every curriculum page carries a note naming the owner's legal entity: "Sheets matched to the {units} of {Name}, by the Common Core standards each {unit} teaches. {Unit} names help you find practice; the sheets are our own. {Product} is not affiliated with, sponsored or endorsed by {Great Minds | Illustrative Mathematics | Curriculum Associates | Savvas Learning Company | Houghton Mifflin Harcourt | Amplify | Zearn | The Math Learning Center | McGraw Hill}."
 - Show only unit numbers and titles; never lesson content.
 - **Never put a curriculum's name on anything that prints**: sheets, keys, parent guides, PDFs.
 - Keep the site-wide terms page's trademark line current when a curriculum is added (Mathness's still named only Amplify after five more were added).

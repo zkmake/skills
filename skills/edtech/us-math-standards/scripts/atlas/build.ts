@@ -151,18 +151,19 @@ const CURRICULA: [string, string, number, boolean, string, number][] = [
   ["Eureka Math family", "Eureka 2015 mapped; Eureka Math², EngageNY", 20.4, true, "eureka", 40],
   ["i-Ready Classroom", "Curriculum Associates, 2024 mapped", 18.5, true, "i-ready", 34],
   ["enVision", "Savvas, ©2024 topics mapped", 16.8, true, "envision", 92],
-  ["HMH family", "Go Math! ©2015 mapped; Into Math, Math Expressions", 12.7, true, "go-math", 71],
-  ["Zearn", "often a supplement", 9.6, false, "", 0],
-  ["Bridges in Mathematics", "The Math Learning Center", 9.1, false, "", 0],
+  ["HMH family", "Go Math! ©2015 and Into Math ©2020 mapped; Math Expressions", 12.7, true, "go-math+into-math", 192],
+  ["Zearn Math", "often a supplement; Missions mapped", 9.6, true, "zearn", 40],
+  ["Bridges in Mathematics", "The Math Learning Center, 3rd ed. mapped", 9.1, true, "bridges", 48],
   ["Illustrative Mathematics K–5", "all distributors; mapped", 6.4, true, "im", 50],
   ["Big Ideas Math", "Modeling Real Life", 4.3, false, "", 0],
   ["Reveal Math", "McGraw Hill", 4.0, false, "", 0],
-  ["Everyday Mathematics 4", "McGraw Hill", 3.8, false, "", 0],
+  ["Everyday Mathematics 4", "McGraw Hill, ©2020 mapped", 3.8, true, "everyday-math", 52],
   ["Amplify Desmos Math", "national edition; mapped", 1.9, true, "amplify", 43],
 ];
 for (const c of CURRICULA) {
   if (!c[3]) continue;
-  const n = read(`data/curricula/${c[4]}.tsv`).trim().split("\n").length - 1;
+  // A family can map more than one program: "go-math+into-math".
+  const n = c[4].split("+").reduce((t, f) => t + read(`data/curricula/${f}.tsv`).trim().split("\n").length - 1, 0);
   if (n !== c[5]) throw new Error(`${c[4]}: ${n} units in data, ${c[5]} here`);
 }
 const TIMELINE: [string, string, [string, string][]][] = [
@@ -192,7 +193,7 @@ const OPEN = [
   ["State pre-K for Texas, Florida and Virginia", "43 states and DC are mapped in their own pre-K codes; the three own sets still show Head Start's goals. Missouri, Arizona, New Hampshire and Washington have no codes to map; DoDEA follows a commercial framework"],
   ["Next standards when final", "Utah and Kentucky for 2027–28: one research file and one generated edition each"],
   ["A Spanish edition", "Puerto Rico's standards are in Spanish; dual-language classrooms everywhere. The largest job here"],
-  ["More curricula", "Bridges, Zearn, Into Math and Everyday Mathematics are next by use"],
+  ["More curricula", "ten mapped; Big Ideas Math, Reveal Math, Math Expressions and Eureka Math² are next by use"],
 ];
 const RESOURCES: [string, [string, string, string][]][] = [
   ["Standards", [
@@ -299,7 +300,7 @@ const curBars = CURRICULA.map(([name, sub, v, mapped, file, units]) => `
   <div class="cbar">
     <span class="cname">${esc(name)}<small>${esc(sub)}</small></span>
     <span class="ctrack"><i class="cfill${mapped ? " mapped" : ""}" style="width:${((v / curMax) * 100).toFixed(1)}%"></i><b class="cval">${v}%</b></span>
-    <span class="cunits">${mapped ? `<a href="data/curricula/${file}.tsv">${units} units</a>` : "<span class=muted>not mapped</span>"}</span>
+    <span class="cunits">${mapped ? `<a href="data/curricula/${file.split("+")[0]}.tsv">${units} units</a>` : "<span class=muted>not mapped</span>"}</span>
   </div>`).join("");
 
 const flagFor = (id: string) => flagSvg(ROWS.find((r) => r.id === id) ?? { id });
@@ -850,7 +851,7 @@ html.dark .atlas {
     ["Pre-K for Texas, Florida and Virginia", "43 states and DC already have pre-K in their own codes; these three still use Head Start's preschool goals"],
     ["New standards as they're adopted", "Utah and Kentucky for 2027–28, each once its text is published"],
     ["Sheets in Spanish", "for Puerto Rico's standards and dual-language classrooms"],
-    ["More curricula", "Bridges, Zearn, Into Math and Everyday Mathematics, by how many teachers use them"],
+    ["More curricula", "ten are mapped; Big Ideas Math, Reveal Math, Math Expressions and Eureka Math² are next, by how many teachers use them"],
   ];
   const sources = RESOURCES.filter(([h]) => h !== "In this skill").map(([h, items]) => `
   <div class="res"><h3>${h}</h3><ul>${items.map(([t, u, d]) => `<li><a href="${esc(u)}" rel="noopener">${esc(t)}</a><span>${esc(d)}</span></li>`).join("")}</ul></div>`).join("");

@@ -1,0 +1,53 @@
+grade	unit	title	ccss
+K	1	Foundational Counting Principles and Skills	K.CC.A.1,K.CC.A.3,K.CC.B.4,K.CC.B.5,K.MD.B.3,K.G.A.2
+K	2	Naming and Describing Shapes; Counting	K.CC.B.4,K.CC.B.5,K.CC.C.6,K.OA.A.1,K.OA.A.2,K.G.A.1,K.G.A.2,K.G.B.4
+K	3	Reading, Writing, and Using Numbers; Making Comparisons	K.CC.A.2,K.CC.A.3,K.CC.B.4,K.CC.B.5,K.CC.C.6,K.CC.C.7
+K	4	Advanced Counting; Composing/Decomposing Numbers and Shapes; Measurable Attributes	K.CC.A.1,K.CC.A.2,K.CC.A.3,K.OA.A.3,K.MD.A.1,K.MD.A.2
+K	5	Exploring Teen Numbers	K.CC.A.3,K.CC.B.5,K.OA.A.1,K.OA.A.2,K.OA.A.3,K.OA.A.4,K.NBT.A.1,K.G.A.1
+K	6	Exploring 3-D Shapes and Measurable Attributes; Representing Addition and Subtraction	K.OA.A.1,K.OA.A.2,K.MD.A.1,K.MD.A.2,K.G.A.1,K.G.A.2,K.G.A.3,K.G.B.4
+K	7	Addition and Subtraction Strategies; Expanding Number Sense	K.CC.B.5,K.CC.C.6,K.CC.C.7,K.OA.A.1,K.OA.A.2,K.OA.A.3,K.OA.A.5,K.MD.B.3,K.G.B.4
+K	8	Numbers that Add to 10; Early Fact Fluency	K.CC.A.1,K.CC.A.2,K.CC.A.3,K.CC.C.7,K.OA.A.1,K.OA.A.2,K.OA.A.3,K.OA.A.4,K.OA.A.5,K.NBT.A.1,K.G.A.2,K.G.B.4,K.G.B.5
+K	9	Measurement and Spatial Thinking	K.CC.C.6,K.CC.C.7,K.OA.A.1,K.OA.A.2,K.OA.A.3,K.OA.A.4,K.OA.A.5,K.MD.A.1,K.MD.A.2,K.G.A.1,K.G.A.2,K.G.A.3
+1	1	Counting	1.OA.A.1,1.OA.C.5,1.OA.C.6,1.NBT.A.1,1.NBT.B.3,1.MD.C.4
+1	2	Introducing Addition	1.OA.A.1,1.OA.B.3,1.OA.C.5,1.OA.C.6,1.OA.D.8
+1	3	Number Stories	1.OA.A.1,1.OA.A.2,1.OA.B.3,1.OA.C.5,1.OA.C.6,1.OA.D.8,1.NBT.A.1
+1	4	Length and Addition Facts	1.OA.A.1,1.OA.A.2,1.OA.B.3,1.OA.C.5,1.OA.C.6,1.NBT.C.5,1.MD.A.1,1.MD.A.2,1.MD.C.4
+1	5	Place Value and Comparisons	1.OA.A.1,1.OA.C.5,1.OA.C.6,1.OA.D.7,1.NBT.B.2,1.NBT.B.3,1.NBT.C.4,1.MD.A.1,1.MD.A.2
+1	6	Addition Fact Strategies	1.OA.A.1,1.OA.C.6,1.NBT.B.2,1.NBT.B.3,1.NBT.C.4,1.NBT.C.6,1.MD.B.3
+1	7	Subtraction Fact Strategies and Attributes of Shapes	1.OA.B.3,1.OA.B.4,1.OA.C.6,1.OA.D.8,1.MD.B.3,1.G.A.1
+1	8	Geometry	1.NBT.C.4,1.NBT.C.5,1.NBT.C.6,1.MD.B.3,1.MD.C.4,1.G.A.1,1.G.A.2,1.G.A.3
+1	9	Two-Digit Addition and Subtraction and Review	1.OA.A.1,1.OA.A.2,1.NBT.B.2,1.NBT.B.3,1.NBT.C.4,1.NBT.C.5,1.NBT.C.6,1.MD.A.2,1.G.A.1,1.G.A.2,1.G.A.3
+2	1	Establishing Routines	2.OA.B.2,2.OA.C.3,2.NBT.A.2,2.NBT.A.3,2.NBT.A.4,2.NBT.B.5,2.NBT.B.8,2.NBT.B.9,2.MD.B.6,2.MD.C.8
+2	2	Fact Strategies	2.OA.A.1,2.OA.B.2,2.OA.C.3,2.NBT.B.5,2.NBT.B.7,2.NBT.B.9
+2	3	More Fact Strategies	2.OA.A.1,2.OA.B.2,2.NBT.B.5,2.NBT.B.7,2.NBT.B.9,2.MD.B.6
+2	4	Place Value and Measurement	2.NBT.A.1,2.NBT.A.2,2.NBT.A.3,2.NBT.A.4,2.MD.A.1,2.MD.A.2,2.MD.A.3,2.MD.C.7
+2	5	Addition and Subtraction	2.OA.A.1,2.OA.B.2,2.NBT.B.5,2.NBT.B.7,2.NBT.B.8,2.NBT.B.9,2.MD.B.6,2.MD.C.7,2.MD.C.8
+2	6	Whole Number Operations and Number Stories	2.OA.A.1,2.NBT.B.5,2.NBT.B.7,2.NBT.B.9,2.MD.B.5,2.MD.B.6,2.MD.D.10
+2	7	Whole Number Operations and Measurement and Data	2.NBT.B.5,2.NBT.B.6,2.NBT.B.9,2.MD.A.1,2.MD.A.2,2.MD.A.3,2.MD.A.4,2.MD.D.9,2.MD.D.10
+2	8	Geometry and Arrays	2.OA.C.4,2.G.A.1,2.G.A.2
+2	9	Equal Shares and Whole Number Operations	2.OA.C.3,2.OA.C.4,2.NBT.A.1,2.NBT.A.2,2.NBT.A.3,2.NBT.A.4,2.NBT.B.5,2.NBT.B.6,2.NBT.B.7,2.NBT.B.8,2.NBT.B.9,2.MD.A.1,2.G.A.3
+3	1	Math Tools, Time, and Multiplication	3.OA.A.1,3.OA.A.2,3.OA.A.3,3.OA.C.7,3.NBT.A.1,3.NBT.A.2,3.MD.A.1,3.MD.A.2
+3	2	Number Stories and Arrays	3.OA.A.1,3.OA.A.2,3.OA.A.3,3.OA.A.4,3.OA.C.7,3.OA.D.8,3.OA.D.9,3.NBT.A.2
+3	3	Operations	3.OA.A.1,3.OA.A.3,3.OA.B.5,3.OA.C.7,3.OA.D.8,3.NBT.A.1,3.NBT.A.2
+3	4	Measurement and Geometry	3.MD.B.4,3.MD.C.5,3.MD.C.6,3.MD.C.7,3.MD.D.8,3.G.A.1
+3	5	Fractions and Multiplication Strategies	3.OA.B.5,3.OA.C.7,3.OA.D.9,3.NF.A.1,3.NF.A.3,3.MD.C.6,3.MD.C.7
+3	6	More Operations	3.OA.B.5,3.OA.C.7,3.OA.D.8,3.NBT.A.2
+3	7	Fractions	3.NF.A.1,3.NF.A.2,3.NF.A.3,3.MD.A.1,3.MD.A.2
+3	8	Multiplication and Division	3.OA.A.2,3.OA.A.3,3.OA.A.4,3.OA.B.6,3.OA.C.7,3.NBT.A.3,3.MD.B.4,3.G.A.1
+3	9	Multidigit Operations	3.OA.A.3,3.OA.A.4,3.OA.B.5,3.OA.B.6,3.OA.C.7,3.NBT.A.3,3.MD.A.1,3.MD.A.2
+4	1	Place Value; Multidigit Addition and Subtraction	4.OA.A.3,4.NBT.A.1,4.NBT.A.2,4.NBT.A.3,4.NBT.B.4,4.NBT.B.5,4.MD.A.1,4.MD.A.2,4.MD.A.3,4.G.A.1,4.G.A.2
+4	2	Multiplication and Geometry	4.OA.A.1,4.OA.A.2,4.OA.B.4,4.OA.C.5,4.NBT.B.4,4.NBT.B.5,4.NBT.B.6,4.MD.A.1,4.MD.A.2,4.MD.A.3,4.G.A.1,4.G.A.2,4.G.A.3
+4	3	Fractions and Decimals	4.NF.A.1,4.NF.A.2,4.NF.C.5,4.NF.C.6,4.NF.C.7
+4	4	Multidigit Multiplication	4.OA.A.3,4.NBT.B.4,4.NBT.B.5,4.NBT.B.6,4.MD.A.1,4.MD.A.2,4.MD.A.3
+4	5	Fraction and Mixed-Number Computation; Measurement	4.NF.B.3,4.MD.B.4,4.MD.C.5,4.G.A.1,4.G.A.3
+4	6	Division; Angles	4.OA.A.3,4.OA.B.4,4.NBT.B.5,4.NBT.B.6,4.NF.B.3,4.NF.B.4,4.MD.C.5,4.MD.C.6,4.MD.C.7
+4	7	Multiplication of a Fraction by a Whole Number; Measurement	4.NBT.B.4,4.NBT.B.5,4.NBT.B.6,4.NF.B.3,4.NF.B.4,4.NF.C.6,4.MD.A.1,4.MD.A.2,4.MD.B.4
+4	8	Fraction Operations; Applications	4.OA.A.3,4.NBT.B.4,4.NBT.B.5,4.NBT.B.6,4.NF.B.3,4.NF.B.4,4.MD.A.1,4.MD.A.2,4.MD.A.3,4.MD.B.4,4.MD.C.7,4.G.A.1,4.G.A.3
+5	1	Area and Volume	5.OA.A.1,5.NF.B.4,5.MD.A.1,5.MD.C.3,5.MD.C.4,5.MD.C.5
+5	2	Whole Number Place Value and Operations	5.NBT.A.1,5.NBT.A.2,5.NBT.B.5,5.NBT.B.6,5.MD.A.1
+5	3	Fraction Concepts, Addition, and Subtraction	5.NF.A.1,5.NF.A.2,5.NF.B.3,5.NF.B.4,5.NF.B.6
+5	4	Decimal Concepts; Coordinate Grids	5.NBT.A.1,5.NBT.A.3,5.NBT.A.4,5.NBT.B.7,5.G.A.1,5.G.A.2
+5	5	Operations with Fractions	5.NF.A.1,5.NF.A.2,5.NF.B.3,5.NF.B.4,5.NF.B.5,5.NF.B.6,5.NF.B.7
+5	6	Investigations in Measurement; Decimal Multiplication and Division	5.NBT.A.1,5.NBT.A.2,5.NBT.A.3,5.NBT.B.5,5.NBT.B.6,5.NBT.B.7,5.MD.B.2,5.MD.C.3,5.MD.C.5
+5	7	Multiplication of Mixed Numbers; Geometry; Graphs	5.OA.B.3,5.NF.B.3,5.NF.B.4,5.NF.B.5,5.NF.B.6,5.NF.B.7,5.G.A.1,5.G.A.2,5.G.B.3,5.G.B.4
+5	8	Applications of Measurement, Computation, and Graphing	5.OA.B.3,5.NBT.A.2,5.NBT.A.4,5.NBT.B.5,5.NBT.B.6,5.NBT.B.7,5.NF.B.4,5.MD.A.1,5.MD.C.5,5.G.A.1,5.G.A.2
