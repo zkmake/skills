@@ -66,7 +66,7 @@ More rules from practice:
 
 What the last partials looked like: "use a model" rows where the sheets are symbols only; make-it rows (draw more/fewer, make a scatterplot, draw a rhombus); grade 2 ranges stopping at 20; "another way" decompositions; choice-of-measure items; left and right at grade 2; expressions for a growing picture pattern; sorting by size and colour in K; part of a set at grade 5; picture models for adding fractions and decimals. These are the representations to build in from the start ([worksheet-design.md](worksheet-design.md), _What goes on a sheet_).
 
-Hawaiʻi's 2027–28 crosswalk (150 rows, added after these reviews) hasn't been fit-reviewed yet.
+Hawaiʻi's 2027–28 crosswalk (added after these reviews) was reviewed the same way the next day: of its 150 rows only 6 differ from Common Core; 5 fit as linked, and the sixth (pose a question measurement data can answer) became good once the "measure your own" section opened with "Your question:". All 38 crosswalks: **1,485 good / 0 partial / 0 mismatch**.
 
 ## Reporting
 

@@ -25,4 +25,4 @@ In effect for 2026–27: Hawaiʻi Common Core Standards for Mathematics (2010), 
 - K.MD.4 → the kindergarten sort-and-count sheet (`K.MD.B.3`); 1.MD.4 → Maryland's grade 1 coin sheet (`1.GR.C.6`); 2.NBT.2 → Maryland's skip-counting sheet (`2.NOS.A.2`); K.CC.2 → Maryland's counting-back sheet (`K.NOS.A.3`). No sheets written under Hawaiʻi codes.
 
 ## Uncertain
-- Not fit-reviewed yet (added after the 2026-10-01 fit passes).
+- None recorded. Fit-reviewed after the other crosswalks: 5 of the 6 rows that differ fit as linked; 2.MD.9 (pose a question measurement data can answer) became good once the grade 2 "measure your own" section opened with "Your question:".

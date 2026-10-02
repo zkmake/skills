@@ -120,11 +120,10 @@ To refresh this page: check each state agency's standards page for "revision", "
 
 ## Open items (2026-10-01, in priority order)
 
-1. Fit-review Hawaiʻi 2027–28, the one crosswalk added after the reviews.
-2. State pre-K in states' own codes beyond Maryland, New York, Massachusetts, Oklahoma, Colorado and Pennsylvania.
-3. Utah and Kentucky 2027–28 and North Carolina 2028–29 editions once final.
-4. Probability in grades 1–2 (Puerto Rico).
-5. A Spanish edition (Puerto Rico; dual-language classrooms). The largest job.
-6. More curricula: Bridges, Zearn, Into Math, Everyday Mathematics.
+1. State pre-K in states' own codes beyond Maryland, New York, Massachusetts, Oklahoma, Colorado and Pennsylvania.
+2. Utah and Kentucky 2027–28 and North Carolina 2028–29 editions once final.
+3. Probability in grades 1–2 (Puerto Rico).
+4. A Spanish edition (Puerto Rico; dual-language classrooms). The largest job.
+5. More curricula: Bridges, Zearn, Into Math, Everyday Mathematics.
 
 Local and Indigenous contexts stay out of scope for generated sheets.

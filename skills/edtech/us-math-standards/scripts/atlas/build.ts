@@ -134,6 +134,7 @@ const PASSES: [string, string, number, number, number][] = [
   ["Pass 12", "time, estimates, fraction tiles", 1474, 5, 0],
   ["Pass 13", "left and right, patterns as sums", 1477, 2, 0],
   ["Follow-ups", "thick or thin, mixed numbers on bars", 1479, 0, 0],
+  ["Hawaiʻi 2027–28", "6 more rows, the 38th crosswalk", 1485, 0, 0],
 ];
 // Own sets: first reviews 2026-09-30 (rows incl. pre-K); fresh K–5 review 2026-10-01; after pass 13.
 const OWN_FIT: [string, string, [number, number, number], [number, number, number], number][] = [
@@ -184,7 +185,6 @@ const TIMELINE: [string, string, [string, string][]][] = [
 ];
 // The coverage session's open items, in its priority order (2026-10-01).
 const OPEN = [
-  ["Fit-review Hawaiʻi 2027–28", "the one crosswalk added after the reviews; same method as the other 37"],
   ["State pre-K in states' own codes", "done for Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania; the rest show Head Start's goals"],
   ["Next standards when final", "Utah and Kentucky for 2027–28, North Carolina for 2028–29: one research file and one generated edition each"],
   ["Probability in grades 1–2", "Puerto Rico asks for it; nothing below grade 3 yet"],
@@ -270,9 +270,9 @@ const xwSorted = ROWS.filter((r) => r.kinds).sort((a, b) => {
   return d(b.kinds!) - d(a.kinds!);
 });
 
-const passMax = 1479;
+const passMax = 1485;
 const passRows = PASSES.map(([name, sub, g, p, m]) => `
-  <div class="pass${name === "Fresh review" ? " fresh" : ""}${name === "Follow-ups" ? " final" : ""}">
+  <div class="pass${name === "Fresh review" ? " fresh" : ""}${name === "Hawaiʻi 2027–28" ? " final" : ""}">
     <span class="pname">${esc(name)}<small>${esc(sub)}</small></span>
     <span class="stack" role="img" aria-label="${fmt(g)} good, ${fmt(p)} partial, ${fmt(m)} mismatch">
       <i class="s-good" style="flex:${g}"><b>${fmt(g)}</b></i>${p ? `<i class="s-part" style="flex:${p}">${p > 60 ? `<b>${fmt(p)}</b>` : ""}</i>` : ""}${m ? `<i class="s-miss" style="flex:${m}"></i>` : ""}
@@ -578,7 +578,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
   </div>
   <div class="card report" aria-label="Headline figures">
     ${[
-      ["1,479/1,479", "crosswalk rows fit fully", "state rows that differ from Common Core, after 13 review passes"],
+      ["1,485/1,485", "crosswalk rows fit fully", "state rows that differ from Common Core, across all 38 crosswalks"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
       ["9,652", "standards, each with a sheet", "58 sets: Common Core, 4 own sets, 53 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
@@ -623,14 +623,13 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 
 <section id="fit">
   <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row now fits its sheets</h2>
-  <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic.</p></div>
+  <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet (1,485 once Hawaiʻi's 2027–28 rows joined) against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic.</p></div>
   <div class="card">
     <div class="passes">${passRows}</div>
     <div class="fitkey"><span><i class="sw" style="background:var(--good)"></i>Good: the sheets practise all of it</span><span><i class="sw" style="background:var(--part)"></i>Partial: a named part is missing</span><span><i class="sw" style="background:var(--miss)"></i>Mismatch: the sheets don't practise it</span><span class="mono">bars to scale · ${fmt(passMax)} rows</span></div>
   </div>
   <div class="head"><h3>The four own sets</h3><p class="lede2">Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.</p></div>
   <div class="owns">${ownFit}</div>
-  <p class="muted" style="font-size:.88rem">Hawaiʻi's 2027–28 crosswalk was added after these reviews and hasn't been fit-reviewed yet.</p>
 </section>
 
 <section id="distance">
