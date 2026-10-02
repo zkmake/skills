@@ -43,4 +43,4 @@ A standard whose sheets don't practise what it asks has a gap (found by a fit re
 
 ## Reporting coverage
 
-Say what a count includes: "246 Texas K–5 standards" and "256 including Head Start's pre-K goals" are the same set. Coverage (a sheet exists) is not fit (the sheet practises it). Mathness on 2026-10-02: 60 sets, 10,441 standards (9,506 K–5 + 935 pre-K), every one with a sheet; 269 skills; 106 set-only sheets.
+Say what a count includes: "246 Texas K–5 standards" and "256 including Head Start's pre-K goals" are the same set. Coverage (a sheet exists) is not fit (the sheet practises it). Mathness on 2026-10-02: 60 sets, 10,441 standards (9,506 K–5 + 935 pre-K), every one with a sheet; 270 skills; 106 set-only sheets.
