@@ -1,0 +1,310 @@
+state_code	grade	ccss	kind	summary
+K.N.1	K	K.CC.A.1	same	Count to 100 by ones and by tens.
+K.N.2	K	K.CC.A.2	edited	Count on from any number up to 100; count back from any number within 20.
+K.N.3	K	K.CC.A.3	same	Read, write, and recognize numbers 0 to 20.
+K.N.4	K	K.CC.B.4	same	Count objects by matching one number word to each object.
+K.N.5	K	K.CC.B.4	same	The last number counted tells how many, whatever the order or arrangement.
+K.N.6	K	K.CC.B.4	same	Name the number that is one more than a number within 20.
+K.N.7	K	K.CC.B.5	same	Count up to 20 objects set in a line, an array, or a circle.
+K.N.8	K	K.CC.B.5	same	Count up to 10 objects that are scattered.
+K.N.9	K	K.OA.A.4	same	Find the number that goes with 1 to 9 to make 10.
+K.N.10	K	K.CC.B.5	same	Count out a given number of objects, 0 to 20.
+K.N.11	K	K.CC.C.6	same	Tell if one group of up to 10 objects has more, fewer, or the same as another.
+K.N.12	K	K.CC.C.7	same	Compare two written numbers from 0 to 10.
+K.N.13	K	K.G.A.1	same	Describe where objects are using words like above, below, beside, behind.
+K.OA.1	K	K.OA.A.1	same	Show adding and subtracting within 10 with objects, fingers, drawings, or words.
+K.OA.2	K	K.OA.A.1	same	Write an equation for an addition or subtraction situation.
+K.OA.3	K	K.OA.A.1	same	Understand adding as putting together, getting more, or counting on.
+K.OA.4	K	K.OA.A.1	same	Understand subtracting as taking away, taking apart, or counting back.
+K.OA.5	K	K.OA.A.2	same	Solve add or subtract story problems within 10 with objects or drawings.
+K.OA.6	K	K.OA.A.3	same	Split numbers 1 to 10 into two parts in different ways with pictures or equations.
+K.OA.7	K	K.OA.A.3	same	Find every way to split 5 into two parts.
+K.OA.8	K	K.NBT.A.1	same	Build and break apart 11 to 19 as ten and some ones.
+K.M.1	K	K.MD.A.1	same	Name things you can measure about an object, like length, weight, or size.
+K.M.2	K	K.MD.A.2	same	Compare two objects by the same measurable feature.
+K.M.3	K		new	Know clocks measure time; answer questions about times of day and lengths of time.
+K.M.4	K		new	Know calendars show days, weeks, months, years; use yesterday, today, tomorrow.
+K.M.5	K	2.MD.C.8	moved	Name pennies and dimes and know their values.
+K.M.6	K	2.MD.C.8	moved	Count the value of a group of pennies or a group of dimes.
+K.M.7	K	K.MD.B.3	same	Collect objects and sort them into groups.
+K.G.1	K	K.G.A.3	same	Sort shapes into flat (2D) and solid (3D).
+K.G.2	K	K.G.A.2,K.G.B.4	same	Name circles, triangles, squares, rectangles and describe sides, corners, and square corners.
+K.G.3	K	K.G.A.2,K.G.B.5	edited	Identify and draw circles, triangles, squares, rectangles, and trapezoids turned different ways.
+K.G.4	K	K.G.A.2	same	Identify cubes, cones, cylinders, and spheres.
+K.G.5	K	K.G.B.5	same	Build and draw shapes seen in the world around you.
+K.G.6	K	K.G.B.6	same	Put simple shapes together to make larger shapes.
+K.MF.1	K	K.OA.A.5	same	Add within 5 fluently.
+K.MF.2	K	K.OA.A.5	same	Subtract within 5 fluently.
+K.MF.3	K	K.CC.B.5	edited	Recognize amounts up to 5 at a glance on tallies, five frames, fingers, dice, dominoes.
+1.N.1	1	1.NBT.A.1	edited	Count to 120 by tens.
+1.N.2	1	1.NBT.A.1	edited	Count forward and backward from any number within 120.
+1.N.3	1	1.NBT.A.1	same	Read, write, and recognize numbers 0 to 120.
+1.N.4	1	1.NBT.B.2	same	Break two-digit numbers into tens and ones and put them back together.
+1.N.5	1	1.NBT.B.2	same	Show two-digit numbers with drawings, ten frames, cubes, or base-ten blocks.
+1.N.6	1	1.NBT.A.1,1.NBT.B.2	same	Count up to 120 objects by grouping them in tens and ones.
+1.N.7	1	1.NBT.B.3	same	Compare two two-digit numbers by tens and ones using <, >, =.
+1.OA.1	1	1.OA.C.5	same	See counting on as adding and counting back as subtracting.
+1.OA.2	1	1.OA.B.3	edited	Use order, grouping, and adding-zero properties to add within 20.
+1.OA.3	1	1.OA.C.6,1.OA.D.8	same	Add and subtract within 20 with objects, drawings, number lines, or equations with unknowns.
+1.OA.4	1	1.OA.A.1,1.OA.A.2	same	Solve add and subtract story problems within 20, including three addends.
+1.OA.5	1	1.NBT.C.4,1.NBT.C.6	edited	Add or subtract multiples of 10 to or from a number within 100.
+1.OA.6	1	1.NBT.C.4	same	Add a two-digit and a one-digit number, with or without regrouping.
+1.OA.7	1	2.NBT.B.5	moved	Subtract a one-digit number from a two-digit number, with or without regrouping.
+1.OA.8	1	1.NBT.C.6	same	Subtract multiples of 10 from multiples of 10 between 10 and 90.
+1.OA.9	1	1.OA.B.4	same	Use addition and subtraction as opposites to write related equations within 20.
+1.OA.10	1	1.OA.D.7	same	Use the meaning of the equal sign to tell if equations are true or false.
+1.OA.11	1	1.OA.D.8	same	Find the unknown number in any position of an add or subtract equation.
+1.M.1	1	1.MD.A.1	same	Order three objects by length and compare two lengths using a third object.
+1.M.2	1	1.MD.A.2	same	Measure length by lining up same-size units with no gaps or overlaps.
+1.M.3	1	1.MD.B.3	same	Tell and write time to the hour and half hour on analog and digital clocks.
+1.M.4	1	2.MD.C.8	moved	Name pennies, nickels, dimes, and quarters and know their values.
+1.M.5	1	2.MD.C.8	moved	Find the value of mixed pennies, nickels, and dimes up to a dollar; write cents.
+1.M.6	1	1.MD.C.4	same	Organize, show, and interpret data with up to three categories.
+1.M.7	1	1.MD.C.4	same	Read and compare data shown in picture graphs, bar graphs, or tally charts.
+1.G.1	1	1.G.A.1	same	Tell defining shape features from features like color, size, or turn.
+1.G.2	1	1.G.A.1	same	Build and draw shapes that have given defining features.
+1.G.3	1	1.G.A.2	same	Make and name flat shapes, including trapezoids, half circles, and quarter circles.
+1.G.4	1	1.G.A.2	edited	Identify rectangular prisms as solids with rectangle faces.
+1.G.5	1	1.G.A.3	same	Split circles and rectangles into halves and fourths; more parts means smaller parts.
+1.MF.1	1	1.OA.C.6,2.OA.B.2	edited	Add within 20 fluently.
+1.MF.2	1	1.OA.C.6,2.OA.B.2	edited	Subtract within 20 fluently.
+1.MF.3	1	1.OA.C.6	same	Know addition facts within 10 from memory.
+1.MF.4	1	1.OA.C.6	same	Know subtraction facts within 10 from memory.
+1.MF.5	1	1.NBT.C.5	same	Find 10 more or 10 less than a two-digit number in your head.
+2.N.1	2	2.NBT.A.2	edited	Count forward and backward by tens and hundreds from any number up to 1000.
+2.N.2	2	2.NBT.A.2	edited	Count forward and backward by fives to 120.
+2.N.3	2	2.NBT.A.2	edited	Count forward and backward by twos to 50.
+2.N.4	2	2.OA.C.3	edited	Tell whether a number up to 50 is odd or even.
+2.N.5	2		new	Find how far a number is from the next or previous ten or hundred.
+2.N.6	2	2.NBT.A.1	same	Break three-digit numbers into hundreds, tens, and ones and rebuild them.
+2.N.7	2	2.NBT.A.3	same	Read and write numbers to 1000 in standard, word, and expanded form.
+2.N.8	2	2.NBT.A.4	same	Compare two three-digit numbers by place value using <, >, =.
+2.OA.1	2	2.NBT.B.5	edited	Use order, grouping, and adding-zero properties to add within 100.
+2.OA.2	2	2.NBT.B.5,2.OA.A.1	same	Add and subtract within 100 with drawings, open number lines, or equations with unknowns.
+2.OA.3	2	2.OA.A.1	same	Solve add and subtract story problems within 100.
+2.OA.4	2	2.NBT.B.6	same	Add up to four two-digit numbers using different strategies.
+2.OA.5	2	2.NBT.B.7,2.NBT.B.9	same	Use place value and models to explain add and subtract strategies up to 1000.
+2.OA.6	2	2.OA.C.4	same	Find the total in an array up to 5 by 5 with repeated addition.
+2.F.1	2	2.G.A.3	same	Split circles and rectangles into halves, thirds, or fourths and name the parts.
+2.M.1	2	2.MD.A.1	edited	Explore length by lining up inch-size pieces with no gaps or overlaps.
+2.M.2	2	2.MD.A.3	same	Estimate lengths in inches, feet, and yards.
+2.M.3	2	2.MD.A.1	same	Measure lengths in inches, feet, and yards.
+2.M.4	2	2.MD.A.1	edited	Explore length by lining up centimeter and decimeter pieces with no gaps.
+2.M.5	2	2.MD.A.3	same	Estimate lengths in centimeters, decimeters, and meters.
+2.M.6	2	2.MD.A.1	same	Measure lengths in centimeters, decimeters, and meters.
+2.M.7	2	2.MD.C.7	same	Tell and write time to the nearest five minutes with a.m. and p.m.
+2.M.8	2	3.MD.A.1	moved	Solve problems about time in five-minute steps.
+2.M.9	2	2.MD.C.8	edited	Find the value of coins up to $1 and bills up to $100.
+2.M.10	2	2.MD.C.8	same	Identify and count coins and bills and use them in word problems.
+2.M.11	2	2.MD.C.8	same	Solve money word problems with bills and coins, writing $ and cents signs.
+2.M.12	2	2.MD.D.9,2.MD.D.10	edited	Make tables, line plots, and bar graphs for data with up to four categories.
+2.M.13	2	2.MD.D.10	same	Read and analyze data in tables, line plots, picture graphs, and bar graphs.
+2.G.1	2	2.G.A.1	same	Describe triangles, quadrilaterals, pentagons, hexagons, octagons by angles and sides.
+2.G.2	2	3.G.A.1	moved	Tell squares, rectangles, and trapezoids apart by equal sides, parallel sides, right angles.
+2.G.3	2		new	Identify regular and irregular flat shapes.
+2.G.4	2	2.G.A.2	same	Split a rectangle into rows and columns of equal squares and count them.
+2.MF.1	2	2.NBT.B.5	same	Add within 100 fluently with different strategies.
+2.MF.2	2	2.NBT.B.5	same	Subtract within 100 fluently with different strategies.
+2.MF.3	2	2.OA.B.2	same	Know addition facts within 20 from memory.
+2.MF.4	2	2.OA.B.2	edited	Know subtraction facts within 20 from memory.
+2.MF.5	2	2.NBT.B.8	same	Find 10 or 100 more or less than a number from 100 to 900 mentally.
+3.N.1	3	3.NBT.A.1	same	Round whole numbers to the nearest 10 or 100.
+3.N.2	3	4.NBT.A.2	moved	Break four-digit numbers into thousands, hundreds, tens, and ones.
+3.N.3	3	4.NBT.A.2	moved	Read and write numbers to 10,000 in standard, word, and expanded form.
+3.OA.1	3	3.OA.A.1	same	Use arrays, equal groups, and number lines to explain multiplication.
+3.OA.2	3	3.OA.A.2	same	Use arrays, equal groups, and number lines to explain division as equal sharing.
+3.OA.3	3	3.OA.A.3	same	Solve multiply and divide story problems within 100 with drawings and equations.
+3.OA.4	3	3.OA.A.4	same	Find the missing number in a multiplication or division equation.
+3.OA.5	3	3.OA.B.5	same	Use properties of operations to multiply and divide.
+3.OA.6	3	3.OA.B.6	same	Know that multiplication and division undo each other.
+3.OA.7	3	3.OA.C.7	same	Use arrays, groups, and number lines to relate multiplying and dividing within 100.
+3.OA.8	3	3.OA.B.5	edited	Use order, grouping, and identity properties for both adding and multiplying.
+3.OA.9	3	3.OA.D.8	same	Solve two-step story problems with all four operations and check by estimating.
+3.OA.10	3	3.OA.D.9	same	Find and explain number patterns.
+3.F.1	3	3.NF.A.1	same	The bottom number tells how many equal parts make the whole.
+3.F.2	3	3.NF.A.1	same	The top number tells how many equal parts are chosen.
+3.F.3	3	3.NF.A.1,3.NF.A.2	same	See fractions as parts of a whole, points on a number line, and unit-fraction multiples.
+3.F.4	3	3.NF.A.3	same	Use number lines and area models to explain equivalent fractions (halves to eighths).
+3.F.5	3	3.NF.A.3	same	Find equivalent fractions and explain why they are equal.
+3.F.6	3	3.NF.A.3	same	Write whole numbers as fractions and spot fractions equal to whole numbers.
+3.F.7	3	3.NF.A.3	same	Compare fractions with the same top or bottom number using <, >, =.
+3.M.1	3	3.MD.C.5	same	Area is the amount of space inside a flat shape.
+3.M.2	3	3.MD.C.5	same	A square unit is a 1-by-1 square used to measure area.
+3.M.3	3	3.MD.C.5	same	A shape covered by n unit squares with no gaps has area n square units.
+3.M.4	3	3.MD.C.6	same	Measure area by counting square units.
+3.M.5	3	3.MD.C.7	same	Use tiles to show that multiplying side lengths gives a rectangle's area.
+3.M.6	3	3.MD.C.7	same	Solve word problems about the area of rectangles.
+3.M.7	3	3.MD.C.7	same	Use tiled area models to show the distributive property.
+3.M.8	3	3.MD.C.7	same	Find area by adding areas of rectangles that do not overlap.
+3.M.9	3	3.MD.D.8	same	Perimeter is the distance around a flat shape.
+3.M.10	3	3.MD.D.8	same	Solve perimeter problems, including missing sides and same perimeter with different areas.
+3.M.11	3	3.MD.A.2	edited	Measure and estimate liquid volume in customary and metric units.
+3.M.12	3	3.MD.A.2	edited	Measure and estimate mass or weight in customary and metric units.
+3.M.13	3	3.MD.A.2	same	Solve one-step word problems with masses or volumes in the same units.
+3.M.14	3	3.MD.B.4	same	Measure lengths to the nearest half or quarter inch with a ruler.
+3.M.15	3	3.MD.A.1	same	Tell and write time to the nearest minute on analog and digital clocks.
+3.M.16	3	3.MD.A.1	edited	Solve time word problems by adding, subtracting, multiplying, or dividing minutes.
+3.M.17	3	2.MD.C.8,4.NF.C.6	moved	Find the value of coins and bills up to $100 written with a decimal point.
+3.M.18	3	3.MD.B.3	edited	Make scaled tables, bar graphs, circle graphs, and line graphs from data.
+3.M.19	3	3.MD.B.3	edited	Solve one- and two-step questions using scaled tables, bar, circle, and line graphs.
+3.M.20	3	3.MD.B.4	same	Make a line plot marked in whole numbers, halves, or quarters.
+3.G.1	3	3.G.A.1	same	Shapes in different groups can share features that define a larger group.
+3.G.2	3	3.G.A.1	edited	A quadrilateral has four sides; relate trapezoids, parallelograms, rectangles, and squares.
+3.G.3	3	3.G.A.2	same	Split shapes into equal-area parts and name each part as a unit fraction.
+3.G.4	3		new	Tell whether a shape is a polygon or not.
+3.G.5	3	2.G.A.1	moved	Classify polygons by their number of sides.
+3.MF.1	3	3.OA.C.7	edited	Use strategies to multiply facts through 12 mentally and fluently.
+3.MF.2	3	3.OA.C.7	edited	Know from memory multiplication facts for 0, 1, 2, 5, and 10 up to 12.
+3.MF.3	3	3.NBT.A.2	same	Add within 1000 fluently with different strategies.
+3.MF.4	3	3.NBT.A.2	same	Subtract within 1000 fluently with different strategies.
+3.MF.5	3	3.NBT.A.3	same	Multiply one-digit numbers by multiples of 10 such as 4 x 70.
+4.N.1	4	4.NBT.A.1	same	A digit is worth ten times what it would be in the place to its right.
+4.N.2	4	4.NBT.A.3	same	Round multi-digit whole numbers to any place.
+4.N.3	4	4.NBT.A.2	same	Break five-digit numbers into place-value parts and rebuild them.
+4.N.4	4	4.NBT.A.2	same	Read and write whole numbers to 1,000,000 in standard, word, and expanded form.
+4.N.5	4	4.NBT.A.2	same	Compare multi-digit numbers by place value using <, >, =.
+4.OA.1	4	4.OA.A.1	same	Show and explain multiplicative comparisons with equations, drawings, and words.
+4.OA.2	4	4.OA.A.2	same	Solve multiplicative comparison problems and tell them apart from additive ones.
+4.OA.3	4	4.NBT.B.5	same	Multiply four-digit by one-digit numbers and two two-digit numbers.
+4.OA.4	4	4.NBT.B.6	same	Divide four-digit numbers by one-digit numbers, with or without remainders.
+4.OA.5	4	4.OA.A.3	same	Decide what a remainder means in a one-step division problem.
+4.OA.6	4	4.OA.A.3	same	Solve multistep word problems with whole numbers and check answers by estimating.
+4.OA.7	4	4.OA.B.4	same	Find factor pairs for whole numbers up to 100.
+4.OA.8	4	4.OA.B.4	same	A whole number up to 100 is a multiple of each of its factors.
+4.OA.9	4	4.OA.B.4	same	Find multiples of one-digit numbers.
+4.OA.10	4	4.OA.B.4	same	Tell whether a number from 1 to 100 is prime or composite.
+4.OA.11	4	4.OA.C.5	same	Make a number or shape pattern from a rule and notice its other features.
+4.OA.12	4	4.NBT.B.5	edited	Use order, grouping, distributive, and identity properties when adding and multiplying.
+4.OA.13	4	3.OA.D.8,5.OA.A.1	moved	Evaluate expressions with all four operations using order of operations, no parentheses.
+4.F.1	4	4.NF.A.1	same	Use models to explain why multiplying top and bottom by the same number keeps a fraction equal.
+4.F.2	4	4.NF.A.2	same	Compare fractions with different tops and bottoms using common denominators or numerators.
+4.F.3	4	4.NF.B.3	same	Add and subtract fractions with like denominators.
+4.F.4	4	4.NF.B.3	same	Solve word problems adding or subtracting like-denominator fractions of the same whole.
+4.F.5	4	4.NF.B.3	same	Break a fraction into a sum of fractions with the same denominator.
+4.F.6	4	4.NF.B.3	same	Add and subtract mixed numbers with like denominators.
+4.F.7	4	4.NF.B.4	same	Multiply a fraction by a whole number.
+4.F.8	4	4.NF.B.4	same	A fraction a/b is a copies of 1/b.
+4.F.9	4	4.NF.B.4	same	A multiple of a/b is also a multiple of 1/b.
+4.F.10	4	4.NF.B.4	same	Solve word problems multiplying a fraction by a whole number.
+4.F.11	4	4.NF.C.5	same	Add tenths and hundredths by rewriting tenths as hundredths.
+4.F.12	4	4.NF.C.6	same	A decimal has a whole part and a fraction part split by a decimal point.
+4.F.13	4	4.NF.C.6	same	Write tenths and hundredths as decimals and place them on a number line.
+4.F.14	4	4.NF.C.6	same	Read, write, and give the value of decimals to hundredths.
+4.F.15	4	4.NF.C.7	same	Compare decimals to hundredths on a number line and with <, >, =.
+4.M.1	4	4.MD.A.1	edited	Measure length, weight, mass, capacity, and time in customary and metric units.
+4.M.2	4	4.MD.A.1	same	Convert larger units to smaller units within one measurement system.
+4.M.3	4	4.MD.A.2	same	Solve word problems about distance, time, capacity, mass, and money with fractions and decimals.
+4.M.4	4	4.MD.A.3	same	Explain and use rectangle area and perimeter formulas in real problems.
+4.M.5	4	4.MD.B.4	same	Make a line plot of measurements in halves, fourths, eighths and solve problems with it.
+4.G.1	4	4.MD.C.5	same	An angle is formed by two rays with a shared endpoint.
+4.G.2	4	4.MD.C.5,4.MD.C.6	same	Measure and draw angles in degrees with a protractor; a degree is 1/360 of a circle.
+4.G.3	4	4.G.A.1	same	Classify and draw right, acute, obtuse, and straight angles.
+4.G.4	4	4.MD.C.7	same	Angle measures add: the parts of an angle sum to the whole.
+4.G.5	4	4.G.A.1	same	Identify and draw points, lines, segments, rays, and angles.
+4.G.6	4	4.G.A.1	same	Identify and draw intersecting, parallel, and perpendicular lines.
+4.G.7	4	4.G.A.2	edited	A trapezoid is a four-sided shape with exactly one pair of parallel sides.
+4.G.8	4	4.G.A.2	same	Describe squares, rectangles, trapezoids, rhombuses by parallel and perpendicular sides.
+4.G.9	4	4.G.A.2	edited	Identify and draw angle types and equilateral, scalene, right, acute, obtuse triangles.
+4.G.10	4	4.G.A.3	same	Find and draw lines of symmetry.
+4.MF.1	4	3.OA.C.7	moved	Know multiplication facts 0 to 12 from memory.
+4.MF.2	4	3.OA.C.7	moved	Know division facts 0 to 12 from memory.
+4.MF.3	4	4.NBT.B.4	same	Add and subtract multi-digit whole numbers fluently with an algorithm.
+5.N.1	5	5.NBT.A.1	same	A digit is worth ten times the place to its right and 1/10 of the place to its left.
+5.N.2	5	5.NBT.A.2	same	Explain how multiplying or dividing by powers of 10 shifts digits.
+5.N.3	5	5.NBT.A.3	same	Read and write decimals to thousandths in standard, word, and expanded form.
+5.N.4	5	5.NBT.A.3	same	Order and compare decimals to thousandths using <, >, =.
+5.N.5	5	5.NBT.A.4	same	Round decimals to the tenths or hundredths place.
+5.OA.1	5	5.OA.A.1,5.OA.A.2	same	Write and evaluate expressions with parentheses using order of operations.
+5.OA.2	5	5.OA.B.3	same	Make two number patterns from two rules and graph the matching pairs.
+5.OA.3	5	5.NBT.B.6	same	Divide up to four-digit numbers by two-digit numbers and explain with models.
+5.OA.4	5	5.NBT.B.7	same	Add decimals to hundredths using different strategies.
+5.OA.5	5	5.NBT.B.7	same	Subtract decimals to hundredths using different strategies.
+5.OA.6	5	5.NBT.B.7	same	Multiply decimals to hundredths using different strategies.
+5.OA.7	5	5.NBT.B.7	same	Divide decimals to hundredths using different strategies.
+5.F.1	5	5.NF.A.1	same	Add and subtract fractions and mixed numbers with unlike denominators using equivalent fractions.
+5.F.2	5	5.NF.A.2	same	Solve word problems adding and subtracting fractions and mixed numbers.
+5.F.3	5	5.NF.A.2	same	Estimate with benchmark fractions to check if answers make sense.
+5.F.4	5	5.NF.B.4	same	Multiply a fraction or whole number by a fraction and explain with models.
+5.F.5	5	5.NF.B.5,5.NF.B.6	same	Solve problems multiplying fractions and mixed numbers; explain multiplying as resizing.
+5.F.6	5	5.NF.B.3	same	See a fraction as division and solve sharing problems with fraction answers.
+5.F.7	5	5.NF.B.7	same	Explain and compute a unit fraction divided by a whole number.
+5.F.8	5	5.NF.B.7	same	Explain and compute a whole number divided by a unit fraction.
+5.F.9	5	5.NF.B.7	same	Divide unit fractions and whole numbers using models and relate it to multiplying.
+5.F.10	5	5.NF.B.7	same	Solve real problems dividing unit fractions and whole numbers.
+5.M.1	5	5.MD.A.1	same	Convert length, weight, mass, capacity, and time units within one system.
+5.M.2	5	5.MD.B.2	same	Make and use a line plot of measurements to solve real problems.
+5.G.1	5	5.MD.C.3	same	Use unit cubes to explain volume as the space inside a solid.
+5.G.2	5	5.MD.C.3	same	A solid filled by n unit cubes with no gaps has volume n cubic units.
+5.G.3	5	5.MD.C.4	same	Measure volume by counting cubic centimeters, inches, feet, or other units.
+5.G.4	5	5.MD.C.5	same	Find a box's volume by packing cubes and see it equals multiplying edge lengths.
+5.G.5	5	5.MD.C.5	same	Use three-factor products in volume to show the associative property.
+5.G.6	5	5.MD.C.5	same	Use V = l x w x h and V = B x h to solve box volume problems.
+5.G.7	5	5.MD.C.5	same	Find the volume of a solid made of two boxes by adding their volumes.
+5.G.8	5	5.G.B.3	same	Features of a shape category belong to all of its subcategories.
+5.G.9	5	5.G.B.4	same	Classify flat shapes in a hierarchy by their properties.
+5.G.10	5	5.G.B.3,5.G.B.4	edited	Identify and draw triangles by sides and angles; know these groups can overlap.
+5.G.11	5	5.G.A.1	same	A coordinate plane is made of two perpendicular number lines.
+5.G.12	5	5.G.A.1	same	Identify the origin, x-axis, and y-axis.
+5.G.13	5	5.G.A.1	same	Read the x- and y-coordinates of a point.
+5.G.14	5	5.G.A.1	same	Know what each coordinate of an ordered pair tells about a point's position.
+5.G.15	5	5.G.A.2	same	Graph points in the first quadrant to show and interpret real problems.
+5.MF.1	5	5.NBT.B.5	same	Multiply multi-digit whole numbers fluently with an algorithm.
+5.MF.2	5	5.NBT.B.6	edited	Divide multi-digit whole numbers fluently with an algorithm.
+#
+# STATUS: FINAL. 2026 South Dakota Mathematics Standards (replace the 2018 CCSS-based set).
+# - Adopted by the South Dakota Board of Education Standards on May 4, 2026 (document cover: "Adopted May 4, 2026").
+# - SD DOE "Assessed Standards Timeline": Math adopted 2026, transition 2026-2027, implement 2027-2028, state assessment 2028-2029.
+# - News at adoption (KOTA, May 5 2026) says the board approved them knowing minor non-content corrections may follow; no corrected
+#   edition was posted as of 2026-10-01. Recheck the PDF before relying on exact wording.
+#
+# SOURCES (fetched 2026-10-01)
+# - South Dakota Mathematics Standards, adopted May 4, 2026 (K-5 on document pp. 1-15):
+#   https://doe.sd.gov/contentstandards/documents/0526-MathStandards.pdf
+# - SD DOE math standards page (lists "Mathematics Standards 2026" and "2018"): https://doe.sd.gov/contentstandards/math.aspx
+# - Assessed Standards Timeline: https://doe.sd.gov/contentstandards/documents/StandardsTimeline.pdf
+# - Standards Revision Timeline (adopted Oct 2025): https://doe.sd.gov/contentstandards/documents/StandardsTimeline-1025.pdf
+# - https://www.kotatv.com/2026/05/05/education-board-strips-common-core-math-favor-simplified-standards/
+# - No official 2026-to-CCSS or 2018-to-2026 crosswalk was found. Every mapping here is my own reading of the 2026 text against CCSS.
+#
+# HOW SOUTH DAKOTA WRITES CODES
+# - Grade.Domain.Number, e.g. K.N.1, 3.M.17, 4.MF.2. Numbers run on through a grade's domain; no cluster letter in the code.
+#   Clusters are named headings only (e.g. "Names, Sequence, & Counting", "Place Value", "Time and Money", "Data", "Shapes").
+# - No lettered sub-parts. Standards for Mathematical Practice (8) are printed up front and skipped here.
+#
+# DOMAINS (K-5)
+# - N Numbers; OA Operations and Algebraic Thinking; M Measurement (includes time, money, data); G Geometry (includes angles,
+#   volume and the coordinate plane in grades 4-5); MF Mathematical Fluency; F Fractions (grade 2 "Fraction Foundation", grades 3-5).
+# - Grade 2's only F standard (2.F.1) and grade 1's partitioning (1.G.5) are CCSS geometry content.
+#
+# CCSS K-5 STANDARDS DROPPED
+# - Fully: 2.MD.A.2 (measure one object with two units), 2.MD.A.4 (how much longer), 2.MD.B.5 (length word problems),
+#   2.MD.B.6 (whole numbers as lengths on a number line; only "open number lines" as a strategy in 2.OA.2).
+# - Partly: composing 3D shapes (1.G.A.2); 2.MD.D.9 line plots of measured lengths (line plots are generic in 2.M.12);
+#   "interpret expressions without evaluating" (5.OA.A.2); fraction operations on line-plot data (5.MD.B.2);
+#   3.OA.C.7 division fluency and products from memory move to grade 4 (4.MF.1-2); grade 3 memory is facts for 0,1,2,5,10 only (3.MF.2);
+#   no explicit making-ten or other named strategies (1.OA.C.6); 3D shape comparison in K (K.G.B.4).
+#
+# NOTABLE NON-CCSS CONTENT
+# - New: K.M.3 (clock and time of day), K.M.4 (calendar), 2.N.5 (distance to next/previous ten or hundred), 2.G.3 (regular vs irregular shapes),
+#   3.G.4 (polygon or not).
+# - Moved earlier: money from K (pennies, dimes) and grade 1 (all coins, mixed coins to $1) - CCSS has money only in 2.MD.C.8;
+#   grade 1 subtracts a one-digit from a two-digit number (CCSS 2.NBT.B.5); grade 2 elapsed time (3.MD.A.1), quadrilateral types (3.G.A.1);
+#   grade 3 four-digit place value and numbers to 10,000 (4.NBT.A.2), money with decimals (2.MD.C.8 + 4.NF.C.6), polygons by sides (2.G.A.1);
+#   grade 4 order of operations without parentheses (3.OA.D.8 note / 5.OA.A.1).
+# - Moved later: all multiplication and division facts from memory in grade 4 (CCSS 3.OA.C.7).
+# - Higher bars: fluency within 20 in grade 1 (CCSS 2.OA.B.2), subtraction facts to 20 from memory in grade 2, fluent multi-digit division in grade 5
+#   (CCSS 6.NS.B.2; not a K-5 code, so 5.MF.2 is mapped to 5.NBT.B.6 as edited).
+# - Also: counting backward (K-2), skip-counting by 2s and 5s, odd/even to 50, bills to $100 in grade 2, customary units for liquid volume and mass
+#   in grade 3, circle and line graphs in grade 3, straight angles, trapezoid as exactly one pair of parallel sides (4.G.7),
+#   equilateral/scalene/isosceles triangles (4.G.9, 5.G.10), additive identity property (1.OA.2, 2.OA.1, 3.OA.8, 4.OA.12).
+#
+# UNCERTAINTIES / CONVENTIONS
+# - kind: "same" = CCSS content at the same grade with nothing added, including a standard that covers only part of one CCSS standard
+#   (SD often splits one CCSS standard into several, e.g. 3.M.1-3.M.8, 5.G.11-5.G.14). "edited" = same grade but content added, limits changed,
+#   or a grade-level shift in expectation. "moved" = main content is CCSS from another grade (that code in ccss). "new" = no CCSS counterpart.
+# - Money rows (K.M.5, K.M.6, 1.M.4, 1.M.5) marked moved from 2.MD.C.8; could be read as new.
+# - Properties standards 2.OA.1 and 4.OA.12 mapped to 2.NBT.B.5 / 4.NBT.B.5 (CCSS uses properties inside those strategy standards).
+# - K.MF.3 (recognizing small amounts at a glance, i.e. subitizing) mapped to K.CC.B.5 as edited; could be new.
+# - 1.MF.1-2 list 2.OA.B.2 because fluency within 20 is CCSS grade 2; 2.M.8 (time problems in 5-minute steps) mapped to 3.MD.A.1.
+# - 3.MF.2 wording ("multiplication facts (0-12) to include 0, 1, 2, 5, and 10") is ambiguous; read as facts with those factors.
+# - Text was extracted from the PDF; inequality symbols and some italic variables (n, x, y, a/b) are displaced in extraction, which does not change codes.

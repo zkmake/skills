@@ -1,0 +1,193 @@
+state_code	grade	ccss	kind	summary
+MT.K.CC.1	K	K.CC.A.1	same	
+MT.K.CC.2	K	K.CC.A.2	same	
+MT.K.CC.3	K	K.CC.A.3	same	
+MT.K.CC.4	K	K.CC.B.4	edited	Connect counting to quantity: each next number name means one more object.
+MT.K.CC.5	K	K.CC.B.5	same	
+MT.K.CC.6	K	K.CC.C.6	same	
+MT.K.CC.7	K	K.CC.C.7	same	
+MT.K.OA.1	K	K.OA.A.1	same	
+MT.K.OA.2	K	K.OA.A.2	same	
+MT.K.OA.3	K	K.OA.A.3	same	
+MT.K.OA.4	K	K.OA.A.4	same	
+MT.K.OA.5	K	K.OA.A.5	same	
+MT.K.OA.6	K	1.OA.B.3	moved	Notice that adding numbers in either order gives the same total (commutative property).
+MT.K.NBT.1	K	K.NBT.A.1	same	
+MT.K.MD.1	K	K.MD.A.1	same	
+MT.K.MD.2	K	K.MD.A.2	same	
+MT.K.MD.3	K	K.MD.B.3	same	
+MT.K.MD.4	K	2.MD.C.8	moved	Describe coins and know their names.
+MT.K.MD.5	K		new	Talk about time in days, months, years and seasons.
+MT.K.G.1	K	K.G.A.1	edited	Describe where objects are relative to each other (above, beside, behind); naming shapes is left out.
+MT.K.G.2	K	K.G.A.2	same	
+MT.K.G.3	K	K.G.A.3	same	
+MT.K.G.4	K	K.G.B.4	same	
+MT.K.G.5	K	K.G.B.5	same	
+MT.K.G.6	K	K.G.B.6	same	
+MT.1.OA.1	1	1.OA.A.1	same	
+MT.1.OA.2	1	1.OA.A.2	same	
+MT.1.OA.3	1	1.OA.B.3	edited	Break apart and recombine numbers flexibly to add and subtract.
+MT.1.OA.4	1	1.OA.B.4	same	
+MT.1.OA.5	1	1.OA.C.5	same	
+MT.1.OA.6	1	1.OA.C.6	same	Add and subtract within 10 flexibly, accurately and efficiently.
+MT.1.OA.7	1	1.OA.C.6	same	Use several strategies to add and subtract within 20.
+MT.1.OA.8	1	1.OA.D.7	same	
+MT.1.OA.9	1	1.OA.D.8	same	
+MT.1.NBT.1	1	1.NBT.A.1	same	
+MT.1.NBT.2	1	1.NBT.B.2	same	
+MT.1.NBT.3	1	1.NBT.B.3	same	
+MT.1.NBT.4	1	1.NBT.C.4	same	
+MT.1.NBT.5	1	1.NBT.C.5	same	
+MT.1.NBT.6	1	1.NBT.C.6	edited	Subtract a multiple of 10 from any two-digit number.
+MT.1.MD.1	1	1.MD.A.1	same	
+MT.1.MD.2	1	1.MD.A.2	same	
+MT.1.MD.3	1	1.MD.B.3	same	
+MT.1.MD.4	1	2.MD.C.8	moved	Know the value of each coin.
+MT.1.MD.5	1	1.MD.C.4	same	
+MT.1.G.1	1	1.G.A.1	same	Tell defining attributes of shapes from non-defining ones like color or size.
+MT.1.G.2	1	1.G.A.1	same	Build and draw shapes that have given defining attributes.
+MT.1.G.3	1	1.G.A.2	same	
+MT.1.G.4	1	1.G.A.3	same	
+MT.2.OA.1	2	2.OA.A.1	same	
+MT.2.OA.2	2	2.OA.B.2	edited	Add and subtract within 20 using mental strategies; no explicit from-memory goal for one-digit sums.
+MT.2.OA.3	2	2.OA.C.3	same	
+MT.2.OA.4	2	2.OA.C.4	same	
+MT.2.NBT.1	2	2.NBT.A.1	same	
+MT.2.NBT.2	2	2.NBT.A.2	same	Skip-count by 5s, 10s and 100s.
+MT.2.NBT.3	2	2.NBT.A.2,2.NBT.A.3	same	Count, read, write and represent numbers up to 1000.
+MT.2.NBT.4	2	2.NBT.A.4	same	
+MT.2.NBT.5	2	2.NBT.B.5	same	
+MT.2.NBT.6	2	2.NBT.B.6	same	
+MT.2.NBT.7	2	2.NBT.B.7	same	
+MT.2.NBT.8	2	2.NBT.B.8	same	
+MT.2.NBT.9	2	2.NBT.B.9	same	
+MT.2.MD.1	2	2.MD.A.1	same	
+MT.2.MD.2	2	2.MD.A.2	same	
+MT.2.MD.3	2	2.MD.A.3	same	
+MT.2.MD.4	2	2.MD.A.4	same	
+MT.2.MD.5	2	2.MD.B.5	same	
+MT.2.MD.6	2	2.MD.B.6	same	
+MT.2.MD.7	2	2.MD.C.7	same	
+MT.2.MD.8	2	2.MD.C.8	same	
+MT.2.MD.9	2	2.MD.D.9	edited	Collect measurement data and show it in several ways, not only a line plot.
+MT.2.MD.10	2	2.MD.D.10	same	Organize, show and interpret data with up to four categories.
+MT.2.MD.11	2	2.MD.D.10	edited	Solve addition and subtraction problems of all types using data shown in a graph or table.
+MT.2.G.1	2	2.G.A.1	same	
+MT.2.G.2	2	2.G.A.2	same	
+MT.2.G.3	2	2.G.A.3	same	
+MT.3.OA.1	3	3.OA.A.1	same	
+MT.3.OA.2	3	3.OA.A.2	same	
+MT.3.OA.3	3	3.OA.A.3	same	
+MT.3.OA.4	3	3.OA.A.4	same	
+MT.3.OA.5	3	3.OA.B.5	same	
+MT.3.OA.6	3	3.OA.B.6	same	
+MT.3.OA.7	3	3.OA.C.7	same	
+MT.3.OA.8	3	3.OA.D.8	same	
+MT.3.OA.9	3	3.OA.D.9	same	
+MT.3.NBT.1	3	3.NBT.A.1	same	
+MT.3.NBT.2	3	3.NBT.A.2	same	
+MT.3.NBT.3	3	3.NBT.A.3	same	
+MT.3.NF.1	3	3.NF.A.1	same	
+MT.3.NF.2	3	3.NF.A.2	same	
+MT.3.NF.3	3	3.NF.A.3	same	
+MT.3.MD.1	3	3.MD.A.1	same	
+MT.3.MD.2	3	3.MD.A.2	edited	Measure and estimate liquid volume and mass in customary and metric units; solve one-step problems.
+MT.3.MD.3	3	3.MD.B.3	same	
+MT.3.MD.4	3	3.MD.B.4	same	
+MT.3.MD.5	3	3.MD.C.5	same	
+MT.3.MD.6	3	3.MD.C.6	same	
+MT.3.MD.7	3	3.MD.C.7	same	
+MT.3.MD.8	3	3.MD.D.8	same	
+MT.3.G.1	3	3.G.A.1	same	
+MT.3.G.2	3	3.G.A.2	same	
+MT.4.OA.1	4	4.OA.A.1	same	
+MT.4.OA.2	4	4.OA.A.2	same	
+MT.4.OA.3	4	4.OA.A.3	same	
+MT.4.OA.4	4	4.OA.B.4	edited	Find factor pairs and primes to 100; test whether numbers up to 1000 are multiples of a one-digit number.
+MT.4.OA.5	4	4.OA.C.5	same	
+MT.4.NBT.1	4	4.NBT.A.1	same	
+MT.4.NBT.2	4	4.NBT.A.2	same	
+MT.4.NBT.3	4	4.NBT.A.3	same	
+MT.4.NBT.4	4	4.NBT.B.4	same	
+MT.4.NBT.5	4	4.NBT.B.5	same	
+MT.4.NBT.6	4	4.NBT.B.6	same	
+MT.4.NF.1	4	4.NF.A.1	same	
+MT.4.NF.2	4	4.NF.A.2	same	
+MT.4.NF.3	4	4.NF.B.3	same	
+MT.4.NF.4	4	4.NF.B.4	same	
+MT.4.NF.5	4	4.NF.C.5	same	
+MT.4.NF.6	4	4.NF.C.6	same	
+MT.4.NF.7	4	4.NF.C.7	same	
+MT.4.MD.1	4	4.MD.A.1	same	
+MT.4.MD.2	4	4.MD.A.2	same	
+MT.4.MD.3	4	4.MD.A.3	same	
+MT.4.MD.4	4	4.MD.B.4	same	
+MT.4.MD.5	4	4.MD.C.5	same	
+MT.4.MD.6	4	4.MD.C.6	same	
+MT.4.MD.7	4	4.MD.C.7	same	
+MT.4.G.1	4	4.G.A.1	same	
+MT.4.G.2	4	4.G.A.2	same	
+MT.4.G.3	4	4.G.A.3	same	
+MT.5.OA.1	5	5.OA.A.1	same	
+MT.5.OA.2	5	5.OA.A.2	same	
+MT.5.OA.3	5	5.OA.B.3	same	
+MT.5.NBT.1	5	5.NBT.A.1	same	
+MT.5.NBT.2	5	5.NBT.A.2	same	
+MT.5.NBT.3	5	5.NBT.A.3	same	
+MT.5.NBT.4	5	5.NBT.A.4	same	
+MT.5.NBT.5	5	5.NBT.B.5	same	
+MT.5.NBT.6	5	5.NBT.B.6	same	
+MT.5.NBT.7	5	5.NBT.B.7	same	
+MT.5.NF.1	5	5.NF.A.1	same	
+MT.5.NF.2	5	5.NF.A.2	same	
+MT.5.NF.3	5	5.NF.B.3	same	
+MT.5.NF.4	5	5.NF.B.4	same	
+MT.5.NF.5	5	5.NF.B.5	same	
+MT.5.NF.6	5	5.NF.B.6	same	
+MT.5.NF.7	5	5.NF.B.7	same	
+MT.5.MD.1	5	5.MD.A.1	same	
+MT.5.MD.2	5	5.MD.B.2	same	
+MT.5.MD.3	5	5.MD.C.3	same	
+MT.5.MD.4	5	5.MD.C.4	same	
+MT.5.MD.5	5	5.MD.C.5	same	
+MT.5.G.1	5	5.G.A.1	same	
+MT.5.G.2	5	5.G.A.2	same	
+MT.5.G.3	5	5.G.B.3	same	
+MT.5.G.4	5	5.G.B.4	same	
+# SOURCES
+# - 2026 Montana Mathematics Content Standards (OPI, "Adopted 2025, Implemented 2026"; effective July 1, 2026), K-5 on pp. 35-49:
+#   https://opifiles.mt.gov/Portals/182/Page%20Files/K-12%20Content%20Standards%20%26%20Revision/Math/PK-12%20Montana%20Math%20Standards_PUBLIC.pdf
+# - Official correspondence to CCSS (Appendix A, 2025-07-02):
+#   https://opifiles.mt.gov/Portals/182/Page%20Files/K-12%20Content%20Standards%20&%20Revision/Appendix%20A%20Corresponding%20Standards_2025.07.02.pdf
+# - Rule text, ARM 10.53.502-10.53.507 "[Effective 7/1/2026] ... version 2" (checked K-5 wording and item counts; they match the OPI document):
+#   https://www.law.cornell.edu/regulations/montana/Mont-Admin-r-10.53.502_v2 (and _503_v2 ... _507_v2)
+# - OPI math standards page: https://opi.mt.gov/Educators/Teaching-Learning/K-12-Content-Standards/Mathematics-Standards
+#
+# HOW MONTANA WRITES CODES
+# - OPI writes MT.<grade>.<domain>.<number>, e.g. MT.K.CC.1, MT.3.NF.2 (no cluster letters; sub-bullets are not coded). Used here as state_code.
+# - The ARM rule numbers the same items by grade rule and letter: ARM 10.53.502 = K, .503 = grade 1 ... .507 = grade 5;
+#   e.g. MT.K.CC.1 = ARM 10.53.502(1)(a), MT.K.OA.6 = 10.53.502(2)(f). Domain/letter order matches the MT code numbering.
+# - Numbering diverges from CCSS where Montana added or split standards: grade 1 OA 7-9, MD 4-5, G 2-4; K OA.6, MD.4-5; grade 2 MD.11.
+#
+# CCSS K-5 STANDARDS DROPPED
+# - None entirely. Partly dropped or narrowed:
+#   K.CC.B.4a/4b (one-to-one counting, last number = count) not stated; K.G.A.1 naming shapes in the environment not stated;
+#   1.OA.B.3 properties as strategies replaced by compose/decompose (commutativity moved to K.OA.6; associativity not stated);
+#   2.OA.B.2 "know from memory all sums of two one-digit numbers" not stated; 2.MD.D.9 line plot not required (any display).
+# - Many standards are shortened restatements that drop CCSS examples, limits and sub-parts (e.g. 2.OA.C.4 5x5 limit, 4.MD.A.1 unit list); marked "same".
+#
+# NOTABLE NON-CCSS CONTENT
+# - K: commutative property (K.OA.6), coin names (K.MD.4), days/months/years/seasons (K.MD.5).
+# - Grade 1: coin values (1.MD.4); subtract multiples of 10 from any two-digit number (1.NBT.6).
+# - Grade 3: customary units for liquid volume and mass (3.MD.2). Grade 4: multiples test up to 1000 (4.OA.4).
+# - Many standards add "should incorporate cultural context relating to Montana Indigenous Peoples and local communities" (Indian Education for All);
+#   this is a context requirement, not math content, and did not change "kind".
+#
+# UNSURE / NOTES
+# - Official Appendix A errors/differences: MT.K.CC.4 is listed as "CCSS.K.CC.B.1 and K.CC.B.1.c" (no such codes; K.CC.B.4/4c meant);
+#   MT.3.MD.8 listed as 3.MD.C.8 (real code 3.MD.D.8); grade 4 MD/G and grade 5 NF/MD/G codes are missing cluster letters or grade numbers.
+# - Appendix A says MT.1.G.2 (build/draw shapes with defining attributes) and MT.2.MD.11 (solve problems from data) have no CCSS match;
+#   their content is the second half of 1.G.A.1 and 2.MD.D.10, so they are mapped there.
+# - K.OA.6 marked "moved" from 1.OA.B.3; K.MD.4 and 1.MD.4 (coins) marked "moved" from 2.MD.C.8 (CCSS never states coin identification); Appendix A says "no corresponding standard" for all three.
+# - MT.2.NBT.3 also given 2.NBT.A.2 because "count within 1000" moved out of MT.2.NBT.2 into it.
+# - kind is judged on content against CCSS 2010; Montana's shortened wording often omits CCSS examples and number limits.

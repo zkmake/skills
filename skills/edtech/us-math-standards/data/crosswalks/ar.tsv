@@ -1,0 +1,212 @@
+state_code	grade	ccss	kind	summary
+K.NPV.1	K	K.CC.A.1,K.CC.A.2	same	Count to 100 by ones and tens, and count on from any number up to 100.
+K.NPV.2	K	K.CC.B.4,K.CC.B.5	same	Count up to 20 objects one by one; the last number said tells how many.
+K.NPV.3	K		new	Name the position of objects in a line with ordinal words such as first, second, third.
+K.NPV.4	K		new	Recognize how many items (0 to 10) are in a small set at a glance, without counting.
+K.NPV.5	K	K.CC.A.3	same	Read, write and show whole numbers from 0 to 20.
+K.NPV.6	K	K.NBT.A.1	same	Show numbers up to 20 as a ten and some ones using objects or drawings.
+K.NPV.7	K	K.CC.C.6	same	Compare two groups of up to 10 objects by matching or counting: more, fewer or equal.
+K.NPV.8	K	K.CC.C.7	same	Compare two whole numbers using the words greater than, less than or equal.
+K.CAR.1	K	K.OA.A.1	same	Show adding and taking away within 10 with objects, fingers, drawings, sounds or acting out.
+K.CAR.2	K	K.OA.A.3	same	Break numbers up to 10 into two parts in more than one way and record each way.
+K.CAR.3	K	K.OA.A.4	same	Find the number that goes with a given number to make 10, shown with a drawing or equation.
+K.CAR.4	K	K.OA.A.5,1.OA.C.6	edited	Add and subtract fluently within 10 (CCSS kindergarten fluency stops at 5).
+K.CAR.5	K	K.OA.A.2	same	Solve everyday addition and subtraction story problems within 10 using objects, drawings or equations.
+K.GM.1	K	K.G.A.1	same	Describe where objects and shapes are using words like above, below, beside, inside, left, right.
+K.GM.2	K	K.G.A.2	same	Name flat and solid shapes correctly whatever their size or which way they face.
+K.GM.3	K	K.G.A.3	edited	Find flat-shape features, such as faces, on solid objects.
+K.GM.4	K	K.G.B.4	same	Sort flat and solid shapes and describe how they are alike and different in everyday words.
+K.GM.5	K	K.G.B.5	same	Build and draw shapes seen in the world with materials like straws or clay.
+K.GM.6	K	K.MD.A.1,K.MD.A.2	edited	Directly compare two objects by length, capacity, weight or temperature (temperature is extra).
+K.GM.7	K		new	Understand time ideas like morning, yesterday, week and month, and that clocks and calendars measure time.
+K.GM.8	K	2.MD.C.8	moved	Recognize pennies and dimes by name and value.
+K.DA.1	K	K.MD.B.3	edited	Collect and sort data into two or three groups and show it with real-object or picture graphs.
+1.NPV.1	1	1.NBT.A.1	edited	Count forward and backward within 120 by ones and tens from any number.
+1.NPV.2	1	2.NBT.A.2	moved	Skip count forward by fives within 120.
+1.NPV.3	1	1.NBT.B.2	same	Explain what the tens digit and ones digit mean in a two-digit number.
+1.NPV.4	1	1.NBT.A.1	edited	Read, write and show numbers up to 120 with models, words, numerals and expanded form.
+1.NPV.5	1	1.NBT.C.6	same	Subtract a multiple of 10 from a multiple of 10 (10 to 90) with models and explain.
+1.NPV.6	1	1.NBT.C.5	same	Find 10 more or 10 less than a two-digit number in your head.
+1.NPV.7	1	1.NBT.B.3	same	Compare two two-digit numbers with <, = and > using tens and ones.
+1.NPV.8	1	1.G.A.3	same	Split circles and rectangles into halves and fourths; more equal parts means smaller parts.
+1.CAR.1	1	1.OA.C.6	same	Add and subtract within 10 fluently by the end of first grade.
+1.CAR.2	1	1.OA.C.6	same	Add and subtract within 20 using objects and a range of strategies.
+1.CAR.3	1	1.OA.B.3	same	Use properties of operations, like changing order, to add and subtract within 20.
+1.CAR.4	1	1.NBT.C.4	same	Add within 100 (two-digit plus one-digit or a multiple of ten) with models; explain the strategy.
+1.CAR.5	1	1.OA.B.4	same	Show how addition and subtraction undo each other by solving problems with the inverse operation.
+1.CAR.6	1	1.OA.A.1	same	Solve addition and subtraction story problems within 20 of all types, with the unknown anywhere.
+1.CAR.7	1	1.OA.A.2	same	Solve story problems that add three whole numbers with a total of 20 or less.
+1.CAR.8	1	1.OA.D.7	same	Use the meaning of the equal sign to decide whether addition or subtraction equations are true.
+1.CAR.9	1	1.OA.D.8	same	Find the missing number in an addition or subtraction equation with three whole numbers.
+1.GM.1	1	1.G.A.1	same	Tell defining features of shapes from non-defining ones and build or draw shapes with those features.
+1.GM.2	1	1.G.A.2	same	Put flat or solid shapes together to make a new composite shape.
+1.GM.3	1	1.MD.A.2	same	Measure length by laying copies of a shorter unit end to end with no gaps or overlaps.
+1.GM.4	1	1.MD.A.1	same	Order three objects by length and compare two lengths indirectly using a third object.
+1.GM.5	1	1.MD.B.3	same	Tell and write time to the hour and half hour on analog clocks; read digital clocks.
+1.GM.6	1	2.MD.C.8	moved	Name pennies, nickels, dimes and quarters and know what each is worth.
+1.GM.7	1	2.MD.C.8	moved	Count sets of the same coin (pennies, nickels or dimes) to find totals up to 100 cents.
+1.DA.1	1	1.MD.C.4	same	Organize, show and read data in up to three categories with tallies, picture or bar graphs.
+1.DA.2	1	1.MD.C.4	same	Answer questions about data: total, how many in each category, how many more or fewer.
+2.NPV.1	2	2.NBT.A.2	edited	Count forward and backward within 1,000 by ones, tens and hundreds from any number.
+2.NPV.2	2	2.NBT.A.1	same	Tell the value of the hundreds, tens and ones digits in a three-digit number.
+2.NPV.3	2	2.NBT.A.3	same	Read, write and show numbers to 1,000 with models, number names and expanded forms.
+2.NPV.4	2	2.NBT.B.8	same	Mentally add or subtract 10 or 100 to or from numbers between 100 and 900.
+2.NPV.5	2	2.NBT.A.4	same	Compare two three-digit numbers with <, = and > using place values.
+2.NPV.6	2	2.G.A.3	same	Split circles and rectangles into two, three or four equal parts named halves, thirds, fourths.
+2.NPV.7	2	2.G.A.3	same	See that equal parts of the same whole can have different shapes.
+2.CAR.1	2	2.OA.B.2	same	Add and subtract within 20 fluently using mental strategies by the end of second grade.
+2.CAR.2	2	2.NBT.B.5	same	Add and subtract within 100 fluently using place value, properties or inverse operations.
+2.CAR.3	2	2.NBT.B.6	edited	Add up to four two-digit numbers when the total is 100 or less.
+2.CAR.4	2	2.MD.B.6	same	Use a number line to solve addition and subtraction problems within 100.
+2.CAR.5	2	2.OA.C.4	same	Use repeated addition to total objects in arrays up to 5 by 5 and write the equation.
+2.CAR.6	2	2.NBT.B.7	same	Add and subtract within 1,000 using models, drawings or equations.
+2.CAR.7	2	2.OA.A.1	same	Solve one- and two-step addition and subtraction story problems within 100 of all types.
+2.CAR.8	2	2.OA.C.3	same	Decide if a group of up to 20 is odd or even; write evens as a double.
+2.GM.1	2	2.G.A.1	same	Identify, describe and draw triangles, pentagons, hexagons and kinds of quadrilaterals.
+2.GM.2	2	2.G.A.1	edited	Describe prisms, cubes and square pyramids by counting their faces, edges and vertices.
+2.GM.3	2	2.MD.A.1,2.MD.A.3	same	Choose a tool, then estimate and measure length to the nearest inch or centimeter.
+2.GM.4	2	2.MD.A.2	same	Measure one object with two units and explain how the numbers relate to unit size.
+2.GM.5	2	2.MD.A.4	same	Measure to find how much longer or shorter one object is than another.
+2.GM.6	2	2.MD.B.5	same	Solve length story problems in one unit using addition and subtraction within 100.
+2.GM.7	2	3.MD.D.8	moved	Find the perimeter of polygons in real-world and math problems.
+2.GM.8	2	2.G.A.2	edited	Split a rectangle into rows and columns of equal squares and count them to find its area.
+2.GM.9	2	2.MD.C.7	same	Tell and write time to the nearest five minutes on analog clocks, with a.m. and p.m.
+2.GM.10	2	4.MD.A.1	moved	Know time relationships: seconds in a minute, minutes in an hour, days, weeks and months in a year.
+2.GM.11	2	3.MD.A.1	moved	Solve problems adding and subtracting time intervals in whole or half hours.
+2.GM.12	2	2.MD.C.8	same	Count mixed coins and solve money problems up to 99 cents or whole dollars.
+2.DA.1	2	2.MD.D.9,2.MD.D.10	same	Show data in up to four categories with bar graphs, picture graphs and line plots.
+2.DA.2	2	2.MD.D.10	same	Solve simple put-together, take-apart and compare problems using graph data.
+3.NPV.1	3	3.NBT.A.1	edited	Round four-digit whole numbers to the nearest 10 or 100 using place value.
+3.NPV.2	3	4.NBT.A.2	moved	Tell the value of thousands, hundreds, tens and ones digits in a four-digit number.
+3.NPV.3	3	4.NBT.A.2	moved	Read and write numbers up to 10,000 as numerals, in words and in expanded forms.
+3.NPV.4	3	4.NBT.A.2	moved	Compare two four-digit numbers with <, = and > using place values.
+3.NPV.5	3	3.NF.A.3	same	Compare two fractions with the same numerator or denominator and justify with models.
+3.NPV.6	3	3.NF.A.1	edited	See fractions as parts of a whole or of a set (denominators 2, 3, 4, 6, 8).
+3.NPV.7	3	3.G.A.2	same	Split squares, hexagons and triangles into equal parts and name each part as a unit fraction.
+3.NPV.8	3	3.NF.A.2	same	Place a unit fraction on a number line.
+3.NPV.9	3	3.NF.A.2	same	Place fractions with numerators above 1, including those greater than one, on a number line.
+3.NPV.10	3	3.NF.A.1,4.NF.B.3	edited	Build a fraction like 3/4 from unit fractions and break it back into a sum of them.
+3.NPV.11	3	3.NF.A.3	same	Use number lines and models to find and explain equivalent fractions.
+3.CAR.1	3	3.NBT.A.2	same	Add and subtract three-digit numbers fluently with place-value strategies and algorithms.
+3.CAR.2	3	3.OA.C.7	edited	Know multiplication and division facts with factors up to 12 by the end of third grade.
+3.CAR.3	3	3.OA.B.5	same	Use commutative, associative and distributive properties as strategies to multiply and divide.
+3.CAR.4	3	3.NBT.A.3	same	Multiply one-digit numbers by multiples of 10 from 10 to 90.
+3.CAR.5	3	3.OA.D.9	same	Find patterns in addition and multiplication tables and explain them with properties.
+3.CAR.6	3	3.OA.A.1,3.OA.A.2,3.OA.A.3	same	Solve multiplication and division problems within 100 with equal groups, arrays and both division meanings.
+3.CAR.7	3	3.OA.D.8	same	Solve two-step problems with all four operations, writing equations with a letter for the unknown.
+3.CAR.8	3	3.OA.A.4	same	Find the missing number in a multiplication or division equation.
+3.CAR.9	3	3.OA.B.6	same	Treat division as finding a missing factor.
+3.GM.1	3	3.G.A.1	same	Understand that quadrilaterals in different groups share features that can define bigger categories.
+3.GM.2	3	4.G.A.1	moved	Spot parallel and perpendicular lines and right angles in shapes and the world around us.
+3.GM.3	3	3.G.A.1	same	Recognize rhombuses, rectangles and squares as quadrilaterals and draw quadrilaterals that are none of these.
+3.GM.4	3	3.MD.B.4	same	Measure lengths to the nearest half and quarter inch with a ruler.
+3.GM.5	3	3.MD.C.5	same	Describe area as the number of unit squares covering a flat shape with no gaps or overlaps.
+3.GM.6	3	3.MD.C.6,3.MD.C.7	same	Find rectangle area by tiling with unit squares and show it matches multiplying the sides.
+3.GM.7	3	3.MD.C.7	same	Multiply side lengths to find rectangle areas in real-world and math problems.
+3.GM.8	3	3.MD.A.2	same	Measure and estimate liquid volumes and masses in standard units.
+3.GM.9	3	3.MD.A.2	same	Solve one-step problems about liquid volume or mass in the same units with any operation.
+3.GM.10	3	3.MD.A.1	same	Tell and write time to the nearest minute on analog clocks.
+3.GM.11	3	3.MD.A.1	same	Solve story problems adding and subtracting time intervals in minutes.
+3.DA.1	3	3.MD.B.3,3.MD.B.4	same	Show data in several categories with scaled picture graphs, scaled bar graphs and line plots.
+3.DA.2	3	3.MD.B.3	same	Solve one- and two-step problems using data in scaled graphs and line plots.
+4.NPV.1	4	4.NBT.A.1	same	Know a digit is worth ten times what it would be one place to the right.
+4.NPV.2	4	4.NBT.A.2	same	Read and write numbers up to 1,000,000 as numerals, in words and in expanded forms.
+4.NPV.3	4	4.NBT.A.3	same	Round five- and six-digit whole numbers to any place.
+4.NPV.4	4	4.NBT.A.2	same	Compare two five- or six-digit numbers and record with <, = or >.
+4.NPV.5	4	4.NF.A.2	same	Compare fractions with different numerators and denominators using common parts or benchmarks like 1/2.
+4.NPV.6	4	4.NF.C.7	same	Compare two decimals to hundredths and record with <, = or >.
+4.NPV.7	4	4.NF.B.3	same	Break fractions, including mixed numbers and fractions over one, into unit fractions using models.
+4.NPV.8	4	4.NF.A.1	same	Explain with models why multiplying top and bottom by the same number gives an equivalent fraction.
+4.NPV.9	4	4.NF.C.5	same	Add tenths and hundredths by rewriting the tenths as hundredths.
+4.NPV.10	4	4.NF.C.6	same	Write fractions with denominators 10 or 100 as decimals.
+4.CAR.1	4	4.OA.B.4	same	Find factor pairs for numbers 1 to 100, sort prime from composite, and spot multiples.
+4.CAR.2	4	4.NBT.B.4	same	Add and subtract whole numbers up to 1,000,000 fluently, including the standard algorithm.
+4.CAR.3	4	4.NBT.B.5	same	Multiply four-digit by one-digit numbers and two-digit by two-digit numbers using place value.
+4.CAR.4	4	4.NBT.B.6	same	Divide up to four-digit numbers by one-digit divisors, with or without remainders.
+4.CAR.5	4	4.NF.B.3	same	Add and subtract fractions and mixed numbers with like denominators using models and equations.
+4.CAR.6	4	4.NF.B.4	same	Multiply a fraction by a whole number using models and equations.
+4.CAR.7	4	4.OA.A.1,4.OA.A.2	same	Solve times-as-many comparison problems and tell them apart from additive comparisons.
+4.CAR.8	4	4.OA.A.3	same	Solve multi-step whole-number story problems with all four operations, interpreting remainders.
+4.CAR.9	4	4.NF.B.3	same	Solve story problems adding and subtracting fractions and mixed numbers with like denominators.
+4.CAR.10	4	4.NF.B.4	same	Solve story problems multiplying a fraction by a whole number.
+4.CAR.11	4	4.OA.C.5	same	Make a number or shape pattern from a rule and notice features the rule does not state.
+4.GM.1	4	4.MD.C.5	same	Understand angles as two rays from one endpoint, measured in degrees as parts of a circle.
+4.GM.2	4	4.MD.C.6	same	Measure angles in whole degrees with a protractor and draw angles of a given size.
+4.GM.3	4	4.MD.C.7	same	Find unknown angles by adding or subtracting when an angle is split into parts.
+4.GM.4	4	4.G.A.1	same	Draw and identify points, lines, segments, rays, right, acute and obtuse angles, parallel and perpendicular lines.
+4.GM.5	4	4.G.A.2	same	Sort triangles and quadrilaterals by parallel or perpendicular sides and angle sizes.
+4.GM.6	4	4.G.A.3	same	Identify and draw lines of symmetry in flat figures.
+4.GM.7	4	4.MD.A.3	edited	Use area and perimeter formulas for rectangles and shapes made of rectangles in real situations.
+4.GM.8	4	4.MD.A.1	same	Convert length, weight and liquid volume from larger to smaller units within one system.
+4.GM.9	4	4.MD.A.2	same	Solve real-world time interval problems that may cross the hour.
+4.GM.10	4	4.MD.A.2	same	Solve money problems with addition and subtraction, including making change.
+4.GM.11	4	4.MD.A.2	same	Solve distance, liquid volume and mass problems, including converting larger units to smaller.
+4.DA.1	4	3.MD.B.3	moved	Gather data from observations, surveys or experiments and show it in frequency tables and scaled bar graphs.
+4.DA.2	4	4.MD.B.4	same	Make line plots of fractional measurements and solve like-denominator add and subtract problems from them.
+5.NPV.1	5	5.NBT.A.1	same	A digit is worth ten times the place to its right and a tenth of the left.
+5.NPV.2	5	5.NBT.A.2	same	Explain zero and decimal-point patterns when multiplying or dividing by powers of 10; use exponents.
+5.NPV.3	5	5.NBT.A.3	same	Read and write decimals to thousandths as numerals, in words and in expanded forms.
+5.NPV.4	5	5.NBT.A.4	same	Round decimals to any place up to thousandths.
+5.NPV.5	5	5.NBT.A.3	same	Compare two decimals to thousandths by place value and record with <, = or >.
+5.NPV.6	5	5.NF.B.5	same	Use models to explain how multiplying by a fraction above or below one changes a whole number.
+5.CAR.1	5	5.NBT.B.5	same	Multiply multi-digit whole numbers fluently, including the standard algorithm.
+5.CAR.2	5	5.NBT.B.6	same	Divide up to four-digit dividends by two-digit divisors using place value and divisibility rules.
+5.CAR.3	5	5.NBT.B.7	same	Add and subtract decimals to hundredths with models and place-value strategies.
+5.CAR.4	5	5.NBT.B.7	same	Multiply and divide decimals to hundredths with models and place-value strategies.
+5.CAR.5	5	5.NF.A.1,5.NF.A.2	same	Add and subtract fractions and mixed numbers with unlike denominators using common denominators, including word problems.
+5.CAR.6	5	5.NF.B.3	same	Understand a fraction a/b as a divided by b and solve problems that way.
+5.CAR.7	5	5.NF.B.4	same	Multiply whole numbers by fractions and fractions by fractions, including mixed numbers, with models.
+5.CAR.8	5	5.NF.B.7	same	Divide unit fractions by whole numbers and whole numbers by unit fractions.
+5.CAR.9	5	5.NF.B.6	same	Solve and write real-world problems that multiply fractions and mixed numbers.
+5.CAR.10	5	5.NF.B.3	same	Solve story problems dividing whole numbers where the answer is a fraction or mixed number.
+5.CAR.11	5	5.NF.B.7	same	Solve story problems dividing unit fractions by whole numbers and the reverse, using models.
+5.CAR.12	5	5.OA.A.1	edited	Evaluate expressions with parentheses, brackets and powers of ten using order of operations.
+5.CAR.13	5	5.OA.A.2	same	Write simple expressions for calculations and interpret them without working them out.
+5.CAR.14	5	5.OA.B.3	same	Make two number patterns from two rules and graph matching terms in the first quadrant.
+5.GM.1	5	5.G.B.3,5.G.B.4	same	Classify triangles and quadrilaterals (including kites) in a hierarchy based on their properties.
+5.GM.2	5	5.NF.B.4	same	Find areas of rectangles with fraction or mixed-number sides by tiling and by multiplying.
+5.GM.3	5	5.MD.C.3,5.MD.C.4	same	Measure volume by counting unit cubes in cubic cm, inches, feet or made-up units.
+5.GM.4	5	5.MD.C.5	same	Use the formulas l x w x h or B x h for rectangular prism volume problems.
+5.GM.5	5	5.MD.C.5	same	Find volume of a solid made of two rectangular prisms by adding their volumes.
+5.GM.6	5	5.MD.A.1	same	Convert between units in one measurement system and solve multi-step problems with conversions.
+5.GM.7	5	5.G.A.1	same	Graph whole-number points in the first quadrant and explain how coordinates match the axes.
+5.GM.8	5	5.G.A.2	same	Graph points to represent real-world problems and interpret what the coordinates mean.
+5.DA.1	5		new	Gather data and show it in frequency tables, scaled bar graphs and scaled line graphs.
+5.DA.2	5	5.MD.B.2	same	Make line plots of fractional measurements and solve problems using fraction operations on them.
+#
+# SOURCES (Arkansas Mathematics Standards, adopted 2023; DESE page checked 2026-10-01 still lists them as current)
+# - Standards: https://dese.ade.arkansas.gov/Files/AR_2023_K-8,_Alg,_Geo_Math_Standards_LS_6.21.23_LS.docx (also .pdf at the same path)
+# - Page: https://dese.ade.arkansas.gov/Offices/learning-services/curriculum-support/mathematics-standards-and-courses
+# - Support documents (notes, no CCSS links): K-2 https://docs.google.com/document/d/1b8-w9cQpOSjk6QVMkp7_3umxir5W57qbrNTlCs6B2CE ; 3-5 https://docs.google.com/document/d/1eVi9vE6VxxpZZGtZW3XWr5v641rmbVCu36Ykqz0zUWM
+# - No official Arkansas-to-CCSS (or 2016-to-2023) crosswalk was found on the DESE page; every ccss mapping here is my own reading of the text.
+#
+# STRANDS (code = grade.STRAND.number; no lettered sub-parts in K-5)
+# - NPV = Number & Place Value (clusters: Counting/Counting & Number Foundations, Place Value, Comparison, Fraction Foundations, Equivalent Fractions)
+# - CAR = Computation & Algebraic Reasoning (Operations & Properties, Problem Solving, Algebraic Concepts)
+# - GM = Geometry & Measurement (Shapes, Measurement Concepts, Length & Width, Perimeter/Area/Volume, Time & Money, Conversions, Coordinate Plane System)
+# - DA = Data Analysis (Charts, Graphs, & Tables)
+# - Process standards (Standards for Mathematical Practice) are not coded in the K-5 tables and are skipped.
+#
+# CCSS K-5 STANDARDS DROPPED OR NOT FOUND
+# - K.G.B.6 (compose simple shapes into larger shapes): not in K; composite shapes start at 1.GM.2.
+# - 1.OA.C.5 (relate counting to addition/subtraction): no matching standard.
+# - 2.NBT.B.9 (explain why add/subtract strategies work): no matching standard.
+# - 3.MD.D.8 (perimeter): not in grade 3; perimeter is at 2.GM.7 (polygons) and 4.GM.7 (formulas).
+# Partly dropped or narrowed:
+# - 3.NF.A.3c (whole numbers as fractions) is not stated outright (3.NPV.9 has fractions greater than one on a number line).
+# - 3.MD.C.7 parts b-d (distributive area models, rectilinear figures) are not spelled out in grade 3; composite rectangles come in 4.GM.7.
+# - 5.NBT.B.7 division of decimals is kept (5.CAR.4).
+#
+# NOTABLE NON-CCSS / EARLIER CONTENT
+# - New: ordinal numbers (K.NPV.3), subitizing (K.NPV.4), time concepts with calendars (K.GM.7), temperature comparison (in K.GM.6), line graphs (5.DA.1).
+# - Moved earlier: coins in K and grade 1 (K.GM.8, 1.GM.6, 1.GM.7), skip counting by 5 in grade 1, perimeter and time intervals in grade 2,
+#   four-digit place value in grade 3, parallel/perpendicular in grade 3, frequency tables and bar graphs in grade 4 (marked moved from 3.MD.B.3).
+# - Fact fluency: K within 10, grade 3 facts to 12 x 12.
+#
+# UNSURE / NOTES
+# - K.GM.3 (two-dimensional features of solid objects) mapped to K.G.A.3 as edited; it could also be read as new.
+# - 2.GM.10 (time unit relationships) mapped to 4.MD.A.1 as moved; days/weeks/months in a year have no CCSS counterpart.
+# - 3.NPV.10 (compose/decompose a fraction from unit fractions) listed as edited with 3.NF.A.1 and 4.NF.B.3 because it mixes grade 3 meaning with the grade 4 sum idea.
+# - 3.NPV.2-3.NPV.4 (four-digit numbers) mapped to 4.NBT.A.2 as moved: CCSS stops grade 3 place value at 1,000.
+# - 2.GM.8 counts squares as "area"; mapped to 2.G.A.2 as edited.
+# - kind is judged on content: same = CCSS content with only rewording or small example changes.

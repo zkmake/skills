@@ -1,0 +1,109 @@
+state_code	grade	ccss	kind	summary
+K.CC.1a	K	K.CC.A.1	same	Count to 100 by ones and by tens.
+K.CC.1b	K		new	Count backward by ones from 20.
+K.CC.3	K	K.CC.A.3	same	Write numerals 0 to 20 and use one to show how many objects (0 for none).
+K.CC.4	K	K.CC.B.4	edited	Count objects one-to-one, know the last number is the total, and next is one more, previous one less.
+K.OA.2	K	K.OA.A.2	same	Solve addition and subtraction story problems within 10 using objects or drawings.
+K.OA.3	K	K.OA.A.3	same	Break numbers up to 10 into two parts in more than one way.
+K.OA.4	K	K.OA.A.4	same	For a number from 1 to 9, find the number that makes 10 with it.
+K.OA.5	K	K.OA.A.5	same	Add and subtract within 5 fluently.
+K.MD.3	K	K.MD.B.3	same	Sort objects into categories, count each category, and order categories by count (up to 10).
+K.G.2	K	K.G.A.2	same	Name shapes correctly whatever their size or orientation.
+K.G.4	K	K.G.B.4	same	Compare flat and solid shapes, describing how they are alike and different.
+K.G.6	K	K.G.B.6	edited	Put simple shapes together to make squares, rectangles and hexagons.
+1.OA.1	1	1.OA.A.1	same	Solve all types of addition and subtraction story problems within 20, unknown in any position.
+1.OA.6	1	1.OA.C.6	same	Add and subtract within 20, fluent within 10, using counting on and making ten.
+1.OA.7	1	1.OA.D.7	same	Know what the equal sign means and decide if addition/subtraction equations are true or false.
+1.NBT.1	1	1.NBT.A.1	edited	Count forward and backward from any number below 120; read and write numerals to 120.
+1.NBT.2	1	1.NBT.B.2	same	Know the two digits of a two-digit number are tens and ones, including teens and decades.
+1.NBT.4	1	1.NBT.C.4	same	Add within 100 (two-digit plus one-digit or a multiple of 10) with models and place value.
+1.MD.3a	1	1.MD.B.3	same	Tell and write time to the hour and half hour on analog and digital clocks.
+1.MD.3b	1	2.MD.C.8	moved	Identify pennies, nickels, dimes and quarters by their value.
+1.G.1	1	1.G.A.1	same	Tell defining from non-defining shape attributes; build and draw shapes with given attributes.
+1.G.3	1	1.G.A.3	same	Split circles and rectangles into halves and fourths; more shares means smaller shares.
+2.OA.1	2	2.OA.A.1	same	Solve one- and two-step addition and subtraction story problems within 100.
+2.OA.2	2	2.OA.B.2	same	Add and subtract within 20 fluently; know all sums of two one-digit numbers by end of grade 2.
+2.NBT.1	2	2.NBT.A.1	same	Know the digits of a three-digit number are hundreds, tens and ones, including 100 as ten tens.
+2.NBT.1c	2	2.NBT.A.1,2.NBT.B.7	edited	Break a three-digit number into hundreds, tens and ones in several ways, like 4 hundreds 12 tens.
+2.NBT.4	2	2.NBT.A.4	same	Compare three-digit numbers by place value using words and >, =, <.
+2.NBT.5	2	2.NBT.B.5	edited	Add and subtract within 100 with place-value strategies; the word fluently is left out.
+2.NBT.7	2	2.NBT.B.7	same	Add and subtract within 1,000 with models and place value, regrouping when needed.
+2.MD.1	2	2.MD.A.1	same	Measure length by choosing and using rulers, yardsticks, meter sticks or tapes.
+2.MD.7	2	2.MD.C.7	same	Tell and write time to the nearest five minutes with a.m. and p.m.
+2.MD.8	2	2.MD.C.8	edited	Solve money story problems up to $10 with bills and coins, using $ and cent signs.
+2.G.2	2	2.G.A.2	same	Split a rectangle into rows and columns of equal squares and count them.
+2.G.3	2	2.G.A.3	same	Split circles and rectangles into halves, thirds or fourths; equal shares can differ in shape.
+3.OA.7	3	3.OA.C.7	same	Multiply and divide within 100 fluently; know all one-digit products by end of grade 3.
+3.OA.8	3	3.OA.D.8	same	Solve two-step word problems with the four operations, write equations, check with estimation.
+3.NBT.2	3	3.NBT.A.2	same	Add and subtract within 1,000 fluently using place-value strategies and algorithms.
+3.NF.1	3	3.NF.A.1	same	Understand unit fractions 1/b and fractions a/b as a copies of 1/b.
+3.NF.2	3	3.NF.A.2	same	Place fractions on a number line by splitting 0 to 1 into equal parts.
+3.NF.3	3	3.NF.A.3	same	Find simple equivalent fractions, write wholes as fractions, compare same-numerator or same-denominator fractions.
+3.MD.4	3	3.MD.B.4	same	Measure lengths to the half and quarter inch and show the data on a line plot.
+3.MD.7	3	3.MD.C.7	edited	Link rectangle area to multiplication and the distributive property; area of combined rectangles left out.
+3.G.1	3	3.G.A.1	same	Sort quadrilaterals such as rhombuses, rectangles and squares by their attributes.
+4.OA.3	4	4.OA.A.3	same	Solve multi-step whole-number word problems, interpret remainders, and check with estimation.
+4.NBT.2	4	4.NBT.A.2	same	Read, write and compare multi-digit numbers in numerals, words and expanded form.
+4.NBT.3	4	4.NBT.A.3	same	Round multi-digit whole numbers to any place.
+4.NBT.5	4	4.NBT.B.5	same	Multiply up to four digits by one digit, and two digits by two digits, explaining with models.
+4.NBT.6	4	4.NBT.B.6	same	Divide up to four-digit numbers by one-digit numbers, with remainders, explaining with models.
+4.NF.1	4	4.NF.A.1	same	Explain and make equivalent fractions using visual models.
+4.NF.2	4	4.NF.A.2	same	Compare fractions with unlike numerators and denominators using common parts or benchmarks.
+4.NF.3	4	4.NF.B.3	same	Add and subtract fractions and mixed numbers with like denominators, including word problems.
+4.NF.7	4	4.NF.C.7	same	Compare and order decimals to hundredths using models and >, =, <.
+4.MD.3	4	4.MD.A.3	same	Use area and perimeter formulas for rectangles in real and math problems.
+4.MD.7	4	4.MD.C.7	edited	Find unknown angles in diagrams by adding or subtracting angle measures.
+4.G.2	4	4.G.A.2	same	Classify flat shapes by parallel or perpendicular lines and angle types; identify right triangles.
+5.OA.1	5	5.OA.A.1	same	Use and evaluate expressions with parentheses, brackets or braces.
+5.OA.2	5	5.OA.A.2	same	Write simple expressions from calculations and interpret them without evaluating.
+5.NBT.1	5	5.NBT.A.1	same	A digit is worth 10 times the place to its right and 1/10 the place to its left.
+5.NBT.2	5	5.NBT.A.2	same	Explain zero and decimal-point patterns when multiplying or dividing by powers of 10.
+5.NBT.7	5	5.NBT.B.7	same	Add, subtract, multiply and divide decimals to hundredths with models and strategies.
+5.NF.2	5	5.NF.A.2	same	Solve fraction addition and subtraction word problems with unlike denominators and estimate.
+5.NF.3	5	5.NF.B.3	same	See a fraction as division and solve division problems with fraction answers.
+5.NF.6	5	5.NF.B.6	same	Solve real problems multiplying fractions and mixed numbers.
+5.NF.7	5	5.NF.B.7	same	Divide unit fractions by whole numbers and whole numbers by unit fractions, including word problems.
+5.MD.5	5	5.MD.C.5	edited	Find rectangular prism volume by multiplying or with V = lwh or Bh; combined solids left out.
+5.G.2	5	5.G.A.2	same	Plot and interpret points in the first quadrant for real and math situations.
+#
+# SOURCES
+# - 2023 Mathematics WYCPS (Emended Feb. 2025), effective July 17, 2024, full implementation 2025-26 (the current reduced edition):
+#   https://edu.wyoming.gov/wp-content/uploads/2024/01/Math-Ch.-10-WYCPS.pdf
+# - Ch. 10 Rules on Standards (revised Feb 27, 2025; incorporates the PDF above by reference):
+#   https://edu.wyoming.gov/wp-content/uploads/2025/08/WDE-Ch-10-Rules-7.16.25_24898.pdf
+# - WDE fact sheet (SBE reduced the number of standards; standard text not edited): https://edu.wyoming.gov/wp-content/uploads/2025/01/WYCPS-Fact-Sheet.pdf
+# - Cross-check: "All Currently-Adopted Grade 1 Standards" lists the same reduced grade 1 set:
+#   https://edu.wyoming.gov/wp-content/uploads/2024/07/2025-Grade-1-Comprehensive-WYCPS_no-PLDs_public.pdf
+# - No official WY-to-CCSS crosswalk found (the WDE resources site needs a login). WY keeps CCSS domain and standard numbers, so the
+#   mapping is by number plus a reading of each standard against CCSS text.
+#
+# CODE FORMAT
+# - Grade.Domain.Number with a lowercase sub-letter, e.g. K.CC.1b, 1.MD.3a, 2.NBT.1c. No cluster letter. Numbers follow CCSS numbering, so gaps
+#   mark trimmed standards. 1.MD.3a/3b have no parent 1.MD.3 text. The 2023 draft (SBE 2.24.23) printed 1.MD.3 with A/B bullets.
+# - Sub-letters that only restate CCSS sub-parts are folded into the parent row: K.CC.4, 1.NBT.1/2/4, 1.G.3, 2.NBT.1 (a-b), 2.NBT.7, 2.G.3,
+#   3.OA.8, 3.NF.2/3, 3.MD.7, 4.OA.3, 4.NBT.5, 4.NF.2/3, 5.NF.7, 5.MD.5. Kept separately: K.CC.1a/1b, 1.MD.3a/3b, 2.NBT.1c.
+# - Each standard also has a "Proficient student is able to..." PLD (the performance standard) that repeats the standard; not included.
+#
+# CCSS K-5 STANDARDS DROPPED (not covered by any current WY K-5 standard; the Feb 2025 reduction cut ~half of each grade):
+# - K: K.CC.A.2 K.CC.B.5 K.CC.C.6 K.CC.C.7 K.OA.A.1 K.NBT.A.1 K.MD.A.1 K.MD.A.2 K.G.A.1 K.G.A.3 K.G.B.5
+# - 1: 1.OA.A.2 1.OA.B.3 1.OA.B.4 1.OA.C.5 1.OA.D.8 1.NBT.B.3 1.NBT.C.5 1.NBT.C.6 1.MD.A.1 1.MD.A.2 1.MD.C.4 1.G.A.2
+# - 2: 2.OA.C.3 2.OA.C.4 2.NBT.A.2 2.NBT.A.3 2.NBT.B.6 2.NBT.B.8 2.NBT.B.9 2.MD.A.2 2.MD.A.3 2.MD.A.4 2.MD.B.5 2.MD.B.6 2.MD.D.9 2.MD.D.10 2.G.A.1
+# - 3: 3.OA.A.1 3.OA.A.2 3.OA.A.3 3.OA.A.4 3.OA.B.5 3.OA.B.6 3.OA.D.9 3.NBT.A.1 3.NBT.A.3 3.MD.A.1 3.MD.A.2 3.MD.B.3 3.MD.C.5 3.MD.C.6 3.MD.D.8 3.G.A.2
+# - 4: 4.OA.A.1 4.OA.A.2 4.OA.B.4 4.OA.C.5 4.NBT.A.1 4.NBT.B.4 4.NF.B.4 4.NF.C.5 4.NF.C.6 4.MD.A.1 4.MD.A.2 4.MD.B.4 4.MD.C.5 4.MD.C.6 4.G.A.1 4.G.A.3
+# - 5: 5.OA.B.3 5.NBT.A.3 5.NBT.A.4 5.NBT.B.5 5.NBT.B.6 5.NF.A.1 5.NF.B.4 5.NF.B.5 5.MD.A.1 5.MD.B.2 5.MD.C.3 5.MD.C.4 5.G.A.1 5.G.B.3 5.G.B.4
+#
+# NOTABLE NON-CCSS / CHANGED CONTENT
+# - New: count backward by ones from 20 in K (K.CC.1b); count backward within 120 in grade 1 (inside 1.NBT.1a).
+# - Moved earlier: identify coins by value in grade 1 (1.MD.3b; CCSS money is 2.MD.C.8).
+# - Added: 2.NBT.1c decomposing three-digit numbers in multiple ways; 2.MD.8 caps money problems at $10; K.CC.4c adds "one less".
+# - Narrowed: 3.MD.7 drops CCSS 3.MD.C.7d (rectilinear figures); 5.MD.5 drops 5.MD.C.5c (additive volume); 4.MD.7 keeps only the
+#   unknown-angle problems; 2.NBT.5 drops "fluently"; K.G.6 names the target shapes (squares, rectangles, hexagons).
+# - Limits in cluster headings: grade 3 fractions denominators 2,3,4,6,8; grade 4 fractions 2,3,4,5,6,8,10,12,100; grade 4 whole numbers
+#   to 1,000,000. 3.OA.8 says to apply order of operations when no parentheses (CCSS has this as a footnote).
+#
+# UNSURE / NOTES
+# - K.CC.4 PLD says counting objects "in a range from 10 to 39", which differs from CCSS (to 20); row follows the content standard text.
+# - 1.MD.3b marked moved (2.MD.C.8) since CCSS has no coin identification before grade 2; could be read as new.
+# - 2.NBT.1c mapped to 2.NBT.A.1 and 2.NBT.B.7 (regrouping) as edited; CCSS has no standalone multiple-decomposition standard.
+# - "Edited" calls on small changes (2.MD.8 $10 cap, 2.NBT.5 no fluency, 4.MD.7, K.G.6) are judgment calls; they could be read as same.
+# - kind is judged on content: same = CCSS content with only rewording or small example changes.

@@ -1,0 +1,34 @@
+#
+# <STATE>: <official standards name> (<adopted year>; in classrooms since <school year>)
+#
+# SOURCES (fetched YYYY-MM-DD)
+# - <agency> mathematics standards page: <url>
+# - <standards document, with its own date>: <url>
+# - <agency page showing whether a revision is adopted or pending>: <url>
+# - Mirrors used, and why (e.g. "<host> returns a Cloudflare 403 to scripts; read via https://web.archive.org/web/<timestamp>id_/<url>"):
+# - Official Common Core crosswalk: <url>, or "None published; every ccss/kind value here is a judgement against the CCSS K-5 text."
+#
+# STRANDS / HOW CODES ARE WRITTEN
+# - <letters>: <strand name>   (one line each)
+# - Code = <grammar> (e.g. <example>). Lettered parts: <folded | kept as rows>. Practice/process standards: skipped.
+# - Document typos: <printed form> printed for <real code>.
+# - Rows: K <n>, 1 <n>, 2 <n>, 3 <n>, 4 <n>, 5 <n> = <total>.
+#
+# CCSS K-5 STANDARDS THE STATE DROPPED (no row covers them; say where they went, e.g. grade 6)
+# - <code> <short name> (<where it went>)
+#
+# NOTABLE NON-CCSS CONTENT
+# - <topic>: <codes>
+# - Content earlier than CCSS: <topic> in grade <n> (CCSS grade <m>)
+#
+# UNCERTAIN / JUDGEMENT CALLS
+# - <code>: mapped to <ccss> because <reason>
+#
+# kind: same = Common Core's standard (any wording) | edited = same standard, changed scope or detail
+#       moved = Common Core content from another grade | new = no K-5 Common Core match
+# summary: our own plain-language words, never the official text; required unless kind is same
+state_code	grade	ccss	kind	summary
+K.N.1.1	K	K.CC.A.1	same
+K.N.1.2	K	K.CC.B.4,K.CC.B.5	edited	Understand that a number tells how many objects are in a set of up to 10.
+K.N.1.3	K		new	Use ordinal words (first, second...) to tell an object's place in a line of up to 10.
+K.N.4.1	K	2.MD.C.8	moved	Name pennies, nickels, dimes and quarters.

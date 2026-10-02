@@ -1,0 +1,165 @@
+state_code	grade	ccss	kind	summary
+NC.K.CC.1	K	K.CC.A.1	same	
+NC.K.CC.2	K	K.CC.A.2	same	
+NC.K.CC.3	K	K.CC.A.3	same	
+NC.K.CC.4	K	K.CC.B.4	edited	Count with one-to-one matching, know the last number tells how many, and see up to 5 without counting.
+NC.K.CC.5	K	K.CC.B.5	edited	Count out up to 20, count arranged or scattered sets, and name the number after adding one.
+NC.K.CC.6	K	K.CC.C.6	same	
+NC.K.CC.7	K	K.CC.C.7	same	
+NC.K.OA.1	K	K.OA.A.1	edited	Show adding and taking away within 10 in many ways, and connect the different representations.
+NC.K.OA.2	K	K.OA.A.2	edited	Solve result-unknown and put-together/take-apart word problems within 10 with objects or drawings.
+NC.K.OA.3	K	K.OA.A.3	same	
+NC.K.OA.4	K	K.OA.A.4	same	
+NC.K.OA.5	K	K.OA.A.5	same	
+NC.K.OA.6	K		new	Recognize and combine small groups with totals up to 5 without counting one by one.
+NC.K.NBT.1	K	K.NBT.A.1	same	
+NC.K.MD.1	K	K.MD.A.1	same	
+NC.K.MD.2	K	K.MD.A.2	same	
+NC.K.MD.3	K	K.MD.B.3	same	
+NC.K.G.1	K	K.G.A.1	same	
+NC.K.G.2	K	K.G.A.2	edited	Name squares, circles, triangles, rectangles, hexagons, cubes, cones, cylinders and spheres in any size or turn.
+NC.K.G.3	K	K.G.A.3	edited	Sort the named basic shapes into flat (2D) and solid (3D).
+NC.K.G.4	K	K.G.B.4	same	
+NC.K.G.5	K	K.G.B.5	edited	Build and draw triangles, rectangles, squares, hexagons and circles; build cubes, cones, spheres and cylinders.
+NC.K.G.6	K	K.G.B.6	same	
+NC.1.OA.1	1	1.OA.A.1	edited	Solve change-unknown, addend-unknown and compare-difference word problems within 20 with drawings and equations.
+NC.1.OA.2	1	1.OA.A.2	same	
+NC.1.OA.3	1	1.OA.B.3	edited	Use turn-around and grouping properties as strategies when adding.
+NC.1.OA.4	1	1.OA.B.4	edited	Solve unknown-addend problems within 20 by adding on or turning them into subtraction.
+NC.1.OA.6	1	1.OA.C.6	same	
+NC.1.OA.7	1	1.OA.D.7	same	
+NC.1.OA.8	1	1.OA.D.8	same	
+NC.1.OA.9	1	1.OA.C.6	edited	Add and subtract within 10 fluently.
+NC.1.NBT.1	1	1.NBT.A.1	edited	Count to 150, starting from any number below 150.
+NC.1.NBT.7	1	1.NBT.A.1	edited	Read and write numerals to 100 and use them to show how many objects.
+NC.1.NBT.2	1	1.NBT.B.2	same	
+NC.1.NBT.3	1	1.NBT.B.3	same	
+NC.1.NBT.4	1	1.NBT.C.4	same	
+NC.1.NBT.5	1	1.NBT.C.5	same	
+NC.1.NBT.6	1	1.NBT.C.6	same	
+NC.1.MD.1	1	1.MD.A.1	same	
+NC.1.MD.2	1	1.MD.A.2	same	
+NC.1.MD.3	1	1.MD.B.3	same	
+NC.1.MD.5	1	2.MD.C.8	moved	Identify quarters, dimes and nickels and relate each value to pennies.
+NC.1.MD.4	1	1.MD.C.4	same	
+NC.1.G.1	1	1.G.A.1	same	
+NC.1.G.2	1	1.G.A.2	same	
+NC.1.G.3	1	1.G.A.3	same	
+NC.2.OA.1	2	2.OA.A.1	edited	Solve one-step word problems within 100 of the harder types, and two-step problems with single digits.
+NC.2.OA.2	2	2.OA.B.2	edited	Add and subtract within 20 fluently using mental strategies; knowing all facts from memory is not stated.
+NC.2.OA.3	2	2.OA.C.3	same	
+NC.2.OA.4	2	2.OA.C.4	same	
+NC.2.NBT.1	2	2.NBT.A.1	same	
+NC.2.NBT.2	2	2.NBT.A.2	same	
+NC.2.NBT.3	2	2.NBT.A.3	same	
+NC.2.NBT.4	2	2.NBT.A.4	same	
+NC.2.NBT.5	2	2.NBT.B.5,2.NBT.B.9	edited	Add and subtract within 100 fluently, choosing strategies and explaining why they work.
+NC.2.NBT.6	2	2.NBT.B.6	edited	Add up to three two-digit numbers using place-value strategies and properties.
+NC.2.NBT.7	2	2.NBT.B.7	same	
+NC.2.NBT.8	2	2.NBT.B.8	same	
+NC.2.MD.1	2	2.MD.A.1	same	
+NC.2.MD.2	2	2.MD.A.2	same	
+NC.2.MD.3	2	2.MD.A.3	edited	Estimate lengths in inches, feet, yards, centimeters and meters.
+NC.2.MD.4	2	2.MD.A.4	same	
+NC.2.MD.5	2	2.MD.B.5	same	
+NC.2.MD.6	2	2.MD.B.6	same	
+NC.2.MD.7	2	2.MD.C.7	same	
+NC.2.MD.8	2	2.MD.C.8	edited	Solve word problems with coins up to 99 cents using the cent sign, or whole-dollar amounts using $.
+NC.2.MD.10	2	2.MD.D.10	same	
+NC.2.G.1	2	2.G.A.1	edited	Recognize and draw triangles to hexagons with given attributes; describe attributes of cubes and rectangular prisms.
+NC.2.G.3	2	2.G.A.3	same	
+NC.3.OA.1	3	3.OA.A.1,3.OA.B.5	edited	Explain products of factors up to 10 as equal groups, using arrays, repeated addition and properties.
+NC.3.OA.2	3	3.OA.A.2	edited	Explain one-digit divisions as equal groups, using arrays, repeated subtraction or breaking numbers apart.
+NC.3.OA.3	3	3.OA.A.3,3.OA.A.4	edited	Solve one-step multiplication and division word problems with numbers up to 10, using arrays, pictures or equations.
+NC.3.OA.6	3	3.OA.B.6	edited	Solve unknown-factor problems by dividing or by turning them into multiplication.
+NC.3.OA.7	3	3.OA.C.7,3.OA.A.4	edited	Multiply and divide fluently with numbers up to 10, know products from memory, and find unknowns in equations.
+NC.3.OA.8	3	3.OA.D.8	edited	Solve two-step word problems with addition, subtraction and multiplication, using an equation with a symbol for the unknown.
+NC.3.OA.9	3	3.OA.D.9	edited	Describe multiplication patterns on a hundreds chart or multiplication table.
+NC.3.NBT.2	3	3.NBT.A.2,3.NBT.A.1	edited	Add and subtract within 1,000 with estimation, expanded form and the add-subtract relationship.
+NC.3.NBT.3	3	3.NBT.A.3	edited	Use models to multiply a one-digit number by a multiple of 10 from 10 to 90.
+NC.3.NF.1	3	3.NF.A.1,3.G.A.2	edited	Understand unit fractions (halves to eighths) as one equal part of a whole, with area and length models.
+NC.3.NF.2	3	3.NF.A.2	edited	Explain what the numerator means in area models and on a number line, for denominators 2, 3, 4, 6, 8.
+NC.3.NF.3	3	3.NF.A.3	edited	Show equivalent fractions with area and length models, including fractions equal to one or to whole numbers.
+NC.3.NF.4	3	3.NF.A.3	edited	Compare fractions with the same numerator or denominator using models and >, <, =.
+NC.3.MD.1	3	3.MD.A.1	edited	Tell time to the minute and solve elapsed-time problems within the same hour.
+NC.3.MD.2	3	3.MD.A.2,3.MD.B.4	edited	Measure and estimate length, capacity and weight in customary units, and solve one-step problems with them.
+NC.3.MD.3	3	3.MD.B.3	edited	Collect data in up to four categories and show it in frequency tables and scaled picture or bar graphs.
+NC.3.MD.5	3	3.MD.C.5,3.MD.C.6	edited	Find a rectangle's area by tiling it with unit squares and counting.
+NC.3.MD.7	3	3.MD.C.7	edited	Relate area to multiplying side lengths and to adding the areas of two smaller rectangles.
+NC.3.MD.8	3	3.MD.D.8	edited	Find a polygon's perimeter from its sides, or find an unknown side length.
+NC.3.G.1	3	3.G.A.1	edited	Compose and decompose triangles and quadrilaterals; draw examples and non-examples of quadrilateral types.
+NC.4.OA.1	4	4.OA.A.1,4.OA.A.2	edited	Interpret multiplication as comparison and solve times-as-many word problems, telling them apart from additive ones.
+NC.4.OA.3	4	4.OA.A.3,4.NBT.A.3	edited	Solve two-step whole-number word problems with all operations, estimating and interpreting remainders.
+NC.4.OA.4	4	4.OA.B.4	edited	Find all factor pairs of numbers up to 50 and tell multiples, primes and composites.
+NC.4.OA.5	4	4.OA.C.5	same	
+NC.4.NBT.1	4	4.NBT.A.1	edited	Explain that each place is ten times the place to its right, up to 100,000.
+NC.4.NBT.2	4	4.NBT.A.2	edited	Read and write whole numbers up to 100,000 in numerals, words and expanded form.
+NC.4.NBT.7	4	4.NBT.A.2	edited	Compare whole numbers up to 100,000 by place value using >, = and <.
+NC.4.NBT.4	4	4.NBT.B.4	edited	Add and subtract whole numbers up to 100,000 with the standard algorithm.
+NC.4.NBT.5	4	4.NBT.B.5	edited	Multiply up to three digits by one digit, and two two-digit numbers, with area models and partial products.
+NC.4.NBT.6	4	4.NBT.B.6	edited	Divide up to three-digit numbers by one-digit numbers with remainders, using models and partial quotients.
+NC.4.NF.1	4	4.NF.A.1	same	
+NC.4.NF.2	4	4.NF.A.2	same	
+NC.4.NF.3	4	4.NF.B.3	edited	Decompose fractions and add or subtract like-denominator fractions and mixed numbers, including word problems.
+NC.4.NF.4	4	4.NF.B.4	edited	Multiply a whole number by a fraction (as copies of a unit fraction) and solve related word problems.
+NC.4.NF.6	4	4.NF.C.6,4.NF.C.5	edited	Relate tenths and hundredths as fractions and decimals, and add tenths and hundredths.
+NC.4.NF.7	4	4.NF.C.7	same	
+NC.4.MD.1	4	4.MD.A.1,4.MD.A.2,3.MD.A.2	edited	Measure with metric units (cm, m, g, kg, L, mL) and solve one-step metric word problems.
+NC.4.MD.2	4	4.MD.A.1,4.MD.A.2	edited	Convert metric measurements from larger to smaller units using place value and tables.
+NC.4.MD.8	4	4.MD.A.2,3.MD.A.1	edited	Solve elapsed-time word problems that cross the hour.
+NC.4.MD.3	4	4.MD.A.3,3.MD.C.7,3.MD.D.8	edited	Find areas of rectilinear figures, explore fixed area or perimeter, and use rectangle area and perimeter formulas.
+NC.4.MD.4	4	4.MD.B.4,3.MD.B.4	edited	Collect whole-number data and show it in frequency tables, bar graphs or line plots; tell categorical from numerical.
+NC.4.MD.6	4	4.MD.C.5,4.MD.C.6,4.MD.C.7	edited	Understand angles in degrees, measure and draw them with a protractor, and find unknown angles.
+NC.4.G.1	4	4.G.A.1	same	
+NC.4.G.2	4	4.G.A.2	edited	Classify triangles and quadrilaterals by angles, side lengths, and parallel or perpendicular sides.
+NC.4.G.3	4	4.G.A.3	same	
+NC.5.OA.2	5	5.OA.A.2,5.OA.A.1	edited	Write, explain and evaluate expressions for up to two-step problems, with parentheses and properties.
+NC.5.OA.3	5	5.OA.B.3	same	
+NC.5.NBT.1	5	5.NBT.A.1,5.NBT.A.2	edited	Explain place-value patterns from millions to thousandths, including multiplying or dividing by powers of ten.
+NC.5.NBT.3	5	5.NBT.A.3	same	
+NC.5.NBT.5	5	5.NBT.B.5	edited	Multiply up to a three-digit number by a two-digit number fluently with the standard algorithm.
+NC.5.NBT.6	5	5.NBT.B.6	edited	Divide up to four-digit numbers by two-digit numbers with remainders, using models toward the algorithm.
+NC.5.NBT.7	5	5.NBT.B.7,5.NBT.A.4	edited	Solve real-world problems: add, subtract, multiply decimals to thousandths and divide simple decimal cases; estimate.
+NC.5.NF.1	5	5.NF.A.1,5.NF.A.2	edited	Add and subtract fractions and mixed numbers with related unlike denominators, estimating and solving word problems.
+NC.5.NF.3	5	5.NF.B.3	edited	Model fractions as division and solve sharing problems with fraction or mixed-number answers.
+NC.5.NF.4	5	5.NF.B.4,5.NF.B.5,5.NF.B.6	edited	Multiply fractions and mixed numbers with models, explain size of products, and solve one-step word problems.
+NC.5.NF.7	5	5.NF.B.7	edited	Solve one-step word problems dividing unit fractions by whole numbers and whole numbers by unit fractions.
+NC.5.MD.1	5	5.MD.A.1	edited	Use a given conversion chart to solve one-step unit conversion problems within one system.
+NC.5.MD.2	5	5.MD.B.2	edited	Collect data that change over time and show and read it on a line graph.
+NC.5.MD.4	5	5.MD.C.4,5.MD.C.3	edited	Understand volume and measure it by counting unit cubes.
+NC.5.MD.5	5	5.MD.C.5	edited	Find rectangular prism volume by packing cubes and by formula, including two joined prisms.
+NC.5.G.1	5	5.G.A.1,5.G.A.2	edited	Graph points in the first quadrant and interpret x and y coordinates to solve problems.
+NC.5.G.3	5	5.G.B.3,5.G.B.4	edited	Classify quadrilaterals in a hierarchy by their properties.
+#
+# SOURCES (North Carolina Standard Course of Study, Mathematics, 2017; K-8 in classrooms from 2018-19; NCDPI still lists the 2017 SCOS as current, page updated 4/2026)
+# - NCDPI K-12 Mathematics Standard Course of Study (English), Google Doc linked by NCDPI: https://docs.google.com/document/d/1ZCt83aTtuev58rHlZkakK989vziGI3eLk2xNXi8u_4o
+# - NCDPI "Crosswalk of NC K-12 Mathematics - 2010 and 2017 Standards" (2010 = CCSS): https://docs.google.com/document/d/1B7Qp8jpYjXlA9zcwNHAa5txYx7GxbyBAF-0ujWGczc8
+# - Linked from: https://www.dpi.nc.gov/districts-schools/classroom-resources/academic-standards/standard-course-study/mathematics/resources
+# - NC standards use bullets, not lettered sub-parts, so there is one row per NC.x.DOM.n standard (131 rows). The standards doc prints NC.5.MD.1 as "NC.5MD.1" (typo).
+#
+# CCSS K-5 STANDARDS DROPPED (crosswalk: "standard removed"):
+# - 1.OA.C.5 (relate counting to addition/subtraction)
+# - 2.MD.D.9 (measurement data on a line plot, grade 2)
+# - 2.G.A.2 (partition a rectangle into rows and columns of squares)
+# Moved out of K-5: 5.NBT.A.2 whole-number exponents for powers of 10 -> NC.6.EE.1 (pattern part kept in NC.5.NBT.1).
+# Moved within K-5: 3.MD.A.2 metric mass/volume -> NC.4.MD.1 (grade 3 uses customary units); 3.MD.B.4 line plots -> grade 4 (NC.4.MD.4).
+# Merged ("incorporated") per crosswalk: 3.OA.4->NC.3.OA.3, 3.OA.5->NC.3.OA.1, 3.NBT.1->NC.3.NBT.2, 3.MD.6->NC.3.MD.5, 3.G.2->area models in NC.3.NF (mapped to NC.3.NF.1),
+#   4.OA.2->NC.4.OA.1, 4.NBT.3->NC.4.OA.3, 4.NF.5->NC.4.NF.6, 4.MD.5/4.MD.7->NC.4.MD.6, 5.OA.1->NC.5.OA.2, 5.NBT.4->NC.5.NBT.7, 5.NF.2->NC.5.NF.1,
+#   5.NF.5/5.NF.6->NC.5.NF.4, 5.MD.3->NC.5.MD.4, 5.G.2->NC.5.G.1, 5.G.4->NC.5.G.3, 2.NBT.9->NC.2.NBT.5.
+# Narrowed: 4.OA.4 factor pairs to 50; 4.NBT work to 100,000; 4.NBT.5/4.NBT.6 to three-digit numbers; 2.NBT.6 to three addends; 5.NBT.5 to 3-digit x 2-digit;
+#   5.MD.2 fraction line plots replaced by line graphs; 4.MD.4 line plots of whole-number data; 5.OA.1 brackets/braces not kept; "know from memory" dropped from 2.OA.2.
+#
+# UNSURE / NOTES
+# - The crosswalk has no rows for NC.K.OA.5, NC.3.OA.7 and NC.4.NF.7; they were mapped by content to K.OA.A.5, 3.OA.C.7 (+3.OA.A.4) and 4.NF.C.7.
+# - Several crosswalk cells merge two CCSS standards (3.OA.8+3.OA.9, 3.NBT.2+3.NBT.3, 3.MD.7+3.MD.8, 4.OA.2+4.OA.3, 4.NF.3+4.NF.4, 5.NBT.6+5.NBT.7);
+#   NC.3.OA.9, NC.3.NBT.3, NC.3.MD.8, NC.4.OA.3, NC.4.NF.4 and NC.5.NBT.7 are labelled "new standard/objective" there but clearly carry the matching CCSS content,
+#   so they are mapped to it as "edited".
+# - NC.1.OA.9 and NC.1.NBT.7 are new numbers carved out of 1.OA.C.6 and 1.NBT.A.1 (crosswalk: "concept from").
+# - NC.4.MD.8 (elapsed time across the hour) is mapped to 4.MD.A.2 per the crosswalk plus 3.MD.A.1.
+# Conventions (all five files):
+# - CCSS baseline: CCSS Math PDF, https://corestandards.org/wp-content/uploads/2023/09/Math_Standards1.pdf ; ccss codes are expanded with cluster letters from the CCSS K-5 list.
+# - kind is judged on content, not code: a state standard that only renames/recodes or drops/moves examples into notes is "same".
+# - Lettered sub-parts get their own row (with a stem row when the stem has its own text). A sub-part that mirrors a CCSS sub-part is "same";
+#   a sub-part carved out of a CCSS standard that has no such sub-part (e.g. a split of one CCSS sentence into a/b) is "edited" with a summary.
+# - Sub-part rows list the parent CCSS code (CCSS sub-part letters are not used in the ccss column).
+# - "moved" is used when the main content comes from another CCSS grade; the other grade's code is in ccss.

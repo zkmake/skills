@@ -1,0 +1,78 @@
+# North Carolina (NC)
+
+In effect for 2026–27: North Carolina Standard Course of Study for Mathematics (2017; K–8 in classrooms from 2018–19). Mathness models it as a crosswalk in NC's own codes (edition `nc`, 131 rows; pre-K follows Head Start). New K–12 standards were adopted on 1 October 2026, planned for 2028–29; see Next edition.
+
+## Documents
+- Standards: NCDPI K-12 Mathematics Standard Course of Study (English), a Google Doc linked by NCDPI: https://docs.google.com/document/d/1ZCt83aTtuev58rHlZkakK989vziGI3eLk2xNXi8u_4o
+- Official crosswalk: "Crosswalk of NC K-12 Mathematics - 2010 and 2017 Standards". The 2010 standards are CCSS, so this is effectively an NC↔CCSS crosswalk: https://docs.google.com/document/d/1B7Qp8jpYjXlA9zcwNHAa5txYx7GxbyBAF-0ujWGczc8
+- Both are linked from https://www.dpi.nc.gov/districts-schools/classroom-resources/academic-standards/standard-course-study/mathematics/resources. The NCDPI page was updated 4/2026 and still lists the 2017 SCOS.
+- Publisher: North Carolina Department of Public Instruction.
+- The crosswalk labels each change ("standard removed", "incorporated", "concept from", "new standard/objective"). The research followed these labels except where noted under Judgement calls.
+
+## Codes
+- Grammar: `NC.<grade>.<domain>.<number>`, with no cluster letter. Examples: `NC.K.CC.4`, `NC.1.MD.5`, `NC.3.NF.4`, `NC.4.MD.8`, `NC.5.NBT.7`. The `NC.` prefix is part of the official code.
+- Domains are Common Core's: CC, OA, NBT, NF, MD, G.
+- NC uses bullets, not lettered sub-parts, so there is one row per standard.
+- Numbers do not track CCSS:
+  - New numbers were carved out of CCSS standards: `NC.1.OA.9` (fluency within 10, from 1.OA.C.6), `NC.1.NBT.7` (numerals to 100, from 1.NBT.A.1), `NC.4.NBT.7` (compare to 100,000), `NC.4.MD.8` (elapsed time).
+  - The same number can mean other content. `NC.3.NF.4` is comparing fractions; `NC.4.MD.1` is metric measurement.
+- Typo: the standards document prints NC.5.MD.1 as `NC.5MD.1`.
+- No collisions with other Mathness sets, because the prefix keeps NC codes unique.
+
+## Against Common Core
+- Rows: 131, of which 55 same, 74 edited, 1 moved, 1 new. By grade: K 23, 1 23, 2 23, 3 20, 4 25, 5 17.
+- New: `NC.K.OA.6`, combining small groups up to 5 without counting.
+- Moved: `NC.1.MD.5`, quarters, dimes and nickels related to pennies in grade 1, from 2.MD.C.8.
+- Dropped (crosswalk "standard removed"):
+  - 1.OA.C.5: relating counting to addition.
+  - 2.MD.D.9: line plots in grade 2.
+  - 2.G.A.2: rows and columns of squares.
+- Moved within K–5:
+  - Metric mass and volume go to `NC.4.MD.1`; grade 3 is customary (`NC.3.MD.2`).
+  - Line plots go to grade 4 (`NC.4.MD.4`).
+- Moved out of K–5: 5.NBT.A.2 exponents go to NC.6.EE.1.
+- Merged, per the crosswalk: 3.OA.4→NC.3.OA.3, 3.OA.5→NC.3.OA.1, 4.NBT.3→NC.4.OA.3, 4.MD.5/7→NC.4.MD.6, 5.NF.5/6→NC.5.NF.4, 5.G.4→NC.5.G.3, and others.
+- Narrowed:
+  - 4.OA.4 factor pairs to 50.
+  - 4.NBT work to 100,000.
+  - Multi-digit multiply/divide to three digits in grade 4, and to 3-digit × 2-digit in grade 5.
+  - 2.NBT.6 to three addends.
+  - Brackets and braces dropped.
+  - "Know from memory" dropped from 2.OA.2.
+- Added scope:
+  - Count to 150 (`NC.1.NBT.1`).
+  - Yards (`NC.2.MD.3`).
+  - Frequency tables and categorical vs numerical data (`NC.3.MD.3`, `NC.4.MD.4`).
+  - Line graphs replace fraction line plots in grade 5 (`NC.5.MD.2`).
+  - Two joined prisms (`NC.5.MD.5`).
+- Judgement calls (ours):
+  - The crosswalk has no rows for NC.K.OA.5, NC.3.OA.7 and NC.4.NF.7; they were mapped by content.
+  - NC.3.OA.9, NC.3.NBT.3, NC.3.MD.8, NC.4.OA.3, NC.4.NF.4 and NC.5.NBT.7 are labelled "new standard/objective" in the crosswalk but carry CCSS content, so they were mapped as edited.
+  - NC.4.MD.8 was mapped to 4.MD.A.2 plus 3.MD.A.1.
+
+## Sheets for state content
+NC predates gen.py's OVR table, so its links sit directly in nc.ts:
+- Coins `NC.1.MD.5`: Maryland `1.GR.C.6`.
+- Small groups without counting `NC.K.OA.6`: Maryland `K.NOS.B.8` plus K.OA.A.5.
+
+The fit review (extra.tsv, 23 lines) added:
+- Subitizing in `NC.K.CC.4`: Maryland `K.NOS.B.8`.
+- Fluency within 10 `NC.1.OA.9`: Florida `MA.K.NSO.3.2`.
+- Customary measurement: Virginia `3.MG.1`.
+- Frequency tables: Texas `3.8A`, New Jersey's `NJ.4.DL.A.2`, Maryland `4.DS.A.1`.
+- Line graphs: Virginia `4.PS.1`.
+- Decimals: Virginia `4.CE.4`.
+- Elapsed time across the hour: Virginia `4.MG.2`.
+- Triangle and quadrilateral classes: Virginia `5.MG.3`.
+- Solids: Texas `2.8B`.
+
+No NC-prefixed sheets. The latest fit verdicts leave no partials.
+
+## Next edition
+- The State Board adopted new K–12 math standards (Draft 3) on 1 October 2026, without opposition, planned for classrooms in 2028–29. The 2017 SCOS stays in use until then (editions.ts note, checked 2026-10-01).
+- Evidence: news reports (WRAL, 1 Oct 2026: https://www.wral.com/news/education/changes-to-nc-school-math-requirements-standards-vote-october-2026/). No State Board record of the vote was posted as of 2026-10-01; NCDPI's September 2026 bulletin only said action was expected at the October meeting. The 2028–29 start is DPI's tentative timeline (installation 2026–27 and 2027–28).
+- No text, code grammar or Mathness edition exists yet. Add one (e.g. `nc28`) once NCDPI publishes the document.
+
+## Uncertain
+- The adoption is confirmed by news reports but not yet by a State Board record. editions.ts says adopted on 1 Oct 2026; the Standards Atlas row still says "Revision in draft; earliest 2028–29."
+- The Mathness edition name has changed. editions.ts now says "Standard Course of Study for Mathematics"; the Atlas says "Standard Course of Study: Mathematics".

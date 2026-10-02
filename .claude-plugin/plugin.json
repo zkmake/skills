@@ -14,13 +14,15 @@
     "react",
     "github",
     "workflow",
-    "design"
+    "design",
+    "education"
   ],
   "skills": [
     "./skills/3d/model-pass",
     "./skills/agents-md/bootstrap-agents-md",
     "./skills/agents-md/update-agents-md",
     "./skills/design/design-critique",
+    "./skills/edtech/us-math-standards",
     "./skills/game/three-game-starter",
     "./skills/github/create-pr",
     "./skills/github/gh-cli",

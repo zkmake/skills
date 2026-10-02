@@ -1,0 +1,196 @@
+state_code	grade	ccss	kind	summary
+K.CC.A.1	K	K.CC.A.1	same	
+K.CC.A.2	K	K.CC.A.2	same	
+K.CC.A.3	K	K.CC.A.3	same	
+K.CC.IA.A.1	K		new	Count backward by ones from 20 down to 0.
+K.CC.IA.A.2	K		new	Count backward from any starting number up to 20.
+K.CC.B.4	K	K.CC.B.4	same	
+K.CC.B.5	K	K.CC.B.5	same	
+K.CC.IA.B.1	K		new	See a small group of up to 5 objects and name how many without counting (subitizing).
+K.CC.C.6	K	K.CC.C.6	same	
+K.CC.C.7	K	K.CC.C.7	same	
+K.OA.A.1	K	K.OA.A.1	same	
+K.OA.A.2	K	K.OA.A.2	same	
+K.OA.A.3	K	K.OA.A.3	same	
+K.OA.A.4	K	K.OA.A.4	same	
+K.OA.A.5	K	K.OA.A.5	same	
+K.NBT.A.1	K	K.NBT.A.1	same	
+K.MD.A.1	K	K.MD.A.1	same	
+K.MD.A.2	K	K.MD.A.2	same	
+K.MD.B.3	K	K.MD.B.3	same	
+K.MD.IA.B.1	K	2.MD.C.8	moved	Recognize a penny, know it is worth one cent, and count up to 20 pennies.
+K.G.A.1	K	K.G.A.1	same	
+K.G.A.2	K	K.G.A.2	same	
+K.G.A.3	K	K.G.A.3	same	
+K.G.B.4	K	K.G.B.4	same	
+K.G.B.5	K	K.G.B.5	same	
+K.G.B.6	K	K.G.B.6	same	
+1.OA.A.1	1	1.OA.A.1	same	
+1.OA.A.2	1	1.OA.A.2	same	
+1.OA.B.3	1	1.OA.B.3	same	
+1.OA.B.4	1	1.OA.B.4	same	
+1.OA.IA.C.1	1	1.OA.C.5	edited	Use counting and quick recognition of grouped amounts (ten frames) to explain adding and subtracting within 20.
+1.OA.C.5	1	1.OA.C.5	same	
+1.OA.C.6	1	1.OA.C.6	edited	Add and subtract within 20 with strategies like making ten; the within-10 fluency part is its own standard.
+1.OA.IA.C.2	1	1.OA.C.6	edited	Fluently add and subtract within 10 using mental strategies such as counting on and making ten.
+1.OA.D.7	1	1.OA.D.7	same	
+1.OA.D.8	1	1.OA.D.8	same	
+1.NBT.A.1	1	1.NBT.A.1	edited	Count forward and backward within 120; read, write, and match numerals to amounts.
+1.NBT.B.2	1	1.NBT.B.2	same	
+1.NBT.B.3	1	1.NBT.B.3	same	
+1.NBT.C.4	1	1.NBT.C.4	same	
+1.NBT.C.5	1	1.NBT.C.5	same	
+1.NBT.C.6	1	1.NBT.C.6	same	
+1.MD.A.1	1	1.MD.A.1	same	
+1.MD.A.2	1	1.MD.A.2	same	
+1.MD.B.3	1	1.MD.B.3	same	
+1.MD.IA.B.1	1	2.MD.C.8	moved	Know pennies and dimes and find the value of a mix of them, up to 100 cents.
+1.MD.C.4	1	1.MD.C.4	same	
+1.G.A.1	1	1.G.A.1	same	
+1.G.A.2	1	1.G.A.2	same	
+1.G.A.3	1	1.G.A.3	same	
+2.OA.A.1	2	2.OA.A.1	same	
+2.OA.B.2	2	2.OA.B.2	same	
+2.OA.C.3	2	2.OA.C.3	same	
+2.OA.C.4	2	2.OA.C.4	edited	Use repeated addition to total equal groups or arrays and write a matching equation; no 5-by-5 limit.
+2.NBT.A.1	2	2.NBT.A.1	same	
+2.NBT.A.2	2	2.NBT.A.2	edited	Count forward and backward within 1,000; skip-count forward and backward by 5s, 10s, and 100s.
+2.NBT.A.3	2	2.NBT.A.3	same	
+2.NBT.A.4	2	2.NBT.A.4	same	
+2.NBT.B.5	2	2.NBT.B.5	same	
+2.NBT.B.6	2	2.NBT.B.6	same	
+2.NBT.B.7	2	2.NBT.B.7	same	
+2.NBT.B.8	2	2.NBT.B.8	same	
+2.NBT.B.9	2	2.NBT.B.9	same	
+2.MD.A.1	2	2.MD.A.1	same	
+2.MD.A.2	2	2.MD.A.2	same	
+2.MD.A.3	2	2.MD.A.3	same	
+2.MD.A.4	2	2.MD.A.4	same	
+2.MD.B.5	2	2.MD.B.5	same	
+2.MD.B.6	2	2.MD.B.6	same	
+2.MD.C.7	2	2.MD.C.7	same	
+2.MD.IA.C.1	2		new	Know how minutes, hours, days, weeks, months, and years relate, such as 7 days in a week.
+2.MD.IA.C.2	2	2.MD.C.8	edited	Recognize nickels, quarters, and dollar bills and know what each is worth.
+2.MD.C.8	2	2.MD.C.8	same	
+2.MD.D.9	2	2.MD.D.9	same	
+2.MD.IA.D.1	2		new	Gather data with interviews, surveys, and observations to answer questions about interests or surroundings.
+2.MD.D.10	2	2.MD.D.10	same	
+2.G.A.1	2	2.G.A.1	same	
+2.G.A.2	2	2.G.A.2	same	
+2.G.A.3	2	2.G.A.3	same	
+3.OA.A.1	3	3.OA.A.1	same	
+3.OA.A.2	3	3.OA.A.2	same	
+3.OA.A.3	3	3.OA.A.3	same	
+3.OA.A.4	3	3.OA.A.4	same	
+3.OA.B.5	3	3.OA.B.5	same	
+3.OA.B.6	3	3.OA.B.6	same	
+3.OA.C.7	3	3.OA.C.7	same	
+3.OA.D.8	3	3.OA.D.8	same	
+3.OA.D.9	3	3.OA.D.9	same	
+3.NBT.A.1	3	3.NBT.A.1	same	
+3.NBT.A.2	3	3.NBT.A.2	same	
+3.NBT.A.3	3	3.NBT.A.3	same	
+3.NF.A.1	3	3.NF.A.1	same	
+3.NF.A.2	3	3.NF.A.2	same	
+3.NF.A.3	3	3.NF.A.3	same	
+3.MD.A.1	3	3.MD.A.1	same	
+3.MD.A.2	3	3.MD.A.2	same	
+3.MD.B.3	3	3.MD.B.3	same	
+3.MD.B.4	3	3.MD.B.4	same	
+3.MD.C.5	3	3.MD.C.5	same	
+3.MD.C.6	3	3.MD.C.6	same	
+3.MD.C.7	3	3.MD.C.7	same	
+3.MD.D.8	3	3.MD.D.8	same	
+3.G.A.1	3	3.G.A.1	same	
+3.G.A.2	3	3.G.A.2	same	
+4.OA.A.1	4	4.OA.A.1	same	
+4.OA.A.2	4	4.OA.A.2	same	
+4.OA.A.3	4	4.OA.A.3	same	
+4.OA.B.4	4	4.OA.B.4	same	
+4.OA.C.5	4	4.OA.C.5	edited	Given a rule for a number sequence, spot and explain features the rule does not state; shape patterns dropped.
+4.NBT.A.1	4	4.NBT.A.1	same	
+4.NBT.A.2	4	4.NBT.A.2	same	
+4.NBT.A.3	4	4.NBT.A.3	same	
+4.NBT.B.4	4	4.NBT.B.4	edited	Fluently add and subtract whole numbers up to 1,000,000 with any efficient algorithm, not only the standard one.
+4.NBT.B.5	4	4.NBT.B.5	same	
+4.NBT.B.6	4	4.NBT.B.6	same	
+4.NF.A.1	4	4.NF.A.1	same	
+4.NF.A.2	4	4.NF.A.2	same	
+4.NF.B.3	4	4.NF.B.3	same	
+4.NF.B.4	4	4.NF.B.4	same	
+4.NF.C.5	4	4.NF.C.5	same	
+4.NF.C.6	4	4.NF.C.6	same	
+4.NF.C.7	4	4.NF.C.7	same	
+4.MD.A.1	4	4.MD.A.1	same	
+4.MD.A.2	4	4.MD.A.2	same	
+4.MD.A.3	4	4.MD.A.3	same	
+4.MD.B.4	4	4.MD.B.4	same	
+4.MD.C.5	4	4.MD.C.5	same	
+4.MD.C.6	4	4.MD.C.6	same	
+4.MD.C.7	4	4.MD.C.7	same	
+4.G.A.1	4	4.G.A.1	same	
+4.G.A.2	4	4.G.A.2	same	
+4.G.A.3	4	4.G.A.3	same	
+5.OA.A.1	5	5.OA.A.1	same	
+5.OA.A.2	5	5.OA.A.2	same	
+5.OA.B.3	5	5.OA.B.3	same	
+5.NBT.A.1	5	5.NBT.A.1	same	
+5.NBT.A.2	5	5.NBT.A.2	same	
+5.NBT.A.3	5	5.NBT.A.3	same	
+5.NBT.A.4	5	5.NBT.A.4	same	
+5.NBT.B.5	5	5.NBT.B.5	edited	Fluently multiply multi-digit whole numbers with an algorithm such as partial products or the standard one.
+5.NBT.B.6	5	5.NBT.B.6	edited	Divide up to four-digit by two-digit whole numbers, now including the standard long-division algorithm.
+5.NBT.B.7	5	5.NBT.B.7	same	
+5.NF.A.1	5	5.NF.A.1	same	
+5.NF.A.2	5	5.NF.A.2	same	
+5.NF.B.3	5	5.NF.B.3	same	
+5.NF.B.4	5	5.NF.B.4	same	
+5.NF.B.5	5	5.NF.B.5	same	
+5.NF.B.6	5	5.NF.B.6	same	
+5.NF.B.7	5	5.NF.B.7	same	
+5.MD.A.1	5	5.MD.A.1	same	
+5.MD.B.2	5	5.MD.B.2	same	
+5.MD.C.3	5	5.MD.C.3	same	
+5.MD.C.4	5	5.MD.C.4	same	
+5.MD.C.5	5	5.MD.C.5	same	
+5.G.A.1	5	5.G.A.1	same	
+5.G.A.2	5	5.G.A.2	same	
+5.G.B.3	5	5.G.B.3	same	
+5.G.B.4	5	5.G.B.4	same	
+#
+# SOURCES (Iowa Department of Education, fetched 2026-10-01)
+# - Iowa Academic Standards for Mathematics (adopted by the State Board April 29, 2024; document dated April 2024):
+#   https://educate.iowa.gov/media/9845/download?inline
+# - Mathematics standards page: https://educate.iowa.gov/pk-12/standards/academics/mathematics
+# - Implementation Resources Guidebook (links the official crosswalk and spreadsheet): https://educate.iowa.gov/media/11752/download?inline
+# - Iowa Academic Standards for Mathematics Crosswalk, 2010 vs 2024 (8/4/2025, Google Drive file linked from guidebook):
+#   https://docs.google.com/document/d/1YVkE8fl6Abcdv8ipxHTMLXjXkV2wDQRY
+# - Spreadsheet version of the standards (8/4/2025): https://docs.google.com/spreadsheets/d/1hjrNaiZUZeQk4EVynpa5sNyjvYEO7NRZ
+# - Iowa's 2010 math standards were the CCSS, so the crosswalk is effectively a CCSS crosswalk.
+#
+# CODE FORMAT
+# - CCSS-style Grade.Domain.ClusterLetter.Number (K.CC.A.1, 2.MD.C.8); all 148 CCSS K-5 codes are kept with the same numbers.
+# - Iowa-only additions insert "IA": Grade.Domain.IA.ClusterLetter.Number (K.CC.IA.A.1, 1.OA.IA.C.2, 2.MD.IA.D.1). 10 such standards in K-2.
+# - Sub-points are bulleted, not lettered as separate codes; folded into each standard.
+#
+# DOMAINS (K-5): CC Counting and Cardinality (K); OA Operations and Algebraic Thinking; NBT Number and Operations in Base Ten;
+#   NF Number and Operations - Fractions (3-5); MD Measurement and Data; G Geometry.
+#   Clusters are labelled Major / Supporting / Additional.
+#
+# CCSS K-5 STANDARDS DROPPED
+# - None. 1.OA.C.6's within-10 fluency part was split into 1.OA.IA.C.2.
+#
+# NOTABLE NON-CCSS CONTENT
+# - Counting backward (K.CC.IA.A.1-A.2; backward counting added to 1.NBT.A.1, 2.NBT.A.2); subitizing (K.CC.IA.B.1, 1.OA.IA.C.1).
+# - Money from kindergarten: penny (K), pennies and dimes (1), nickels/quarters/dollars (2.MD.IA.C.2).
+# - Units-of-time relationships incl. days/weeks/months/years (2.MD.IA.C.1); data collection by surveys/interviews (2.MD.IA.D.1).
+# - Fluency notes name strategies; 4.NBT.B.4/5.NBT.B.5 accept any efficient algorithm; 5.NBT.B.6 adds the standard division algorithm.
+# - Many standards add Iowa notes/examples and "See Problem Types Table" references; treated as same.
+#
+# UNCERTAINTIES / JUDGEMENT CALLS
+# - Iowa's crosswalk gives no change labels, only side-by-side text; kinds here come from comparing the 2024 text with CCSS text.
+# - Coin standards in K and 1 marked "moved" from 2.MD.C.8; 2.MD.IA.C.2 marked "edited" on 2.MD.C.8 (same grade).
+# - 2.MD.IA.C.1 marked "new"; its minutes/hours part overlaps CCSS 4.MD.A.1.
+# - 1.OA.IA.C.1 mapped to 1.OA.C.5 (its part a restates 1.OA.C.5); the subitizing part has no CCSS code.
+# - 4.OA.C.5 marked edited because generating shape patterns is gone; 2.OA.C.4 because the 5x5 array limit is gone.
+# - The page states the adoption date only; no separate implementation deadline was found. Treated as current for 2026-27.

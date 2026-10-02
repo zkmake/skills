@@ -1,0 +1,257 @@
+code	grade	strand	strand_name	summary	ccss_carried	ccss_partly_or_moved	other_set_codes
+P-MATH 1	PK	CC	Counting & cardinality	Say the counting numbers in order, working up to 20.	P-MATH 1		
+P-MATH 2	PK	CC	Counting & cardinality	See how many are in a small group, up to 5, without counting.	P-MATH 2		
+P-MATH 3	PK	CC	Counting & cardinality	Count things one by one, and know the last number said tells how many.	P-MATH 3		
+P-MATH 4	PK	CC	Counting & cardinality	Compare two groups: which has more, which has fewer, or the same.	P-MATH 4		
+P-MATH 5	PK	CC	Counting & cardinality	Match written numbers to amounts up to 5, and begin to write numbers.	P-MATH 5		
+P-MATH 6	PK	OA	Operations & algebraic thinking	Add by putting groups together and subtract by taking some away, with objects or fingers.	P-MATH 6		
+P-MATH 7	PK	OA	Operations & algebraic thinking	See, copy and continue simple repeating patterns.	P-MATH 7		
+P-MATH 8	PK	MD	Measurement	Compare things by size, length, height or weight: bigger, longer, heavier.	P-MATH 8		
+P-MATH 9	PK	G	Geometry & spatial sense	Name and compare shapes of any size or turn, and put shapes together.	P-MATH 9		
+P-MATH 10	PK	G	Geometry & spatial sense	Describe where things are: above, below, beside, in front, behind.	P-MATH 10		
+K.2A	K	NO	Number & operations	Count forward and backward to 20, with and without objects.		K.CC.A.1,K.CC.A.2	K.NOS.A.3
+K.2B	K	NO	Number & operations	Read, write and show numbers 0 to 20, with and without objects or pictures.	K.CC.A.3		
+K.2C	K	NO	Number & operations	Count up to 20 objects and know the last number says how many, however they are arranged.	K.CC.B.4,K.CC.B.5		
+K.2D	K	NO	Number & operations	Tell how many are in a small group at a glance, without counting.			K.NOS.B.8
+K.2E	K	NO	Number & operations	Make a group with more, fewer or the same as a given number up to 20.		K.CC.C.6	
+K.2F	K	NO	Number & operations	Say the number that is one more or one less than a number up to 20.		K.CC.B.4	
+K.2G	K	NO	Number & operations	Compare two groups of up to 20 objects using words like more, fewer, same.	K.CC.C.6		
+K.2H	K	NO	Number & operations	Compare two written numbers up to 20 using words like greater and less.	K.CC.C.7		K.5
+K.2I	K	NO	Number & operations	Build and break apart numbers up to 10 with objects and pictures.	K.OA.A.3	K.OA.A.4	
+K.3A	K	NO	Number & operations	Show adding as joining and taking away as separating.	K.OA.A.1		
+K.3B	K	NO	Number & operations	Solve adding and taking-away story problems within 10 with objects and drawings.	K.OA.A.2		
+K.3C	K	NO	Number & operations	Explain how you solved an adding or subtracting problem within 10, in words, models or equations.		K.OA.A.1,K.OA.A.5,K.OA.A.2	
+K.4	K	NO	Number & operations	Name pennies, nickels, dimes and quarters.			1.GR.C.6
+K.5	K	AR	Algebraic reasoning	Count aloud to 100 by ones and by tens, starting from any number.	K.CC.A.1,K.CC.A.2		
+K.6A	K	GM	Geometry & measurement	Name circles, triangles, rectangles and squares (a square is a special rectangle).	K.G.A.2		
+K.6B	K	GM	Geometry & measurement	Spot cylinders, cones, spheres and cubes in the world around you.	K.G.A.2,K.G.A.3		
+K.6C	K	GM	Geometry & measurement	Find the flat shapes (faces) that make up a solid.		K.G.B.4	1.6E
+K.6D	K	GM	Geometry & measurement	Describe flat shapes by their sides and corners, in everyday and math words.	K.G.B.4	K.G.A.2	
+K.6E	K	GM	Geometry & measurement	Sort flat and solid shapes, whatever their size or which way they face.	K.G.A.2,K.G.A.3		
+K.6F	K	GM	Geometry & measurement	Make flat shapes with materials and by drawing.	K.G.B.5		
+K.7A	K	GM	Geometry & measurement	Name something about an object you could measure, like length, capacity or weight.	K.MD.A.1		
+K.7B	K	GM	Geometry & measurement	Compare two objects to see which has more or less of something, like length or weight.	K.MD.A.2		
+K.8A	K	DA	Data analysis	Collect and sort data into two or three groups.	K.MD.B.3	1.MD.C.4	
+K.8B	K	DA	Data analysis	Make real-object graphs and picture graphs from data.		1.MD.C.4,2.MD.D.10	
+K.8C	K	DA	Data analysis	Answer questions and draw conclusions from object and picture graphs.		1.MD.C.4	K.8B
+K.9A	K	PFL	Personal financial literacy	Name ways people earn money.			
+K.9B	K	PFL	Personal financial literacy	Tell money you earn apart from money you get as a gift.			K.9A
+K.9C	K	PFL	Personal financial literacy	List simple skills people need for jobs.			K.9A
+K.9D	K	PFL	Personal financial literacy	Sort wants from needs, and see that income pays for both.			
+1.2A	1	NO	Number & operations	Tell how many at a glance in organized arrangements, like dice dots or ten frames.			K.NOS.B.8
+1.2B	1	NO	Number & operations	Build and break apart numbers up to 120 as hundreds, tens and ones in more than one way.	1.NBT.B.2	K.NBT.A.1	
+1.2C	1	NO	Number & operations	Show numbers up to 120 with objects, pictures, expanded form and standard form.	1.NBT.B.2	2.NBT.A.3	1.2B
+1.2D	1	NO	Number & operations	Name a number greater or less than a given number up to 120.		1.NBT.B.3	1.5C
+1.2E	1	NO	Number & operations	Use tens and ones to compare numbers up to 120 in words.	1.NBT.B.3		1.2D
+1.2F	1	NO	Number & operations	Put numbers up to 120 in order using place value and open number lines.		1.NBT.B.3	1.NOS.B.6,1.2D,MA.1.NSO.1.4
+1.2G	1	NO	Number & operations	Compare two numbers up to 100 using >, < and =.	1.NBT.B.3		
+1.3A	1	NO	Number & operations	Add a multiple of 10 and a one-digit number, like 40 + 7, with models.	1.NBT.B.2	1.NBT.C.4	
+1.3B	1	NO	Number & operations	Solve joining, separating and comparing story problems within 20, with the unknown anywhere.	1.OA.A.1		
+1.3C	1	NO	Number & operations	Make 10 from two or more numbers.	K.OA.A.4	1.OA.A.2	
+1.3D	1	NO	Number & operations	Add and subtract within 20 using fact strategies like making 10.	1.OA.C.6	1.OA.C.5	
+1.3E	1	NO	Number & operations	Explain how you added or subtracted within 20, with words, objects, pictures or equations.		1.OA.C.6	
+1.3F	1	NO	Number & operations	Make up and solve a story that matches an adding or subtracting equation within 20.		1.OA.A.1	
+1.4A	1	NO	Number & operations	Know the value of pennies, nickels, dimes and quarters and how they relate.		2.MD.C.8	1.GR.C.6
+1.4B	1	NO	Number & operations	Write a coin's value using the cent sign.		2.MD.C.8	1.GR.C.6
+1.4C	1	NO	Number & operations	Count a mix of pennies, nickels and dimes by 1s, 5s and 10s.		2.MD.C.8	1.GR.C.6
+1.5A	1	AR	Algebraic reasoning	Count forward and backward from any number between 1 and 120.		1.NBT.A.1	K.NOS.A.3,1.5C
+1.5B	1	AR	Algebraic reasoning	Skip-count by 2s, 5s and 10s to find how many objects, up to 120.		2.NBT.A.2	
+1.5C	1	AR	Algebraic reasoning	Find 10 more and 10 less than a number up to 120.	1.NBT.C.5		
+1.5D	1	AR	Algebraic reasoning	Show adding and subtracting story problems within 20 with models and equations.	1.OA.A.1		
+1.5E	1	AR	Algebraic reasoning	Understand that the equal sign means both sides have the same value.	1.OA.D.7		
+1.5F	1	AR	Algebraic reasoning	Find the missing number in an adding or subtracting equation, wherever it is.	1.OA.D.8	1.OA.B.4	
+1.5G	1	AR	Algebraic reasoning	Use turn-around and grouping rules to add and subtract two or three numbers.	1.OA.B.3	1.OA.A.2	
+1.6A	1	GM	Geometry & measurement	Sort regular and irregular flat shapes by their features, in everyday words.	K.G.B.4	1.G.A.1	
+1.6B	1	GM	Geometry & measurement	Tell which features make a flat or solid shape what it is, and which don't matter.	1.G.A.1		1.6E
+1.6C	1	GM	Geometry & measurement	Draw or build circles, triangles, rectangles, squares, rhombuses and hexagons.	1.G.A.1	K.G.B.5	
+1.6D	1	GM	Geometry & measurement	Name circles, triangles, rectangles, squares, rhombuses and hexagons and describe them.	K.G.A.2	2.G.A.1,1.G.A.1	
+1.6E	1	GM	Geometry & measurement	Name spheres, cones, cylinders, prisms and cubes and describe their faces, edges, corners.		K.G.B.4,K.G.A.2,K.G.A.3	2.8B
+1.6F	1	GM	Geometry & measurement	Join two, three or four shapes to make a target shape, in more than one way.	1.G.A.2	K.G.B.6	
+1.6G	1	GM	Geometry & measurement	Split shapes into two or four equal parts and name the parts in words.	1.G.A.3		
+1.6H	1	GM	Geometry & measurement	Tell whether a shape is split into halves or fourths, or not.		1.G.A.3	
+1.7A	1	GM	Geometry & measurement	Measure length with tools and see that length is continuous.		1.MD.A.2,2.MD.A.1	
+1.7B	1	GM	Geometry & measurement	Measure length by laying same-size units end to end with no gaps or overlaps.	1.MD.A.2		
+1.7C	1	GM	Geometry & measurement	Measure one thing with two different units and explain why the numbers differ.	2.MD.A.2		
+1.7D	1	GM	Geometry & measurement	Give a length to the nearest whole unit, with a number and a unit.	1.MD.A.2		
+1.7E	1	GM	Geometry & measurement	Tell time to the hour and half hour on analog and digital clocks.	1.MD.B.3		
+1.8A	1	DA	Data analysis	Collect and sort data into up to three groups with tally marks or T-charts.	1.MD.C.4		
+1.8B	1	DA	Data analysis	Make picture graphs and bar-type graphs from data.	2.MD.D.10	1.MD.C.4	
+1.8C	1	DA	Data analysis	Ask and answer questions and draw conclusions from picture and bar-type graphs.	1.MD.C.4	2.MD.D.10	
+1.9A	1	PFL	Personal financial literacy	Know that money earned from work is called income.			
+1.9B	1	PFL	Personal financial literacy	See income as a way to buy goods and services, choosing between wants and needs.			1.9A,K.9D
+1.9C	1	PFL	Personal financial literacy	Tell spending from saving.			
+1.9D	1	PFL	Personal financial literacy	Think about giving money to help others.			1.9C
+2.2A	2	NO	Number & operations	Build and break apart numbers up to 1,200 as thousands, hundreds, tens and ones.	2.NBT.A.1		
+2.2B	2	NO	Number & operations	Write numbers up to 1,200 in standard, word and expanded form.	2.NBT.A.3		2.2A
+2.2C	2	NO	Number & operations	Name a number greater or less than a given number up to 1,200.		2.NBT.A.4	2.2A
+2.2D	2	NO	Number & operations	Compare and order numbers up to 1,200 using place value, words and >, <, =.	2.NBT.A.4		2.2A
+2.2E	2	NO	Number & operations	Place a whole number on an open number line.		2.MD.B.6	1.NOS.B.6,2.NOS.A.5,MA.2.NSO.1.3
+2.2F	2	NO	Number & operations	Name the whole number at a marked point on a number line.	2.MD.B.6		2.NOS.A.5,MA.2.NSO.1.3
+2.3A	2	NO	Number & operations	Split objects into equal parts and name halves, fourths and eighths in words.	2.G.A.3		2.3C
+2.3B	2	NO	Number & operations	See that more equal parts in a whole means smaller parts.	1.G.A.3		2.3C
+2.3C	2	NO	Number & operations	Count fractional parts past one whole, and tell how many parts make a whole.		2.G.A.3,3.NF.A.1	
+2.3D	2	NO	Number & operations	Tell whether a shape shows halves, fourths or eighths, or not.		2.G.A.3	2.3C
+2.4A	2	NO	Number & operations	Know adding and subtracting facts within 20 from memory.	2.OA.B.2		
+2.4B	2	NO	Number & operations	Add up to four two-digit numbers and subtract two-digit numbers using place value.	2.NBT.B.5,2.NBT.B.6		
+2.4C	2	NO	Number & operations	Solve one- and multi-step adding and subtracting story problems within 1,000.	2.OA.A.1	2.NBT.B.7	
+2.4D	2	NO	Number & operations	Make up and solve a story for an adding or subtracting equation within 1,000.		2.OA.A.1	
+2.5A	2	NO	Number & operations	Find the value of a group of coins up to one dollar.	2.MD.C.8		
+2.5B	2	NO	Number & operations	Write money amounts with the cent sign, dollar sign and decimal point.	2.MD.C.8		3.NS.4
+2.6A	2	NO	Number & operations	Show and describe multiplying as joining equal groups of objects.	2.OA.C.4	3.OA.A.1	
+2.6B	2	NO	Number & operations	Show and describe dividing as splitting objects into equal groups.		3.OA.A.2	
+2.7A	2	AR	Algebraic reasoning	Pair up objects to tell whether a number up to 40 is even or odd.	2.OA.C.3		
+2.7B	2	AR	Algebraic reasoning	Find 10 or 100 more or less than a number up to 1,200.	2.NBT.B.8		2.2A
+2.7C	2	AR	Algebraic reasoning	Show and solve adding and subtracting story problems with the unknown anywhere.	2.OA.A.1		
+2.8A	2	GM	Geometry & measurement	Draw flat shapes with a given number of sides and corners.	2.G.A.1		
+2.8B	2	GM	Geometry & measurement	Sort spheres, cones, cylinders, prisms and cubes by their features, using math words.		2.G.A.1	1.6E
+2.8C	2	GM	Geometry & measurement	Sort polygons with up to 12 sides by how many sides and corners they have.	2.G.A.1		
+2.8D	2	GM	Geometry & measurement	Put flat shapes and solids together to make shapes with given features.	1.G.A.2		1.6E
+2.8E	2	GM	Geometry & measurement	Cut shapes into parts, like a square from a rectangle, and name the new shapes.		1.G.A.2,2.G.A.3	
+2.9A	2	GM	Geometry & measurement	Measure length with objects that stand for standard units, like inch tiles.		1.MD.A.2,2.MD.A.1	
+2.9B	2	GM	Geometry & measurement	See that a bigger unit takes fewer of them to measure the same length.	2.MD.A.2		
+2.9C	2	GM	Geometry & measurement	Show whole numbers as distances from any point on a number line.	2.MD.B.6		
+2.9D	2	GM	Geometry & measurement	Measure to the nearest marked unit with a ruler, yardstick, meter stick or tape.	2.MD.A.1		
+2.9E	2	GM	Geometry & measurement	Solve length problems, including estimating lengths.	2.MD.A.3,2.MD.B.5	2.MD.A.4	
+2.9F	2	GM	Geometry & measurement	Find a rectangle's area by covering it with square units and counting them.	2.G.A.2,3.MD.C.6	3.MD.C.5	
+2.9G	2	GM	Geometry & measurement	Tell time to the minute on analog and digital clocks, and use a.m. and p.m.		2.MD.C.7,3.MD.A.1	
+2.10A	2	DA	Data analysis	Explain that a bar's length or a pictograph's pictures show how many are in a category.		2.MD.D.10	
+2.10B	2	DA	Data analysis	Organize data with up to four categories into pictographs and bar graphs.	2.MD.D.10	3.MD.B.3	
+2.10C	2	DA	Data analysis	Write and solve one-step adding or subtracting problems from a pictograph or bar graph.	2.MD.D.10		
+2.10D	2	DA	Data analysis	Draw conclusions and make predictions from a graph.		2.MD.D.10	
+2.11A	2	PFL	Personal financial literacy	Work out how saved money adds up over time.			
+2.11B	2	PFL	Personal financial literacy	See saving as a choice instead of spending.			2.11A,1.9C
+2.11C	2	PFL	Personal financial literacy	Tell a deposit from a withdrawal.			2.11A
+2.11D	2	PFL	Personal financial literacy	Give examples of borrowing and tell responsible from irresponsible borrowing.			
+2.11E	2	PFL	Personal financial literacy	Give examples of lending and weigh its benefits and costs.			2.11D
+2.11F	2	PFL	Personal financial literacy	Tell producers from consumers and add up the cost to make a simple item.			2.11D
+3.2A	3	NO	Number & operations	Build and break apart numbers up to 100,000 by place value, including expanded form.	4.NBT.A.2		
+3.2B	3	NO	Number & operations	Describe how the places relate in our base-ten system, up to hundred thousands.	4.NBT.A.1		
+3.2C	3	NO	Number & operations	Find which two tens, hundreds, thousands or ten thousands a number sits between, and round.	3.NBT.A.1	4.NBT.A.3	
+3.2D	3	NO	Number & operations	Compare and order numbers up to 100,000 using >, < and =.	4.NBT.A.2		3.NOS.A.1,3.2A
+3.3A	3	NO	Number & operations	Show fractions up to one whole (halves to eighths) with objects, strip diagrams and number lines.	3.NF.A.1,3.NF.A.2		
+3.3B	3	NO	Number & operations	Name the fraction at a marked point on a number line (halves to eighths).	3.NF.A.2		
+3.3C	3	NO	Number & operations	Understand a unit fraction 1/b as one of b equal parts of a whole.	3.NF.A.1		
+3.3D	3	NO	Number & operations	Build and break apart a fraction like 3/4 as a sum of unit fractions.	3.NF.A.1	4.NF.B.3	
+3.3E	3	NO	Number & operations	Share objects or a set fairly among people and name each share as a fraction.		3.NF.A.1,5.NF.B.3,3.G.A.2	3.NOS.F.11
+3.3F	3	NO	Number & operations	Show equivalent fractions (halves to eighths) with objects, pictures and number lines.	3.NF.A.3		
+3.3G	3	NO	Number & operations	Explain that equal fractions sit at the same point or cover the same part of a whole.	3.NF.A.3		
+3.3H	3	NO	Number & operations	Compare two fractions with the same top or bottom number, and explain why.	3.NF.A.3		
+3.4A	3	NO	Number & operations	Solve one- and two-step adding and subtracting problems within 1,000 fluently.	3.NBT.A.2	3.OA.D.8	
+3.4B	3	NO	Number & operations	Round to 10 or 100, or use friendly numbers, to estimate sums and differences.	3.NBT.A.1		3.NOS.D.6
+3.4C	3	NO	Number & operations	Find the value of a group of coins and bills.	2.MD.C.8		3.NS.4
+3.4D	3	NO	Number & operations	Find how many in all when equal groups are combined or set out in arrays up to 10 by 10.	3.OA.A.1	2.OA.C.4	
+3.4E	3	NO	Number & operations	Show multiplication facts with repeated adding, groups, arrays, number-line jumps or skip-counting.	3.OA.A.1	2.OA.C.4	
+3.4F	3	NO	Number & operations	Know the times tables to 10 x 10 from memory, and the matching division facts.	3.OA.C.7		
+3.4G	3	NO	Number & operations	Multiply a two-digit number by a one-digit number, including the standard method.		4.NBT.B.5,3.NBT.A.3	
+3.4H	3	NO	Number & operations	Find how many are in each group when things are shared equally.	3.OA.A.2		
+3.4I	3	NO	Number & operations	Use divisibility rules to tell whether a number is even or odd.		2.OA.C.3	
+3.4J	3	NO	Number & operations	Use a multiplication fact to find a division answer.	3.OA.B.6		
+3.4K	3	NO	Number & operations	Solve one- and two-step multiplying and dividing problems within 100.	3.OA.A.3,3.OA.D.8		
+3.5A	3	AR	Algebraic reasoning	Show one- and two-step adding and subtracting problems to 1,000 with pictures, number lines, equations.	3.OA.D.8	2.OA.A.1,3.NBT.A.2	
+3.5B	3	AR	Algebraic reasoning	Show and solve one- and two-step multiplying and dividing problems with arrays, strip diagrams, equations.	3.OA.A.3	3.OA.D.8	3.5A
+3.5C	3	AR	Algebraic reasoning	Read a product as a comparison: 3 x 24 is three times as much as 24.	4.OA.A.1		
+3.5D	3	AR	Algebraic reasoning	Find the missing factor or product in a multiplication or division equation.	3.OA.A.4		
+3.5E	3	AR	Algebraic reasoning	Show a real-world relationship with number pairs in a table and in words.		4.OA.C.5	4.5B,2.11A
+3.6A	3	GM	Geometry & measurement	Sort flat shapes and solids like cones, cylinders, spheres, prisms and cubes by their features.		2.G.A.1,3.G.A.1	2.8B
+3.6B	3	GM	Geometry & measurement	Recognize rhombuses, parallelograms, trapezoids, rectangles and squares as quadrilaterals.	3.G.A.1		
+3.6C	3	GM	Geometry & measurement	Find a rectangle's area by multiplying rows by squares in each row.	3.MD.C.7		
+3.6D	3	GM	Geometry & measurement	Split a shape made of rectangles into parts to find its total area.	3.MD.C.7		
+3.6E	3	GM	Geometry & measurement	Split shapes into equal areas, name each part as a unit fraction; equal parts can differ in shape.	3.G.A.2	2.G.A.3	
+3.7A	3	GM	Geometry & measurement	Show halves, fourths and eighths as distances from zero on a number line.	3.NF.A.2		
+3.7B	3	GM	Geometry & measurement	Find a polygon's perimeter, or a missing side when the perimeter is known.	3.MD.D.8		3.GR.C.8
+3.7C	3	GM	Geometry & measurement	Add and subtract time intervals in minutes.	3.MD.A.1		4.MG.2
+3.7D	3	GM	Geometry & measurement	Decide when to measure liquid volume (capacity) and when to measure weight.		3.MD.A.2	
+3.7E	3	GM	Geometry & measurement	Measure liquid volume or weight with the right units and tools.	3.MD.A.2		3.MG.1
+3.8A	3	DA	Data analysis	Show data in a frequency table, dot plot, pictograph or bar graph with a scale.	3.MD.B.3	3.MD.B.4	
+3.8B	3	DA	Data analysis	Solve one- and two-step problems using data from tables, dot plots, pictographs, bar graphs.	3.MD.B.3		3.8A
+3.9A	3	PFL	Personal financial literacy	Connect people's skills and work to the income they earn.			
+3.9B	3	PFL	Personal financial literacy	Explain how scarce or plentiful resources affect prices.			3.9A
+3.9C	3	PFL	Personal financial literacy	Weigh the costs and benefits of planned and unplanned spending.			3.9D
+3.9D	3	PFL	Personal financial literacy	Explain credit: borrowing when you can't pay now and paying it back, usually with interest.			
+3.9E	3	PFL	Personal financial literacy	List reasons to save and how a savings plan helps, including for college.			3.9D
+3.9F	3	PFL	Personal financial literacy	Spot money decisions about income, spending, saving, credit and giving.			3.9D
+4.2A	4	NO	Number & operations	Understand each place is ten times the place to its right and a tenth of the place to its left.	4.NBT.A.1,5.NBT.A.1		
+4.2B	4	NO	Number & operations	Write the value of digits in whole numbers to billions and decimals to hundredths, in expanded form.	4.NBT.A.2	5.NBT.A.3	
+4.2C	4	NO	Number & operations	Compare and order whole numbers up to 1,000,000,000 using >, < and =.	4.NBT.A.2		4.2B
+4.2D	4	NO	Number & operations	Round whole numbers to any place up to hundred thousands.	4.NBT.A.3		
+4.2E	4	NO	Number & operations	Show tenths and hundredths with models and money.	4.NF.C.6		4.2F
+4.2F	4	NO	Number & operations	Compare and order decimals to hundredths using models.	4.NF.C.7		
+4.2G	4	NO	Number & operations	Match decimals to fractions in tenths and hundredths.	4.NF.C.6	4.NF.C.5	
+4.2H	4	NO	Number & operations	Name the decimal (tenths or hundredths) at a marked point on a number line.	4.NF.C.6		MA.4.NSO.2.6
+4.3A	4	NO	Number & operations	Write a fraction as a sum of unit fractions, including fractions greater than one.	4.NF.B.3		
+4.3B	4	NO	Number & operations	Break a fraction into a sum of same-denominator fractions in more than one way.	4.NF.B.3		
+4.3C	4	NO	Number & operations	Decide whether two fractions are equivalent.	4.NF.A.1		
+4.3D	4	NO	Number & operations	Compare fractions with different tops and bottoms using >, = and <.	4.NF.A.2		
+4.3E	4	NO	Number & operations	Add and subtract fractions with like denominators using models and number lines.	4.NF.B.3		
+4.3F	4	NO	Number & operations	Check fraction sums and differences against 0, 1/4, 1/2, 3/4 and 1.		5.NF.A.2	
+4.3G	4	NO	Number & operations	Show fractions and decimals in tenths or hundredths as distances on a number line.	4.NF.C.6	3.NF.A.2	MA.4.NSO.2.6
+4.4A	4	NO	Number & operations	Add and subtract whole numbers and decimals to hundredths with the standard method.	4.NBT.B.4	5.NBT.B.7	4.CE.4
+4.4B	4	NO	Number & operations	Multiply a number by 10 or 100 using place value.		3.NBT.A.3,5.NBT.A.2	4.NOS.B.4
+4.4C	4	NO	Number & operations	Show the product of two two-digit numbers with arrays, area models or equations, incl. squares to 15 x 15.	4.NBT.B.5		
+4.4D	4	NO	Number & operations	Multiply up to four digits by one digit, and two digits by two digits, incl. the standard method.	4.NBT.B.5		
+4.4E	4	NO	Number & operations	Show dividing up to four digits by one digit with arrays, area models or equations.	4.NBT.B.6		
+4.4F	4	NO	Number & operations	Divide up to four digits by one digit, including the standard method.	4.NBT.B.6		
+4.4G	4	NO	Number & operations	Round to 10, 100 or 1,000, or use friendly numbers, to estimate answers.		4.NBT.A.3	3.NOS.D.6,5.3A
+4.4H	4	NO	Number & operations	Solve one- and two-step multiplying and dividing problems fluently, including remainders.	4.OA.A.3	4.OA.A.2	
+4.5A	4	AR	Algebraic reasoning	Show multi-step problems with all four operations using strip diagrams and letter equations.	4.OA.A.3		5.PFA.2,3.5A
+4.5B	4	AR	Algebraic reasoning	Use an input-output table to make a pattern that follows a rule linking each term to its position.		4.OA.C.5	
+4.5C	4	AR	Algebraic reasoning	Use models to work out the perimeter and area formulas for rectangles and squares.	4.MD.A.3		
+4.5D	4	AR	Algebraic reasoning	Solve perimeter and area problems for rectangles with whole-number sides.	4.MD.A.3		
+4.6A	4	GM	Geometry & measurement	Identify points, lines, segments, rays, angles, and parallel and perpendicular lines.	4.G.A.1		
+4.6B	4	GM	Geometry & measurement	Find and draw lines of symmetry in flat shapes.	4.G.A.3		
+4.6C	4	GM	Geometry & measurement	Use right angles to tell acute, right and obtuse triangles apart.	4.G.A.2		5.MG.3
+4.6D	4	GM	Geometry & measurement	Sort shapes by parallel or perpendicular sides and by angle size.	4.G.A.2		
+4.7A	4	GM	Geometry & measurement	See an angle's measure as the part of a circle its rays cut out.	4.MD.C.5		
+4.7B	4	GM	Geometry & measurement	Understand a degree as 1/360 of a circle.	4.MD.C.5		
+4.7C	4	GM	Geometry & measurement	Measure angles to the nearest degree with a protractor.	4.MD.C.6		
+4.7D	4	GM	Geometry & measurement	Draw an angle of a given size.	4.MD.C.6		
+4.7E	4	GM	Geometry & measurement	Find a missing angle when two angles sit side by side.	4.MD.C.7		
+4.8A	4	GM	Geometry & measurement	Know how customary and metric units compare in size.	4.MD.A.1		
+4.8B	4	GM	Geometry & measurement	Convert within one system, from small to large units or large to small, using a table.	4.MD.A.1	5.MD.A.1	
+4.8C	4	GM	Geometry & measurement	Solve problems about length, time, liquid volume, mass and money with all four operations.	4.MD.A.2		
+4.9A	4	DA	Data analysis	Show data with whole numbers and fractions in a frequency table, dot plot or stem-and-leaf plot.	4.MD.B.4		MA.4.DP.1.2,3.8A
+4.9B	4	DA	Data analysis	Solve one- and two-step problems from frequency tables, dot plots and stem-and-leaf plots.	4.MD.B.4		MA.4.DP.1.2,3.8A
+4.10A	4	PFL	Personal financial literacy	Tell fixed expenses from ones that change.			4.10B
+4.10B	4	PFL	Personal financial literacy	Work out profit in a simple situation.			
+4.10C	4	PFL	Personal financial literacy	Compare the pros and cons of different ways to save.			4.10D
+4.10D	4	PFL	Personal financial literacy	Plan how to split a weekly allowance between spending, saving and sharing.			
+4.10E	4	PFL	Personal financial literacy	Explain what banks and credit unions do: keep money safe, lend and borrow.			4.10D
+5.2A	5	NO	Number & operations	Write the value of digits in decimals to thousandths, in expanded form and numerals.	5.NBT.A.3		
+5.2B	5	NO	Number & operations	Compare and order decimals to thousandths using >, < and =.	5.NBT.A.3		
+5.2C	5	NO	Number & operations	Round decimals to tenths or hundredths.	5.NBT.A.4		
+5.3A	5	NO	Number & operations	Estimate answers to problems with any of the four operations.		5.NF.A.2	
+5.3B	5	NO	Number & operations	Multiply a three-digit number by a two-digit number fluently with the standard method.	5.NBT.B.5		
+5.3C	5	NO	Number & operations	Divide up to four digits by a two-digit number.	5.NBT.B.6		
+5.3D	5	NO	Number & operations	Show multiplying decimals, with products to hundredths, using area models.	5.NBT.B.7		
+5.3E	5	NO	Number & operations	Multiply decimals to hundredths, including money problems.	5.NBT.B.7		
+5.3F	5	NO	Number & operations	Show dividing decimals to hundredths by two-digit whole numbers using models.	5.NBT.B.7		5.3D
+5.3G	5	NO	Number & operations	Divide decimals to hundredths by two-digit whole numbers, including the standard method.	5.NBT.B.7	5.NBT.B.6	
+5.3H	5	NO	Number & operations	Add and subtract fractions with unlike denominators using models.	5.NF.A.1	5.NF.A.2	
+5.3I	5	NO	Number & operations	Multiply a whole number by a fraction using models, including area models.	4.NF.B.4	5.NF.B.4,5.NF.B.6	
+5.3J	5	NO	Number & operations	Show dividing a unit fraction by a whole number, and a whole number by a unit fraction.	5.NF.B.7		
+5.3K	5	NO	Number & operations	Add and subtract fractions and decimals fluently.	5.NF.A.1,5.NBT.B.7		
+5.3L	5	NO	Number & operations	Divide whole numbers by unit fractions and unit fractions by whole numbers.	5.NF.B.7		
+5.4A	5	AR	Algebraic reasoning	Tell prime numbers from composite numbers.	4.OA.B.4		5.NS.2
+5.4B	5	AR	Algebraic reasoning	Solve multi-step problems with all four operations using equations with a letter.	4.OA.A.3		5.PFA.2
+5.4C	5	AR	Algebraic reasoning	Make a number pattern from a rule like y = 3x or y = x + 3, and graph it.	5.OA.B.3	5.G.A.2	
+5.4D	5	AR	Algebraic reasoning	Tell adding patterns from multiplying patterns in a table or graph.		5.OA.B.3	4.5B
+5.4E	5	AR	Algebraic reasoning	Explain what parentheses and brackets mean in an expression.	5.OA.A.1		
+5.4F	5	AR	Algebraic reasoning	Work out expressions with up to two levels of grouping, no exponents.	5.OA.A.1		
+5.4G	5	AR	Algebraic reasoning	Use cubes and pictures to build the volume formulas for boxes and cubes.	5.MD.C.4,5.MD.C.5		
+5.4H	5	AR	Algebraic reasoning	Solve problems about perimeter, area and volume.	4.MD.A.3,5.MD.C.5		
+5.5	5	GM	Geometry & measurement	Sort flat shapes into a family tree of groups and subgroups by their features.	5.G.B.3,5.G.B.4		
+5.6A	5	GM	Geometry & measurement	Understand a unit cube and volume as how many unit cubes fill a solid.	5.MD.C.3,5.MD.C.4		
+5.6B	5	GM	Geometry & measurement	Find a box's volume as layers times cubes in the base.	5.MD.C.4,5.MD.C.5		
+5.7	5	GM	Geometry & measurement	Solve problems by converting units within the customary or metric system.	5.MD.A.1		
+5.8A	5	GM	Geometry & measurement	Describe the coordinate plane: axes, origin and what each number in a pair means.	5.G.A.1		
+5.8B	5	GM	Geometry & measurement	Explain how to plot an ordered pair in the first quadrant.	5.G.A.1	5.G.A.2	
+5.8C	5	GM	Geometry & measurement	Plot ordered pairs from real problems, patterns or input-output tables.	5.G.A.2	5.OA.B.3	
+5.9A	5	DA	Data analysis	Show data with bar graphs, frequency tables, dot plots or stem-and-leaf plots, incl. fractions and decimals.	5.MD.B.2	3.MD.B.3	MA.4.DP.1.2,5.9C,3.8A
+5.9B	5	DA	Data analysis	Plot paired data on a scatterplot.		5.G.A.2	5.9C
+5.9C	5	DA	Data analysis	Solve one- and two-step problems from tables, dot plots, bar graphs, stem-and-leaf plots, scatterplots.		5.MD.B.2,3.MD.B.3	
+5.10A	5	PFL	Personal financial literacy	Define income, payroll, sales and property taxes.			5.10B
+5.10B	5	PFL	Personal financial literacy	Explain gross income versus net income after taxes.			
+5.10C	5	PFL	Personal financial literacy	Weigh the pros and cons of paying by check, credit card, debit card or electronically.			5.10F
+5.10D	5	PFL	Personal financial literacy	Set up a way to keep and use financial records.			5.10F
+5.10E	5	PFL	Personal financial literacy	Suggest ways to balance a budget when spending is more than income.			5.10F
+5.10F	5	PFL	Personal financial literacy	Balance a simple budget.			

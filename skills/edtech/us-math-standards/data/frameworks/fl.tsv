@@ -1,0 +1,195 @@
+code	grade	strand	strand_name	summary	ccss_carried	ccss_partly_or_moved	other_set_codes
+P-MATH 1	PK	CC	Counting & cardinality	Say the counting numbers in order, working up to 20.	P-MATH 1		
+P-MATH 2	PK	CC	Counting & cardinality	See how many are in a small group, up to 5, without counting.	P-MATH 2		
+P-MATH 3	PK	CC	Counting & cardinality	Count things one by one, and know the last number said tells how many.	P-MATH 3		
+P-MATH 4	PK	CC	Counting & cardinality	Compare two groups: which has more, which has fewer, or the same.	P-MATH 4		
+P-MATH 5	PK	CC	Counting & cardinality	Match written numbers to amounts up to 5, and begin to write numbers.	P-MATH 5		
+P-MATH 6	PK	OA	Operations & algebraic thinking	Add by putting groups together and subtract by taking some away, with objects or fingers.	P-MATH 6		
+P-MATH 7	PK	OA	Operations & algebraic thinking	See, copy and continue simple repeating patterns.	P-MATH 7		
+P-MATH 8	PK	MD	Measurement	Compare things by size, length, height or weight: bigger, longer, heavier.	P-MATH 8		
+P-MATH 9	PK	G	Geometry & spatial sense	Name and compare shapes of any size or turn, and put shapes together.	P-MATH 9		
+P-MATH 10	PK	G	Geometry & spatial sense	Describe where things are: above, below, beside, in front, behind.	P-MATH 10		
+MA.K.NSO.1.1	K	NSO	Number sense & operations	Count up to 20 things, write how many, and know moving them around doesn't change the count.	K.CC.B.4,K.CC.B.5,K.CC.A.3		
+MA.K.NSO.1.2	K	NSO	Number sense & operations	Count out a set of objects to match a number up to 20.	K.CC.B.5		
+MA.K.NSO.1.3	K	NSO	Number sense & operations	Use first, second, third, fourth and fifth to say where something is in a line.			
+MA.K.NSO.1.4	K	NSO	Number sense & operations	Tell which of two groups (up to 20 each) has more, fewer or the same number.	K.CC.C.6		
+MA.K.NSO.2.1	K	NSO	Number sense & operations	Say the numbers to 100 by ones and tens, count on from any number, and count back from 20.	K.CC.A.1,K.CC.A.2		K.NOS.A.3
+MA.K.NSO.2.2	K	NSO	Number sense & operations	Show 10 to 20 as one ten and some ones, with objects, drawings or equations.	K.NBT.A.1		
+MA.K.NSO.2.3	K	NSO	Number sense & operations	Find, order and compare numbers 0 to 20 on a number line, in words.		K.CC.C.7	K.5
+MA.K.NSO.3.1	K	NSO	Number sense & operations	Try out adding two numbers up to 10 and the matching take-away facts.	K.OA.A.1		
+MA.K.NSO.3.2	K	NSO	Number sense & operations	Add within 10 and subtract with the matching facts, using a method that works every time.		K.OA.A.5,1.OA.C.6	
+MA.K.AR.1.1	K	AR	Algebraic reasoning	Find the partner that makes 10 for any number from 1 to 9.	K.OA.A.4		
+MA.K.AR.1.2	K	AR	Algebraic reasoning	Find the different pairs of numbers that add up to a number from 0 to 10.	K.OA.A.3		
+MA.K.AR.1.3	K	AR	Algebraic reasoning	Solve adding and taking-away story problems within 10 with objects, drawings or equations.	K.OA.A.2		
+MA.K.AR.2.1	K	AR	Algebraic reasoning	Use objects or drawings to show why an adding or subtracting equation is true.		1.OA.D.7	
+MA.K.M.1.1	K	M	Measurement	Name what can be measured about one object, like its length, how much it holds or its weight.	K.MD.A.1		
+MA.K.M.1.2	K	M	Measurement	Put two objects side by side and say which is longer, heavier or holds more.	K.MD.A.2		
+MA.K.M.1.3	K	M	Measurement	Measure a length up to 20 units by lining up paper clips or tiles end to end.	1.MD.A.2		
+MA.K.GR.1.1	K	GR	Geometric reasoning	Know squares, circles, rectangles, triangles, cubes, cones, cylinders and spheres, however big or turned.	K.G.A.2	K.G.A.3	
+MA.K.GR.1.2	K	GR	Geometric reasoning	Compare and sort flat shapes by how they look alike or differ, and say where they are.	K.G.B.4	K.G.A.1	
+MA.K.GR.1.3	K	GR	Geometric reasoning	Compare and sort solid shapes by how they look alike or differ, and say where they are.	K.G.B.4	K.G.A.1,K.G.A.3	
+MA.K.GR.1.4	K	GR	Geometric reasoning	Find things around us shaped like a given flat or solid shape, like a ball for a sphere.		K.G.A.3,K.G.A.2	
+MA.K.GR.1.5	K	GR	Geometric reasoning	Put triangles, rectangles and squares together to make a given bigger shape.	K.G.B.6		
+MA.K.DP.1.1	K	DP	Data analysis & probability	Sort objects into groups, count each group, compare them and tell the results.	K.MD.B.3		
+MA.1.NSO.1.1	1	NSO	Number sense & operations	Count up and down by ones within 120; skip-count by 2s to 20 and 5s to 100.	1.NBT.A.1	1.OA.C.5,2.NBT.A.2	1.5C,1.5B
+MA.1.NSO.1.2	1	NSO	Number sense & operations	Read numbers to 100 as numerals, words and expanded form; write them as numerals and expanded form.		1.NBT.A.1,2.NBT.A.3	1.2B
+MA.1.NSO.1.3	1	NSO	Number sense & operations	Build and break apart two-digit numbers into tens and ones in more than one way.	1.NBT.B.2		1.2B
+MA.1.NSO.1.4	1	NSO	Number sense & operations	Place, order and compare numbers to 100 on a number line and with >, = and <.	1.NBT.B.3		
+MA.1.NSO.2.1	1	NSO	Number sense & operations	Know adding facts to 10 and the matching subtracting facts by heart.	1.OA.C.6	K.OA.A.5	MA.K.NSO.3.2
+MA.1.NSO.2.2	1	NSO	Number sense & operations	Add within 20 and subtract with the matching facts, using a method that works every time.	1.OA.C.6	1.OA.C.5	
+MA.1.NSO.2.3	1	NSO	Number sense & operations	Find 1 more, 1 less, 10 more and 10 less than a two-digit number.	1.NBT.C.5		1.5C
+MA.1.NSO.2.4	1	NSO	Number sense & operations	Try out adding a one-digit number to a two-digit number, making a new ten when needed.	1.NBT.C.4		
+MA.1.NSO.2.5	1	NSO	Number sense & operations	Try out taking a one-digit number away from a two-digit number.		2.NBT.B.5	1.NOS.E.13
+MA.1.FR.1.1	1	FR	Fractions	Split circles and rectangles into halves and fourths, and name the parts.	1.G.A.3		
+MA.1.AR.1.1	1	AR	Algebraic reasoning	Use turn-around and grouping to add three or more numbers, like finding a ten first.	1.OA.B.3	1.OA.A.2,2.NBT.B.6	
+MA.1.AR.1.2	1	AR	Algebraic reasoning	Solve adding and subtracting story problems within 20 with objects, drawings or equations.	1.OA.A.1	1.OA.A.2	
+MA.1.AR.2.1	1	AR	Algebraic reasoning	Turn a subtraction into a missing-addend addition: 12 − 5 asks 5 + ? = 12.	1.OA.B.4		
+MA.1.AR.2.2	1	AR	Algebraic reasoning	Decide whether adding or subtracting equations are true or false, and say why.	1.OA.D.7		
+MA.1.AR.2.3	1	AR	Algebraic reasoning	Find the missing number in an adding or subtracting equation, wherever the blank is.	1.OA.D.8		
+MA.1.M.1.1	1	M	Measurement	Estimate lengths in inches, and measure with a ruler to the nearest inch or centimeter.	2.MD.A.1	2.MD.A.3	
+MA.1.M.1.2	1	M	Measurement	Put up to three objects in order by length, comparing directly or with a third object.	1.MD.A.1		
+MA.1.M.2.1	1	M	Measurement	Tell and write time to the hour and half hour on analog and digital clocks.	1.MD.B.3		
+MA.1.M.2.2	1	M	Measurement	Name pennies, nickels, dimes and quarters, write their values in cents, and how many make a dollar.		2.MD.C.8	1.GR.C.6
+MA.1.M.2.3	1	M	Measurement	Count mixes of pennies, nickels and dimes to $1, and $1, $5 and $10 bills to $100.	2.MD.C.8		
+MA.1.GR.1.1	1	GR	Geometric reasoning	Name, compare and sort flat and solid shapes by the features that define them.	1.G.A.1	K.G.B.4	1.6E
+MA.1.GR.1.2	1	GR	Geometric reasoning	Sketch a triangle, rectangle, square or hexagon that fits given features.	1.G.A.1	K.G.B.5	
+MA.1.GR.1.3	1	GR	Geometric reasoning	Put flat or solid shapes together to make new ones, and take shapes apart.	1.G.A.2		1.6E
+MA.1.GR.1.4	1	GR	Geometric reasoning	Spot the flat and solid shapes that make up parts of real objects.		K.G.A.3,K.G.A.2	
+MA.1.DP.1.1	1	DP	Data analysis & probability	Collect data into groups and show it with tally marks or a picture graph.	1.MD.C.4	2.MD.D.10	
+MA.1.DP.1.2	1	DP	Data analysis & probability	Read tally charts and picture graphs: find the total and compare groups.	1.MD.C.4	2.MD.D.10	
+MA.2.NSO.1.1	2	NSO	Number sense & operations	Read and write numbers to 1,000 as numerals, words and expanded form.	2.NBT.A.3		
+MA.2.NSO.1.2	2	NSO	Number sense & operations	Build and break apart three-digit numbers into hundreds, tens and ones in more than one way.	2.NBT.A.1		
+MA.2.NSO.1.3	2	NSO	Number sense & operations	Place, order and compare numbers to 1,000 on a number line and with >, = and <.	2.NBT.A.4		
+MA.2.NSO.1.4	2	NSO	Number sense & operations	Round any number up to 100 to its closest ten.		3.NBT.A.1	
+MA.2.NSO.2.1	2	NSO	Number sense & operations	Know adding facts to 20 and the matching subtracting facts by heart.	2.OA.B.2		
+MA.2.NSO.2.2	2	NSO	Number sense & operations	Find 10 more, 10 less, 100 more and 100 less than a three-digit number.	2.NBT.B.8		
+MA.2.NSO.2.3	2	NSO	Number sense & operations	Add and subtract within 100 using a method that works every time.	2.NBT.B.5	1.NBT.C.4,1.NBT.C.6	
+MA.2.NSO.2.4	2	NSO	Number sense & operations	Try out adding and subtracting within 1,000 with models, making or breaking tens and hundreds.	2.NBT.B.7	2.NBT.B.6,2.NBT.B.9	
+MA.2.FR.1.1	2	FR	Fractions	Split circles and rectangles into 2, 3 or 4 equal parts; a whole is two halves, three thirds, four fourths.	2.G.A.3		
+MA.2.FR.1.2	2	FR	Fractions	Split a rectangle into equal parts two ways, seeing equal parts can have different shapes.	2.G.A.3		
+MA.2.AR.1.1	2	AR	Algebraic reasoning	Solve one- and two-step adding and subtracting story problems within 100.	2.OA.A.1		
+MA.2.AR.2.1	2	AR	Algebraic reasoning	Decide whether adding or subtracting equations within 100 are true or false, and say why.		1.OA.D.7,2.NBT.B.9	
+MA.2.AR.2.2	2	AR	Algebraic reasoning	Find the missing number in an adding or subtracting equation with 3 or 4 numbers, within 100.		1.OA.D.8,2.OA.A.1,1.OA.D.7	
+MA.2.AR.3.1	2	AR	Algebraic reasoning	Show an even number as two equal groups, and an odd number as two equal groups plus one.	2.OA.C.3		
+MA.2.AR.3.2	2	AR	Algebraic reasoning	Use repeated addition, arrays and equations to find the total in equal groups, up to 25.	2.OA.C.4	2.G.A.2	
+MA.2.M.1.1	2	M	Measurement	Estimate and measure lengths in inches, feet, yards, centimeters or meters with the right tool.	2.MD.A.1,2.MD.A.3	2.MD.A.2	
+MA.2.M.1.2	2	M	Measurement	Measure two objects in the same unit and find how much longer one is.	2.MD.A.4		
+MA.2.M.1.3	2	M	Measurement	Solve one- and two-step length story problems by adding and subtracting, within 100.	2.MD.B.5		
+MA.2.M.2.1	2	M	Measurement	Tell time to 5 minutes with a.m. and p.m., and use half past, quarter after and quarter to.	2.MD.C.7		1.GR.C.5
+MA.2.M.2.2	2	M	Measurement	Solve one- and two-step money story problems with dollars to $100 or coins to 100¢.	2.MD.C.8		
+MA.2.GR.1.1	2	GR	Geometric reasoning	Name and draw squares, rectangles, triangles, pentagons, hexagons and octagons from their features.	2.G.A.1		
+MA.2.GR.1.2	2	GR	Geometric reasoning	Sort flat shapes by sides, corners, whether they're closed, and straight or curved edges.		2.G.A.1,1.G.A.1	
+MA.2.GR.1.3	2	GR	Geometric reasoning	Find lines of symmetry in flat shapes.		4.G.A.3,2.G.A.1	
+MA.2.GR.2.1	2	GR	Geometric reasoning	Find perimeter by laying unit lengths around a shape, and count them for rectangles.		3.MD.D.8	3.GR.C.8
+MA.2.GR.2.2	2	GR	Geometric reasoning	Find the perimeter of a triangle, rectangle, square or pentagon by adding its sides.	3.MD.D.8		
+MA.2.DP.1.1	2	DP	Data analysis & probability	Collect data and show it with tallies, tables, picture graphs or bar graphs, with titles and labels.	2.MD.D.10	3.MD.B.3	
+MA.2.DP.1.2	2	DP	Data analysis & probability	Read tallies, tables, picture graphs and bar graphs, and solve adding and subtracting questions.	2.MD.D.10	3.MD.B.3	
+MA.3.NSO.1.1	3	NSO	Number sense & operations	Read and write numbers to 10,000 as numerals, words and expanded form.		2.NBT.A.3,4.NBT.A.2	3.NOS.A.1
+MA.3.NSO.1.2	3	NSO	Number sense & operations	Build and break apart four-digit numbers by thousands, hundreds, tens and ones in several ways.		2.NBT.A.1,4.NBT.A.2	3.NOS.A.1
+MA.3.NSO.1.3	3	NSO	Number sense & operations	Place, order and compare numbers to 10,000 on a number line and with >, = and <.		2.NBT.A.4,4.NBT.A.2	3.NOS.A.1
+MA.3.NSO.1.4	3	NSO	Number sense & operations	Round numbers within 1,000 to the closest ten or hundred.	3.NBT.A.1		
+MA.3.NSO.2.1	3	NSO	Number sense & operations	Add and subtract multi-digit numbers fluently, including the standard method.	3.NBT.A.2,4.NBT.B.4		
+MA.3.NSO.2.2	3	NSO	Number sense & operations	Explore multiplying with products up to 144 and the matching division facts, with groups and arrays.	3.OA.A.1,3.OA.A.2		
+MA.3.NSO.2.3	3	NSO	Number sense & operations	Multiply one-digit numbers by tens up to 90 and hundreds up to 900, like 7 × 300.	3.NBT.A.3		4.NOS.B.4
+MA.3.NSO.2.4	3	NSO	Number sense & operations	Multiply numbers 0 to 12 and divide with the matching facts, using a method that works every time.	3.OA.C.7		
+MA.3.FR.1.1	3	FR	Fractions	Understand a unit fraction like 1/4 as one of the equal parts of a whole.	3.NF.A.1	3.G.A.2,3.NF.A.2	
+MA.3.FR.1.2	3	FR	Fractions	See a fraction like 5/4 as 5 copies of 1/4, including fractions bigger than 1.	3.NF.A.1	3.NF.A.2	
+MA.3.FR.1.3	3	FR	Fractions	Read and write fractions as numbers, number-words and words: 3/4, 3 fourths, three-fourths.			
+MA.3.FR.2.1	3	FR	Fractions	Place, order and compare fractions that share a top or bottom number.	3.NF.A.2,3.NF.A.3		
+MA.3.FR.2.2	3	FR	Fractions	Tell which fractions are equivalent and explain how you know.	3.NF.A.3	4.NF.A.1	
+MA.3.AR.1.1	3	AR	Algebraic reasoning	Use turn-around, grouping and breaking apart to multiply, like 4 × 23 as 4 × 20 + 4 × 3.	3.OA.B.5	3.MD.C.7	
+MA.3.AR.1.2	3	AR	Algebraic reasoning	Solve one- and two-step story problems using any of the four operations.	3.OA.D.8,3.OA.A.3		
+MA.3.AR.2.1	3	AR	Algebraic reasoning	Turn a division into a missing-factor problem: 32 ÷ 8 asks 8 × ? = 32.	3.OA.B.6		
+MA.3.AR.2.2	3	AR	Algebraic reasoning	Decide whether multiplying or dividing equations are true or false, and say why.			
+MA.3.AR.2.3	3	AR	Algebraic reasoning	Find the missing number in a multiplying or dividing equation, wherever the blank is.	3.OA.A.4		
+MA.3.AR.3.1	3	AR	Algebraic reasoning	Say whether a number up to 1,000 is odd or even, and why.		2.OA.C.3	3.4I
+MA.3.AR.3.2	3	AR	Algebraic reasoning	Check whether a number up to 144 is in a one-digit number's times table.		4.OA.B.4	
+MA.3.AR.3.3	3	AR	Algebraic reasoning	Find, make and continue number patterns that add, subtract, multiply or divide.		3.OA.D.9,4.OA.C.5	4.5B
+MA.3.M.1.1	3	M	Measurement	Pick and use tools to measure length, liquid in a beaker, and temperature.		3.MD.B.4,3.MD.A.2	
+MA.3.M.1.2	3	M	Measurement	Solve story problems about length, mass, weight, temperature or liquid volume using any operation.	3.MD.A.2	4.MD.A.2	MA.3.M.1.1
+MA.3.M.2.1	3	M	Measurement	Read and write clock times to the exact minute, analog or digital, with a.m. and p.m.	3.MD.A.1		
+MA.3.M.2.2	3	M	Measurement	Solve one- and two-step elapsed-time problems.	3.MD.A.1		2.GR.C.8,4.MG.2
+MA.3.GR.1.1	3	GR	Geometric reasoning	Draw and name points, lines, segments, rays, and crossing, perpendicular and parallel lines.	4.G.A.1		
+MA.3.GR.1.2	3	GR	Geometric reasoning	Name and draw quadrilaterals: parallelograms, rhombuses, rectangles, squares and trapezoids.	3.G.A.1		
+MA.3.GR.1.3	3	GR	Geometric reasoning	Draw lines of symmetry and pick out shapes that have them.	4.G.A.3		
+MA.3.GR.2.1	3	GR	Geometric reasoning	Find area by covering a shape with unit squares and counting them.	3.MD.C.5,3.MD.C.6		
+MA.3.GR.2.2	3	GR	Geometric reasoning	Find a rectangle's area with a picture and by multiplying its sides.	3.MD.C.7		
+MA.3.GR.2.3	3	GR	Geometric reasoning	Solve perimeter and area problems for rectangles, with pictures and formulas.	3.MD.D.8,4.MD.A.3	3.MD.C.7	
+MA.3.GR.2.4	3	GR	Geometric reasoning	Find the perimeter and area of shapes made of rectangles put together.	3.MD.C.7	3.MD.D.8	
+MA.3.DP.1.1	3	DP	Data analysis & probability	Collect data and show it in tables, scaled picture and bar graphs, or line plots.	3.MD.B.3	2.MD.D.9,3.MD.B.4	
+MA.3.DP.1.2	3	DP	Data analysis & probability	Read tables, scaled graphs, circle graphs and line plots to solve one- and two-step problems.	3.MD.B.3	3.MD.B.4	3.8A
+MA.4.NSO.1.1	4	NSO	Number sense & operations	Tell how a digit's value changes when it moves one place left or right.	4.NBT.A.1		
+MA.4.NSO.1.2	4	NSO	Number sense & operations	Read and write numbers to 1,000,000 as numerals, words and expanded form.	4.NBT.A.2		
+MA.4.NSO.1.3	4	NSO	Number sense & operations	Place, order and compare numbers to 1,000,000 on a number line and with >, = and <.	4.NBT.A.2		4.2B
+MA.4.NSO.1.4	4	NSO	Number sense & operations	Round numbers within 10,000 to the closest ten, hundred or thousand.	4.NBT.A.3		
+MA.4.NSO.1.5	4	NSO	Number sense & operations	Place, order and compare decimals to hundredths.	4.NF.C.7	4.NF.C.6	
+MA.4.NSO.2.1	4	NSO	Number sense & operations	Know times tables to 12 and the matching division facts by heart.	3.OA.C.7		4.NOS.C.7,MA.3.NSO.2.4
+MA.4.NSO.2.2	4	NSO	Number sense & operations	Multiply numbers up to 3 digits by numbers up to 2 digits, with a method that works every time.	4.NBT.B.5	5.NBT.B.5	
+MA.4.NSO.2.3	4	NSO	Number sense & operations	Multiply two two-digit numbers fluently, including the standard method.	4.NBT.B.5	5.NBT.B.5	
+MA.4.NSO.2.4	4	NSO	Number sense & operations	Divide up to four digits by one digit, writing the remainder as a fraction of the divisor.	4.NBT.B.6	5.NF.B.3	
+MA.4.NSO.2.5	4	NSO	Number sense & operations	Estimate multi-digit products and quotients by rounding and place value.		5.NBT.B.5	5.3A
+MA.4.NSO.2.6	4	NSO	Number sense & operations	Find the number that is 0.1 or 0.01 more or less than a given number.			
+MA.4.NSO.2.7	4	NSO	Number sense & operations	Try out adding and subtracting decimals to hundredths, like money.		5.NBT.B.7,4.NF.C.5	
+MA.4.FR.1.1	4	FR	Fractions	Rewrite tenths as hundredths: 3/10 = 30/100, including mixed numbers.	4.NF.C.5		
+MA.4.FR.1.2	4	FR	Fractions	Write tenths and hundredths fractions as decimals and back, including mixed numbers.	4.NF.C.6		
+MA.4.FR.1.3	4	FR	Fractions	Spot and make equivalent fractions, and describe what happens to the top and bottom.	4.NF.A.1		
+MA.4.FR.1.4	4	FR	Fractions	Place, order and compare fractions and mixed numbers with different tops and bottoms.	4.NF.A.2		
+MA.4.FR.2.1	4	FR	Fractions	Break a fraction or mixed number into a sum of same-denominator fractions in several ways.	4.NF.B.3		
+MA.4.FR.2.2	4	FR	Fractions	Add and subtract fractions and mixed numbers with the same denominator.	4.NF.B.3		
+MA.4.FR.2.3	4	FR	Fractions	Try out adding tenths to hundredths by rewriting as hundredths.	4.NF.C.5		
+MA.4.FR.2.4	4	FR	Fractions	Explore multiplying a fraction by a whole number, either way round.	4.NF.B.4		
+MA.4.AR.1.1	4	AR	Algebraic reasoning	Solve multiplying and dividing story problems, including times-as-many and making sense of remainders.	4.OA.A.2,4.OA.A.3	4.OA.A.1	
+MA.4.AR.1.2	4	AR	Algebraic reasoning	Solve story problems adding and subtracting same-denominator fractions and mixed numbers.	4.NF.B.3		
+MA.4.AR.1.3	4	AR	Algebraic reasoning	Solve story problems multiplying a fraction and a whole number.	4.NF.B.4		
+MA.4.AR.2.1	4	AR	Algebraic reasoning	Decide whether equations with any of the four operations are true or false, and say why.			
+MA.4.AR.2.2	4	AR	Algebraic reasoning	Write a multiplying or dividing equation with a letter for the unknown, wherever it sits.		4.OA.A.2,3.OA.A.4	5.PFA.2
+MA.4.AR.3.1	4	AR	Algebraic reasoning	Find factor pairs for numbers to 144, and tell prime, composite or neither.	4.OA.B.4		
+MA.4.AR.3.2	4	AR	Algebraic reasoning	Make, describe and continue a number pattern from a rule.	4.OA.C.5		
+MA.4.M.1.1	4	M	Measurement	Pick and use tools to measure length, volume, weight, mass and temperature, with fractions or decimals.		3.MD.A.2,3.MD.B.4	MA.3.M.1.1,3.MG.1
+MA.4.M.1.2	4	M	Measurement	Convert units within one system, from big to small and small to big.	4.MD.A.1	5.MD.A.1	
+MA.4.M.2.1	4	M	Measurement	Solve two-step story problems about distance and time with any operation.	4.MD.A.2		
+MA.4.M.2.2	4	M	Measurement	Solve one- and two-step money problems adding and subtracting with decimals.		4.MD.A.2,5.NBT.B.7	
+MA.4.GR.1.1	4	GR	Geometric reasoning	Explore angles and sort them as acute, right, obtuse, straight or reflex.	4.MD.C.5	4.G.A.1,4.G.A.2	
+MA.4.GR.1.2	4	GR	Geometric reasoning	Estimate angles, measure and draw them with a protractor, and see that angles add up.	4.MD.C.6	4.MD.C.7,4.MD.C.5	
+MA.4.GR.1.3	4	GR	Geometric reasoning	Find unknown angles and write an equation for them.	4.MD.C.7		
+MA.4.GR.2.1	4	GR	Geometric reasoning	Solve rectangle perimeter and area problems, including a missing side.	4.MD.A.3		
+MA.4.GR.2.2	4	GR	Geometric reasoning	Compare rectangles with the same perimeter but different areas, or the same area, different perimeters.		3.MD.D.8,4.MD.A.3	
+MA.4.DP.1.1	4	DP	Data analysis & probability	Gather data with fraction values and show it in a table, line plot or stem-and-leaf plot.	4.MD.B.4		MA.4.DP.1.2
+MA.4.DP.1.2	4	DP	Data analysis & probability	Find the mode, median and range of a data set shown in a table, line plot or stem-and-leaf plot.			
+MA.4.DP.1.3	4	DP	Data analysis & probability	Solve story problems using a set of numerical data.	4.MD.B.4		
+MA.5.NSO.1.1	5	NSO	Number sense & operations	Tell how a digit's value changes as it moves places, with decimals to thousandths.	5.NBT.A.1		
+MA.5.NSO.1.2	5	NSO	Number sense & operations	Read and write decimals to thousandths as numerals, words and expanded form.	5.NBT.A.3		
+MA.5.NSO.1.3	5	NSO	Number sense & operations	Build and break apart decimals to thousandths in several ways using place values.		5.NBT.A.3,5.NBT.A.1,4.NF.C.5	
+MA.5.NSO.1.4	5	NSO	Number sense & operations	Place, order and compare decimals to thousandths.	5.NBT.A.3		
+MA.5.NSO.1.5	5	NSO	Number sense & operations	Round decimals with up to three places to the nearest whole, tenth or hundredth.	5.NBT.A.4		
+MA.5.NSO.2.1	5	NSO	Number sense & operations	Multiply multi-digit whole numbers fluently, including the standard method.	5.NBT.B.5		
+MA.5.NSO.2.2	5	NSO	Number sense & operations	Long-divide numbers up to five digits by two-digit numbers, and write remainders as fractions.	5.NBT.B.6	5.NF.B.3	
+MA.5.NSO.2.3	5	NSO	Number sense & operations	Add and subtract decimals to thousandths fluently, including the standard method.	5.NBT.B.7		4.CE.4
+MA.5.NSO.2.4	5	NSO	Number sense & operations	Explore multiplying and dividing decimals to hundredths by estimating and place value.	5.NBT.B.7		
+MA.5.NSO.2.5	5	NSO	Number sense & operations	Multiply and divide decimals by 0.1 and 0.01.		5.NBT.A.2,5.NBT.B.7	
+MA.5.FR.1.1	5	FR	Fractions	Write a division of whole numbers as a fraction: 3 ÷ 4 = 3/4.	5.NF.B.3		
+MA.5.FR.2.1	5	FR	Fractions	Add and subtract fractions and mixed numbers with different denominators.	5.NF.A.1		
+MA.5.FR.2.2	5	FR	Fractions	Multiply two fractions, mixed numbers too, like 2/3 × 1 1/2.	5.NF.B.4	5.NF.B.6	
+MA.5.FR.2.3	5	FR	Fractions	Predict whether multiplying by a fraction makes a number bigger or smaller, without working it out.	5.NF.B.5		
+MA.5.FR.2.4	5	FR	Fractions	Explore problems like 1/3 ÷ 4 and 4 ÷ 1/3 with pictures and models.	5.NF.B.7		
+MA.5.AR.1.1	5	AR	Algebraic reasoning	Solve multi-step whole-number story problems with any operation, making sense of remainders.	4.OA.A.3		
+MA.5.AR.1.2	5	AR	Algebraic reasoning	Solve story problems adding, subtracting or multiplying fractions and mixed numbers.	5.NF.A.2,5.NF.B.6		
+MA.5.AR.1.3	5	AR	Algebraic reasoning	Solve story problems dividing unit fractions and whole numbers.	5.NF.B.7		
+MA.5.AR.2.1	5	AR	Algebraic reasoning	Turn word descriptions into number expressions, and expressions back into words.	5.OA.A.2		
+MA.5.AR.2.2	5	AR	Algebraic reasoning	Work out multi-step expressions using the order of operations.	5.OA.A.1		
+MA.5.AR.2.3	5	AR	Algebraic reasoning	Decide whether equations with any operation are true or false, and explain why.			
+MA.5.AR.2.4	5	AR	Algebraic reasoning	Write an equation with a letter for the unknown from a story, using any operation.		4.OA.A.3	5.PFA.2
+MA.5.AR.3.1	5	AR	Algebraic reasoning	Look at a number pattern and write its rule as an expression.		4.OA.C.5,5.OA.B.3	4.5B
+MA.5.AR.3.2	5	AR	Algebraic reasoning	Use a rule to fill in an input-output table.		5.OA.B.3	4.5B
+MA.5.M.1.1	5	M	Measurement	Solve multi-step problems that convert units within one measurement system.	5.MD.A.1		
+MA.5.M.2.1	5	M	Measurement	Solve multi-step money problems with decimals.		4.MD.A.2,5.NBT.B.7	
+MA.5.GR.1.1	5	GR	Geometric reasoning	Sort triangles and quadrilaterals into families by shared features, and explain why.	5.G.B.3,5.G.B.4	4.G.A.2	5.MG.3
+MA.5.GR.1.2	5	GR	Geometric reasoning	Sort solid shapes like prisms, pyramids, cylinders, cones and spheres by faces, edges and bases.			
+MA.5.GR.2.1	5	GR	Geometric reasoning	Find perimeter and area of rectangles with fraction or decimal side lengths.		5.NF.B.4,4.MD.A.3	
+MA.5.GR.3.1	5	GR	Geometric reasoning	Find volume by packing a box with unit cubes and counting them.	5.MD.C.3,5.MD.C.4		
+MA.5.GR.3.2	5	GR	Geometric reasoning	Find a box's volume with a picture and by multiplying length, width and height.	5.MD.C.5		
+MA.5.GR.3.3	5	GR	Geometric reasoning	Solve volume problems for boxes and box-shaped combos, including a missing edge.	5.MD.C.5		
+MA.5.GR.4.1	5	GR	Geometric reasoning	Name the origin and axes, and plot and label points in the first quadrant.	5.G.A.1	5.G.A.2	
+MA.5.GR.4.2	5	GR	Geometric reasoning	Plot points in the first quadrant to show a problem and explain what they mean.	5.G.A.2		
+MA.5.DP.1.1	5	DP	Data analysis & probability	Gather data with fraction or decimal values and show it in a table, line plot or line graph.	5.MD.B.2		
+MA.5.DP.1.2	5	DP	Data analysis & probability	Find the mean, median, mode and range of data in tables or line plots.		5.MD.B.2	5.PS.2

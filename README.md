@@ -46,6 +46,12 @@ Versioned with [Changesets](https://github.com/changesets/changesets); see [CHAN
 | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | [design-critique](skills/design/design-critique)        | Critique a site, app or game as an interactive page of annotated screenshots, findings and pickable ideas that copy out as a build prompt. |
 
+### Edtech
+
+| Skill                                                         | Description                                                                                                  |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| [us-math-standards](skills/edtech/us-math-standards)          | US K–5 math standards for aligned content: Common Core, every state's own codes and crosswalks, Head Start pre-K, curricula, fit reviews and printable-sheet design. |
+
 ### Game
 
 | Skill                                                          | Description                                                                                       |

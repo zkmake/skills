@@ -1,0 +1,177 @@
+code	grade	strand	strand_name	summary	ccss_carried	ccss_partly_or_moved	other_set_codes
+PK.NOS.A.1	PK	NOS	Number & operation sense	Count to 20 by ones.	P-MATH 1		
+PK.NOS.A.2	PK	NOS	Number & operation sense	Count backward from 10 by ones.			
+PK.NOS.A.3	PK	NOS	Number & operation sense	Say which number comes just after or just before a number, counting to 10.		P-MATH 1	
+PK.NOS.A.4	PK	NOS	Number & operation sense	Recognize the written numbers 0 to 10.	P-MATH 5		
+PK.NOS.B.5	PK	NOS	Number & operation sense	Count up to 10 objects one by one, and know the last number said is how many.	P-MATH 3		
+PK.NOS.B.6	PK	NOS	Number & operation sense	See that each next number when counting means one more.			
+PK.NOS.B.7	PK	NOS	Number & operation sense	Show a number up to 10 with objects, pictures or a written number, and say how many.		P-MATH 5	
+PK.NOS.B.8	PK	NOS	Number & operation sense	See how many at a glance: up to 3 in any arrangement, up to 5 in familiar patterns like dice.	P-MATH 2		
+PK.NOS.C.9	PK	NOS	Number & operation sense	Compare two groups up to 10: more than, equal to or less than, by matching and counting.	P-MATH 4		
+PK.NOS.D.10	PK	NOS	Number & operation sense	Break numbers up to 5 into parts in more than one way.			
+PK.AT.A.1	PK	AT	Algebraic thinking	Act out, draw or explain adding and taking away within 5, without written symbols.	P-MATH 6		
+PK.AT.A.2	PK	AT	Algebraic thinking	Find how many more make 5, with objects, fingers or drawings.			
+PK.AT.B.3	PK	AT	Algebraic thinking	Spot and continue repeating patterns (ABAB, AABB, ABCABC) with objects, shapes or sounds.	P-MATH 7		
+PK.GR.A.1	PK	GR	Geometric reasoning & measurement	Describe things that can be measured, like length, height and weight: long, heavy, wide.			
+PK.GR.A.2	PK	GR	Geometric reasoning & measurement	Compare two objects directly: longer or shorter, heavier or lighter, taller or shorter.	P-MATH 8		
+PK.GR.B.3	PK	GR	Geometric reasoning & measurement	Sort circles, triangles and rectangles (squares too), and tell shapes that belong from ones that don't.		P-MATH 9	
+PK.GR.B.4	PK	GR	Geometric reasoning & measurement	Match and name circles, triangles and rectangles whatever their size or which way they face.	P-MATH 9		
+PK.GR.B.5	PK	GR	Geometric reasoning & measurement	Match and sort cubes, spheres and cylinders.			
+PK.DS.A.1	PK	DS	Reasoning with data & statistics	Sort objects into groups.			
+PK.DS.A.2	PK	DS	Reasoning with data & statistics	Compare the groups: which has more, less or the same (up to 10 in a group).			
+K.NOS.A.1	K	NOS	Number & operation sense	Count to 100 by ones and by tens.	K.CC.A.1		
+K.NOS.A.2	K	NOS	Number & operation sense	Count forward from any number within 100, not just 1.	K.CC.A.2		
+K.NOS.A.3	K	NOS	Number & operation sense	Count backward from any number up to 20.			
+K.NOS.A.4	K	NOS	Number & operation sense	Write the numbers 0 to 20.		K.CC.A.1,K.CC.A.3	
+K.NOS.A.5	K	NOS	Number & operation sense	Write a numeral to show how many objects there are, up to 20 (0 means none).	K.CC.A.3		
+K.NOS.B.6	K	NOS	Number & operation sense	Count up to 20 objects one at a time, and know the last number says how many.	K.CC.B.4	K.CC.B.5	
+K.NOS.B.7	K	NOS	Number & operation sense	See that each next number when counting means one more.		K.CC.B.4	
+K.NOS.B.8	K	NOS	Number & operation sense	Tell how many are in a small group at a glance, without counting.			
+K.NOS.C.9	K	NOS	Number & operation sense	Build and break apart 11–19 as one ten and some more ones.	K.NBT.A.1		
+K.NOS.C.10	K	NOS	Number & operation sense	Compare two amounts up to 20 as greater, less or equal, using objects or numerals.	K.CC.C.6	K.CC.C.7	
+K.NOS.D.11	K	NOS	Number & operation sense	Break numbers up to 10 into pairs in more than one way, and record each one.	K.OA.A.3	K.OA.A.4	
+K.AT.A.1	K	AT	Algebraic thinking	Show adding and taking away within 10 with objects, fingers, drawings or acting it out.	K.OA.A.1		
+K.AT.A.2	K	AT	Algebraic thinking	Solve adding and taking-away story problems within 10.	K.OA.A.2		
+K.AT.B.3	K	AT	Algebraic thinking	Spot, continue and make repeating patterns, like AABAAB or ABCABC.			
+K.GR.A.1	K	GR	Geometry & measurement	Describe what can be measured: long or short, heavy or light, full or empty.	K.MD.A.1	K.MD.A.2	
+K.GR.A.2	K	GR	Geometry & measurement	Compare two objects: which is taller, shorter, heavier or lighter.	K.MD.A.2		
+K.GR.A.3	K	GR	Geometry & measurement	Put up to 3 objects in order by size, like tallest to shortest.			
+K.GR.B.4	K	GR	Geometry & measurement	Describe where things are: above, below, beside, in front of, behind, next to.	K.G.A.1	P-MATH 10	
+K.GR.B.5	K	GR	Geometry & measurement	Name flat and solid shapes whatever their size or which way they face.	K.G.A.2	K.G.A.3	
+K.GR.B.6	K	GR	Geometry & measurement	Tell flat shapes from solid shapes.	K.G.A.3		
+K.GR.B.7	K	GR	Geometry & measurement	Compare flat and solid shapes by their sides, corners and faces.	K.G.B.4		
+K.GR.B.8	K	GR	Geometry & measurement	Draw flat shapes and build models of solid shapes.	K.G.B.5		
+K.GR.B.9	K	GR	Geometry & measurement	Put small shapes together to make bigger ones.	K.G.B.6		
+K.DS.A.1	K	DS	Data & statistics	Sort objects into groups and count each group, up to 20.	K.MD.B.3		
+K.DS.A.2	K	DS	Data & statistics	Put sorted groups in order from most to fewest.		K.MD.B.3	
+1.NOS.A.1	1	NOS	Number & operation sense	Count forward and backward within 120 from any number, and by tens.	1.NBT.A.1		
+1.NOS.A.2	1	NOS	Number & operation sense	Read and write numbers to 120, and use a numeral to show how many.		1.NBT.A.1	
+1.NOS.B.3	1	NOS	Number & operation sense	Understand two-digit numbers as tens and ones, and split them in different ways.	1.NBT.B.2		
+1.NOS.B.4	1	NOS	Number & operation sense	Show whole numbers as distances from 0 on a number line.		2.MD.B.6	
+1.NOS.B.5	1	NOS	Number & operation sense	Compare two-digit numbers using tens, ones or a number line, with >, = and <.	1.NBT.B.3		
+1.NOS.B.6	1	NOS	Number & operation sense	Estimate where a number sits on a number line using 10, 50 and 100 as guides.			
+1.NOS.C.7	1	NOS	Number & operation sense	Use turn-around facts and grouping to make adding easier.	1.OA.B.3	1.OA.A.2	
+1.NOS.C.8	1	NOS	Number & operation sense	Subtract by thinking of the matching addition fact.	1.OA.B.4		
+1.NOS.D.9	1	NOS	Number & operation sense	Add and subtract within 20 quickly, using counting on, making ten and doubles.	1.OA.C.6	K.OA.A.5,1.OA.C.5	
+1.NOS.E.10	1	NOS	Number & operation sense	Add within 100 using models and place value, making a new ten when needed.	1.NBT.C.4		
+1.NOS.E.11	1	NOS	Number & operation sense	Find 10 more or 10 less than a two-digit number in your head.	1.NBT.C.5		
+1.NOS.E.12	1	NOS	Number & operation sense	Subtract multiples of 10 within 90.	1.NBT.C.6		
+1.NOS.E.13	1	NOS	Number & operation sense	Subtract a one-digit number from a two-digit number without regrouping.			
+1.NOS.F.14	1	NOS	Number & operation sense	Split circles and rectangles into halves and fourths; more shares means smaller ones.	1.G.A.3		
+1.AT.A.1	1	AT	Algebraic thinking	Understand the equal sign and decide whether equations are true or false.	1.OA.D.7		
+1.AT.A.2	1	AT	Algebraic thinking	Solve adding and subtracting story problems within 20, with the unknown anywhere.	1.OA.A.1	1.OA.A.2	
+1.AT.A.3	1	AT	Algebraic thinking	Find the missing number in an addition or subtraction equation.	1.OA.D.8		
+1.GR.A.1	1	GR	Geometry & measurement	Put three objects in order by length, and compare two lengths using a third.	1.MD.A.1		
+1.GR.A.2	1	GR	Geometry & measurement	Measure length by lining up same-size units end to end.	1.MD.A.2		
+1.GR.B.3	1	GR	Geometry & measurement	Tell which features make a shape what it is, and which ones don't matter.	1.G.A.1		
+1.GR.B.4	1	GR	Geometry & measurement	Put flat or solid shapes together to make new shapes.	1.G.A.2		
+1.GR.C.5	1	GR	Geometry & measurement	Tell time to the hour, half hour and quarter hour, and estimate how long things take.	1.MD.B.3		
+1.GR.C.6	1	GR	Geometry & measurement	Name coins and bills and know what each is worth.			
+1.DS.A.1	1	DS	Data & statistics	Ask a question, collect answers, and show them in tally charts and picture graphs.	1.MD.C.4		
+2.NOS.A.1	2	NOS	Number & operation sense	Understand three-digit numbers as hundreds, tens and ones, and split them different ways.	2.NBT.A.1		
+2.NOS.A.2	2	NOS	Number & operation sense	Count within 1000 from any number, and skip-count by 2s, 5s, 10s and 100s.	2.NBT.A.2	2.OA.C.4,2.G.A.2	
+2.NOS.A.3	2	NOS	Number & operation sense	Read and write numbers to 1000 as numerals, words and expanded form.	2.NBT.A.3		
+2.NOS.A.4	2	NOS	Number & operation sense	Compare three-digit numbers by place value or a number line, using >, = and <.	2.NBT.A.4		
+2.NOS.A.5	2	NOS	Number & operation sense	Estimate numbers on a number line and check whether sums and differences make sense.			
+2.NOS.B.6	2	NOS	Number & operation sense	Add and subtract within 20 quickly, using strategies like doubles plus one.	2.OA.B.2	1.OA.C.6	
+2.NOS.C.7	2	NOS	Number & operation sense	Show sums and differences within 100 as jumps on a number line.	2.MD.B.6		
+2.NOS.C.8	2	NOS	Number & operation sense	Add and subtract within 100 fluently, picking the best strategy.	2.NBT.B.5	2.NBT.B.6	
+2.NOS.C.9	2	NOS	Number & operation sense	Add and subtract within 1000 using models and place value.	2.NBT.B.7	2.NBT.B.9	
+2.NOS.C.10	2	NOS	Number & operation sense	Add or subtract 10 or 100 in your head, for numbers 100–900.	2.NBT.B.8		
+2.NOS.D.11	2	NOS	Number & operation sense	Split shapes into halves, thirds and fourths; equal shares can differ in shape.	2.G.A.3		
+2.AT.A.1	2	AT	Algebraic thinking	Solve one-step adding and subtracting story problems within 100.	2.OA.A.1	2.MD.B.5	
+2.AT.A.2	2	AT	Algebraic thinking	Solve two-step adding and subtracting story problems within 100.		2.OA.A.1,2.MD.B.5	
+2.AT.B.3	2	AT	Algebraic thinking	Tell whether a group of up to 20 is odd or even, and write an even number as a double.	2.OA.C.3		
+2.GR.A.1	2	GR	Geometry & measurement	Measure length with a ruler, yardstick, meter stick or tape.	2.MD.A.1		
+2.GR.A.2	2	GR	Geometry & measurement	Measure something twice with different units and compare the numbers.	2.MD.A.2		
+2.GR.A.3	2	GR	Geometry & measurement	Estimate lengths in inches, feet, centimeters and meters.	2.MD.A.3		
+2.GR.A.4	2	GR	Geometry & measurement	Measure how much longer one object is than another.	2.MD.A.4		
+2.GR.B.5	2	GR	Geometry & measurement	Recognize and draw shapes by their angles and faces.	2.G.A.1		
+2.GR.B.6	2	GR	Geometry & measurement	Find and draw lines of symmetry that fold a shape into matching halves.		4.G.A.3,2.G.A.1	
+2.GR.C.7	2	GR	Geometry & measurement	Tell and write time to the nearest minute on digital and analog clocks.	2.MD.C.7	3.MD.A.1	
+2.GR.C.8	2	GR	Geometry & measurement	Estimate and work out elapsed time to the hour and half hour.			
+2.GR.C.9	2	GR	Geometry & measurement	Solve money problems up to $20 with bills and coins, using $ and ¢.	2.MD.C.8		
+2.DS.A.1	2	DS	Data & statistics	Ask a question, collect data, and show it in picture graphs, bar graphs and line plots.	2.MD.D.9	2.MD.D.10	
+3.NOS.A.1	3	NOS	Number & operation sense	Read, write, round and compare whole numbers within 10,000.		3.NBT.A.1	
+3.NOS.B.2	3	NOS	Number & operation sense	Understand multiplying as equal groups: 5 × 7 is 5 groups of 7.	3.OA.A.1		
+3.NOS.B.3	3	NOS	Number & operation sense	Understand dividing as sharing equally or making equal groups.	3.OA.A.2		
+3.NOS.C.4	3	NOS	Number & operation sense	Use turn-around facts, grouping and breaking apart to make multiplying easier.	3.OA.B.5		
+3.NOS.C.5	3	NOS	Number & operation sense	Solve division by finding a missing factor: 32 ÷ 8 asks 8 × ? = 32.	3.OA.B.6	3.OA.A.4	
+3.NOS.D.6	3	NOS	Number & operation sense	Estimate sums and differences within 1,000, and know when an estimate is enough.			
+3.NOS.D.7	3	NOS	Number & operation sense	Add and subtract within 1,000 fluently, picking the best strategy.	3.NBT.A.2		
+3.NOS.D.8	3	NOS	Number & operation sense	Multiply one-digit numbers by multiples of 10, like 9 × 80.	3.NBT.A.3		
+3.NOS.E.9	3	NOS	Number & operation sense	Multiply and divide within 100, and know the times tables from memory.	3.OA.C.7		
+3.NOS.F.10	3	NOS	Number & operation sense	Understand a fraction as equal parts of a whole: 3/4 is three parts of size 1/4.	3.NF.A.1	3.G.A.2	
+3.NOS.F.11	3	NOS	Number & operation sense	Name a fraction of a set: 2 red balls out of 5 balls is 2/5 of the set.			
+3.NOS.F.12	3	NOS	Number & operation sense	Place fractions on a number line.	3.NF.A.2		
+3.NOS.F.13	3	NOS	Number & operation sense	Find equivalent fractions and compare fractions by thinking about their size.	3.NF.A.3		
+3.AT.A.1	3	AT	Algebraic thinking	Solve multiplying and dividing story problems within 100 about groups, arrays and area.		3.OA.A.3,3.MD.C.7	
+3.AT.A.2	3	AT	Algebraic thinking	Solve two-step story problems with all four operations, and check the answer makes sense.	3.OA.D.8		
+3.AT.A.3	3	AT	Algebraic thinking	Find number patterns and explain them, like why 4 times any number is even.	3.OA.D.9		
+3.GR.A.1	3	GR	Geometry & measurement	Measure lengths to the nearest half or quarter unit with a ruler.		3.MD.B.4	
+3.GR.A.2	3	GR	Geometry & measurement	Solve story problems adding and subtracting minutes, using a number line.	3.MD.A.1		
+3.GR.A.3	3	GR	Geometry & measurement	Measure and estimate liquid volume and mass in liters, grams and kilograms.	3.MD.A.2		
+3.GR.A.4	3	GR	Geometry & measurement	Solve one-step story problems about mass or liquid volume in the same units.		3.MD.A.2	
+3.GR.B.5	3	GR	Geometry & measurement	See that shapes in different groups can share features, like quadrilaterals.	3.G.A.1		
+3.GR.C.6	3	GR	Geometry & measurement	Understand area and measure it by counting unit squares.	3.MD.C.6	3.MD.C.5	
+3.GR.C.7	3	GR	Geometry & measurement	Connect area to multiplying and adding, including shapes made of rectangles.	3.MD.C.7		
+3.GR.C.8	3	GR	Geometry & measurement	Understand perimeter as the distance around a shape, and measure it.			
+3.GR.C.9	3	GR	Geometry & measurement	Solve perimeter problems, including finding a missing side.	3.MD.D.8		
+3.DS.A.1	3	DS	Data & statistics	Make scaled picture graphs, bar graphs and line plots, and tell the story in the data.	3.MD.B.3	3.MD.B.4	
+4.NOS.A.1	4	NOS	Number & operation sense	Read, write, round and compare whole numbers up to 1,000,000.		4.NBT.A.2,4.NBT.A.3	
+4.NOS.A.2	4	NOS	Number & operation sense	Understand that each place is worth ten times the place to its right.	4.NBT.A.1		
+4.NOS.B.3	4	NOS	Number & operation sense	Add and subtract within 1,000,000 fluently, including with the standard method.	4.NBT.B.4		
+4.NOS.B.4	4	NOS	Number & operation sense	Multiply multi-digit numbers by multiples of 10, like 34 × 20, using place value.			
+4.NOS.B.5	4	NOS	Number & operation sense	Multiply up to four digits by one digit, and two digits by two digits.	4.NBT.B.5		
+4.NOS.B.6	4	NOS	Number & operation sense	Divide up to four-digit numbers by one-digit numbers, with remainders.	4.NBT.B.6		
+4.NOS.C.7	4	NOS	Number & operation sense	Keep practicing times tables and division facts within 100 until they're quick.			
+4.NOS.C.8	4	NOS	Number & operation sense	Find factor pairs and multiples, and tell prime from composite numbers.	4.OA.B.4		
+4.NOS.D.9	4	NOS	Number & operation sense	Make equivalent fractions and explain why they are equal, using models.	4.NF.A.1		
+4.NOS.D.10	4	NOS	Number & operation sense	Compare fractions with different numerators and denominators.	4.NF.A.2		
+4.NOS.E.11	4	NOS	Number & operation sense	Break a fraction into a sum of smaller fractions, like 3/8 = 1/8 + 2/8.	4.NF.B.3		
+4.NOS.E.12	4	NOS	Number & operation sense	Add and subtract fractions with like denominators, including story problems.		4.NF.B.3	
+4.NOS.E.13	4	NOS	Number & operation sense	Multiply a fraction by a whole number.	4.NF.B.4		
+4.NOS.F.14	4	NOS	Number & operation sense	Add fractions with denominators of 10 and 100.	4.NF.C.5		
+4.NOS.F.15	4	NOS	Number & operation sense	Write tenths and hundredths as decimals.	4.NF.C.6		
+4.NOS.F.16	4	NOS	Number & operation sense	Compare decimals to hundredths using >, = and <.	4.NF.C.7		
+4.AT.A.1	4	AT	Algebraic thinking	Read multiplying as comparing: 35 is 5 times as many as 7.	4.OA.A.1		
+4.AT.A.2	4	AT	Algebraic thinking	Solve story problems that compare by multiplying or dividing.	4.OA.A.2		
+4.AT.A.3	4	AT	Algebraic thinking	Tell comparing by multiplying (3 times as many) from comparing by adding (3 more).		4.OA.A.2	
+4.AT.A.4	4	AT	Algebraic thinking	Solve multi-step story problems, including ones with remainders.	4.OA.A.3		
+4.GR.A.1	4	GR	Geometry & measurement	Convert measurements from a larger unit to a smaller one, like feet to inches.	4.MD.A.1		
+4.GR.A.2	4	GR	Geometry & measurement	Solve story problems about distance, time, volume, mass and money.	4.MD.A.2		
+4.GR.A.3	4	GR	Geometry & measurement	Use area and perimeter formulas for rectangles, including finding a missing side.	4.MD.A.3		
+4.GR.A.4	4	GR	Geometry & measurement	Find the area of a triangle by relating it to a rectangle.			
+4.GR.B.5	4	GR	Geometry & measurement	Understand angles and measuring them in degrees.	4.MD.C.5		
+4.GR.B.6	4	GR	Geometry & measurement	Measure angles with a protractor, and estimate and sketch angles.	4.MD.C.6		
+4.GR.B.7	4	GR	Geometry & measurement	Find missing angles by adding and subtracting.	4.MD.C.7		
+4.GR.C.8	4	GR	Geometry & measurement	Draw points, lines, rays, angles, and parallel and perpendicular lines.	4.G.A.1		
+4.GR.C.9	4	GR	Geometry & measurement	Sort shapes by parallel or perpendicular sides and angles, and spot right triangles.	4.G.A.2		
+4.DS.A.1	4	DS	Data & statistics	Make and read bar graphs and line plots, and see how a graph's design changes its message.	4.MD.B.4		
+5.NOS.A.1	5	NOS	Number & operation sense	Understand that each place is ten times the place to its right and a tenth of the one to its left.	5.NBT.A.1		
+5.NOS.A.2	5	NOS	Number & operation sense	Explain patterns when multiplying or dividing by powers of 10, and use exponents.	5.NBT.A.2		
+5.NOS.A.3	5	NOS	Number & operation sense	Read, write, round and compare decimals to thousandths.	5.NBT.A.3,5.NBT.A.4		
+5.NOS.B.4	5	NOS	Number & operation sense	Multiply multi-digit whole numbers fluently, including with the standard method.	5.NBT.B.5		
+5.NOS.B.5	5	NOS	Number & operation sense	Divide up to four-digit numbers by two-digit divisors.	5.NBT.B.6		
+5.NOS.B.6	5	NOS	Number & operation sense	Add and subtract decimals to hundredths.	5.NBT.B.7		
+5.NOS.B.7	5	NOS	Number & operation sense	Multiply and divide decimals to hundredths in story problems.		5.NBT.B.7	
+5.NOS.C.8	5	NOS	Number & operation sense	Add and subtract fractions with unlike denominators.	5.NF.A.1		
+5.NOS.C.9	5	NOS	Number & operation sense	Solve fraction story problems, including ones with unlike denominators.	5.NF.A.2		
+5.NOS.D.10	5	NOS	Number & operation sense	Understand a fraction as a division: 3/4 is 3 ÷ 4.	5.NF.B.3		
+5.NOS.D.11	5	NOS	Number & operation sense	Find a fraction of a whole number, like 3/4 × 2.	5.NF.B.4		
+5.NOS.D.12	5	NOS	Number & operation sense	Multiply a fraction by a fraction, including finding areas with fraction side lengths.		5.NF.B.4	
+5.NOS.D.13	5	NOS	Number & operation sense	Multiply fractions when one or both are greater than 1, like 3/2 × 5/4.		5.NF.B.4	
+5.NOS.D.14	5	NOS	Number & operation sense	Understand multiplying as scaling something up or down.	5.NF.B.5		
+5.NOS.D.15	5	NOS	Number & operation sense	Solve real-world problems multiplying fractions and mixed numbers.	5.NF.B.6		
+5.NOS.D.16	5	NOS	Number & operation sense	Divide unit fractions by whole numbers and whole numbers by unit fractions.	5.NF.B.7		
+5.AT.A.1	5	AT	Algebraic thinking	Evaluate expressions with parentheses, brackets and braces.	5.OA.A.1		
+5.AT.A.2	5	AT	Algebraic thinking	Write and read simple expressions without working them out.	5.OA.A.2		
+5.AT.B.3	5	AT	Algebraic thinking	Make number patterns from rules, compare them, and show them in tables and graphs.	5.OA.B.3	4.OA.C.5	
+5.GR.A.1	5	GR	Geometry & measurement	Convert between units in the same measurement system to solve multi-step problems.	5.MD.A.1		
+5.GR.B.2	5	GR	Geometry & measurement	See that features of a shape family belong to every shape in it.	5.G.B.3		
+5.GR.B.3	5	GR	Geometry & measurement	Sort triangles and quadrilaterals into families by their sides and angles.	5.G.B.4		
+5.GR.C.4	5	GR	Geometry & measurement	Understand volume and measure it by counting unit cubes.	5.MD.C.3	5.MD.C.4	
+5.GR.C.5	5	GR	Geometry & measurement	Find volumes of rectangular prisms with formulas, including solids built from prisms.	5.MD.C.5		
+5.GR.D.6	5	GR	Geometry & measurement	Understand the coordinate plane, and plot and name points with ordered pairs.	5.G.A.1,5.G.A.2		
+5.GR.D.7	5	GR	Geometry & measurement	Plot points in the first quadrant to solve problems.	5.G.A.2		
+5.DS.A.1	5	DS	Data & statistics	Make and read graphs, find the mode and range, and judge whether a graph is misleading.	5.MD.B.2		
