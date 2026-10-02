@@ -70,6 +70,7 @@ No NC-prefixed sheets. The latest fit verdicts leave no partials.
 
 ## Pre-K
 - North Carolina Foundations for Early Learning and Development (2013), older preschooler indicators: 23 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.nc`), data in `data/prek/nc.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Source: https://ncchildcare.ncdhhs.gov/Portals/0/documents/pdf/N/NC_Foundations.pdf
 - Codes `CD-10n` … `CD-13h` (Cognitive Development goals CD-10 to CD-13, the letter is the indicator; older-preschooler letters start partway through the alphabet).
 - Domains: NQ Numbers and Quantities (10), CM Compare, Sort, Measure and Pattern (6), SP Shapes and Position (3), PS Mathematical Problem Solving (4).
 - 19 rows link Head Start goals, 11 link other sheets. Borrowed later-grade sheets: CD-10w → MA.K.NSO.1.3; CD-11m → 1.MD.A.2; CD-11o → K.GR.A.3.

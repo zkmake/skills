@@ -71,6 +71,7 @@ In effect for 2026–27: New Jersey Student Learning Standards – Mathematics (
 
 ## Pre-K
 - New Jersey Preschool Teaching and Learning Standards (2014), mathematics: 14 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.nj`), data in `data/prek/nj.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Source: https://www.nj.gov/education/earlychildhood/preschool/docs/PreschoolTeachingandLearningStandards.pdf. A 2026 revision was proposed but not adopted (as of 2026-10-01); recheck before relying on the 2014 codes.
 - Codes `4.1.1` … `4.4.3` (math is the document's fourth domain).
 - Domains: NC Number and Counting (6), NO Numerical Operations (2), MA Measurable Attributes (3), G Spatial and Geometric Sense (3).
 - All 14 link Head Start goals; 7 also link Maryland pre-K sheets. No later-grade borrowing.

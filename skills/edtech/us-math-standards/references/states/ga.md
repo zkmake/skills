@@ -95,6 +95,7 @@ In effect for 2026–27: **Georgia's K-12 Mathematics Standards** (GaDOE; adopte
 
 ## Pre-K
 - Georgia Early Learning and Development Standards (GELDS), 48–60 months, as updated online in 2026: 32 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ga`), data in `data/prek/ga.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Source: the GELDS site, https://gelds.decal.ga.gov/GELDS (2026 online update). The PDF on that site is still the 2013 version, which numbers the standards differently: map from the site.
 - Codes `CD-MA1.4a` … `CD-MA10.4c` (standard MA1–MA10, then the age band and the indicator letter).
 - Domains: NQO Number, Quantity, and Operations (14), MC Measurement and Comparison (6), P Patterns (6), ST Spatial Thinking (3), G Geometry (3).
 - 26 rows link Head Start goals, 15 link other sheets. Borrowed later-grade sheets: CD-MA2.4d → K.8B; CD-MA4.4b → 1.MD.A.2; CD-MA6.4a → K.MG.3; CD-MA6.4b → K.GR.A.3; CD-MA10.4b → K.G.B.5.

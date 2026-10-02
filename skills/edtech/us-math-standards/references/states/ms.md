@@ -62,6 +62,7 @@ In effect for 2026–27: the 2025 Mississippi College- and Career-Readiness Stan
 
 ## Pre-K
 - Mississippi Early Learning Standards for Four-Year-Old Children (2018): 18 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ms`), data in `data/prek/ms.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Source: Mississippi Early Learning Standards for Classrooms Serving Infants through Four-Year-Old Children (2018), four-year-old section: https://www.mdek12.org/sites/default/files/final_infants_through_four-year-old_early_learning_standards_2020.08.21_jg.pdf (returns 403 to curl; open in a browser).
 - Codes `M.CC.PK4.1`, `M.OA.PK4.1`, `M.MD.PK4.1`, `M.G.PK4.1`. The document never prints the measurement codes; Mathness follows its own `M.<domain>.PK4.n` pattern for them.
 - Domains: CC (6), OA (4), MD (3), G (5).
 - 16 rows link Head Start goals, 7 link Maryland pre-K sheets; M.OA.PK4.3 → PK.NOS.D.10 and M.MD.PK4.3 → PK.DS.A.1 only. No later-grade borrowing.

@@ -62,6 +62,7 @@
 
 ## Pre-K
 - West Virginia Pre-K Standards, Policy 2520.15 (2025), mathematics: 19 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.wv`), data in `data/prek/wv.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Source: WVBE Policy 2520.15 (filed 2024, in force 1 July 2025): https://wveis.k12.wv.us/wvboe/policies/policy.php?p=2520.15&alt=1 (redirects to the Secretary of State's .docx). The document misprints M.PK.13 as "M.K.13"; Mathness uses M.PK.13.
 - Codes run in sequence, `M.PK.1` … `M.PK.25`, with gaps where rows were left out (2, 11, 12, 14, 18, 19).
 - Domains (Common Core's names): CC (6), OA (4), MD (3), G (6).
 - 17 rows link Head Start goals, 9 link other sheets. M.PK.7 (ordinals) borrows MA.K.NSO.1.3; M.PK.17 → PK.DS.A.1, PK.DS.A.2.

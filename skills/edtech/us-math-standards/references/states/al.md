@@ -41,6 +41,7 @@ In effect for 2026–27: the **2019 Alabama Course of Study: Mathematics** (ALSD
 
 ## Pre-K
 - Alabama's Standards for Early Learning and Development (2023), older preschooler indicators: 36 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.al`), data in `data/prek/al.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Source: https://www.children.alabama.gov/wp-content/uploads/2023/10/ASELD-Document-Revised-4-28-2023.pdf (revised 28 April 2023).
 - Codes `MAT1aOP-1` … `MAT4bOP-4`: the document reuses bare indicator codes across subjects, so Mathness writes them with the MAT (math) domain.
 - Domains: NQ Numbers and Quantity (10), AT Algebraic Thinking (11), SG Spatial Reasoning and Geometry (6), MD Measurement and Data Analysis (9).
 - 23 rows link Head Start goals, 19 link other sheets; 13 have no Head Start goal. Borrowed later-grade sheets: MAT2bOP-3 and MAT4aOP-1 → K.GR.A.3; MAT2cOP-4 → MA.K.NSO.1.3 (ordinals); MAT4aOP-2 → 1.MD.A.2; MAT4aOP-4 → K.MG.3; MAT4bOP-4 → K.8B.

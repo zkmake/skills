@@ -66,6 +66,7 @@ No OH-prefixed sheets. The latest fit verdicts leave no partials. An earlier pas
 
 ## Pre-K
 - Ohio's Early Learning and Development Standards (2022), mathematics: 10 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.oh`), data in `data/prek/oh.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Source: (2022, released 2023) https://dam.assets.ohio.gov/image/upload/v1734897158/childrenandyouth.ohio.gov/For%20Providers/Early%20Learning%20and%20Development%20Standards/Early-Learning-and-Development-Standards.pdf
 - Codes `MA.1.a` … `MA.4.b`.
 - Domains: NS Number Sense (4), NR Number Relationships and Operations (1), M Measurement (3), G Geometry (2).
 - 9 rows link Head Start goals, 4 link Maryland pre-K sheets; MA.3.b links only PK.DS.A.1 and PK.DS.A.2. With 10 rows the set's pre-K count matches Head Start's.

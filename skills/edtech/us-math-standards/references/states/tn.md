@@ -78,6 +78,7 @@ In effect for 2026–27: Tennessee Math Standards, called "Tennessee Academic St
 
 ## Pre-K
 - Tennessee Early Learning Developmental Standards (TN-ELDS) for Four-Year-Olds (2018), mathematics: 21 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.tn`), data in `data/prek/tn.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Source: https://www.tn.gov/content/dam/tn/education/standards/tnelds/std_tnelds_4yo_2018.pdf
 - Codes Common Core-shaped: `PK.CC.A.1`, `PK.OA.A.1`, `PK.MD.A.1`, `PK.G.A.1` (PK.CC.A.2 is left out; PK.G.A.4 and PK.G.B.4 both exist, as in the document).
 - Domains: CC (6), OA (4), MD (4), G (7).
 - 17 rows link Head Start goals, 9 link other sheets. PK.OA.A.3 → PK.NOS.D.10; PK.OA.A.4 → PK.AT.A.2; PK.MD.B.3 (coins) borrows 1.GR.C.6 and K.9D; PK.MD.C.4 → PK.DS.A.1, PK.DS.A.2.
