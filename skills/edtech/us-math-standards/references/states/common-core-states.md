@@ -20,7 +20,7 @@ Washington and Hawaiʻi are also in this group for 2026–27, but their next edi
 | Connecticut (`ct`, /connecticut/) | Connecticut Core Standards for Mathematics | 2010 | Common Core as written. |
 | Delaware (`de`, /delaware/) | Common Core State Standards for Mathematics | 2010 | Common Core as written. |
 | District of Columbia (`dc`, /washington-dc/) | Common Core State Standards for Mathematics | 2010 | Shown as "Washington, DC". Publisher: Office of the State Superintendent of Education. |
-| DoDEA (`dodea`, /dodea/) | DoDEA College and Career Ready Standards for Mathematics | 2015 | Department of Defense Education Activity schools use Common Core's standards and codes. Badge "DD"; no flag. Mathness serves DoDEA pre-K with Head Start's goals. |
+| DoDEA (`dodea`, /dodea/) | DoDEA College and Career Ready Standards for Mathematics | 2015 | Department of Defense Education Activity schools use Common Core's standards and codes. Badge "DD"; no flag. Mathness serves DoDEA pre-K with Head Start's goals (its own pre-K follows Teaching Strategies GOLD, a commercial framework). |
 | Hawaiʻi (`hi`, /hawaii/) | Hawaiʻi Common Core Standards for Mathematics | 2010 | Revised standards (approved June 2026) switch K–5 in 2027–28; modelled as the crosswalk edition `hi27`, see [hi.md](hi.md). |
 | Idaho (`id`, /idaho/) | Idaho Content Standards: Mathematics | 2022 | Keeps Common Core's codes; some standards rewritten; adds a grade 1 money standard 1.MD.D.5. A review is under way, with recommendations due to the Legislature in 2027. |
 | Illinois (`il`, /illinois/) | Illinois Learning Standards for Mathematics | 2010 | Common Core as written. |
@@ -44,7 +44,7 @@ Washington and Hawaiʻi are also in this group for 2026–27, but their next edi
 **Building the set:** `SETS` maps every edition through `editionSet(edition)`.
 - **Name:** `editionName`, e.g. "Illinois", or "Washington (2027–28)" when the edition has `starts`.
 - **`ccssLabel`:** "Common Core".
-- **Pre-K:** `headStartFor(state, "early learning guidelines")`, so Head Start's goals plus a note that the state's guidelines aren't mapped. No CC-code state has a `preK` document.
+- **Pre-K:** the state's own pre-K where its edition has a `preK` document (see Pre-K in states' own codes), else `headStartFor(state, "early learning guidelines")`: Head Start's goals plus a note that the state's guidelines aren't mapped.
 - **Grades:** a lazy getter. For an edition without a crosswalk, `editionGrades(edition)` runs on first read and the result is cached in `LOADED`.
 
 **What `editionGrades` returns:** Common Core's grades (`CCSS_GRADES`, every standard carrying its own code) with each `added` standard spliced in.
@@ -76,6 +76,28 @@ California's adoption documents say "California Common Core State Standards for 
 **The same mechanism in Idaho and Maine:** 1.MD.D.5 is added after 1.MD.C.4, a coin standard served by Maryland's grade 1 coin sheet 1.GR.C.6.
 - Idaho: identify quarters, dimes and nickels, and relate their values to pennies.
 - Maine: identify the penny, nickel, dime and quarter and the value of each.
+
+## Pre-K in states' own codes
+
+Mapped 2026-10-02 (`STATE_PREK` in `src/standards/states/prek.ts`; data in `data/prek/<id>.tsv`). A Common Core-code state with a `preK` document now shows its own pre-K, fetched on demand by `loadSet`, with its own `/<state>/pre-k/` page (`hasStateGrade`); its K–5 stays Common Core's. Rows link Head Start goals first, then Maryland's pre-K sheets, then a K or grade 1 sheet. Hawaiʻi's own file has its detail.
+
+| Jurisdiction | Document | Rows | First code | Source |
+| --- | --- | --- | --- | --- |
+| California (`ca`) | California Preschool/Transitional Kindergarten Learning Foundations, Mathematics (2024) | 24 | `MATH 1.1` | https://www.cde.ca.gov/sp/cd/re/documents/ptklfmathdomain.pdf |
+| Connecticut (`ct`) | Connecticut Early Learning and Development Standards (CT ELDS), Mathematics (2014) | 15 | `M.60.1` | https://www.ctoec.org/wp-content/uploads/2019/12/ctelds-11.20.24.pdf |
+| District of Columbia (`dc`) | District of Columbia Early Learning Standards, Mathematics, Pre-K Exit Expectations (2019) | 18 | `14a` | https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2019%20District%20of%20Columbia%20Early%20Learning%20Standards.%203.17.20.pdf |
+| Delaware (`de`) | Delaware Early Learning Foundations: Preschool, Mathematics (2010) | 22 | `MA31` | https://dieecpd.org/static/uploads/files/elfpreschool9-10.pdf |
+| Idaho (`id`) | Idaho Early Learning eGuidelines, Mathematics and Numeracy, 36–60 months (2019) | 3 | `Goal 39` | https://www.healthandwelfare.idaho.gov/services-programs/sub-domain-mathematics-and-numeracy |
+| Illinois (`il`) | Illinois Early Learning and Development Standards (IELDS), Preschool, Mathematics (2013) | 37 | `6.A.ECa` | https://www.isbe.net/Documents/early_learning_standards.pdf |
+| Maine (`me`) | Preschool Maine Early Learning and Development Standards (P-MELDS), Cognitive Development: Mathematical Practices and Reasoning, 46–60 months (2024) | 5 | `12a` | https://www.maine.gov/doe/sites/maine.gov.doe/files/inline-files/PreschoolMELDS2024.pdf |
+| Michigan (`mi`) | Michigan Early Childhood Standards of Quality for Birth to Kindergarten, Mathematics (2022) | 17 | `Mathematics 1a` | https://www.michigan.gov/mileap/-/media/Project/Websites/mileap/Documents/Early-Childhood-Education/gsrp/standards/ECSQ-B-K_Final.pdf |
+| New Mexico (`nm`) | New Mexico Early Learning Standards for Children Birth through Five (2026) | 5 | `5.1.A` | https://www.nmececd.org/wp-content/uploads/2026/04/ELS-Guide_2026.pdf |
+| Nevada (`nv`) | Nevada Pre-Kindergarten Standards, Revised 2023 (2023) | 27 | `M.NQ.PK1` | https://webapp-strapi-paas-prod-nde-001.azurewebsites.net/uploads/nevada_pre_kindergarten_standards_cce1a3f525.pdf |
+| Vermont (`vt`) | Vermont Early Learning Standards (2015) | 21 | `MA.1a.1.OP.1` | https://education.vermont.gov/sites/aoe/files/documents/edu-early-education-early-learning-standards.pdf |
+
+California: codes carry the math prefix, `MATH 1.1`, since the foundations' numbers repeat in other domains. Michigan: codes carry the math prefix, `Mathematics 1a`, since the bare numbers repeat in other subjects. Vermont: the document prints no compact codes; Mathness uses its manual's shorthand.
+
+Still Head Start: New Hampshire (its pre-K math has no codes) and DoDEA (its pre-K follows Teaching Strategies GOLD, a commercial framework).
 
 ## Watch list
 

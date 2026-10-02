@@ -46,6 +46,12 @@ In effect for 2026–27: the **Alaska Mathematics Standards**, adopted June 2012
   - Data: 2.MD.9 + 2.MD.D.10.
   - Make 5: K.OA.4 + PK.AT.A.2.
 
+## Pre-K
+- State of Alaska Early Learning Guidelines (2020): 4 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ak`), data in `data/prek/ak.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://education.alaska.gov/tls/EarlyLearning/pdf/2026-03-19_%20Guidelines_Alaska-Early-Learning-Guidelines.pdf
+- Domains: CGK Cognition and General Knowledge (4: `Goal 34` … `Goal 41`).
+- 4 rows link Head Start goals, 3 link other sheets (0 with no Head Start goal). No later-grade borrowing.
+
 ## Uncertain
 - The research has no implementation (classroom) year.
 - "No newer K–5 set adopted as of 2026-10" rests on DEED's standards page, which lists only the 2012 set.

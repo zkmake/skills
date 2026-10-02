@@ -28,7 +28,7 @@ In effect for 2026–27: Missouri Learning Standards: Mathematics, Grade-Level E
   - MO 5.NBT.A.1 reads and writes billions to thousandths (Common Core 5.NBT.A.3).
   - MO 5.DS.A.1 (line graphs) is also a Maryland code.
   - Mathness marks every crosswalk row `linksOnly`, so a state code never pulls sheets by itself. Never match MO codes to Common Core by string.
-- Pre-K: no state pre-K codes are mapped, so pre-K follows Head Start's goals.
+- Pre-K: Head Start's goals; Missouri's pre-K math has no codes to map (checked 2026-10-02).
 
 ## Against Common Core
 - 201 K–5 rows (K 28, 1 30, 2 32, 3 42, 4 37, 5 32): 98 same, 89 edited, 5 moved, 9 new. The many "edited" rows come from splits of Common Core sentences and changes of scope.

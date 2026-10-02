@@ -81,6 +81,12 @@ In effect for 2026–27: the **Indiana Academic Standards for Mathematics**, ado
 - extra.tsv adds about 50 more fit-review links. Examples: 1.M.1 + K.MD.A.1/K.MD.A.2; 3.CA.3 + 3.MD.C.6 and 3.OA.B.5; 5.DA.1 + NJ.4.DL.A.2 (New Jersey data planning); 5.G.1 + 5.G.B.3 and 4.G.A.2; 4.NS.5 + 5.NS.1.
 - In the full review, several Indiana rows were partial (1.CA.1, 1.M.1, 2.M.1, 3.CA.3, 4.M.3, 5.CA.6, 5.CA.8, K.NS.2, K.NS.6, 5.NS.2). The last one, 5.NS.2 (part of a set at grades 4–5), was rated good in pass 13 after a part-of-a-set section was added to its linked sheet `fraction-as-division`. None remain.
 
+## Pre-K
+- Indiana Early Learning Standards (2023): 10 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.in`), data in `data/prek/in.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://media.doe.in.gov/news/2023-early-learning-standards-final-5-25-23.pdf
+- Domains: N Numeracy (3: `M1.1` … `M1.3`); CA Computation and Algebraic Thinking (2: `M2.1` … `M2.2`); DA Data Analysis (1: `M3.1`); G Geometry (2: `M4.1` … `M4.2`); M Measurement (2: `M5.1` … `M5.2`).
+- 8 rows link Head Start goals, 6 link other sheets (2 with no Head Start goal). Borrowed later-grade sheets: M5.1 → K.MG.3.
+
 ## Uncertain
 - The research had no CCSS match for 2.G.2, 4.G.1 or 4.M.1, so they're kept as new.
 - The grade 6 content (percents, area formulas, mean/median/mode) has no K–5 CCSS code, so the `ccss` field is empty.

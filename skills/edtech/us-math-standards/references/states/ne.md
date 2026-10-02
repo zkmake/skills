@@ -20,7 +20,7 @@ In effect for 2026–27: Nebraska's College and Career Ready Standards for Mathe
 - Code quirks:
   - The PDF prints 3.G.1.a as "3.G.1.1". The 2024 Excel and the crosswalk use 3.G.1.a.
   - Nothing looks like a Common Core code, since the strands are single letters. Map only through the crosswalk.
-- Pre-K: no state pre-K codes are mapped, so pre-K follows Head Start's goals.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - 177 K–5 rows (K 26, 1 32, 2 31, 3 27, 4 32, 5 29): 131 same, 28 edited, 8 moved, 10 new.
@@ -79,6 +79,12 @@ In effect for 2026–27: Nebraska's College and Career Ready Standards for Mathe
 - No sheets were written under an NE code.
 - Fit review: no partial rows remain. 1.N.2.b, 1.N.5.d, 1.G.1.c, 2.N.1.a, 4.N.2.a, 4.G.2.b and K.N.2.h, partial in the fresh full review, were closed in passes 8–11.
   - Minor note left on K.N.2.h: more/fewer groups stay 2–9, and groups of 11–20 appear only in "The same?".
+
+## Pre-K
+- Early Learning Guidelines: Nebraska's Birth to Five Learning and Development Standards, Mathematics, 4–5 years (2018): 4 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ne`), data in `data/prek/ne.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://www.education.ne.gov/wp-content/uploads/2018/06/ELG-PDF.pdf
+- Domains: NO Number and Operations (1: `M.01`); GSS Geometry and Spatial Sense (1: `M.02`); PM Patterns and Measurement (1: `M.03`); DA Data Analysis (1: `M.04`).
+- 3 rows link Head Start goals, 3 link other sheets (1 with no Head Start goal). No later-grade borrowing.
 
 ## Uncertain
 - The 2023 PDF and 2024 Excel changed two indicators from what the crosswalk reflects:

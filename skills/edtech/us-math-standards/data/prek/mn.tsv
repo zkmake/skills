@@ -1,0 +1,34 @@
+code	domain	domain_name	summary	head_start_goals	other_sheet_codes
+M1.14	NK	Number Knowledge	Say the counting numbers out loud up to at least 29, without needing objects to count.	P-MATH 1	
+M1.15	NK	Number Knowledge	Count backward out loud from 10 or higher, without any objects to count.		PK.NOS.A.2
+M1.16	NK	Number Knowledge	Say which counting number comes next after any number up to 9.	P-MATH 1	PK.NOS.B.6
+M1.17	NK	Number Knowledge	Read and write the numbers 0 to 10; some may come out backward.	P-MATH 5	
+M2.3	NK	Number Knowledge	Count groups bigger than four, touching each thing once and saying one number for it.	P-MATH 3	
+M3.5	NK	Number Knowledge	Count out 5 or more things correctly every time someone asks for that many.	P-MATH 3	
+M4.3	NK	Number Knowledge	Know a number can tell a place in a line, like first or third, as well as how many.		MA.K.NSO.1.3
+M5.7	NK	Number Knowledge	Guess about how many are in a group without counting, even if the guess is sometimes off.	P-MATH 2	
+M6.2	NK	Number Knowledge	Say which number comes just after or just before a number up to 5.	P-MATH 1	PK.NOS.B.6,PK.NOS.A.2
+M6.3	NK	Number Knowledge	Know a group gets bigger when some are added and smaller when some are taken away.	P-MATH 6	PK.NOS.B.6
+M7.9	ME	Measurement	Compare more than two things in some way and put them in order, like shortest to tallest.	P-MATH 8	
+M7.10	ME	Measurement	Use comparing words like longer, shorter, taller, farthest and closest.	P-MATH 8	PK.GR.A.1
+M8.8	P	Patterns	Describe a simple repeating pattern in words or with pictures.	P-MATH 7	
+M8.9	P	Patterns	Make the same simple pattern with different things, like turning a color pattern into claps.	P-MATH 7	
+M8.10	P	Patterns	Copy a longer, harder repeating pattern using the same kind of objects.	P-MATH 7	
+M8.11	P	Patterns	Make a harder pattern again with different things or in a different way, like sounds or moves.	P-MATH 7	
+M9.5	G	Geometry and Spatial Thinking	Begin to describe what makes a flat or solid shape what it is, such as its sides and corners.	P-MATH 9	PK.GR.B.5
+M9.6	G	Geometry and Spatial Thinking	Put shapes together to make new ones and take shapes apart into smaller ones.	P-MATH 9	
+M9.7	G	Geometry and Spatial Thinking	Build and take apart shapes and constructions that get more and more complex.	P-MATH 9	
+M10.8	G	Geometry and Spatial Thinking	Join shapes together and split them apart to create new shapes.	P-MATH 9	
+M10.9	G	Geometry and Spatial Thinking	Spot shapes with matching halves (symmetry) and make some of your own.	P-MATH 9	
+M10.10	G	Geometry and Spatial Thinking	Know a piece may need turning or flipping before it fits into a hole or puzzle.	P-MATH 9	
+M11.6	G	Geometry and Spatial Thinking	Spot and describe where things are in space more and more accurately.	P-MATH 10	
+M11.7	G	Geometry and Spatial Thinking	Draw a simple map of a place, like a room or the playground.	P-MATH 10	
+M11.8	G	Geometry and Spatial Thinking	Match a flat map or picture to the real room or space around you.	P-MATH 10	
+M12.7	DA	Data Analysis	Say what feature you used to sort or compare things, like color or size.		PK.DS.A.1
+M12.8	DA	Data Analysis	While sorting, switch to a new feature to sort by and say what it is.		PK.DS.A.1
+M13.3	DA	Data Analysis	Help the group collect information and put it on a chart or graph.		PK.DS.A.2,K.8B
+M13.4	DA	Data Analysis	Sort the information you collect into groups by one or more features.		PK.DS.A.1
+M13.5	DA	Data Analysis	Collect information on your own and put it on a chart or graph.		PK.DS.A.2,K.8B
+M14.3	DA	Data Analysis	Use words like more, fewer and same to compare what a chart or count shows.		PK.DS.A.2
+M14.4	DA	Data Analysis	Use collected information to answer questions and solve problems.		PK.DS.A.2
+M14.5	DA	Data Analysis	Talk about, compare and make sense of information the class has collected.		PK.DS.A.2

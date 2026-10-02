@@ -20,7 +20,7 @@ Next: the revised LSSM, which Louisiana calls the "2025 LSSM". BESE approved it 
 - Domains: CC Counting and Cardinality (K); OA Operations and Algebraic Thinking; NBT Number and Operations in Base Ten; NF Number and Operations – Fractions (3–5); MD Measurement and Data; G Geometry.
 - Lettered sub-parts (a, b, c) are folded into their standard. K.CC.B.4/B.5 and K.NBT.A.1, which were rewritten into sub-parts with the same content, are marked same.
 - Do not confuse the 2016 codes with the 2025 codes (3.NOF.A.1; see below). They are different sets.
-- Pre-K: no state pre-K codes are mapped, so pre-K follows Head Start's goals.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - 152 K–5 rows (K 23, 1 22, 2 26, 3 26, 4 29, 5 26): 143 same, 5 edited, 4 moved, 0 new.
@@ -48,6 +48,12 @@ Next: the revised LSSM, which Louisiana calls the "2025 LSSM". BESE approved it 
   - 3.MD.C.7 gets 3.MD.C.6 and 3.OA.B.5.
 - No sheets were written under an LA code.
 - Fit review: no partial rows remain for `la`. 3.MD.A.1, 3.MD.C.7 and 3.MD.E.9 were closed by links and new sections.
+
+## Pre-K
+- Louisiana Early Learning and Development Standards (ELDS) (2025): 19 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.la`), data in `data/prek/la.tsv`; the rows replace Head Start's 10 goals in this state's set and in `la27`, which reuses them. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://doe.louisiana.gov/docs/default-source/academic-standards/ldoe-early-learning-development-standards-(elds).pdf
+- Domains: KN Knowledge of Numbers (8: `CM 1.1.4` … `CM 1.8.4`); PO Patterns and Operations (2: `CM 2.1.4` … `CM 2.3.4`); ME Measurement (5: `CM 3.1.4` … `CM 3.5.4`); SS Shapes and Spatial Relationships (4: `CM 4.2.4` … `CM 4.5.4`).
+- 15 rows link Head Start goals, 9 link other sheets (4 with no Head Start goal). Borrowed later-grade sheets: CM 1.8.4 → MA.K.NSO.1.3; CM 3.3.4 → K.GR.A.3; CM 3.4.4 → 1.MD.A.2; CM 3.5.4 → 1.MD.A.2.
 
 ## Next edition: Louisiana (2027–28), id `la27`
 - Name: Louisiana Student Standards for Mathematics, called the "2025 LSSM".

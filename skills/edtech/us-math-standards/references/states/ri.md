@@ -1,6 +1,6 @@
 # Rhode Island (RI)
 
-In effect for 2026–27: Rhode Island Core Standards for Mathematics (adopted March 9, 2021), adapted from Massachusetts's 2017 framework. The classroom start year is not in our sources. Mathness models them as a crosswalk in CCSS-style codes (edition `ri`, 151 rows; pre-K follows Head Start), with the note "Rhode Island's standards follow Massachusetts's 2017 framework." No next edition is recorded.
+In effect for 2026–27: Rhode Island Core Standards for Mathematics (adopted March 9, 2021), adapted from Massachusetts's 2017 framework. The classroom start year is not in our sources. Mathness models them as a crosswalk in CCSS-style codes (edition `ri`, 151 rows; pre-K in its own codes, see Pre-K), with the note "Rhode Island's standards follow Massachusetts's 2017 framework." No next edition is recorded.
 
 ## Documents
 - Official comparison: "Common Core State Standards / Rhode Island Core Standards Comparison Tables, K-12 Mathematics" (RIDE): https://ride.ri.gov/Portals/0/Uploads/Documents/Instruction-and-Assessment-World-Class-Standards/Standards/RI%20Core%20Standards%20Mathematics%20Comparison%20Tables.pdf
@@ -44,6 +44,12 @@ In effect for 2026–27: Rhode Island Core Standards for Mathematics (adopted Ma
   - `4.OA.A.3a` → Florida `MA.3.NSO.2.4` (facts 0–12).
 - Fit links (extra.tsv): 5.
 - No RI-prefixed sheets. The latest fit verdicts leave no partials. An earlier pass flagged `2.MD.C.8` bill problems; it was later cleared.
+
+## Pre-K
+- Rhode Island Early Learning and Development Standards (RIELDS) (2023): 5 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ri`), data in `data/prek/ri.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://rields.com/wp-content/uploads/2023/04/RIELDS_standards_2023_0329.pdf
+- Domains: M Mathematics (5: `M 1.a` … `M 5.a`).
+- 5 rows link Head Start goals, 5 link other sheets (0 with no Head Start goal). No later-grade borrowing.
 
 ## Uncertain
 - The comparison tables have no row for K.CC.A.1 (count to 100). It is kept as same, matching MA 2017.

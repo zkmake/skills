@@ -18,7 +18,7 @@
   - 3.OA: M.3.OA.B.4, B.5, C.6, D.7 and D.8 are Common Core 3.OA.B.5, B.6, C.7, D.8 and D.9.
   - The PDF prints the old grade 3 codes with cluster B throughout ("3.OA.B.8"). The comparison document prints them as 3.OA.5–3.OA.9.
   - **Rule:** never match by stripping `M.` in K.CC or 3.OA.
-- **Pre-K:** none. Pre-K follows Head Start's goals because no Wisconsin pre-K codes are mapped.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - **Row counts:** 148 K–5 rows (K 23, 1 20, 2 26, 3 24, 4 29, 5 26): 135 same, 11 edited, 1 moved, 1 new.
@@ -53,6 +53,14 @@
   - M.4.OA.D.6 → 3.OA.B.5 and Maryland 4.NOS.C.7.
 - **State sheets:** none written under a WI code.
 - **Fit review:** no partial rows remain.
+
+## Pre-K
+- Wisconsin Model Early Learning Standards, Fifth Edition, V.B Mathematical Thinking (2017): 6 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.wi`), data in `data/prek/wi.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://dpi.wi.gov/sites/default/files/imce/standards/New%20pdfs/dpl-wmels-5-web.pdf
+- Next: draft Wisconsin Early Learning and Development Guidelines (ELDGs) to replace WMELS, with new learning areas, strands and goals (new codes). Public review July–August 2026; no adoption or implementation date; DCF says to keep using WMELS until further notice (https://dcf.wisconsin.gov/eldg, checked 2026-10-02).
+- Codes carry the document's math prefix, `V.B.EL.1` (domain V, Cognition and General Knowledge; B, Mathematical Thinking), since the bare codes repeat across domains.
+- Domains: MT Mathematical Thinking (6: `V.B.EL.1` … `V.B.EL.6`).
+- 5 rows link Head Start goals, 4 link other sheets (1 with no Head Start goal). No later-grade borrowing.
 
 ## Uncertain
 - **When taught:** the TSV gives no first year in classrooms for the 2021 standards.

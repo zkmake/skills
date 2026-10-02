@@ -22,7 +22,7 @@
 - **Sub-letters folded into the parent row:** those that only restate Common Core sub-parts. They are K.CC.4, 1.NBT.1/2/4, 1.G.3, 2.NBT.1 (a–b), 2.NBT.7, 2.G.3, 3.OA.8, 3.NF.2/3, 3.MD.7, 4.OA.3, 4.NBT.5, 4.NF.2/3, 5.NF.7 and 5.MD.5.
 - **Sub-letters kept as separate rows:** K.CC.1a/1b, 1.MD.3a/3b and 2.NBT.1c. This is why there are 66 rows for 63 standards.
 - **PLDs left out:** each standard has a "Proficient student is able to…" performance-level descriptor (the performance standard) that repeats it.
-- **Pre-K:** none mapped; Head Start's goals are used.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - **Row counts:** 66 K–5 rows (K 12, 1 10, 2 12, 3 9, 4 12, 5 11): 55 same, 9 edited, 1 moved, 1 new.
@@ -59,6 +59,13 @@
   - 3.MD.7 → 3.OA.B.5 and 3.MD.C.7.
 - **Sheets for Wyoming codes:** none written.
 - **Fit review:** no partial rows remain.
+
+## Pre-K
+- Wyoming's Early Learning Standards, Birth through Kindergarten: A Practice-based Tool for Early Childhood Educators (2022): 14 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.wy`), data in `data/prek/wy.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://edu.wyoming.gov/downloads/communications/memos/2022/2022-052-Wyoming-Early-Learning-Standards-PDF.pdf
+- Codes carry the math prefix, `Math 1a`, since the bare codes repeat in other domains.
+- Domains: NSO Number Sense and Operations (7: `Math 1a` … `Math 1g`); MC Measurement and Comparison (3: `Math 2a` … `Math 2c`); SG Spatial Sense and Geometry (2: `Math 3a` … `Math 3b`); SP Sequencing and Patterns (2: `Math 4a` … `Math 4b`).
+- 12 rows link Head Start goals, 7 link other sheets (2 with no Head Start goal). Borrowed later-grade sheets: Math 2c → 1.GR.C.6.
 
 ## Uncertain
 - **K.CC.4 range:** its PLD says counting objects "in a range from 10 to 39", which differs from Common Core's limit of 20. The row follows the content standard text.

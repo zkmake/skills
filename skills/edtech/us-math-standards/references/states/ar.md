@@ -80,6 +80,12 @@ In effect for 2026–27: the **Arkansas Mathematics Standards** (2023 K-8, Algeb
   - In the full review, 3.NPV.1 and 5.DA.1 were partial; after these links both were rated good.
 - No sheets were written for Arkansas alone.
 
+## Pre-K
+- Arkansas Child Development and Early Learning Standards: Birth through 60 Months, Mathematical Thinking, 49–60 months (2016): 5 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ar`), data in `data/prek/ar.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://dese.ade.arkansas.gov/Files/AR-Early-Learning-Standards-2016-1_20230505102527.pdf
+- Domains: NCO Number Concepts and Operations (2: `MT1.1` … `MT1.2`); AT Algebraic Thinking (1: `MT2.1`); MC Measurement and Comparison (1: `MT3.1`); GSS Geometry and Spatial Sense (1: `MT4.1`).
+- 5 rows link Head Start goals, 5 link other sheets (0 with no Head Start goal). No later-grade borrowing.
+
 ## Uncertain
 - **Name discrepancy:** the document title and the DESE page say "Arkansas Mathematics Standards", as do Mathness's `editions.ts` and this file. The generator's NAMES (so the header comment of `ar.ts`) says "Arkansas Academic Standards for Mathematics".
 - The year the standards reached classrooms is not in the sources.

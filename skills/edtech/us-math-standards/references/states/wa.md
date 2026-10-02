@@ -35,7 +35,7 @@
   - NBT moves between Q and R by grade.
 - **To reach Common Core from a WA code:** drop the domain, then add back the cluster letter from Common Core (M.3.R.MD.5 → 3.MD.C.5).
 - **Lettered indicators** (a, b, c) appear in the text without codes of their own. They mirror Common Core sub-parts and are folded.
-- **Pre-K:** Head Start's goals.
+- **Pre-K:** Head Start's goals; Washington's pre-K math has no codes to map (checked 2026-10-02).
 
 ## Against Common Core (WA Math 2026)
 - **Row counts:** 172 K–5 rows (K 26, 1 25, 2 30, 3 29, 4 32, 5 30).

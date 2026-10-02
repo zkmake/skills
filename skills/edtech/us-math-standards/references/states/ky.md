@@ -76,7 +76,11 @@ In effect for 2026–27: Kentucky Academic Standards (KAS) for Mathematics, adop
 - Fit review: every KY row was fully practised by the last review. KY.4.MD.2c, KY.3.MD.3b, KY.4.OA.3a and KY.1.MD.4b were partial earlier and closed in passes 9–11.
 
 ## Pre-K
-- Not mapped yet: pre-K follows Head Start's goals.
+- Kentucky's Early Childhood Standards, revised (2021): 4 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ky`), data in `data/prek/ky.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://kyecac.ky.gov/professionals/Early-Childhood-Standards/Resources/Documents/Standards%20for%20pdf%20Online%20Printable.pdf
+- Codes carry the math prefix, `Math 1.1`, since the bare numbers repeat in other areas.
+- Domains: M Mathematics (4: `Math 1.1` … `Math 1.4`).
+- 4 rows link Head Start goals, 3 link other sheets (0 with no Head Start goal). No later-grade borrowing.
 
 ## Uncertain
 - Classroom start year of the 2019 standards is not recorded in the sources.

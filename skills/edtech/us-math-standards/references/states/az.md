@@ -53,6 +53,9 @@ In effect for 2026–27: the **Arizona Mathematics Standards**, adopted by the S
   - 4.OA.A.3 + 4.NBT.B.6.
 - No sheets were written for Arizona alone.
 
+## Pre-K
+- Head Start's goals; Arizona's pre-K math has no codes to map (checked 2026-10-02).
+
 ## Uncertain
 - The K–2 2025 updates weren't seen (not archived). They are assumed to change only the AASA marks, as in grades 3–5.
 - 3.MD.A.1b's mapping to both 2.MD.C.8 and 4.MD.A.2 is a judgment call.

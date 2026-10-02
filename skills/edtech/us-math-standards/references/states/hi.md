@@ -24,5 +24,11 @@ In effect for 2026–27: Hawaiʻi Common Core Standards for Mathematics (2010), 
 ## Sheets for state content
 - K.MD.4 → the kindergarten sort-and-count sheet (`K.MD.B.3`); 1.MD.4 → Maryland's grade 1 coin sheet (`1.GR.C.6`); 2.NBT.2 → Maryland's skip-counting sheet (`2.NOS.A.2`); K.CC.2 → Maryland's counting-back sheet (`K.NOS.A.3`). No sheets written under Hawaiʻi codes.
 
+## Pre-K
+- Hawaiʻi Early Learning and Development Standards (HELDS): Framework and Continuum from Birth to End of Kindergarten, 48 months–kindergarten entry (2014): 13 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.hi`), data in `data/prek/hi.tsv`; the rows replace Head Start's 10 goals in this state's set and in `hi27`, which reuses them. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://earlylearning.hawaii.gov/pdfs/HELDS-continuum-2014_04_011.pdf
+- Domains: NS Number Sense (6: `GK.KE.a` … `GK.KE.f`); OP Operations (1: `GK.KE.g`); MD Measurement and Data (3: `GK.KE.h` … `GK.KE.j`); G Geometry (3: `GK.KE.k` … `GK.KE.m`).
+- 12 rows link Head Start goals, 6 link other sheets (1 with no Head Start goal). No later-grade borrowing.
+
 ## Uncertain
 - None recorded. Fit-reviewed after the other crosswalks: 5 of the 6 rows that differ fit as linked; 2.MD.9 (pose a question measurement data can answer) became good once the grade 2 "measure your own" section opened with "Your question:".

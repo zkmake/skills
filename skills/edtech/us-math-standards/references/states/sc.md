@@ -1,6 +1,6 @@
 # South Carolina (SC)
 
-In effect for 2026–27: South Carolina College- and Career-Ready Mathematics Standards, called the "2025 standards" (approved December 12, 2023; in classrooms since 2025–26; PDF "Emended July 2026"). These are SC's own standards, not Common Core. Mathness models them as a crosswalk in SC codes (edition `sc`, year shown as 2023, 164 rows; pre-K follows Head Start). No next edition is recorded.
+In effect for 2026–27: South Carolina College- and Career-Ready Mathematics Standards, called the "2025 standards" (approved December 12, 2023; in classrooms since 2025–26; PDF "Emended July 2026"). These are SC's own standards, not Common Core. Mathness models them as a crosswalk in SC codes (edition `sc`, year shown as 2023, 164 rows; pre-K in its own codes, see Pre-K). No next edition is recorded.
 
 ## Documents
 All from the South Carolina Department of Education, fetched 2026-10-01:
@@ -86,6 +86,12 @@ The fit review added 60 lines of links (extra.tsv), e.g.:
 - Triangles: Virginia `5.MG.3`.
 
 No SC-prefixed sheets. The latest fit verdicts leave no partials. An earlier pass flagged `3.MGSR.2.1` and `4.MGSR.2.5`; both were later cleared.
+
+## Pre-K
+- South Carolina Early Learning Standards (2017): 31 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.sc`), data in `data/prek/sc.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://ed.sc.gov/sites/scdoe/assets/File/instruction/early-learning-literacy/South%20Carolina%20Early%20Learning%20Standards%202017_Accessible%20Version.pdf
+- Domains: NS Foundations for Number Sense (14: `MTE-1q` … `MTE-2e`); AT Foundations for Algebraic Thinking (3: `MTE-3h` … `MTE-3j`); G Foundations for Geometry and Spatial Understanding (4: `MTE-4l` … `MTE-4o`); MD Foundations for Measurement and Data Analysis (6: `MTE-5k` … `MTE-5p`); MR Mathematical Thinking and Reasoning (4: `MTE-6d` … `MTE-6g`).
+- 26 rows link Head Start goals, 17 link other sheets (5 with no Head Start goal). Borrowed later-grade sheets: MTE-1ab → MA.K.NSO.1.3; MTE-5m → K.GR.A.3; MTE-5n → 1.MD.A.2; MTE-5p → K.MG.3.
 
 ## Uncertain
 - The year differs by source:

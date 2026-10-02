@@ -20,7 +20,7 @@ Next: the 2022 Minnesota K-12 Academic Standards in Mathematics, required from 2
 - Strands (2nd digit), with the domain letters Mathness assigns: 1 Number & Operation (NO); 2 Algebra (A); 3 Geometry & Measurement (GM); 4 Data Analysis (DA). The PDF calls strand 4 Data Analysis and Probability, but there is no K–5 probability.
 - The codes name no domain. App rows are 6-tuples carrying the strand (gen.py `STRANDS`), with an empty grade field.
 - Parser trap: the 2007 and 2022 sets share the digits grammar, but the same code means different content. 3.1.1.1 is "read and write to 100,000" in 2007 but "data patterns" in 2022. Always key by edition.
-- Pre-K: no state pre-K codes are mapped, so pre-K follows Head Start's goals.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - 133 K–5 rows (K 13, 1 20, 2 20, 3 26, 4 27, 5 27): 47 same, 55 edited, 16 moved, 15 new.
@@ -59,6 +59,13 @@ Next: the 2022 Minnesota K-12 Academic Standards in Mathematics, required from 2
 - Written for Minnesota: "Slides and turns", MN.4.3.3.1 (grade 4, `slides-and-turns`). It serves 4.3.3.1, 4.3.3.3 and 4.3.3.4.
 - 64 rows carry `from` sheets in all, OVR plus 61 extra.tsv lines.
 - Fit review: no partial rows remain for `mn`. 3.2.2.1, 4.3.3.2, 5.1.2.1 and 5.3.2.1–2 were closed in passes 9–11.
+
+## Pre-K
+- Early Childhood Indicators of Progress: Minnesota's Early Learning Standards, Birth to Kindergarten (2017): 33 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.mn`), data in `data/prek/mn.tsv`; the rows replace Head Start's 10 goals in this state's set and in `mn27`, which reuses them. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://edocs.dhs.state.mn.us/lfserver/Public/DHS-7596A-ENG
+- Next: updated ECIPs, "Full implementation is scheduled for fall 2028" (https://dcyf.mn.gov/partners-and-providers/child-care-and-early-learning/professional-development/ecips; document https://dcyf.mn.gov/sites/default/files/2025-08/els-ecips-2028.pdf). The 2017 ECIPs stay in force until then.
+- Domains: NK Number Knowledge (10: `M1.14` … `M6.3`); ME Measurement (2: `M7.9` … `M7.10`); P Patterns (4: `M8.8` … `M8.11`); G Geometry and Spatial Thinking (9: `M9.5` … `M11.8`); DA Data Analysis (8: `M12.7` … `M14.5`).
+- 23 rows link Head Start goals, 15 link other sheets (10 with no Head Start goal). Borrowed later-grade sheets: M4.3 → MA.K.NSO.1.3; M13.3 → K.8B; M13.5 → K.8B.
 
 ## Next edition: Minnesota (2027–28), id `mn27`
 - 2022 Minnesota K-12 Academic Standards in Mathematics.

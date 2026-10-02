@@ -1,6 +1,6 @@
 # Oregon (OR)
 
-In effect for 2026–27: 2021 Oregon Mathematics Standards (adopted October 2021; version 5.2.7, updated August 2023). The classroom start year is not in our sources. Mathness models them as a crosswalk in Oregon's codes (edition `or`, 151 rows; pre-K follows Head Start), with the note "Oregon adds a Data Reasoning domain to every grade." No next edition is recorded.
+In effect for 2026–27: 2021 Oregon Mathematics Standards (adopted October 2021; version 5.2.7, updated August 2023). The classroom start year is not in our sources. Mathness models them as a crosswalk in Oregon's codes (edition `or`, 151 rows; pre-K in its own codes, see Pre-K), with the note "Oregon adds a Data Reasoning domain to every grade." No next edition is recorded.
 
 ## Documents
 All from the Oregon Department of Education, fetched 2026-10-01:
@@ -51,6 +51,12 @@ All from the Oregon Department of Education, fetched 2026-10-01:
   - 2.MD.D.10 and 3.MD.B.3 for the graph rows.
   - Maryland `5.DS.A.1` for `5.DR.B.2`.
 - No OR-prefixed sheets. The latest fit verdicts leave no partials.
+
+## Pre-K
+- Oregon's Early Learning and Kindergarten Guidelines, Mathematics, By Entry to Kindergarten (2016): 10 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.or`), data in `data/prek/or.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://www.oregon.gov/ode/students-and-family/Transitioning-to-Kindergarten/Documents/ODE_EarlyLearningStandards_final.pdf
+- Domains: CC Counting and Cardinality (5: `P-Math1` … `P-Math5`); OA Operations and Algebraic Thinking (2: `P-Math6` … `P-Math7`); MD Measurement and Data (1: `P-Math9`); G Geometry and Spatial Sense (2: `P-Math11` … `P-Math12`).
+- 10 rows link Head Start goals, 3 link other sheets (0 with no Head Start goal). No later-grade borrowing.
 
 ## Uncertain
 - The crosswalk PDF prints `1.DR.B.2` against "1.MD.C.3 (1.MD.C.4)" and leaves `1.GM.C.6` blank. The guidance gives 1.MD.C.4 and 1.MD.B.3, which were used.

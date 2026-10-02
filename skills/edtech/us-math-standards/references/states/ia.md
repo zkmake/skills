@@ -59,6 +59,12 @@ In effect for 2026–27: the **Iowa Academic Standards for Mathematics**, adopte
 - Fit-review links (extra.tsv): 1.MD.IA.B.1 + 2.MD.C.8; 1.NBT.A.1 + 1.NOS.A.1; 1.OA.IA.C.1 + 1.OA.C.6; 2.MD.IA.C.2 + 1.GR.C.6. (The extra.tsv entries for K.MD.IA.B.1, 2.MD.IA.C.1 and 2.NBT.A.2 repeat links the rows already have.)
 - No sheets were written for Iowa alone.
 
+## Pre-K
+- Iowa Early Learning Standards, 4th Edition (2026): 20 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ia`), data in `data/prek/ia.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://educate.iowa.gov/media/13255/download
+- Domains: G Spatial Relationships and Shapes (6: `7.1.V` … `7.1.AA`); NS Number Sense (7: `7.2.W` … `7.2.CC`); P Patterns (2: `7.3.J` … `7.3.K`); M Measurement (2: `7.4.H` … `7.4.I`); DA Data Analysis (3: `7.5.I` … `7.5.K`).
+- 17 rows link Head Start goals, 7 link other sheets (3 with no Head Start goal). Borrowed later-grade sheets: 7.5.J → K.8B.
+
 ## Uncertain
 - There is no stated date for classroom implementation; the standards are treated as current for 2026–27 from the adoption date.
 - The crosswalk and spreadsheet are Google Drive files linked from the guidebook, not files hosted on educate.iowa.gov.

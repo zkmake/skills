@@ -40,7 +40,7 @@ Mathness! Math Worksheets (https://mathness.app/, repo `zkMake/edtech-apps`, app
 | Sep 30 – Oct 1 | first fit reviews of the four own sets; range, shared, gap and art sheets | Texas 150 → 209 good of 256 |
 | Oct 1 | 52 editions (15 Common Core-code, 37 crosswalks incl. 4 next-year) in ~5 hours, Hawaiʻi 2027–28 that night; 13 fit passes over 1,479 crosswalk rows; 5 more curricula (Eureka, IM, i-Ready, enVision, Go Math!); state pre-K for 5 states, then 8 more late that night (13 plus Maryland); a primary-source audit of every state's title, year and notes (26 of 57 sets corrected; 57 before Hawaiʻi 2027–28 was added) and publisher credits; skills loaded a grade at a time | 1,479 / 0 / 0 crosswalk fit (after two follow-ups to the 13th pass), 1,485 / 0 / 0 once Hawaiʻi 2027–28 was reviewed; 658 / 0 / 0 own-set fit; all three from re-reviews of touched rows after the last fresh reviews (1,361 / 116 / 2 and 617 / 41 / 0) |
 
-Numbers at the end of 2026-10-01: 267 skills (PK 20, K 35, 1 37, 2 37, 3 45, 4 48, 5 45); 58 sets (53 editions, 38 of them crosswalks); 9,745 standards (9,036 K–5 + 709 pre-K), every one with a sheet; 106 set-only sheets; 6 curricula (330 units); 160 drills in 47 families. Mathness's own `AGENTS.md` status line lagged the code (it said 259 skills); count from code when you report.
+Numbers on 2026-10-02 (commit 1206bc4f): 267 skills (PK 20, K 35, 1 37, 2 37, 3 45, 4 48, 5 45); 59 sets (54 editions, 39 of them crosswalks); 10,241 standards (9,358 K–5 + 883 pre-K), every one with a sheet; 106 set-only sheets; 6 curricula (330 units); 160 drills in 47 families. Mathness's own `AGENTS.md` status line lagged the code (it said 259 skills); count from code when you report.
 
 ## Decisions worth copying
 

@@ -23,7 +23,7 @@ In effect for 2026–27: the Montana Mathematics Content Standards. OPI's docume
   - For example, MT.1.MD.4 is coins while MT.1.MD.5 is Common Core 1.MD.C.4 (data), and MT.1.OA.7 is a second row for 1.OA.C.6.
   - So after removing `MT.`, never read the rest as a Common Core code.
 - Mathness search does not strip `MT.` from queries.
-- Pre-K: no state pre-K codes are mapped, so pre-K follows Head Start's goals.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - 155 K–5 rows (K 25, 1 24, 2 27, 3 25, 4 28, 5 26): 142 same, 9 edited, 3 moved, 1 new.
@@ -65,6 +65,12 @@ In effect for 2026–27: the Montana Mathematics Content Standards. OPI's docume
   - MT.1.OA.3 and MT.2.OA.2: 1.OA.C.6. In mt.ts the code is listed twice ("1.OA.C.6,1.OA.C.6"), a harmless duplicate.
 - No sheets were written under an MT code.
 - Fit review: no partial rows remain.
+
+## Pre-K
+- Montana Early Learning Standards: A Developmental Continuum for Birth–Age 8 (2025): 5 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.mt`), data in `data/prek/mt.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://dphhs.mt.gov/assets/ecfsd/Binder2MELSBRADSVERSION.pdf
+- Domains: MN Mathematics and Numeracy (5: `4.10` … `4.14`).
+- 4 rows link Head Start goals, 2 link other sheets (1 with no Head Start goal). No later-grade borrowing.
 
 ## Uncertain
 - Year stamps disagree:

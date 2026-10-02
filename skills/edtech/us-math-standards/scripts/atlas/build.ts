@@ -5,7 +5,7 @@
 // enrollment JSON beside this script. Figures that live only in prose (fit passes, curricula use) are
 // set below with their source. Run: bun scripts/atlas/build.ts (from the skill's root).
 
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 const ROOT = join(import.meta.dir, "..", "..");
@@ -29,7 +29,9 @@ const NAMES: Record<string, string> = {
   PR: "Puerto Rico", GU: "Guam", VI: "U.S. Virgin Islands", DoDEA: "DoDEA",
 };
 const DISPLAY: Record<string, string> = { HI: "Hawaiʻi", DoDEA: "Defense Department schools" };
-const NEXT_IDS: Record<string, string> = { WA: "wa27", SD: "sd27", LA: "la27", MN: "mn27", HI: "hi27" };
+const NEXT_IDS: Record<string, string> = { WA: "wa27", SD: "sd27", LA: "la27", MN: "mn27", HI: "hi27", NC: "nc29" };
+// The school year each next edition starts; `nc29` is named for the year 2028–29 ends.
+const NEXT_YEAR: Record<string, string> = { nc29: "2028-29" };
 const OWN_DOCS: Record<string, string> = {
   TX: "https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch111a.pdf",
   FL: "https://cpalmsmediaprod.blob.core.windows.net/uploads/docs/standards/best/ma/mathbeststandardsfinal.pdf",
@@ -178,14 +180,15 @@ const TIMELINE: [string, string, [string, string][]][] = [
     ["UT", "Utah revision drafted; no adoption date"],
   ]],
   ["2028–29", "Further out", [
-    ["NC", "North Carolina's new K–12 standards (adopted 1 Oct 2026), planned"],
+    ["NC", "North Carolina's new K–12 standards (adopted 1 Oct 2026). In Mathness."],
+    ["MN", "Minnesota's updated early-learning indicators (ECIPs 2028), fall 2028"],
     ["ID", "Idaho review: recommendations to the Legislature in 2027"],
     ["TN", "Tennessee's current set runs to 2031–32"],
   ]],
 ];
 // The coverage session's open items, in its priority order (2026-10-01).
 const OPEN = [
-  ["State pre-K in states' own codes", "done for 14: Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania, Alabama, Georgia, Mississippi, North Carolina, New Jersey, Ohio, Tennessee, West Virginia; next, the other crosswalked states, then pre-K for states in Common Core's own codes (needs app support); the rest show Head Start's goals"],
+  ["State pre-K for Texas, Florida and Virginia", "43 states and DC are mapped in their own pre-K codes; the three own sets still show Head Start's goals. Missouri, Arizona, New Hampshire and Washington have no codes to map; DoDEA follows a commercial framework"],
   ["Next standards when final", "Utah and Kentucky for 2027–28, North Carolina for 2028–29: one research file and one generated edition each"],
   ["Probability in grades 1–2", "Puerto Rico asks for it; nothing below grade 3 yet"],
   ["A Spanish edition", "Puerto Rico's standards are in Spanish; dual-language classrooms everywhere. The largest job here"],
@@ -315,7 +318,10 @@ const timeline = TIMELINE.map(([year, lab, items]) => `
 const resources = RESOURCES.map(([h, items]) => `
   <div class="res"><h3>${h}</h3><ul>${items.map(([t, u, d]) => `<li><a href="${esc(href(u))}">${esc(t)}</a><span>${esc(d)}</span></li>`).join("")}</ul></div>`).join("");
 
-const prekIds = ["MD", "NY", "MA", "OK", "CO", "PA", "AL", "GA", "MS", "NC", "NJ", "OH", "TN", "WV"];
+// Maryland (its own set) plus every jurisdiction with a pre-K file in data/prek, A to Z by name.
+const prekIds = ["MD", ...readdirSync(join(ROOT, "data/prek")).map((f) => f.replace(".tsv", "").toUpperCase())]
+  .sort((a, b) => (DISPLAY[a] ?? NAMES[a]).localeCompare(DISPLAY[b] ?? NAMES[b]));
+const PREK_STATES = prekIds.filter((id) => id !== "DC").length;
 const terr = ROWS.filter((r) => ["PR", "GU", "VI", "DoDEA"].includes(r.id));
 
 const html = `<!doctype html>
@@ -578,9 +584,9 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
   </div>
   <div class="card report" aria-label="Headline figures">
     ${[
-      ["1,485/1,485", "crosswalk rows fit fully", "state rows that differ from Common Core, across all 38 crosswalks"],
+      ["1,485/1,485", "crosswalk rows fit fully", "state rows that differ from Common Core, across the first 38 crosswalks; North Carolina 2028–29 is under review"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
-      ["9,745", "standards, each with a sheet", "58 sets: Common Core, 4 own sets, 53 state editions"],
+      ["10,241", "standards, each with a sheet", "59 sets: Common Core, 4 own sets, 54 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n.includes("/") ? n.split("/")[0] : n}</span><b>${n.includes("/") ? `of ${n.split("/")[1]} ${b}` : b}</b><small>${s}</small></div>`).join("")}
   </div>
@@ -595,7 +601,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
     </div>
     <div class="sharekey">
       <div><i class="sw own"></i><strong>${COUNT("own")} states</strong><small><b>Own set, fit-reviewed.</b> Their own codes and words, state-only sheets written, every row reviewed.</small></div>
-      <div><i class="sw xw"></i><strong>${COUNT("xw")} states</strong><small><b>Crosswalk.</b> Every standard in the state's own code, mapped to Common Core and to sheets for what it adds. Five also have next year's standards.</small></div>
+      <div><i class="sw xw"></i><strong>${COUNT("xw")} states</strong><small><b>Crosswalk.</b> Every standard in the state's own code, mapped to Common Core and to sheets for what it adds. Six also have their next standards.</small></div>
       <div><i class="sw cc"></i><strong>${ROWS.filter((r) => r.model === "cc" && !["DC", "GU", "DoDEA"].includes(r.id)).length} states + DC + DoDEA</strong><small><b>Common Core codes</b> under the state's name, with any added standards slotted in. Guam uses Common Core's own pages.</small></div>
       <div><i class="sw none"></i><strong>${COUNT("—")} territories</strong><small><b>Not yet.</b> Puerto Rico (standards in Spanish) and the U.S. Virgin Islands (K–5 detail unreachable).</small></div>
     </div>
@@ -604,7 +610,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 
 <section id="map">
   <div class="head"><span class="eyebrow">The map</span><h2>Standards in effect for 2026–27</h2>
-  <p class="lede2">Choose a state for its standards, its codes, how far it sits from Common Core and where its documents live. A dashed yellow edge marks a state whose 2027–28 standards Mathness already models.</p></div>
+  <p class="lede2">Choose a state for its standards, its codes, how far it sits from Common Core and where its documents live. A dashed yellow edge marks a state whose next standards (2027–28, or 2028–29 for North Carolina) Mathness already models.</p></div>
   <div class="mapgrid">
     <div class="card mapbox">
       <svg viewBox="-60 0 1035 615" role="group" aria-label="Map of US states coloured by how Mathness models their standards">${mapPaths}</svg>
@@ -613,7 +619,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
         <button type="button" data-f="own" aria-pressed="false"><i class="sw own"></i>Own set</button>
         <button type="button" data-f="xw" aria-pressed="false"><i class="sw xw"></i>Crosswalk</button>
         <button type="button" data-f="cc" aria-pressed="false"><i class="sw cc"></i>Common Core codes</button>
-        <button type="button" data-f="next" aria-pressed="false"><i class="sw next"></i>Next year modelled</button>
+        <button type="button" data-f="next" aria-pressed="false"><i class="sw next"></i>Next standards modelled</button>
       </div>
       <div class="extras" aria-label="Outside the 50 states">${terr.map((r) => `<button class="ext" type="button" data-id="${r.id}">${flagSvg(r)}${esc(r.name)}</button>`).join("")}</div>
     </div>
@@ -622,8 +628,8 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 </section>
 
 <section id="fit">
-  <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row now fits its sheets</h2>
-  <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet (1,485 once Hawaiʻi's 2027–28 rows joined) against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic.</p></div>
+  <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row, read against its sheets</h2>
+  <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet (1,485 once Hawaiʻi's 2027–28 rows joined) against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic. North Carolina's 2028–29 crosswalk, added on 2 October, had its first review (225 good, 93 partial, 4 mismatch of 322 rows); its fix passes followed, and their final tally isn't in yet.</p></div>
   <div class="card">
     <div class="passes">${passRows}</div>
     <div class="fitkey"><span><i class="sw" style="background:var(--good)"></i>Good: the sheets practise all of it</span><span><i class="sw" style="background:var(--part)"></i>Partial: a named part is missing</span><span><i class="sw" style="background:var(--miss)"></i>Mismatch: the sheets don't practise it</span><span class="mono">bars to scale · ${fmt(passMax)} rows</span></div>
@@ -654,9 +660,9 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 <section id="prek">
   <div class="head"><span class="eyebrow">Before kindergarten</span><h2>Pre-K in states' own codes</h2></div>
   <div class="two">
-    <div class="card prek"><p>Common Core starts at kindergarten. Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015), goals P-MATH 1–10, in every state not yet mapped. Fourteen states are mapped in their own pre-K codes, from their math or early-learning standards:</p>
+    <div class="card prek"><p>Common Core starts at kindergarten. Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015), goals P-MATH 1–10, in every state not yet mapped. ${PREK_STATES} states and DC are mapped in their own pre-K codes, from their math or early-learning standards:</p>
       <div class="prekflags">${prekIds.map((id) => `<span>${flagFor(id)}${esc(NAMES[id])}</span>`).join("")}</div>
-      <p class="muted" style="font-size:.88rem">Texas (Prekindergarten Guidelines 2022), Florida (4 years to kindergarten, 2017) and Virginia (2021) show Head Start's goals until mapped. Data: <a href="data/prek/">data/prek</a>.</p></div>
+      <p class="muted" style="font-size:.88rem">Texas (Prekindergarten Guidelines 2022), Florida (4 years to kindergarten, 2017) and Virginia (2021) show Head Start's goals until mapped; Missouri, Arizona, New Hampshire and Washington have no pre-K codes to map, and DoDEA follows a commercial framework. Data: <a href="data/prek/">data/prek</a>.</p></div>
     <div class="card prek"><h3>Sheets read aloud</h3><p>Pre-K sheets are made to be read by a grown-up: 24pt answers, pictures 80–140pt, a picture cue beside every title (trace, circle, colour, line, draw), and answers made by circling, tracing or drawing, never writing.</p></div>
   </div>
 </section>
@@ -841,7 +847,7 @@ html.dark .atlas {
   const OWN_ROWS = OWN_FIT.reduce((a, r) => a + r[4], 0);
   const XW_ROWS = PASSES.at(-1)![2];
   const NEXT_PUBLIC = [
-    ["Pre-K in more states' own codes", "14 states so far; the rest use Head Start's preschool goals until theirs are mapped"],
+    ["Pre-K for Texas, Florida and Virginia", "43 states and DC already have pre-K in their own codes; these three still use Head Start's preschool goals"],
     ["New standards as they're adopted", "Utah and Kentucky for 2027–28, North Carolina for 2028–29, each once its text is published"],
     ["Probability in grades 1–2", "Puerto Rico asks for it; nothing below grade 3 yet"],
     ["Sheets in Spanish", "for Puerto Rico's standards and dual-language classrooms"],
@@ -863,9 +869,9 @@ html.dark .atlas {
   </div>
   <div class="card report" aria-label="Headline figures">
     ${[
-      [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "every state row that differs from Common Core, in the latest review"],
+      [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "every row that differs from Common Core in the first 38 crosswalks; North Carolina 2028–29 is under review"],
       [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
-      ["9,745", "standards, each with a sheet", "Common Core, 4 state frameworks and 53 state editions"],
+      ["10,241", "standards, each with a sheet", "Common Core, 4 state frameworks and 54 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n}</span><b>${b}</b><small>${s}</small></div>`).join("")}
   </div>
@@ -876,11 +882,11 @@ html.dark .atlas {
   <ol class="steps">
     <li class="card"><h3>One catalogue of sheets</h3><p>Every skill is written once. Each state's standards are a view over that catalogue: the same sheet prints Texas's code in Texas and Maryland's in Maryland, at the grade that state teaches it.</p><span class="fig">267 skills</span></li>
     <li class="card"><h3>Read each state's own documents</h3><p>Not summaries: the standards each state adopted, from its own department of education, with the official title, the year, how its codes work and when the next revision is due.</p><span class="fig">${ROWS.length} jurisdictions</span></li>
-    <li class="card"><h3>Map every standard</h3><p>Each state standard is matched to Common Core as the same, edited, moved from another grade, or new. Texas, Florida, Virginia and Maryland, the furthest from Common Core, are modelled in full.</p><span class="fig">6,006 rows in 38 crosswalks</span></li>
+    <li class="card"><h3>Map every standard</h3><p>Each state standard is matched to Common Core as the same, edited, moved from another grade, or new. Texas, Florida, Virginia and Maryland, the furthest from Common Core, are modelled in full.</p><span class="fig">6,328 rows in 39 crosswalks</span></li>
     <li class="card"><h3>Write what's missing</h3><p>Where a state asks for something Common Core doesn't, we wrote the sheet: coins in kindergarten, thermometers, mean, median and mode in grade 5, saving goals.</p><span class="fig">106 sheets for state-only content</span></li>
     <li class="card"><h3>Check the fit, row by row</h3><p>A sheet existing isn't a sheet fitting. Every state row that differs from Common Core was read against everything its sheets show across 40 versions of each sheet, then rated good, partial or mismatch. We fixed what fell short and reviewed the changed rows again.</p><span class="fig">13 passes and a fresh review</span></li>
     <li class="card"><h3>Check the facts</h3><p>Every state's title, adoption year and notes were checked against primary sources: board minutes, state rules, the agency's own pages. That check corrected 26 of 57 sets and found an adoption the same day it happened.</p><span class="fig">Primary sources only</span></li>
-    <li class="card"><h3>Keep watching</h3><p>Standards change. Five states' 2027–28 standards are already in, beside the ones in classrooms now, and the next revisions are on a watch list.</p><span class="fig">5 next-year editions</span></li>
+    <li class="card"><h3>Keep watching</h3><p>Standards change. Five states' 2027–28 standards and North Carolina's 2028–29 are already in, beside the ones in classrooms now, and the next revisions are on a watch list.</p><span class="fig">6 next editions</span></li>
   </ol>
 </section>
 
@@ -891,13 +897,13 @@ ${/<section id="share">[\s\S]*?<\/section>/.exec(html)![0]
 
 <section id="map">
   <div class="head"><span class="eyebrow">The map</span><h2>Find your state</h2>
-  <p class="lede2">Choose a state for its standards, its codes, how far it sits from Common Core, and links to its worksheets and its official document. A dashed yellow edge marks a state whose 2027–28 standards are already on Mathness.</p></div>
+  <p class="lede2">Choose a state for its standards, its codes, how far it sits from Common Core, and links to its worksheets and its official document. A dashed yellow edge marks a state whose next standards (2027–28, or 2028–29 for North Carolina) are already on Mathness.</p></div>
   ${/<div class="mapgrid">[\s\S]*?<\/aside>\n  <\/div>/.exec(html)![0]}
 </section>
 
 ${/<section id="fit">[\s\S]*?<\/section>/.exec(html)![0]
-  .replace("Every crosswalk row now fits its sheets", "Every state row now fits its sheets")
-  .replace(/<p class="lede2">A sheet existing[\s\S]*?<\/p><\/div>/, `<p class="lede2">Coverage means a sheet exists for a standard. Fit means the sheet practises what the standard asks, at its grade. Each review read a state's wording against every section its sheets show, across 40 versions of each sheet. Each pass linked better sheets or added the missing activity; the changed rows were then reviewed again. Halfway, a fresh review started from scratch, without the earlier verdicts, and found the step-by-step reviews had grown too generous, so the bar went up for every pass after it.</p></div>`)
+  .replace("Every crosswalk row, read against its sheets", "Every state row, read against its sheets")
+  .replace(/<p class="lede2">A sheet existing[\s\S]*?<\/p><\/div>/, `<p class="lede2">Coverage means a sheet exists for a standard. Fit means the sheet practises what the standard asks, at its grade. Each review read a state's wording against every section its sheets show, across 40 versions of each sheet. Each pass linked better sheets or added the missing activity; the changed rows were then reviewed again. Halfway, a fresh review started from scratch, without the earlier verdicts, and found the step-by-step reviews had grown too generous, so the bar went up for every pass after it. North Carolina's 2028–29 crosswalk, added on 2 October, had its first review (225 good, 93 partial, 4 mismatch of 322 rows); its fix passes followed, and their final tally isn't in yet.</p></div>`)
   .replace("Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.", "Every K–5 row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw each sheet's topic; later ones saw every section of every sheet.")}
 
 ${/<section id="distance">[\s\S]*?<\/section>/.exec(html)![0]
@@ -941,7 +947,7 @@ ${/<section id="curricula">[\s\S]*?<\/section>/.exec(html)![0]
 const A = document.querySelector(".atlas");
 const DATA = ${JSON.stringify(BLOG_DATA).replace(/</g, "\\u003c")};
 const LABEL = ${JSON.stringify({ own: "Own set", xw: "Crosswalk", cc: "Common Core codes", none: "Not yet" })};
-const NEXT = ${JSON.stringify(Object.fromEntries(Object.entries(NEXT_IDS).map(([k, v]) => [k, `/${slugify(NAMES[k])}-2027-28/`])))};
+const NEXT = ${JSON.stringify(Object.fromEntries(Object.entries(NEXT_IDS).map(([k, v]) => [k, `/${slugify(NAMES[k])}-${NEXT_YEAR[v] ?? "2027-28"}/`])))};
 const byId = Object.fromEntries(DATA.map((d) => [d.id, d]));
 const flag = (d, cls) => d.flag ? '<svg class="' + cls + '" viewBox="0 0 30 20" aria-hidden="true">' + d.flag + "</svg>" : '<span class="' + cls + ' badge" aria-hidden="true">' + (d.id === "DoDEA" ? "DD" : d.id) + "</span>";
 const fmt = (n) => n == null ? "" : n.toLocaleString("en-US");
@@ -952,7 +958,7 @@ const detail = A.querySelector("#detail");
 function show(id, scroll) {
   const d = byId[id]; if (!d) return;
   A.querySelectorAll(".st").forEach((p) => p.classList.toggle("sel", p.dataset.id === id));
-  const nextHtml = d.next ? '<div class="next-box"><b>Next:</b> ' + d.next + (d.nextKinds ? '<div style="margin-top:8px">' + kinds(d.nextKinds) + "</div>" : "") + (NEXT[d.id] ? ' <a href="' + NEXT[d.id] + '">Its 2027–28 pages</a>' : "") + "</div>" : "";
+  const nextHtml = d.next ? '<div class="next-box"><b>Next:</b> ' + d.next + (d.nextKinds ? '<div style="margin-top:8px">' + kinds(d.nextKinds) + "</div>" : "") + (NEXT[d.id] ? ' <a href="' + NEXT[d.id] + '">Its ' + NEXT[d.id].slice(-8, -1).replace("-", "–") + ' pages</a>' : "") + "</div>" : "";
   detail.innerHTML =
     '<div class="dh">' + flag(d, "bigflag") + '<div><h3>' + d.name + '</h3><span class="tag t-' + d.model + '">' + LABEL[d.model] + "</span></div></div>"
     + '<dl class="dl"><dt>Standards</dt><dd>' + d.title + '</dd><dt>Adopted</dt><dd class="mono">' + d.year + "</dd>"
@@ -994,7 +1000,7 @@ show(byId[start] ? start : "TX");
 export const STANDARDS_POST = {
   slug: ${JSON.stringify(SLUG)},
   title: "How we matched every state's math standards",
-  about: "How Mathness! gave every state its own worksheet pages: reading each state's standards, mapping 6,006 rows, writing sheets for what states add, and checking each fit.",
+  about: "How Mathness! gave every state its own worksheet pages: reading each state's standards, mapping 6,328 rows, writing sheets for what states add, and checking each fit.",
   date: "2026-10-01",
   body: ${JSON.stringify(body)},
 };

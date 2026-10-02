@@ -1,6 +1,6 @@
 # North Dakota (ND)
 
-In effect for 2026–27: North Dakota Mathematics Content Standards K–12 (July 2023, REV2 2024-06-27; implemented 2024–25). These are ND's own standards, not Common Core. Mathness models them as a crosswalk in ND codes (edition `nd`, 165 rows; pre-K follows Head Start). No next edition is recorded.
+In effect for 2026–27: North Dakota Mathematics Content Standards K–12 (July 2023, REV2 2024-06-27; implemented 2024–25). These are ND's own standards, not Common Core. Mathness models them as a crosswalk in ND codes (edition `nd`, 165 rows; pre-K in its own codes, see Pre-K). No next edition is recorded.
 
 ## Documents
 - Standards (ND Department of Public Instruction): https://www.nd.gov/dpi/sites/www/files/documents/Academic%20Support/REV2.2024.06.27%20Math%20Content%20Standards%20Final.pdf
@@ -79,6 +79,13 @@ OVR redirects in gen.py:
 Other moved rows serve from their CCSS codes. The fit review added 35 lines of links (extra.tsv), e.g. money problems to Virginia `3.NS.4`, factors to Virginia `5.NS.2`, and fraction-side area to Florida `MA.5.GR.2.1`.
 
 No ND-prefixed sheets. The latest fit verdicts leave no partials.
+
+## Pre-K
+- North Dakota Early Learning Standards: Birth to Kindergarten (2018): 10 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.nd`), data in `data/prek/nd.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://www.nd.gov/dpi/sites/www/files/documents/Academic%20Support/FINAL%20Early%20Learning%20Standards%207NOV2018.pdf
+- Unconfirmed: a search snippet of hhs.nd.gov said the standards are under review for full implementation in fall 2026; the HHS standards pages show only the 2018 document (2026-10-02).
+- Domains: CC Counting and Cardinality (5: `P-MATH 1` … `P-MATH 5`); OA Operations and Algebraic Thinking (2: `P-MATH 6` … `P-MATH 7`); M Measurement (1: `P-MATH 8`); G Geometry and Spatial Sense (2: `P-MATH 9` … `P-MATH 10`).
+- 10 rows link Head Start goals, 5 link other sheets (0 with no Head Start goal). Borrowed later-grade sheets: P-MATH 4 → MA.K.NSO.1.3.
 
 ## Uncertain
 - All CCSS mappings are the research's own reading; there is no official ND↔CCSS crosswalk.

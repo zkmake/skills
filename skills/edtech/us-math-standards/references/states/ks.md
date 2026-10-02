@@ -61,6 +61,12 @@ In effect for 2026–27: the **2017 Kansas Mathematics Standards**, adopted by t
 - In earlier fit passes, 2.NBT.2 (skip-counting by 2s), 4.G.2 (triangle types), 4.G.1 (reflex angles) and 5.MD.2 (sixteenths in a line plot) were partial. All were rated good in later passes, and none remain.
 - No sheets were written for Kansas alone.
 
+## Pre-K
+- Kansas Early Learning Standards (2024, rev. 10-1-2025): 22 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ks`), data in `data/prek/ks.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://kels.ksde.gov/docs/default-source/main-documents/kansas_early_learning_standards-web10-1-25.pdf
+- Domains: CC Counting and Cardinality (10: `M.CC.p4.1` … `M.CC.p4.8`); OA Operations and Algebraic Thinking (3: `M.OA.p4.1` … `M.OA.p4.3`); MD Measurement and Data (4: `M.MD.p4.1` … `M.MD.p4.4`); G Geometry (5: `M.G.p4.1` … `M.G.p4.5`).
+- 20 rows link Head Start goals, 10 link other sheets (2 with no Head Start goal). No later-grade borrowing.
+
 ## Uncertain
 - The year the standards reached classrooms is not in the sources.
 - 3.MD.1's extra link to 2.MD.C.7 reflects a.m./p.m. moving up from grade 2.

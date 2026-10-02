@@ -15,7 +15,7 @@ In effect for 2026–27: South Dakota State Standards for Mathematics (adopted M
   - Grade 3: there is no cluster D, so perimeter is 3.MD.C.8 (Common Core 3.MD.D.8) and money is 3.MD.C.9.
 - K.MD.C.4 is pennies. Common Core has no K.MD.C cluster, so never read SD codes as Common Core content without checking.
 - Separate rows kept for South Dakota's own splits: 2.MD.C.8a and 2.MD.C.8b, and 4.OA.A.1a and 4.OA.A.1b. Lettered parts that restate Common Core are folded into their standard: K.CC.B.5a/b, K.OA.A.2a/b, 1.NBT.A.1a–c, 1.NBT.C.4a/b, 2.OA.B.2a/b, 3.OA.C.7a/b, 4.OA.B.4a–d, 5.NBT.B.7a/b, 5.NF.A.2a/b, 5.MD.C.5a–d.
-- Pre-K: no state pre-K codes are mapped, so pre-K follows Head Start's goals.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - 153 K–5 rows (K 23, 1 22, 2 27, 3 26, 4 29, 5 26): 141 same, 8 edited, 4 moved, 0 new. No Common Core K–5 standard was dropped.
@@ -41,6 +41,12 @@ In effect for 2026–27: South Dakota State Standards for Mathematics (adopted M
   - 4.G.A.2 gets Virginia's triangle sort 5.MG.3 and 4.G.A.1.
 - No sheets were written under an SD code.
 - Fit review: no partial rows remain for `sd` or `sd27`.
+
+## Pre-K
+- South Dakota Early Learning Guidelines (2023): 4 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.sd`), data in `data/prek/sd.tsv`; the rows replace Head Start's 10 goals in this state's set and in `sd27`, which reuses them. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://dss.sd.gov/docs/childcare/early_learning_guidelines.pdf
+- Domains: MTE Mathematical Thinking and Expression (4: `CD Goal - 4` … `CD Goal - 7`).
+- 4 rows link Head Start goals, 3 link other sheets (0 with no Head Start goal). Borrowed later-grade sheets: CD Goal - 4 → MA.K.NSO.1.3.
 
 ## Next edition: South Dakota (2027–28), id `sd27`
 - 2026 South Dakota Mathematics Standards. The State Board adopted them on 4 May 2026 (the cover says "Adopted May 4, 2026").

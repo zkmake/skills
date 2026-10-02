@@ -78,7 +78,7 @@ No NC-prefixed sheets. The latest fit verdicts leave no partials.
 ## Next edition
 - The State Board adopted new K–12 math standards (Draft 3) on 1 October 2026, without opposition, planned for classrooms in 2028–29. The 2017 SCOS stays in use until then (editions.ts note, checked 2026-10-01).
 - Evidence: news reports (WRAL, 1 Oct 2026: https://www.wral.com/news/education/changes-to-nc-school-math-requirements-standards-vote-october-2026/). No State Board record of the vote was posted as of 2026-10-01; NCDPI's September 2026 bulletin only said action was expected at the October meeting. The 2028–29 start is DPI's tentative timeline (installation 2026–27 and 2027–28).
-- No text, code grammar or Mathness edition exists yet. Build `nc28` once the board's adoption is on record and NCDPI has published the K–5 text (SKILL.md workflow E).
+- Mathness edition `nc29` ("North Carolina (2028–29)", /north-carolina-2028-29/, `starts` 2028–29), added 2026-10-02 by another session: 322 rows, one per objective, coded by domain, standard and objective (`K.ANR.2.3`; three domains), from the State Board's meeting documents, the standards (Draft 3) and NCDPI's own 2017-to-2026 crosswalk. Each objective carries the Common Core codes of the 2017 standards NCDPI pairs it with; objectives NCDPI marks "New" link sheets chosen for them. First fit review of every row (2026-10-02): 225 good / 93 partial / 4 mismatch; fix passes followed (app commits 277b5f55, d77fcd8c … 6b854657), final tally not recorded here. No research TSV with kinds is in `data/crosswalks/` yet.
 
 ## Uncertain
 - The adoption is confirmed by news reports but not yet by a State Board record (editions.ts says adopted on 1 Oct 2026).

@@ -14,7 +14,7 @@ In effect for 2026–27: Utah Core Standards for Mathematics (adopted August 201
 - Each Utah code is the short form of the Common Core code (3.OA.8 = 3.OA.D.8), except 1.MD.5. Common Core grade 1 MD stops at 1.MD.4, so 1.MD.5 is Utah's addition (coins).
 - Lettered parts (1.OA.6a/b, 3.OA.8a–c, 5.OA.2a/b) restate Common Core and are folded into their standard. Practice standards (K.MP.1 …) are skipped.
 - Short codes collide with other sets: South Dakota's 2026 codes and Wyoming's use the same shape with different content.
-- Pre-K: Head Start's goals; no state pre-K codes are mapped.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - 149 K–5 rows (K 22, 1 22, 2 26, 3 25, 4 28, 5 26): 147 same, 1 edited, 1 moved, 0 new. No Common Core K–5 standard is dropped.
@@ -39,6 +39,12 @@ In effect for 2026–27: Utah Core Standards for Mathematics (adopted August 201
 - September 2026: a Standards and Assessment Committee action item recommends adopting the Introduction and P–2 Step 11 revisions and forwarding them to the Board for final approval. Grades 3–5 are not in that item.
 - editions.ts note: "Utah is revising its math standards; a draft is under review and no adoption date is set."
 - When it is adopted, add `ut27`-style data (TSV, then gen.py) as was done for Washington.
+
+## Pre-K
+- Utah Core State Standards for Early Learning, Ages 3 to 5, Mathematics, Age 4 (2023): 22 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ut`), data in `data/prek/ut.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
+- Source: https://schools.utah.gov/curr/preschool/_preschool_/Utah%20Core%20State%20Standards%20for%20Early%20Learning%20for%20Ages%203%20to%205%20ADA%20Compliant%202024.pdf
+- Domains: CC Counting and Cardinality (7: `Math 4 yr.1.1` … `Math 4 yr.1.7`); OA Operations and Algebraic Thinking (5: `Math 4 yr.2.1` … `Math 4 yr.2.5`); MD Measurement and Data (4: `Math 4 yr.3.1` … `Math 4 yr.3.4`); G Geometry (6: `Math 4 yr.4.1` … `Math 4 yr.4.6`).
+- 18 rows link Head Start goals, 9 link other sheets (4 with no Head Start goal). Borrowed later-grade sheets: Math 4 yr.4.4 → K.G.B.4.
 
 ## Uncertain
 - The adoption date of the revision is uncertain:
