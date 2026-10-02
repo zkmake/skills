@@ -6,6 +6,7 @@ In effect for 2026–27: the 2025 Mississippi College- and Career-Readiness Stan
 - 2025 standards (Mississippi Department of Education, published by the Secretary of State). K–5 is on pp. 37–84. The document states: "The required year … is 2025-2026."
   - https://www.sos.ms.gov/ACCode/00000554c.pdf
   - Direct downloads are bot-blocked, so it was fetched via https://sos.ms.gov/adminsearch/ACCode/00000554c.pdf
+  - MDE also hosts copies of the 2025 standards under https://www.mdek12.org/wp-content/uploads/sites/38/2025/07/ (2026-10-02 source check; file names not recorded).
 - The same document's appendix, "2016 and 2025 Standards Comparison Guide" (p. 283), lists the K–5 edits:
   - K.CC.1 split into 1a/1b; K.OA.5 split into 5a/5b; 1.MD.3b split into 3b/3c.
   - 4.G.2 adds triangle classification; 5.MD.5b uses a capital B in V = B × h.
@@ -62,7 +63,7 @@ In effect for 2026–27: the 2025 Mississippi College- and Career-Readiness Stan
 
 ## Pre-K
 - Mississippi Early Learning Standards for Four-Year-Old Children (2018): 18 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ms`), data in `data/prek/ms.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
-- Source: Mississippi Early Learning Standards for Classrooms Serving Infants through Four-Year-Old Children (2018), four-year-old section: https://www.mdek12.org/sites/default/files/final_infants_through_four-year-old_early_learning_standards_2020.08.21_jg.pdf (returns 403 to curl; open in a browser).
+- Source: Mississippi Early Learning Standards for Classrooms Serving Infants through Four-Year-Old Children (2018), four-year-old section: https://www.mdek12.org/sites/default/files/final_infants_through_four-year-old_early_learning_standards_2020.08.21_jg.pdf (returned 403 to curl before; 200 on 2026-10-02).
 - Codes `M.CC.PK4.1`, `M.OA.PK4.1`, `M.MD.PK4.1`, `M.G.PK4.1`. The document never prints the measurement codes; Mathness follows its own `M.<domain>.PK4.n` pattern for them.
 - Domains: CC (6), OA (4), MD (3), G (5).
 - 16 rows link Head Start goals, 7 link Maryland pre-K sheets; M.OA.PK4.3 → PK.NOS.D.10 and M.MD.PK4.3 → PK.DS.A.1 only. No later-grade borrowing.

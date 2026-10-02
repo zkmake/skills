@@ -1,10 +1,11 @@
 # Tennessee (TN)
 
-In effect for 2026–27: Tennessee Math Standards, called "Tennessee Academic Standards for Mathematics" in Mathness. The State Board of Education approved them on 5 February 2021, and they have been in classrooms since 2023–24. Mathness models them as a crosswalk in Tennessee's own codes: edition `tn`, 154 rows, `/tennessee/`. There is no next edition in Mathness. The TSV says the set stays in effect until revised standards arrive in 2031–32.
+In effect for 2026–27: Tennessee Math Standards, called "Tennessee Academic Standards for Mathematics" in Mathness. The State Board of Education approved them on 5 February 2021, and they have been in classrooms since 2023–24. Mathness models them as a crosswalk in Tennessee's own codes: edition `tn`, 154 rows, `/tennessee/`. There is no next edition in Mathness. The State Board says the current standards "will be in effect until the 2031-2032 school year"; the review of their replacement started in 2026 (see Documents).
 
 ## Documents
 - Standards (marked "Revised November 6, 2020", the version the Board approved in February 2021): https://www.tn.gov/content/dam/tn/stateboardofeducation/documents/standards/math/TN_Revised_Standards_K-4th_year_math_6-9-2022.pdf (Tennessee State Board of Education). Mathness credits the Tennessee Department of Education as publisher.
-- SBE math standards page: https://www.tn.gov/sbe/committees-and-initiatives/standards-review/math.html
+- SBE math standards page: https://www.tn.gov/sbe/committees-and-initiatives/standards-review/math.html . On 2026-10-02 it says the Board "is reviewing the TN Math Standards to prepare for statewide implementation of the revised standards in the 2031-2032 school year".
+- SBE "2026-28 Math Standards Review Process & Timeline" (13 March 2026; future dates are estimates): public survey April 2026, Educator Advisory Team July 2026, Standards Development Committee September 2026, second survey April 2027, Standards Recommendation Committee July 2027, Board first and final readings November 2027 and February 2028. https://www.tn.gov/content/dam/tn/stateboardofeducation/documents/standards/2026-28-math-standards-review/3.13.26%20Math%20Standards%20Process%20and%20Timeline%202026-28.pdf
 - TDOE page: "The state board adopted revised state math standards in February 2021. They will be implemented in classrooms during the 2023-24 school year."
 - Official crosswalk, revised April 2022: it maps the 2017 TN standards to the 2023-implemented TN standards, not to Common Core. https://www.tn.gov/content/dam/tn/stateboardofeducation/documents/standards/math/TN%20Math%20Standards%20Crosswalk_2022_0.pdf
 - There is no official TN-to-Common Core crosswalk. Every Common Core link here is our judgment from the text.
@@ -84,6 +85,6 @@ In effect for 2026–27: Tennessee Math Standards, called "Tennessee Academic St
 - 17 rows link Head Start goals, 9 link other sheets. PK.OA.A.3 → PK.NOS.D.10; PK.OA.A.4 → PK.AT.A.2; PK.MD.B.3 (coins) borrows 1.GR.C.6 and K.9D; PK.MD.C.4 → PK.DS.A.1, PK.DS.A.2.
 
 ## Uncertain
-- landscape.md says the current set runs to 2031–32; the TSV gives only "until revised standards in 2031-32". Neither is in editions.ts, and the review's start year is unconfirmed.
+- The 2031–32 end date is not in editions.ts.
 - Name: editions.ts says "Tennessee Academic Standards for Mathematics". The TSV header says "Tennessee Math Standards".
 - The current PDF's file name says 6-9-2022, but its text is marked "Revised November 6, 2020".

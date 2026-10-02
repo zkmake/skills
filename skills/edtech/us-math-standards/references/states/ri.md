@@ -1,9 +1,9 @@
 # Rhode Island (RI)
 
-In effect for 2026–27: Rhode Island Core Standards for Mathematics (adopted March 9, 2021), adapted from Massachusetts's 2017 framework. The classroom start year is not in our sources. Mathness models them as a crosswalk in CCSS-style codes (edition `ri`, 151 rows; pre-K in its own codes, see Pre-K), with the note "Rhode Island's standards follow Massachusetts's 2017 framework." No next edition is recorded.
+In effect for 2026–27: Rhode Island Core Standards for Mathematics (adopted March 9, 2021), adapted from Massachusetts's 2017 framework. The classroom start year is not in our sources. Mathness models them as a crosswalk in CCSS-style codes (edition `ri`, 151 rows; pre-K in its own codes, see Pre-K), with the note "Rhode Island's standards follow Massachusetts's 2017 framework." No next edition is recorded: RIDE's Council re-endorsed the math standards unchanged on 28 April 2026, 6–0 (per the 2026-10-02 source check).
 
 ## Documents
-- Official comparison: "Common Core State Standards / Rhode Island Core Standards Comparison Tables, K-12 Mathematics" (RIDE): https://ride.ri.gov/Portals/0/Uploads/Documents/Instruction-and-Assessment-World-Class-Standards/Standards/RI%20Core%20Standards%20Mathematics%20Comparison%20Tables.pdf
+- Official comparison: "Common Core State Standards / Rhode Island Core Standards Comparison Tables, K-12 Mathematics" (RIDE; moved 2026-10-02, the old `ride.ri.gov/Portals/0/…` link redirects): https://ride.ri.gov/sites/g/files/xkgbur806/files/Portals/0/Uploads/Documents/Instruction-and-Assessment-World-Class-Standards/Standards/RI-Core-Standards-Mathematics-Comparison-Tables.pdf
 - Cross-check: the MA 2017 framework, whose K–5 content is identical: https://www.doe.mass.edu/frameworks/math/2017-06.pdf
 - Publisher: Rhode Island Department of Education.
 - Fetch problem: ride.ri.gov HTML pages and `/media/` downloads returned 403 (a bot challenge) to scripted fetches. The comparison PDF above downloaded fine.

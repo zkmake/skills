@@ -63,7 +63,7 @@ Next: the 2022 Minnesota K-12 Academic Standards in Mathematics, required from 2
 ## Pre-K
 - Early Childhood Indicators of Progress: Minnesota's Early Learning Standards, Birth to Kindergarten (2017): 33 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.mn`), data in `data/prek/mn.tsv`; the rows replace Head Start's 10 goals in this state's set and in `mn27`, which reuses them. Summaries are ours; standards the state says begin in kindergarten are left out.
 - Source: https://edocs.dhs.state.mn.us/lfserver/Public/DHS-7596A-ENG
-- Next: updated ECIPs, "Full implementation is scheduled for fall 2028" (https://dcyf.mn.gov/partners-and-providers/child-care-and-early-learning/professional-development/ecips; document https://dcyf.mn.gov/sites/default/files/2025-08/els-ecips-2028.pdf). The 2017 ECIPs stay in force until then.
+- Next: updated ECIPs, "Full implementation is scheduled for fall 2028" (https://dcyf.mn.gov/partners-and-providers/child-care-and-early-learning/professional-development/ecips; document https://dcyf.mn.gov/sites/default/files/2025-08/els-ecips-2028.pdf). The 2017 ECIPs stay in force until then. On 2026-10-02 dcyf.mn.gov and education.mn.gov answered scripts with a Radware bot check; the rule on revisor.mn.gov was unchanged and Wayback (1 Sep 2026) still said fall 2028.
 - Domains: NK Number Knowledge (10: `M1.14` … `M6.3`); ME Measurement (2: `M7.9` … `M7.10`); P Patterns (4: `M8.8` … `M8.11`); G Geometry and Spatial Thinking (9: `M9.5` … `M11.8`); DA Data Analysis (8: `M12.7` … `M14.5`).
 - 23 rows link Head Start goals, 15 link other sheets (10 with no Head Start goal). Borrowed later-grade sheets: M4.3 → MA.K.NSO.1.3; M13.3 → K.8B; M13.5 → K.8B.
 

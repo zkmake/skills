@@ -4,10 +4,10 @@
 
 **In Mathness:** a crosswalk in Wyoming's codes, edition `wy`, year 2023, 66 rows for 63 standards, at `/wyoming/`.
 
-**Next edition:** none.
+**Next edition:** none. The next math review is scheduled for 2032–33 (per the 2026-10-02 source check).
 
 ## Documents
-- **The standards:** "Math Ch. 10 WYCPS", the current reduced edition, published by the Wyoming Department of Education. https://edu.wyoming.gov/wp-content/uploads/2024/01/Math-Ch.-10-WYCPS.pdf
+- **The standards:** "Math Ch. 10 WYCPS", the current reduced edition, published by the Wyoming Department of Education. https://edu.wyoming.gov/wp-content/uploads/2025/08/Math-Ch.-10-WYCPS.pdf (moved from `…/uploads/2024/01/…`, 2026-10-02; marked emended February 2025)
 - **Ch. 10 Rules on Standards** (revised 27 February 2025): these incorporate the PDF above by reference. https://edu.wyoming.gov/wp-content/uploads/2025/08/WDE-Ch-10-Rules-7.16.25_24898.pdf
 - **WDE fact sheet:** says the State Board reduced the number of standards and did not edit the text of those it kept. https://edu.wyoming.gov/wp-content/uploads/2025/01/WYCPS-Fact-Sheet.pdf
 - **Cross-check:** "All Currently-Adopted Grade 1 Standards" lists the same reduced grade 1 set. https://edu.wyoming.gov/wp-content/uploads/2024/07/2025-Grade-1-Comprehensive-WYCPS_no-PLDs_public.pdf

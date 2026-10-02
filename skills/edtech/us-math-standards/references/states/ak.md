@@ -4,6 +4,7 @@ In effect for 2026–27: the **Alaska Mathematics Standards**, adopted June 2012
 
 ## Documents
 - Adopted standards PDF (DEED): https://education.alaska.gov/akstandards/math/adopted_math.pdf
+- The math page now links a PDF of the 2022 formatting edit: https://education.alaska.gov/akstandards/math/adopted_math_edited7.25.22.pdf (2026-10-02; the 2012 PDF above still loads).
 - Official Excel and Word editions, linked from https://education.alaska.gov/standards/mathematics :
   - https://education.alaska.gov/akstandards/math/adopted_math.xlsx (row list used to check codes)
   - https://education.alaska.gov/akstandards/math/adopted_math_edited7.25.22.docx (a formatting edit; same standards as the 2012 PDF)
@@ -54,4 +55,4 @@ In effect for 2026–27: the **Alaska Mathematics Standards**, adopted June 2012
 
 ## Uncertain
 - The research has no implementation (classroom) year.
-- "No newer K–5 set adopted as of 2026-10" rests on DEED's standards page, which lists only the 2012 set.
+- "No newer K–5 set adopted as of 2026-10" rests on DEED's standards page, which lists only the 2012 set. DEED's older review schedule listed a math "Scheduled Update 2026"; no sign it has started (2026-10-02 source check).

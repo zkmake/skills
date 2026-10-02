@@ -186,7 +186,7 @@ const TIMELINE: [string, string, [string, string][]][] = [
   ["2028–29", "Further out", [
     ["NC", "North Carolina's new K–12 standards (adopted 1 Oct 2026; minutes not yet posted). In Mathness."],
     ["MN", "Minnesota's updated early-learning indicators (ECIPs 2028), fall 2028"],
-    ["ID", "Idaho draft out for comment to 6 Oct 2026, codes renumbered; to the Legislature in 2027"],
+    ["ID", "Idaho draft out for comment to 6 Oct 2026, cluster letters dropped and codes renumbered"],
     ["TN", "Tennessee's review has begun, for 2031–32"],
   ]],
 ];
@@ -594,7 +594,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
     ${[
       ["1,807/1,807", "crosswalk rows fit fully", "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
-      ["10,241", "standards, each with a sheet", "59 sets: Common Core, 4 own sets, 54 state editions"],
+      ["10,238", "standards, each with a sheet", "59 sets: Common Core, 4 own sets, 54 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n.includes("/") ? n.split("/")[0] : n}</span><b>${n.includes("/") ? `of ${n.split("/")[1]} ${b}` : b}</b><small>${s}</small></div>`).join("")}
   </div>
@@ -879,7 +879,7 @@ html.dark .atlas {
     ${[
       [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
-      ["10,241", "standards, each with a sheet", "Common Core, 4 state frameworks and 54 state editions"],
+      ["10,238", "standards, each with a sheet", "Common Core, 4 state frameworks and 54 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n}</span><b>${b}</b><small>${s}</small></div>`).join("")}
   </div>

@@ -4,7 +4,7 @@ In effect for 2026–27: New York State Next Generation Mathematics Learning Sta
 
 ## Documents
 - Official P-12 standards (NYSED). Used to confirm codes and sub-parts: https://www.nysed.gov/sites/default/files/programs/standards-instruction/nys-next-generation-mathematics-p-12-standards.pdf
-- Official per-grade crosswalks from the 2011 CCLS to the NGLS: https://www.nysed.gov/sites/default/files/programs/curriculum-instruction/nys-math-standards-kindergarten-crosswalk.pdf (also `grade-1` to `grade-5`, same URL pattern). Index page: https://nysed.gov/curriculum-instruction/teachers/next-generation-mathematics-learning-standards-crosswalks
+- Official per-grade crosswalks from the 2011 CCLS to the NGLS: https://www.nysed.gov/sites/default/files/programs/curriculum-instruction/nys-math-standards-kindergarten-crosswalk.pdf (also `grade-1` to `grade-5`, same URL pattern). The old index page now redirects to https://www.nysed.gov/standards-instruction/mathematics , which no longer lists the K–5 grade crosswalks; the grade PDFs still load (2026-10-02).
 - Implementation timeline (revised January 2023): https://www.nysed.gov/sites/default/files/next-gen-mathematics-instruction-assessment-timeline.pdf
 - Publisher: New York State Education Department.
 - Common Core comparison: none official. NYSED's crosswalks compare the NGLS with NY's 2011 CCLS, which already added NY content such as coins in 1.MD.3. The research read the NY column of those crosswalks and compared it with the CCSS 2010 text.

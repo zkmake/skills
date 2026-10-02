@@ -6,7 +6,8 @@ In effect for 2026–27: the **2017 Kansas Mathematics Standards**, adopted by t
 - 2017 Kansas Mathematics Standards (KSDE):
   - PDF: https://community.ksde.gov/LinkClick.aspx?fileticket=Fk5h7Uw24Kw%3d&tabid=5276&mid=15449
   - Word: https://community.ksde.gov/LinkClick.aspx?fileticket=P0rbPawJbhI%3d&tabid=5276&mid=15449
-- Standards documents page (lists the 2017 set as "Current Kansas Math Standards"): https://community.ksde.gov/math/KansasMathStandardsDocuments.aspx
+- Standards documents page (lists the 2017 set as "Current Kansas Math Standards"): https://community.ksde.gov/math/KansasMathStandardsDocuments.aspx . KSDE's new canonical page (2026-10-02): https://www.ksde.gov/student-success/resources-by-subject-area/mathematics/mathematics-standards
+- Re-issued K–12 document, marked "Adopted 2017, Reviewed 2024"; K–5 text unchanged (2026-10-02 source check): https://www.ksde.gov/docs/default-source/csas/kansasmathematicsstandardsgradesk-12-2025.pdf
 - **Official comparison:** "2017 vs 2010 Mathematics Standards Comparison Document" (updated 7/9/2018). Kansas's 2010 standards were CCSS, so this works as a CCSS crosswalk: https://community.ksde.gov/LinkClick.aspx?fileticket=i_hutt7ewKo%3d&tabid=5276&mid=15449
 - In the standards document, each standard also shows its 2010 (CCSS) tag in parentheses.
 

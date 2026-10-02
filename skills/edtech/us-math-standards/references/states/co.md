@@ -11,8 +11,9 @@ In effect for 2026–27: the **Colorado Academic Standards: Mathematics**, which
 - Excel: https://ed.cde.state.co.us/fs/resource-manager/view/5f27d9fb-b60a-4513-9c72-39e8b5ce597b
 - 2010-to-2020 detailed changes (xlsx): https://ed.cde.state.co.us/fs/resource-manager/view/9da85178-7540-4038-a42c-49df9f2270da
 - Revision status:
-  - Review page: https://ed.cde.state.co.us/fs/pages/2769
-  - Math revisions page: https://ed.cde.state.co.us/fs/pages/2779
+  - Review page: https://ed.cde.state.co.us/standardsandinstruction/casreviewandrevision (was `…/fs/pages/2769`, which redirects; 2026-10-02)
+  - Math revisions page: https://ed.cde.state.co.us/standardsandinstruction/casreviewandrevision/group3-mathematicscommittee (was `…/fs/pages/2779`)
+  - Next math adoption year: 2032 (per the 2026-10-02 source check).
   - In Dec 2024 the State Board chose to revise only the **high school** math standards. These were adopted May 14, 2026 (CDE plans two years of adoption support). There is no K–8 revision.
 - Official Common Core crosswalk: **yes, built in**. Every K–5 evidence outcome carries an official "(CCSS: x)" tag, and Mathness's `ccss` column is that tag. One tag lacks its cluster letter: MA.K.CC.B.5 says "K.CC.5", read as K.CC.B.5.
 

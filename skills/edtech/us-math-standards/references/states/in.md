@@ -1,6 +1,6 @@
 # Indiana (IN)
 
-In effect for 2026–27: the **Indiana Academic Standards for Mathematics**, adopted by the Indiana SBOE in June 2023, taught since 2024–25, and assessed by ILEARN from 2025–26. They are Indiana's own standards with their own codes, and they cut a good deal of Common Core. Mathness models them as a crosswalk: edition `in`, 122 K–5 rows, page `/indiana/`. No next edition.
+In effect for 2026–27: the **Indiana Academic Standards for Mathematics**, adopted by the Indiana SBOE in June 2023, taught since 2024–25, and assessed by ILEARN from 2025–26. They are Indiana's own standards with their own codes, and they cut a good deal of Common Core. Mathness models them as a crosswalk: edition `in`, 122 K–5 rows, page `/indiana/`. No next edition yet: a K–12 revision is under way (see Next).
 
 ## Documents
 - IDOE mathematics standards page: https://www.in.gov/doe/students/indiana-academic-standards/mathematics/
@@ -80,6 +80,11 @@ In effect for 2026–27: the **Indiana Academic Standards for Mathematics**, ado
 - Sheet written for Indiana: **IN.5.NS.4 "Percents as parts of 100"** (grade 5, `percents` in `#skills/states-editions.ts`), with percents on hundredths grids.
 - extra.tsv adds about 50 more fit-review links. Examples: 1.M.1 + K.MD.A.1/K.MD.A.2; 3.CA.3 + 3.MD.C.6 and 3.OA.B.5; 5.DA.1 + NJ.4.DL.A.2 (New Jersey data planning); 5.G.1 + 5.G.B.3 and 4.G.A.2; 4.NS.5 + 5.NS.1.
 - In the full review, several Indiana rows were partial (1.CA.1, 1.M.1, 2.M.1, 3.CA.3, 4.M.3, 5.CA.6, 5.CA.8, K.NS.2, K.NS.6, 5.NS.2). The last one, 5.NS.2 (part of a set at grades 4–5), was rated good in pass 13 after a part-of-a-set section was added to its linked sheet `fraction-as-division`. None remain.
+
+## Next (checked 2026-10-02)
+- IDOE's committees drafted revised K–12 math standards. Public comment ran to 7 Aug 2026; "final recommendations will be presented to the Indiana State Board of Education later this year" (IDOE teacher newsletter, 3 Aug 2026: https://www.in.gov/doe/files/Newsletter-Files/Teacher-8.3.2026.pdf).
+- IDOE's Standards Revision & Implementation Guidance (Apr 2026) plans adoption in 2026–27 and classroom use in 2027–28 (per the 2026-10-02 source check; not re-read here).
+- The draft K–5 text was not found. Build an `in27`-style edition (SKILL.md workflow E) once the State Board adopts and the K–5 text is published.
 
 ## Pre-K
 - Indiana Early Learning Standards (2023): 10 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.in`), data in `data/prek/in.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.

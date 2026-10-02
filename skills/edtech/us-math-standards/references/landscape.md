@@ -1,6 +1,6 @@
 # The US K–5 math standards landscape (2026–27)
 
-Which standards every jurisdiction uses, how to model each, what states add beyond Common Core, and what's changing. Researched from each state's own documents through 2026-10-01; check the watch list against the state's site before relying on a date. Per-state detail: `states/<postal>.md`; the four own frameworks: [frameworks.md](frameworks.md).
+Which standards every jurisdiction uses, how to model each, what states add beyond Common Core, and what's changing. Researched from each state's own documents through 2026-10-01; watch list rechecked in the first monthly source check, 2026-10-02. Check the watch list against the state's site before relying on a date. Per-state detail: `states/<postal>.md`; the four own frameworks: [frameworks.md](frameworks.md).
 
 ## Four ways to model a jurisdiction
 
@@ -9,13 +9,13 @@ Which standards every jurisdiction uses, how to model each, what states add beyo
 | **Own set** | the state wrote its own framework with its own codes and wording; build a full set, write state-only sheets, fit-review every row | Texas (TEKS), Florida (B.E.S.T.), Virginia (SOL), Maryland (MCCRS 2025) | ~21% |
 | **Crosswalk** | the state renumbered, reworded, added to or replaced Common Core; map every row in its own code ([crosswalk.md](crosswalk.md)) | 33 states (below); plus next-year editions for Washington, South Dakota, Louisiana, Minnesota and Hawaiʻi | ~53% |
 | **Common Core under the state's name** | Common Core's codes, as written or with small edits and additions | 13 states + DC + DoDEA; Guam uses Common Core's own pages ([states/common-core-states.md](states/common-core-states.md)) | ~26% |
-| **Not yet** | standards in another language, or K–5 detail unreachable | Puerto Rico (Spanish), US Virgin Islands | |
+| **Not yet** | standards in another language, or not yet mapped | Puerto Rico (Spanish), US Virgin Islands | |
 
 *NCES, ~49 million students, rounded; a weighting, not a count.
 
 Maryland is the only own set with an official Common Core crosswalk (from MSDE). Texas, Florida and Virginia never adopted Common Core; Oklahoma repealed it in 2014; most crosswalked states publish no official crosswalk, so the mapping is your judgement and says so.
 
-Mathness on 2026-10-02 (commit 1206bc4f): 59 sets (Common Core, 4 own sets, 54 editions: 15 in Common Core's codes, 39 crosswalks = 33 states + 6 next editions, five for 2027–28 and North Carolina for 2028–29), 6,328 crosswalk rows, 10,241 standards (9,358 K–5 + 883 pre-K), every one with a sheet (state pre-K codes replace Head Start's 10 goals in that state's set, so mapping a state's pre-K changes the total by its row count minus 10).
+Mathness on 2026-10-02 (commit 1206bc4f): 59 sets (Common Core, 4 own sets, 54 editions: 15 in Common Core's codes, 39 crosswalks = 33 states + 6 next editions, five for 2027–28 and North Carolina for 2028–29), 6,328 crosswalk rows, 10,238 standards (9,358 K–5 + 880 pre-K; Connecticut's 2025 pre-K is 12 rows, the 2014 edition's was 15), every one with a sheet (state pre-K codes replace Head Start's 10 goals in that state's set, so mapping a state's pre-K changes the total by its row count minus 10).
 
 ## Every jurisdiction
 
@@ -32,17 +32,17 @@ Mathness on 2026-10-02 (commit 1206bc4f): 59 sets (Common Core, 4 own sets, 54 e
 | CT | Connecticut Core Standards for Mathematics | 2010 | cc | as written; own pre-K | |
 | DE | Common Core State Standards for Mathematics | 2010 | cc | as written; own pre-K | |
 | DC | Common Core State Standards for Mathematics | 2010 | cc | as written; own pre-K | |
-| FL | Florida's B.E.S.T. Standards for Mathematics | 2020 | own | see frameworks.md | |
+| FL | Florida's B.E.S.T. Standards for Mathematics | 2020 | own | see frameworks.md | rule now names the "2026" edition; K–5 unchanged (frameworks.md) |
 | GA | Georgia's K-12 Mathematics Standards | 2021 | xw | own strands (`K.NR.1.4`); coins in K; statistical-reasoning cycle every grade; own pre-K | |
 | HI | Hawaiʻi Common Core Standards for Mathematics | 2010 | cc | as written; own pre-K | revision approved 18 Jun 2026 (K data standard K.MD.4, grade 1 coins 1.MD.4; cluster letters dropped), elementary in 2027–28; in Mathness |
-| ID | Idaho Content Standards: Mathematics | 2022 | cc | Common Core codes, some rewritten; a grade 1 money standard; own pre-K | review under way; recommendations to the Legislature in 2027 |
+| ID | Idaho Content Standards: Mathematics | 2022 | cc | Common Core codes, some rewritten; a grade 1 money standard; own pre-K | draft out for comment to 6 Oct 2026, renumbered; then to the Legislature (2027 or 2028, unverified) |
 | IL | Illinois Learning Standards for Mathematics | 2010 | cc | as written; own pre-K | |
-| IN | Indiana Academic Standards for Mathematics | 2023 | xw | own codes (`3.M.4`); temperature and time words K; coins and bills, °C/°F G3; own pre-K | |
+| IN | Indiana Academic Standards for Mathematics | 2023 | xw | own codes (`3.M.4`); temperature and time words K; coins and bills, °C/°F G3; own pre-K | K–12 revision drafted (comment closed 7 Aug 2026), to the State Board later in 2026 |
 | IA | Iowa Academic Standards for Mathematics | 2024 | xw | Common Core codes plus Iowa rows marked IA (`K.CC.IA.A.1`): counting back, subitising; coins K–1; own pre-K | |
 | KS | Kansas Mathematics Standards | 2017 | xw | no cluster letters (`2.MD.9`); coins and bills G2; grade 4 angle measure taught in grade 8; own pre-K | |
-| KY | Kentucky Academic Standards for Mathematics | 2019 | xw | `KY.` codes; coins K; coin values G1; dot plots, elapsed time G3; own pre-K | revision tentatively for 2027–28; text unpublished |
+| KY | Kentucky Academic Standards for Mathematics | 2019 | xw | `KY.` codes; coins K; coin values G1; dot plots, elapsed time G3; own pre-K | revision not adopted as of 2026-10-02; 2027–28 start tentative |
 | LA | Louisiana Student Standards for Mathematics | 2016 | xw | coins K–1; money over $1 G3; rectilinear area in G4; own pre-K | revised "2025" standards (BESE, Mar 2026) required 2027–28, new codes (`3.NOF.A.1`); in Mathness |
-| ME | Maine Learning Results: Mathematics | 2020 | cc | Common Core codes in four reasoning strands; a grade 1 money standard; own pre-K | |
+| ME | Maine Learning Results: Mathematics | 2020 | cc | Common Core codes in four reasoning strands; a grade 1 money standard; own pre-K | review cycle paused (LD 1701) until a legislative taskforce finishes |
 | MD | Maryland College and Career Ready Standards (MCCRS) for Mathematics | 2025 | own | see frameworks.md; own pre-K | |
 | MA | Massachusetts Curriculum Framework for Mathematics | 2017 | xw | own pre-K; coins G1; units of time G2; facts to 12 × 12 G4 | |
 | MI | Michigan K-12 Standards for Mathematics | 2010 | cc | as written; own pre-K | HB 4159 (2025) passed the House, stalled in the Senate; the 2026 Michigan Mathematics Framework is guidance |
@@ -56,7 +56,7 @@ Mathness on 2026-10-02 (commit 1206bc4f): 59 sets (Common Core, 4 own sets, 54 e
 | NJ | New Jersey Student Learning Standards for Mathematics | 2023 | xw | Measurement (M) and Data Literacy (DL) replace MD; coins and $1 K; bills to $20 G1; own pre-K | |
 | NM | New Mexico Common Core Content Standards for Mathematics | 2010 | cc | as written; own pre-K | |
 | NY | New York State Next Generation Mathematics Learning Standards | 2017 | xw | `NY-` codes; own pre-K; coins to 100¢ G1; 4-digit place value G3 | |
-| NC | North Carolina Standard Course of Study for Mathematics | 2017 | xw | `NC.` codes; coins G1; frequency tables G4; line graphs G5; own pre-K | new K–12 standards adopted 1 Oct 2026 (news reports; board record pending), planned for 2028–29 |
+| NC | North Carolina Standard Course of Study for Mathematics | 2017 | xw | `NC.` codes; coins G1; frequency tables G4; line graphs G5; own pre-K | new K–12 standards adopted 1 Oct 2026 (news reports; minutes unpublished on 2026-10-02), planned for 2028–29 |
 | ND | North Dakota Mathematics Content Standards K–12 | 2023 | xw | four categories (`3.GM.M.5`); time words K; coins and $1 G1; own pre-K | |
 | OH | Ohio's Learning Standards for Mathematics | 2017 | xw | pennies K; pennies and dimes G1; money in decimals G4; own pre-K | |
 | OK | Oklahoma Academic Standards for Mathematics | 2022 | xw | own codes (`4.N.4.2`); own pre-K; coins K–4; patterns strand; mean/median/mode G5; some grade 4–5 Common Core topics in grade 6 | |
@@ -65,9 +65,9 @@ Mathness on 2026-10-02 (commit 1206bc4f): 59 sets (Common Core, 4 own sets, 54 e
 | RI | Rhode Island Core Standards for Mathematics | 2021 | xw | follows Massachusetts 2017; coins G1 (1.MD.D.5); own pre-K | |
 | SC | South Carolina College- and Career-Ready Mathematics Standards | 2023 (the "2025" standards) | xw | in classrooms 2025–26; own strands (`1.MGSR.1.4`); probability from G3; own pre-K | |
 | SD | South Dakota State Standards for Mathematics | 2018 | xw | time and money cluster K–1; own pre-K | 2026 standards in effect 2027–28, renumbered (`3.M.17`); in Mathness |
-| TN | Tennessee Academic Standards for Mathematics | 2021 | xw | **Common Core-shaped codes with other content** (K.MD.B.3 is coins); numbers to 100,000 G3; own pre-K | |
+| TN | Tennessee Academic Standards for Mathematics | 2021 | xw | **Common Core-shaped codes with other content** (K.MD.B.3 is coins); numbers to 100,000 G3; own pre-K | review started 2026; revised standards for 2031–32 |
 | TX | Texas Essential Knowledge and Skills for Mathematics | 2012 | own | see frameworks.md | |
-| UT | Utah Core Standards for Mathematics | 2016 | xw | coins and ¢ G1 (1.MD.5); own pre-K | revision drafted; no adoption date set |
+| UT | Utah Core Standards for Mathematics | 2016 | xw | coins and ¢ G1 (1.MD.5); own pre-K | PK–2 draft before the Board 1 Oct 2026 (outcome unverified); grades 3–5 behind |
 | VT | Common Core State Standards for Mathematics | 2010 | cc | as written; own pre-K | |
 | VA | Virginia Mathematics Standards of Learning | 2023 | own | see frameworks.md | |
 | WA | Washington State K–12 Learning Standards for Mathematics | 2011 | cc | as written today | WA Math 2026 required 2027–28: four domains (`M.3.R.MD.5`), data science every grade; in Mathness |
@@ -76,8 +76,8 @@ Mathness on 2026-10-02 (commit 1206bc4f): 59 sets (Common Core, 4 own sets, 54 e
 | WY | Wyoming Content and Performance Standards for Mathematics | 2023 | xw | 63 standards, mostly Common Core reworded, own codes (`K.G.4`); own pre-K | |
 | PR | Estándares de Contenido y Expectativas de Grado: Matemáticas | 2022 | — | in Spanish; own codes (`1.E.14.1`); probability from G1 | |
 | GU | Common Core State Standards for Mathematics | unconfirmed | cc | served by Common Core's pages | |
-| VI | Virgin Islands Standards of Achievement: Mathematics | 2021 | — | Common Core-derived; K–5 detail not reachable | |
-| DoDEA | DoDEA College and Career Ready Standards for Mathematics | 2015 | cc | as written | |
+| VI | Virgin Islands Standards of Achievement: Mathematics | 2021 | — | Common Core-derived (`VISA.Math.Content.K.CC.A.1`), some text edited; grade PDFs reachable, not mapped | |
+| DoDEA | DoDEA College and Career Ready Standards for Mathematics | 2015 | cc | as written; secondary name DoWEA (states/common-core-states.md) | |
 
 ## What states teach that Common Core doesn't
 
@@ -110,20 +110,38 @@ The checklist to run against any catalogue built on Common Core. "Covered" is Ma
 | **Sheets in Spanish** | PR; dual-language classrooms everywhere | gap (needs an i18n layer: every title, instruction, story and riddle word) |
 | Local and Indigenous contexts | MT (Indian Education for All), ID | gap (themes could carry regional settings) |
 
-## Watch list (as of 2026-10-01)
+## Watch list (as of 2026-10-02)
 
 - **2026–27**: Montana's standards (adopted 2025) in effect from July 2026; Mississippi's 2025 standards in their second year; South Carolina's "2025" standards in their second year.
-- **2027–28**: Washington (WA Math 2026), South Dakota (2026), Minnesota (2022), Louisiana (2025 revision) and Hawaiʻi (revision approved 18 Jun 2026, per the Board's minutes) required; all five modelled as next-year editions. Kentucky's revision is tentatively due; Utah's is drafted with no adoption date. Add them the same way (one research TSV, one generated edition beside the current one) once adopted and published.
-- **2028–29 and later**: North Carolina's new K–12 standards (adopted 1 Oct 2026 per news reports; implementation and tests planned 2028–29, marked tentative by DPI; modelled in Mathness on 2026-10-02 as `nc29`, /north-carolina-2028-29/, from the State Board's meeting documents and NCDPI's 2017-to-2026 crosswalk; see states/nc.md); Idaho review (recommendations due 2027); Michigan bill; Massachusetts, Maine and Kansas reviews open or due; Tennessee's current set runs to 2031–32.
-- **Pre-K**: New Jersey proposed a 2026 revision of its Preschool Teaching and Learning Standards, not adopted as of 2026-10-01; remap `data/prek/nj.tsv` if it is. Minnesota's updated Early Childhood Indicators of Progress (ECIPs 2028) reach full implementation in fall 2028 (DCYF's ECIPs page); remap `mn.tsv` then. Wisconsin's draft Early Learning and Development Guidelines (ELDGs), with new learning areas, strands and goals, will replace WMELS: public review ran July–August 2026, with no adoption or implementation date yet (https://dcf.wisconsin.gov/eldg, checked 2026-10-02).
-- Less certain: North Dakota's early-learning standards may be under review for fall 2026 (a search snippet of hhs.nd.gov; its pages show only the 2018 document, 2026-10-02); Louisiana 2025's grade 4–5 code layout (its legal text groups clusters differently), Michigan's bill, West Virginia and USVI detail, Guam's adoption year, Tennessee's review start.
+- **2027–28**: Washington (WA Math 2026), South Dakota (2026), Minnesota (2022), Louisiana (2025 revision) and Hawaiʻi (revision approved 18 Jun 2026, per the Board's minutes) required; all five modelled as next-year editions. Add the next ones the same way (one research TSV, one generated edition beside the current one) once adopted and published:
+  - **Utah**: PK–2 draft sent to the full Board for 1 Oct 2026; outcome unverified. Grades 3–8 trail it. USBE's draft timeline says implement 2027–28 ([states/ut.md](states/ut.md)).
+  - **Indiana**: K–12 revision; comment closed 7 Aug 2026, final recommendations to the State Board later in 2026; draft K–5 text not found ([states/in.md](states/in.md)).
+  - **Kentucky**: not adopted as of 2026-10-02; its tentative 2027–28 start looks tight ([states/ky.md](states/ky.md)).
+- **2028–29 and later**:
+  - **North Carolina**: new K–12 standards adopted 1 Oct 2026 per news reports; the State Board's site listed the minutes as "UnPublished" on 2026-10-02. Implementation and tests planned 2028–29, marked tentative by DPI. Modelled in Mathness on 2026-10-02 as `nc29`, /north-carolina-2028-29/ ([states/nc.md](states/nc.md)).
+  - **Idaho**: draft K–12 standards out for comment until 6 Oct 2026 (renumbered, no cluster letters); then to the Legislature, session unverified ([states/common-core-states.md](states/common-core-states.md)).
+  - **Tennessee**: review under way for revised standards in 2031–32; State Board readings Nov 2027 and Feb 2028 ([states/tn.md](states/tn.md)).
+  - **Florida**: rule development opened 1 Oct 2026 for math pathways and personal finance, probably high school ([frameworks.md](frameworks.md)).
+  - **Maine**: review cycle paused under LD 1701 until a legislative taskforce finishes ([states/common-core-states.md](states/common-core-states.md)).
+  - **Pennsylvania**: listening sessions on the ELA and math standards from 8 Jul 2026 feed a report to the State Board; no formal revision is open (Council minutes, per the 2026-10-02 check).
+  - **Scheduled reviews, none started**: Oregon 2028–29 (proposed; the Board approves the schedule in fall 2026); Nebraska starts spring 2028, in schools fall 2030; Wyoming 2032–33; Colorado adoption year 2032; Iowa starts April 2029; Wisconsin intends to review from October 2028. Oregon, Wyoming, Colorado and Wisconsin: their state files; Nebraska and Iowa: the 2026-10-02 check only.
+  - **Still open**: Michigan's bill; Massachusetts's review.
+  - **Closed**: Kansas re-issued its 2017 standards as "Adopted 2017, Reviewed 2024", K–5 unchanged ([states/ks.md](states/ks.md)); Rhode Island's Council re-endorsed its standards unchanged on 28 Apr 2026 ([states/ri.md](states/ri.md)); New Hampshire's HB 1571 did not pass, whatever news reports said ([states/common-core-states.md](states/common-core-states.md)).
+- **Pre-K**:
+  - New Jersey proposed a 2026 revision of its Preschool Teaching and Learning Standards, not adopted as of 2026-10-01; remap `data/prek/nj.tsv` if it is.
+  - Minnesota's updated Early Childhood Indicators of Progress (ECIPs 2028) reach full implementation in fall 2028 (DCYF's ECIPs page); remap `mn.tsv` then.
+  - Wisconsin's Early Learning and Development Guidelines (ELDGs), with new learning areas, strands and goals, will replace WMELS: in leadership review, to be published later in 2026; keep WMELS until further notice ([states/wi.md](states/wi.md)).
+  - North Dakota's early-learning standards are under revision; the fall-2026 date is gone and there is no new document ([states/nd.md](states/nd.md)).
+  - Texas's Prekindergarten Guidelines: feedback on initial recommendations ran 14–30 Sep 2026; no adoption date ([frameworks.md](frameworks.md)).
+- **Not yet covered**: the US Virgin Islands' K–5 grade PDFs are reachable ([states/common-core-states.md](states/common-core-states.md)).
+- **Less certain**: Utah's 1 Oct 2026 vote and North Carolina's 1 Oct minutes (both unpublished on 2026-10-02); Louisiana 2025's grade 4–5 code layout (its legal text groups clusters differently); Michigan's bill; West Virginia detail; Guam's adoption year.
 
 To refresh this page: check each state agency's standards page for "revision", "adopted", "implementation"; read the board's minutes for votes; record dates and URLs in the state file.
 
-## Open items (2026-10-01, in priority order)
+## Open items (2026-10-02, in priority order)
 
 1. State pre-K for Texas, Florida and Virginia, the three own sets still showing Head Start (43 states and DC are mapped; Missouri, Arizona, New Hampshire and Washington have no codes to map, DoDEA follows a commercial framework).
-2. Utah and Kentucky 2027–28 editions once final (North Carolina 2028–29 is built: `nc29`).
+2. Utah, Indiana and Kentucky 2027–28 editions, and Idaho's, once adopted and published (North Carolina 2028–29 is built: `nc29`).
 3. A Spanish edition (Puerto Rico; dual-language classrooms). The largest job.
 4. More curricula: Big Ideas Math, Reveal Math, Math Expressions and Eureka Math², by how many teachers use them (ten are mapped).
 

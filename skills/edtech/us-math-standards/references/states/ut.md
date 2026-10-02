@@ -1,6 +1,6 @@
 # Utah (UT)
 
-In effect for 2026–27: Utah Core Standards for Mathematics (adopted August 2010, revised April 2016; the USBE page dates the K–12 standards to January 2016). They are Common Core with one added grade 1 coin standard and short codes. Mathness models them as a crosswalk in Utah's codes: edition `ut`, 149 rows, `/utah/`. A P–12 revision is in progress but not adopted, so there is no next edition in Mathness yet.
+In effect for 2026–27: Utah Core Standards for Mathematics (adopted August 2010, revised April 2016; the USBE page dates the K–12 standards to January 2016). They are Common Core with one added grade 1 coin standard and short codes. Mathness models them as a crosswalk in Utah's codes: edition `ut`, 149 rows, `/utah/`. A P–12 revision is in progress; the PK–2 part went to the Board on 1 Oct 2026 (outcome unverified), so there is no next edition in Mathness yet.
 
 ## Documents
 - Utah Core State Standards for Mathematics, Elementary Levels (K–5), from the Utah State Board of Education (USBE): https://www.schools.utah.gov/curr/mathematics/_mathematics_/_core/_utah_core_standards_tab_/CoreStandardsElementaryLevels.pdf
@@ -36,7 +36,10 @@ In effect for 2026–27: Utah Core Standards for Mathematics (adopted August 201
 - A Draft P-12 Utah Core Mathematics Standards exists (Step 11 revision, February 2026).
 - On 15 January 2026 the Board approved an external review by WestEd. Its final report is the "Gap Analysis and Review of the Utah Core Standards for Mathematics (UCS-M)".
 - August 2026: a revised Step 11 draft, plus a call for more Board member amendments based on the WestEd review.
-- September 2026: a Standards and Assessment Committee action item recommends adopting the Introduction and P–2 Step 11 revisions and forwarding them to the Board for final approval. Grades 3–5 are not in that item.
+- 4 September 2026: the Standards and Assessment Committee voted 4–1 to "adopt the PK-2 Mathematics Standards Draft 3, as amended, and forward to the Board for final approval" (agenda: https://usbe.api.civicclerk.com/v1/Meetings/412). Grades 3–5 were not in that item.
+- 1 October 2026: the Board's agenda has "ACTION: Math Standards Revision Process" with the "S&A Amended Draft Introduction & P-2 Utah Core Mathematics Standards, Step 11 - Full Board Draft" (https://usbe.api.civicclerk.com/v1/Meetings/377). The outcome was not posted as of 2026-10-02: unverified.
+- Grades 3–8: "Draft 3-5 Utah Core Mathematics Standards, Step 11 October 2026" and the 6–8 draft are on the committee's 8 October 2026 agenda (https://usbe.api.civicclerk.com/v1/Meetings/432). Grades 3–5 trail PK–2, so a Utah edition may arrive in two steps.
+- USBE's draft timeline: implement 2027–28 (per the 2026-10-02 source check).
 - editions.ts note: "Utah is revising its math standards; a draft is under review and no adoption date is set."
 - When it is adopted, add `ut27`-style data (TSV, then gen.py) as was done for Washington.
 
@@ -49,6 +52,7 @@ In effect for 2026–27: Utah Core Standards for Mathematics (adopted August 201
 ## Uncertain
 - The adoption date of the revision is uncertain:
   - USBE's October 2025 timeline estimates adoption in 2026–27 and implementation in 2027–28.
+  - The Board's 1 October 2026 vote on PK–2 is unverified (no minutes as of 2026-10-02); grades 3–5 have no Board date.
   - editions.ts says no adoption date is set.
 - The year differs across sources:
   - The PDF says adopted August 2010, revised April 2016.

@@ -1,6 +1,6 @@
 # Kentucky (KY)
 
-In effect for 2026–27: Kentucky Academic Standards (KAS) for Mathematics, adopted 2019 (704 KAR 8:040; document v1.4 dated 7/1/19). Common Core with Kentucky's own sub-parts, dot plots and earlier coins. Mathness models it as a crosswalk in Kentucky's own codes (edition `ky`, 226 rows, `/kentucky/`). A revision is under way but nothing has been adopted, so there is no next edition yet.
+In effect for 2026–27: Kentucky Academic Standards (KAS) for Mathematics, adopted 2019 (704 KAR 8:040; document v1.4 dated 7/1/19). Common Core with Kentucky's own sub-parts, dot plots and earlier coins. Mathness models it as a crosswalk in Kentucky's own codes (edition `ky`, 226 rows, `/kentucky/`). A revision is under way but nothing had been adopted as of 2026-10-02, so there is no next edition yet.
 
 ## Documents
 - Standards (Kentucky Department of Education, KDE): https://education.ky.gov/curriculum/standards/kyacadstand/Documents/Kentucky_Academic_Standards_Mathematics.pdf
@@ -87,5 +87,6 @@ In effect for 2026–27: Kentucky Academic Standards (KAS) for Mathematics, adop
 - Replacement timing:
   - editions.ts says revised standards are "tentatively expected in classrooms in 2027–28", but no draft text has been published.
   - The KDE timeline grid's year columns were hard to read from the PDF text.
-  - Recheck KDE before relying on this set for 2027–28.
+  - Status on 2026-10-02 (source check): technical edits were made in June 2026, with an update on "next steps in the regulatory process"; no item on the Kentucky Board of Education's August–October agendas and no amendment to 704 KAR 8:040. So the 2027–28 start looks tight (inference).
+  - Recheck KDE before relying on this set for 2027–28. KDE's PDFs answer 404 to HEAD requests; check them with GET ([research.md](../research.md)).
 - Equation images in the two-column PDF lose fraction symbols on text extraction. Codes and mappings are unaffected.

@@ -1,6 +1,6 @@
 # Pre-K: frameworks and read-aloud sheets
 
-Common Core starts at kindergarten, so pre-K needs its own framework and its own sheet design. Mathness added a Pre-K grade on 2026-09-29 (12 Head Start skills), then Maryland's own pre-K (8 more Maryland-only skills), then thirteen more states' own pre-K codes on 2026-10-01 (five from their math standards, eight from their early-learning standards) and 30 more states and DC on 2026-10-02: 43 states and DC in all, 684 rows plus Maryland's 20. A state's mapped rows replace Head Start's 10 goals in its set; a next-year edition (`hi27`, `la27`, `mn27`, `sd27`) reuses its state's. States in Common Core's own codes show their own pre-K too: the set fetches it on demand and the state gets a `/<state>/pre-k/` page.
+Common Core starts at kindergarten, so pre-K needs its own framework and its own sheet design. Mathness added a Pre-K grade on 2026-09-29 (12 Head Start skills), then Maryland's own pre-K (8 more Maryland-only skills), then thirteen more states' own pre-K codes on 2026-10-01 (five from their math standards, eight from their early-learning standards) and 30 more states and DC on 2026-10-02: 43 states and DC in all, 681 rows plus Maryland's 20. A state's mapped rows replace Head Start's 10 goals in its set; a next-year edition (`hi27`, `la27`, `mn27`, `sd27`) reuses its state's. States in Common Core's own codes show their own pre-K too: the set fetches it on demand and the state gets a `/<state>/pre-k/` page.
 
 ## Which framework each set shows
 
@@ -13,7 +13,7 @@ Common Core starts at kindergarten, so pre-K needs its own framework and its own
 | Arkansas | Arkansas Child Development and Early Learning Standards: Birth through 60 Months (2016): 5 rows, `MT1.1` | mapped |
 | California | California Preschool/Transitional Kindergarten Learning Foundations (2024): 24 rows, `Math 1.1` | mapped |
 | Colorado | 2020 Colorado Academic Standards: Mathematics: 25 rows, `P.CC.A.1` | mapped |
-| Connecticut | Connecticut Early Learning and Development Standards (2014): 15 rows, `M.60.1` | mapped |
+| Connecticut | Connecticut Early Learning and Development Standards (2025): 12 rows, one per progression, `M A1` | mapped |
 | Delaware | Delaware Early Learning Foundations: Preschool (2010): 22 rows, `MA31` | mapped |
 | District of Columbia | District of Columbia Early Learning Standards (2019): 18 rows, `14a` | mapped |
 | Georgia | Georgia Early Learning and Development Standards, 48–60 months (2026): 32 rows, `CD-MA1.4a` | mapped |
@@ -53,7 +53,7 @@ Common Core starts at kindergarten, so pre-K needs its own framework and its own
 | Wyoming | Wyoming's Early Learning Standards, Birth through Kindergarten (2022): 14 rows, `Math 1a` | mapped |
 | Texas | Prekindergarten Guidelines (2022; revision under review) | shows Head Start; "not mapped yet" |
 | Florida | Early Learning and Developmental Standards, 4 years to kindergarten (2017) | shows Head Start; "not mapped yet" |
-| Virginia | Early Learning and Development Standards (2021) | shows Head Start; "not mapped yet" |
+| Virginia | Early Learning and Development Standards (2021); its host was dead on 2026-10-02 ([sources.md](sources.md)) | shows Head Start; "not mapped yet" |
 | Missouri, Arizona, New Hampshire, Washington | early-learning standards whose pre-K math has no codes | shows Head Start |
 | DoDEA | Teaching Strategies GOLD (a commercial framework), adopted as its preschool standards (2016) | shows Head Start |
 

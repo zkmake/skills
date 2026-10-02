@@ -18,9 +18,11 @@ How to get a state's standards right the first time: which sources count, how to
 | Problem | Seen at | What worked |
 | --- | --- | --- |
 | HTTP 403 to fetch tools (bot user agent) | doe.virginia.gov, fldoe.org, azed.gov, headstart.gov, rand.org, ride.ri.gov, dodea.edu, education.delaware.gov, education.nh.gov, michigan.gov, mdek12.org, thecorestandards.org, go.boarddocs.com | `curl -sL -A "Mozilla/5.0 (Macintosh…)" -o file URL`; Florida: `cdn.fldoe.org` paths; Virginia: read in a real browser and download the public Word files |
-| Cloudflare challenge | azed.gov | Internet Archive raw copies |
-| CAPTCHA | education.mn.gov, standards.education.mn.gov | not attempted: Wayback 2026 snapshots, the ERIC copy (ED672600), lrl.mn.gov, the rule on revisor.mn.gov |
+| Cloudflare challenge | azed.gov, azsbe.az.gov, thecorestandards.org (2026-10-02) | Internet Archive raw copies; Common Core's PDF from corestandards.org or the CCSSO mirror |
+| CAPTCHA or bot check | education.mn.gov, standards.education.mn.gov, dcyf.mn.gov (Radware, 2026-10-02); NC State Board document pages | not attempted: Wayback 2026 snapshots, the ERIC copy (ED672600), lrl.mn.gov, the rule on revisor.mn.gov |
 | TLS chain errors | dese.ade.arkansas.gov, nysed.gov, legislature.ohio.gov | curl with the system trust store |
+| 404 to HEAD, 200 to GET | education.ky.gov PDFs (2026-10-02) | check links with GET, never HEAD: `curl -sL -o /dev/null -w '%{http_code}' URL` |
+| Site maintenance (503) | marylandpublicschools.org, every URL (2026-10-02) | Wayback; retry later |
 | Moved or 404 | Ohio's comparison PDF, old wvde.us paths, engageny.org (redirects to nysed.gov), im.kendallhunt `/k5/index.html`, doe.mass.edu during maintenance | start from the landing page; Wayback |
 | Scanned or image-only PDFs | West Virginia SOS filing, Pennsylvania board PDF, Maryland crosswalk maths typeset as images, Minnesota formulas | the rule's Word export (`Format=WORD`); a university text copy; render pages and transcribe; take formulas from the agency spreadsheet |
 | Garbled PDF text | Colorado | the agency's plain-text version |

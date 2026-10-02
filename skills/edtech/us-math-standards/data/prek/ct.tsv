@@ -1,16 +1,13 @@
 code	domain	domain_name	summary	head_start_goals	other_sheet_codes
-M.60.1	CC	Counting and Cardinality	Say the counting numbers in order, reaching at least 20 by age five.	P-MATH 1	
-M.60.2	CC	Counting and Cardinality	Count up to 10 objects in any arrangement, one number each, and know the last number tells how many.	P-MATH 3	
-M.60.3	CC	Counting and Cardinality	When asked for a number up to 5, count out exactly that many objects.	P-MATH 3	
-M.60.4	CC	Counting and Cardinality	Recognize written numbers when you see them, up to at least 10.	P-MATH 5	
-M.60.5	CC	Counting and Cardinality	Quickly say how many are in a small group of up to 5 things without counting.	P-MATH 2	
-M.60.6	CC	Counting and Cardinality	Compare two groups of up to 10 by matching or counting, and say more, less or the same.	P-MATH 4	PK.DS.A.2
-M.60.7	OA	Operations and Algebraic Thinking	Act out and solve everyday adding (putting together) and taking-away problems with objects.	P-MATH 6	
-M.60.8	OA	Operations and Algebraic Thinking	See the parts that make up numbers to 5, like telling how many were hidden from a group of five.		PK.NOS.D.10,PK.AT.A.2
-M.60.9	MD	Measurement and Data	Compare two or more things by length, weight or how much they hold, using words like longer or heavier.	P-MATH 8	PK.GR.A.1
-M.60.10	MD	Measurement and Data	Start to measure how long or how full things are, by comparing or using everyday or real measuring tools.	P-MATH 8	1.MD.A.2
-M.60.11	MD	Measurement and Data	Show data about one feature with real objects or a simple picture graph.		K.8B
-M.60.12	MD	Measurement and Data	Sort objects by one feature on your own, say the sorting rule, then sort them again a different way.		PK.DS.A.1
-M.60.13	G	Geometry and Spatial Sense	Say where something is using words like beside, next to, between, above, below, over and under.	P-MATH 10	
-M.60.14	G	Geometry and Spatial Sense	Name and describe flat and solid shapes, like sphere, cube and cylinder, whatever their size or turn.	P-MATH 9	PK.GR.B.5
-M.60.15	G	Geometry and Spatial Sense	Fit several shapes together on purpose to finish a shape puzzle or make a new picture.	P-MATH 9	
+M A1	CC	Counting and Cardinality	Say the counting numbers in order to at least 20, and count on from any number between 1 and 10.	P-MATH 1	K.CC.A.2
+M A2	CC	Counting and Cardinality	Count up to 10 objects in any arrangement, know the last number tells how many, and count out up to 5.	P-MATH 3	
+M A3	CC	Counting and Cardinality	Recognize written numbers up to at least 10, and write numbers 1 to 5 when play calls for it.	P-MATH 5	
+M A4	CC	Counting and Cardinality	Quickly say how many are in a small group of up to 5 things without counting.	P-MATH 2	
+M A5	CC	Counting and Cardinality	Compare two groups of up to 10 by matching or counting, and tell which number from 1 to 5 is more or less.	P-MATH 4	PK.DS.A.2
+M B1	OA	Operations and Algebraic Thinking	Act out adding and taking away up to 5 with objects, and find the parts that make 5, like how many were hidden.	P-MATH 6	PK.NOS.D.10,PK.AT.A.2
+M C1	MD	Attributes and Relative Properties of Objects	Compare objects by length, weight or how much they hold, and start measuring length with blocks or a ruler.	P-MATH 8	PK.GR.A.1,1.MD.A.2
+M C2	MD	Attributes and Relative Properties of Objects	Show information with real objects, pictures or tally marks, like a simple picture graph.		K.8B,1.MD.C.4
+M C3	MD	Attributes and Relative Properties of Objects	Sort by one feature, explain and switch the sorting rule, and copy, extend and make repeating patterns.	P-MATH 7	PK.DS.A.1
+M D1	G	Geometry and Spatial Relationships	Say where something is using words like beside, next to, between, above, below, over and under.	P-MATH 10	
+M D2	G	Geometry and Spatial Relationships	Name and describe flat and solid shapes, like sphere, box and cylinder, whatever their size or turn.	P-MATH 9	PK.GR.B.5
+M D3	G	Geometry and Spatial Relationships	Fit several shapes together on purpose to finish a shape puzzle or make a new picture.	P-MATH 9	1.G.A.2

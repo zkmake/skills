@@ -20,20 +20,20 @@ Washington and Hawaiʻi are also in this group for 2026–27, but their next edi
 | Connecticut (`ct`, /connecticut/) | Connecticut Core Standards for Mathematics | 2010 | Common Core as written. |
 | Delaware (`de`, /delaware/) | Common Core State Standards for Mathematics | 2010 | Common Core as written. |
 | District of Columbia (`dc`, /washington-dc/) | Common Core State Standards for Mathematics | 2010 | Shown as "Washington, DC". Publisher: Office of the State Superintendent of Education. |
-| DoDEA (`dodea`, /dodea/) | DoDEA College and Career Ready Standards for Mathematics | 2015 | Department of Defense Education Activity schools use Common Core's standards and codes. Badge "DD"; no flag. Mathness serves DoDEA pre-K with Head Start's goals (its own pre-K follows Teaching Strategies GOLD, a commercial framework). |
+| DoDEA (`dodea`, /dodea/) | DoDEA College and Career Ready Standards for Mathematics | 2015 | Department of Defense Education Activity schools use Common Core's standards and codes. Secondary name DoWEA (EO 14347; CRS IF10335, 29 Apr 2026); the agency is still DoDEA, not renamed. Its standards page titled the document "DoWEA College and Career Ready Standards for Mathematics" by 2026-06-15 (Wayback, per the 2026-10-02 check), content unchanged. Badge "DD"; no flag. Mathness serves DoDEA pre-K with Head Start's goals (its own pre-K follows Teaching Strategies GOLD, a commercial framework). |
 | Hawaiʻi (`hi`, /hawaii/) | Hawaiʻi Common Core Standards for Mathematics | 2010 | Revised standards (approved June 2026) switch K–5 in 2027–28; modelled as the crosswalk edition `hi27`, see [hi.md](hi.md). |
-| Idaho (`id`, /idaho/) | Idaho Content Standards: Mathematics | 2022 | Keeps Common Core's codes; some standards rewritten; adds a grade 1 money standard 1.MD.D.5. A review is under way, with recommendations due to the Legislature in 2027. |
+| Idaho (`id`, /idaho/) | Idaho Content Standards: Mathematics | 2022 | Keeps Common Core's codes; some standards rewritten; adds a grade 1 money standard 1.MD.D.5. A renumbered draft is out for comment until 6 Oct 2026; see Watch list. |
 | Illinois (`il`, /illinois/) | Illinois Learning Standards for Mathematics | 2010 | Common Core as written. |
-| Maine (`me`, /maine/) | Maine Learning Results: Mathematics | 2020 | Groups Common Core's standards into four reasoning strands, keeps their codes, and adds a grade 1 money standard 1.MD.D.5. |
+| Maine (`me`, /maine/) | Maine Learning Results: Mathematics | 2020 | Groups Common Core's standards into four reasoning strands, keeps their codes, and adds a grade 1 money standard 1.MD.D.5. Review cycle paused under LD 1701 until a legislative taskforce finishes (meetings through 10 Feb 2027): https://www.maine.gov/doe/learning/standardsreview (2026-10-02). |
 | Michigan (`mi`, /michigan/) | Michigan K-12 Standards for Mathematics | 2010 | Common Core as written. HB 4159 is on the watch list. |
 | Nevada (`nv`, /nevada/) | Nevada Academic Content Standards in Mathematics | 2010 | Common Core as written. |
-| New Hampshire (`nh`, /new-hampshire/) | New Hampshire College and Career Ready Standards | 2010 | Common Core as written. |
-| New Mexico (`nm`, /new-mexico/) | New Mexico Common Core Content Standards for Mathematics | 2010 | Common Core as written. |
-| Vermont (`vt`, /vermont/) | Common Core State Standards for Mathematics | 2010 | Common Core as written. |
+| New Hampshire (`nh`, /new-hampshire/) | New Hampshire College and Career Ready Standards | 2010 | Common Core as written. HB 1571 (2026) did not pass: the Senate laid it on the table on 7 May 2026, with no later action (gc.nh.gov bill status, per the 2026-10-02 check); news reports that it became law are wrong. |
+| New Mexico (`nm`, /new-mexico/) | New Mexico Common Core Content Standards for Mathematics | 2010 | Common Core as written. Agency page: https://web.ped.nm.gov/bureaus/math-and-science-bureau/ (webnew.ped.state.nm.us is gone, 2026-10-02). |
+| Vermont (`vt`, /vermont/) | Common Core State Standards for Mathematics | 2010 | Common Core as written. Agency page: https://education.vermont.gov/learning/content-areas/mathematics (moved from `/student-learning/content-areas/mathematics`, 2026-10-02). |
 | Washington (`wa`, /washington/) | Washington State K–12 Learning Standards for Mathematics | 2011 | Common Core as written in 2026–27. WA Math 2026 (`wa27`) is required from 2027–28; see `wa.md`. |
 | Guam (no edition) | Common Core State Standards for Mathematics | not confirmed | Common Core as written. Served by the Common Core pages; no Guam page or set. |
 | Puerto Rico (not covered) | Estándares de Contenido y Expectativas de Grado: Matemáticas | 2022 | Departamento de Educación de Puerto Rico, © July 2022. See "Not covered". |
-| US Virgin Islands (not covered) | Virgin Islands Standards of Achievement: Mathematics | 2021 | Derived from Common Core, but K–5 detail could not be reached. See "Not covered". |
+| US Virgin Islands (not covered) | Virgin Islands Standards of Achievement: Mathematics | 2021 | Common Core with VI codes and some edited text; grade PDFs reachable since the 2026-10-02 check. See "Not covered". |
 
 **Publishers:** listed in `publishers.ts`. The pages and Terms credit them.
 
@@ -84,7 +84,7 @@ Mapped 2026-10-02 (`STATE_PREK` in `src/standards/states/prek.ts`; data in `data
 | Jurisdiction | Document | Rows | First code | Source |
 | --- | --- | --- | --- | --- |
 | California (`ca`) | California Preschool/Transitional Kindergarten Learning Foundations, Mathematics (2024) | 24 | `Math 1.1` | https://www.cde.ca.gov/sp/cd/re/documents/ptklfmathdomain.pdf |
-| Connecticut (`ct`) | Connecticut Early Learning and Development Standards (CT ELDS), Mathematics (2014) | 15 | `M.60.1` | https://www.ctoec.org/wp-content/uploads/2019/12/ctelds-11.20.24.pdf |
+| Connecticut (`ct`) | Connecticut Early Learning and Development Standards (2025), mathematics on printed pages 40–43 | 12 | `M A1` | https://www.ctoec.org/forms-documents/ct-elds-what-children-birth-to-five-should-know-and-be-able-to-do.pdf (redirects to FINAL-CT-ELDS-12.1.25.pdf) |
 | District of Columbia (`dc`) | District of Columbia Early Learning Standards, Mathematics, Pre-K Exit Expectations (2019) | 18 | `14a` | https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2019%20District%20of%20Columbia%20Early%20Learning%20Standards.%203.17.20.pdf |
 | Delaware (`de`) | Delaware Early Learning Foundations: Preschool, Mathematics (2010) | 22 | `MA31` | https://dieecpd.org/static/uploads/files/elfpreschool9-10.pdf |
 | Idaho (`id`) | Idaho Early Learning eGuidelines, Mathematics and Numeracy, 36–60 months (2019) | 3 | `Goal 39` | https://www.healthandwelfare.idaho.gov/services-programs/sub-domain-mathematics-and-numeracy |
@@ -96,6 +96,8 @@ Mapped 2026-10-02 (`STATE_PREK` in `src/standards/states/prek.ts`; data in `data
 | Vermont (`vt`) | Vermont Early Learning Standards (2015) | 21 | `MA.1a.1.OP.1` | https://education.vermont.gov/sites/aoe/files/documents/edu-early-education-early-learning-standards.pdf |
 
 California: codes carry the math prefix, `Math 1.1` (the document says "Foundation 1.1" inside its Mathematics domain), as Kentucky and Wyoming do, since the bare numbers repeat in other domains. Michigan: codes carry the math prefix, `Mathematics 1a`, since the bare numbers repeat in other subjects. Vermont: the document prints no compact codes; Mathness uses its manual's shorthand.
+
+Connecticut: the 2025 CT ELDS (Office of Early Childhood page updated 3 Sep 2026, "The CT ELDS have been updated!") replaced the 2014 edition; Mathness remapped 2026-10-02 (app commit adfdf473). The 2025 edition numbers progressions only, not indicators, in four math strands: A counting and cardinality (A1–A5), B operations (B1), C attributes, meaning measurement, data, sorting and patterns (C1–C3), D geometry (D1–D3). The bare "A1" repeats across domains, so codes carry the M domain prefix as the document's own cross-references do (`M A1`). Patterns are newly in math (M C3 → P-MATH 7); borrowed sheets: M A1 → K.CC.A.2, M C1 → 1.MD.A.2, M C2 → K.8B and 1.MD.C.4, M D3 → 1.G.A.2.
 
 Still Head Start: New Hampshire (its pre-K math has no codes) and DoDEA (its pre-K follows Teaching Strategies GOLD, a commercial framework).
 
@@ -112,7 +114,10 @@ Still Head Start: New Hampshire (its pre-K math has no codes) and DoDEA (its pre
 
 **Michigan HB 4159.** Passed the House in 2025 and stalled in the Senate ([landscape.md](../landscape.md)); no note in editions.ts. Recheck before acting.
 
-**Idaho review.** Recommendations are due to the Legislature in 2027 (editions.ts).
+**Idaho review.** Idaho's Department of Education posted a "JUNE 2026 DRAFT" of the K–12 math standards; public comment on the "2026-2027 standards revision" closes 6 Oct 2026. The page says "the 2025/2026 cycle" goes to the Legislature in January 2027 but lists math under 2026/2027, so which session takes math is unverified (review page, updated 16 Sep 2026: https://www.sde.idaho.gov/about-us/departments/content-and-curriculum/idaho-content-standards/content-standards-review/).
+- **Draft:** https://www.sde.idaho.gov/wp-content/uploads/2026/09/DRAFT-Idaho-Content-Standards-for-Mathematics-June-2026.pdf
+- **Codes:** cluster letters dropped and standards renumbered, so Idaho would leave Common Core's codes and need a crosswalk. The coin standard 1.MD.D.5 becomes 1.MD.7 ("Identify quarters, dimes, and nickels…"); new are K.MD.4 (sort coins by value) and 1.MD.8 (equivalent coin values).
+- **When adopted:** add it as a next-year crosswalk edition (SKILL.md workflow E).
 
 ## Not covered
 
@@ -120,8 +125,11 @@ Still Head Start: New Hampshire (its pre-K math has no codes) and DoDEA (its pre
   - Own codes, e.g. 1.E.14.1.
   - Coins from K, probability from grade 1, and mean, median and mode in grade 5.
   - Mapping codes alone wouldn't serve Spanish-language classrooms. A Spanish edition is a separate, larger job ([landscape.md](../landscape.md), open items).
-- **US Virgin Islands:** the standards are said to be derived from Common Core, but their K–5 detail could not be reached, so there is nothing to map.
+- **US Virgin Islands:** Virgin Islands Standards of Achievement (VISA) for Mathematics, by the VIDE Mathematics Curriculum Workgroup. Reachable since the 2026-10-02 check: the #GoOpenUSVI page "VISA Mathematics at a Glance" (added 1 Sep 2021, licence CC BY-NC-ND) links a Google Drive folder of grade PDFs and a K–12 PDF.
+  - Page: https://goopenusvi.vide.vi/courses/visa-mathematics-at-a-glance · folder: https://drive.google.com/drive/folders/1Ozi4tl3-yU8fcU6q8Rs7SMX13x9OeFc0
+  - Codes are Common Core's with a prefix, `VISA.Math.Content.K.CC.A.1`; some text is edited (per the 2026-10-02 check; not yet compared row by row).
+  - Not mapped yet: it would need a crosswalk edition.
 
 ## Uncertain
 
-- **Less certain:** Guam's adoption year, US Virgin Islands detail and Michigan's bill.
+- **Less certain:** Guam's adoption year, how far the US Virgin Islands edited Common Core, and Michigan's bill.

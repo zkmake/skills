@@ -5,7 +5,7 @@ In effect for 2026–27: North Dakota Mathematics Content Standards K–12 (July
 ## Documents
 - Standards (ND Department of Public Instruction): https://www.nd.gov/dpi/sites/www/files/documents/Academic%20Support/REV2.2024.06.27%20Math%20Content%20Standards%20Final.pdf
 - Official crosswalk from 2017 to 2023. It maps ND 2017 codes, not CCSS: https://www.nd.gov/dpi/sites/www/files/documents/Academic%20Support/2017%20and%202023%20Mathematics%20Standards%20Crosswalk%207.27.23.pdf
-- Page (checked 2026-10-01): https://www.nd.gov/dpi/mathematics
+- Page (moved 2026-10-02; the old https://www.nd.gov/dpi/mathematics redirects): https://www.nd.gov/dpi/districtsschools/north-dakota-education-content-standards/mathematics
 - Common Core comparison: no official ND-to-CCSS crosswalk exists. ND's 2017 codes (K.CC.1, …) follow CCSS numbering, so the 2017 crosswalk served as a guide. The final mappings are the research's own reading of the 2023 text against CCSS.
 
 ## Codes
@@ -83,7 +83,7 @@ No ND-prefixed sheets. The latest fit verdicts leave no partials.
 ## Pre-K
 - North Dakota Early Learning Standards: Birth to Kindergarten (2018): 10 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.nd`), data in `data/prek/nd.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
 - Source: https://www.nd.gov/dpi/sites/www/files/documents/Academic%20Support/FINAL%20Early%20Learning%20Standards%207NOV2018.pdf
-- Unconfirmed: a search snippet of hhs.nd.gov said the standards are under review for full implementation in fall 2026; the HHS standards pages show only the 2018 document (2026-10-02).
+- Next: under revision, no date. DPI says "These standards are currently under revision." Health and Human Services removed its "fully implemented in Fall 2026" sentence (on the page in May 2026), and no new document is posted (2026-10-02 source check).
 - Domains: CC Counting and Cardinality (5: `P-MATH 1` … `P-MATH 5`); OA Operations and Algebraic Thinking (2: `P-MATH 6` … `P-MATH 7`); M Measurement (1: `P-MATH 8`); G Geometry and Spatial Sense (2: `P-MATH 9` … `P-MATH 10`).
 - 10 rows link Head Start goals, 5 link other sheets (0 with no Head Start goal). Borrowed later-grade sheets: P-MATH 4 → MA.K.NSO.1.3.
 

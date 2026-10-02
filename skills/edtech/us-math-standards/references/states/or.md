@@ -1,10 +1,10 @@
 # Oregon (OR)
 
-In effect for 2026–27: 2021 Oregon Mathematics Standards (adopted October 2021; version 5.2.7, updated August 2023). The classroom start year is not in our sources. Mathness models them as a crosswalk in Oregon's codes (edition `or`, 151 rows; pre-K in its own codes, see Pre-K), with the note "Oregon adds a Data Reasoning domain to every grade." No next edition is recorded.
+In effect for 2026–27: 2021 Oregon Mathematics Standards (adopted October 2021; now issued as "VERSION 2021.3", text unchanged from v5.2.7). The classroom start year is not in our sources. Mathness models them as a crosswalk in Oregon's codes (edition `or`, 151 rows; pre-K in its own codes, see Pre-K), with the note "Oregon adds a Data Reasoning domain to every grade." No next edition is recorded: ODE's proposed schedule puts the next math revision in 2028–29, for Board approval in fall 2026 (per the 2026-10-02 source check).
 
 ## Documents
 All from the Oregon Department of Education, fetched 2026-10-01:
-- Standards K–12, v5.2.7: https://www.oregon.gov/ode/educator-resources/standards/mathematics/Documents/2021%20Oregon%20Math%20Standards%20(v.5.2.7).pdf
+- Standards K–12, "VERSION 2021.3" on a new template, the copy the landing page links since 2026-10-02 (text identical to v5.2.7): https://www.oregon.gov/ode/educator-resources/standards/mathematics/Documents/2021%20Oregon%20Math%20Standards_new%20template%20version.pdf . The v5.2.7 PDF the research used still loads: https://www.oregon.gov/ode/educator-resources/standards/mathematics/Documents/2021%20Oregon%20Math%20Standards%20(v.5.2.7).pdf
 - Official crosswalk to CCSS 2010, v5.2.10 (updated 9/4/2024): https://www.oregon.gov/ode/educator-resources/standards/mathematics/Documents/2021OregonMathStandardsCrosswalk.pdf
 - K–12 Full Version with Guidance (guidance v5.2.10.3). Its per-standard "Common Core (CCSS) (2010)" field is the official mapping used: https://www.oregon.gov/ode/educator-resources/standards/mathematics/Documents/K12FullVersionwithGuidance.docx
 - Page: https://www.oregon.gov/ode/educator-resources/standards/mathematics/Pages/default.aspx
@@ -61,4 +61,4 @@ All from the Oregon Department of Education, fetched 2026-10-01:
 ## Uncertain
 - The crosswalk PDF prints `1.DR.B.2` against "1.MD.C.3 (1.MD.C.4)" and leaves `1.GM.C.6` blank. The guidance gives 1.MD.C.4 and 1.MD.B.3, which were used.
 - `3.DR.A.1` is mapped to 3.MD.B.4 as ODE does, although the text is about scaled picture and bar graphs. ODE's guidance keeps half- and quarter-inch line plots.
-- The standards PDF is v5.2.7, but the crosswalk and guidance are v5.2.10.
+- Version labels disagree: the research read v5.2.7, the current PDF says VERSION 2021.3, and the crosswalk and guidance are v5.2.10.

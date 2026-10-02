@@ -2,10 +2,10 @@
 
 **In effect for 2026–27:** the Wisconsin Standards for Mathematics, adopted May 2021. They revise Common Core, which Wisconsin adopted in 2010. They add subitizing, put multiplication fluency in grade 4, and use estimation in place of rounding.
 
-**In Mathness:** a crosswalk in Wisconsin's `M.` codes, edition `wi`, 148 rows, at `/wisconsin/`. There is no next edition.
+**In Mathness:** a crosswalk in Wisconsin's `M.` codes, edition `wi`, 148 rows, at `/wisconsin/`. There is no next edition; DPI intends to review math from October 2028 (per the 2026-10-02 source check).
 
 ## Documents
-- **Standards:** https://dpi.wi.gov/sites/default/files/imce/standards/New%20pdfs/MathematicsStandards2021.pdf (Wisconsin Department of Public Instruction). Standards page: https://dpi.wi.gov/math/standards
+- **Standards:** https://dpi.wi.gov/sites/default/files/imce/standards/pdf/MathematicsStandards2021.pdf (Wisconsin Department of Public Instruction; moved from `…/standards/New%20pdfs/…`, 2026-10-02). Standards page: https://dpi.wi.gov/math/standards
 - **Official comparison:** "2010 to 2021 Wisconsin Standards for Mathematics Comparison, K-8", at https://dpi.wi.gov/media/44373/download?inline
   - Wisconsin's 2010 codes are Common Core's, so this document is in effect an official Common Core crosswalk.
   - Its dropped list is used as given.
@@ -56,8 +56,8 @@
 
 ## Pre-K
 - Wisconsin Model Early Learning Standards, Fifth Edition, V.B Mathematical Thinking (2017): 6 rows. Mapped 2026-10-02 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.wi`), data in `data/prek/wi.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out.
-- Source: https://dpi.wi.gov/sites/default/files/imce/standards/New%20pdfs/dpl-wmels-5-web.pdf
-- Next: draft Wisconsin Early Learning and Development Guidelines (ELDGs) to replace WMELS, with new learning areas, strands and goals (new codes). Public review July–August 2026; no adoption or implementation date; DCF says to keep using WMELS until further notice (https://dcf.wisconsin.gov/eldg, checked 2026-10-02).
+- Source: https://dpi.wi.gov/sites/default/files/imce/standards/pdf/dpl-wmels-5-web.pdf (moved from `…/standards/New%20pdfs/…`, 2026-10-02)
+- Next: draft Wisconsin Early Learning and Development Guidelines (ELDGs) to replace WMELS, with new learning areas, strands and goals (new codes). Public review ran July–August 2026; the draft is "now in leadership review at DCF, DPI, and DHS before being translated and published later this year". No implementation date; DCF says to keep using WMELS "until further notice" (https://dcf.wisconsin.gov/eldg, checked 2026-10-02).
 - Codes carry the document's math prefix, `V.B.EL.1` (domain V, Cognition and General Knowledge; B, Mathematical Thinking), since the bare codes repeat across domains.
 - Domains: MT Mathematical Thinking (6: `V.B.EL.1` … `V.B.EL.6`).
 - 5 rows link Head Start goals, 4 link other sheets (1 with no Head Start goal). No later-grade borrowing.
