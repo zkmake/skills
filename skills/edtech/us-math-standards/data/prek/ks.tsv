@@ -1,23 +1,23 @@
 code	domain	domain_name	summary	head_start_goals	other_sheet_codes
 M.CC.p4.1	CC	Counting and Cardinality	Say the counting numbers in order, from 1 all the way up to 20.	P-MATH 1	
-M.CC.p4.2	CC	Counting and Cardinality	Show how many are in a group with a written number from 0 to 12, using 0 for none.	P-MATH 5	
-M.CC.p4.3	CC	Counting and Cardinality	Start counting from a number other than 1, like 4, and keep going (starting under 10).	P-MATH 1	PK.NOS.B.6
+M.CC.p4.2	CC	Counting and Cardinality	Show how many are in a group with a written number from 0 to 12, using 0 for none.	P-MATH 5	K.CC.A.3
+M.CC.p4.3	CC	Counting and Cardinality	Start counting from a number other than 1, like 4, and keep going (starting under 10).	P-MATH 1	PK.NOS.B.6,K.CC.A.2,PK.AT.A.2
 M.CC.p4.4	CC	Counting and Cardinality	Know that the last number said when counting tells how many things there are.	P-MATH 3	
 M.CC.p4.4a	CC	Counting and Cardinality	Count objects by touching each one once while saying the numbers in order.	P-MATH 3	
 M.CC.p4.4b	CC	Counting and Cardinality	Know a group has the same number of things whatever order they are counted in.	P-MATH 3	
 M.CC.p4.5	CC	Counting and Cardinality	Count to say how many: up to 10 in a line, array or circle, or up to 5 scattered.	P-MATH 3	
 M.CC.p4.6	CC	Counting and Cardinality	Tell if one group has more, fewer or the same number as another group, up to 10.	P-MATH 4	PK.DS.A.2
 M.CC.p4.7	CC	Counting and Cardinality	See how many are in a small group, up to 5, at a glance without counting.	P-MATH 2	
-M.CC.p4.8	CC	Counting and Cardinality	Compare two written numbers from 1 to 5 and say which one is more.	P-MATH 4,P-MATH 5	
+M.CC.p4.8	CC	Counting and Cardinality	Compare two written numbers from 1 to 5 and say which one is more.	P-MATH 4	pk-match,K.CC.C.7
 M.OA.p4.1	OA	Operations and Algebraic Thinking	Add and take away with objects or fingers, or by acting out everyday situations.	P-MATH 6	PK.NOS.B.6
 M.OA.p4.2	OA	Operations and Algebraic Thinking	Split a number up to 5 into two parts in more than one way, using objects.	P-MATH 6	PK.NOS.D.10,PK.AT.A.2
-M.OA.p4.3	OA	Operations and Algebraic Thinking	Notice patterns in everyday things around them and in numbers.	P-MATH 7	
+M.OA.p4.3	OA	Operations and Algebraic Thinking	Notice patterns in everyday things around them and in numbers.	P-MATH 7	PK.NOS.B.6,K.CC.A.1
 M.MD.p4.1	MD	Measurement and Data	Describe and compare things by how long, big, full or heavy they are.	P-MATH 8	PK.GR.A.1
 M.MD.p4.2	MD	Measurement and Data	Put two things side by side to see which is longer, heavier or holds more.	P-MATH 8	PK.GR.A.1
 M.MD.p4.3	MD	Measurement and Data	Sort things into groups, count each group (up to 10), and say which group has more.		PK.DS.A.1,PK.DS.A.2
 M.MD.p4.4	MD	Measurement and Data	Gather information by sorting things into groups to answer a simple question.		PK.DS.A.1,PK.DS.A.2
-M.G.p4.1	G	Geometry	Name squares, circles, triangles, rectangles, cubes, cones, cylinders and balls at any size or turn.	P-MATH 9	PK.GR.B.5
-M.G.p4.2	G	Geometry	Name the shapes of things around them and say where things are, using position words.	P-MATH 9,P-MATH 10	
-M.G.p4.3	G	Geometry	Compare flat and solid shapes of different sizes and turns, and talk about their parts.	P-MATH 9	PK.GR.B.5
-M.G.p4.4	G	Geometry	Make shapes while playing, by building them with blocks or drawing them.	P-MATH 9	
+M.G.p4.1	G	Geometry	Name squares, circles, triangles, rectangles, cubes, cones, cylinders and balls at any size or turn.	P-MATH 9	PK.GR.B.5,K.G.A.3
+M.G.p4.2	G	Geometry	Name the shapes of things around them and say where things are, using position words.	P-MATH 9,P-MATH 10	K.G.A.2
+M.G.p4.3	G	Geometry	Compare flat and solid shapes of different sizes and turns, and talk about their parts.	P-MATH 9	PK.GR.B.5,K.G.A.3,K.G.B.4
+M.G.p4.4	G	Geometry	Make shapes while playing, by building them with blocks or drawing them.	P-MATH 9	K.G.B.5
 M.G.p4.5	G	Geometry	Put several shapes together to make a picture or fill a simple outline puzzle.	P-MATH 9	

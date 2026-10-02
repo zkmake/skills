@@ -6,8 +6,8 @@ MTE-1t	NS	Foundations for Number Sense	Count up to 10 objects in different ways:
 MTE-1u	NS	Foundations for Number Sense	Count up to 10 objects in a line, touching each once, and say how many there are.	P-MATH 3	
 MTE-1v	NS	Foundations for Number Sense	Recognize written numbers up to 10 and try writing them while playing.	P-MATH 5	
 MTE-1w	NS	Foundations for Number Sense	Match the numbers 1 to 10 to groups of objects, with an adult's help.	P-MATH 5	
-MTE-1x	NS	Foundations for Number Sense	Know the same things can be counted in different groups, like forks alone or all the cutlery.	P-MATH 3	PK.DS.A.1
-MTE-1y	NS	Foundations for Number Sense	Hear a number from 0 to 5 and count out exactly that many objects.	P-MATH 3	
+MTE-1x	NS	Foundations for Number Sense	Know the same things can be counted in different groups, like forks alone or all the cutlery.	P-MATH 3	PK.DS.A.1,PK.DS.A.2,P-MATH 6,OK.K.N.3.1
+MTE-1y	NS	Foundations for Number Sense	Hear a number from 0 to 5 and count out exactly that many objects.	P-MATH 3	K.CC.B.5
 MTE-1z	NS	Foundations for Number Sense	Say how many are in a small group of 1 to 5 without counting, like fingers held up.	P-MATH 2	
 MTE-1aa	NS	Foundations for Number Sense	Say which number comes just after or just before another when counting 1 to 5.	P-MATH 1	PK.NOS.A.2,PK.NOS.B.6
 MTE-1ab	NS	Foundations for Number Sense	Use first, next and last to say the order of people or things in play.		MA.K.NSO.1.3
@@ -15,16 +15,16 @@ MTE-2d	NS	Foundations for Number Sense	Count to work out how many are needed, an
 MTE-2e	NS	Foundations for Number Sense	Show different ways to split up to 5 objects into two parts and put them back together.	P-MATH 6	PK.NOS.D.10,PK.AT.A.2
 MTE-3h	AT	Foundations for Algebraic Thinking	Sort a group of up to 10 objects by one feature, like color, size or shape.		PK.DS.A.1
 MTE-3i	AT	Foundations for Algebraic Thinking	Describe, copy and continue simple two-part repeating patterns with real objects.	P-MATH 7	
-MTE-3j	AT	Foundations for Algebraic Thinking	Begin to make up simple repeating patterns of their own with objects or sounds.	P-MATH 7	
+MTE-3j	AT	Foundations for Algebraic Thinking	Begin to make up simple repeating patterns of their own with objects or sounds.	P-MATH 7	K.AT.B.3
 MTE-4l	G	Foundations for Geometry and Spatial Understanding	Use position words like in, on, over and under, and follow directions that use them.	P-MATH 10	
-MTE-4m	G	Foundations for Geometry and Spatial Understanding	Use flat and solid shapes to stand for real things, like a circle and a square for a house.	P-MATH 9	
-MTE-4n	G	Foundations for Geometry and Spatial Understanding	Find squares, circles, triangles and solid shapes in the world around them.	P-MATH 9	PK.GR.B.5
+MTE-4m	G	Foundations for Geometry and Spatial Understanding	Use flat and solid shapes to stand for real things, like a circle and a square for a house.	P-MATH 9	K.G.A.2
+MTE-4n	G	Foundations for Geometry and Spatial Understanding	Find squares, circles, triangles and solid shapes in the world around them.	P-MATH 9	PK.GR.B.5,K.G.A.2
 MTE-4o	G	Foundations for Geometry and Spatial Understanding	Name flat and solid shapes and describe them in their own words, like pointy or round.	P-MATH 9	PK.GR.B.5
 MTE-5k	MD	Foundations for Measurement and Data Analysis	Use size words like short, tall, long, heavy and big to describe things.	P-MATH 8	PK.GR.A.1
-MTE-5l	MD	Foundations for Measurement and Data Analysis	Compare more than two objects by size, length or weight and pick the longest or heaviest.	P-MATH 8	PK.GR.A.1
+MTE-5l	MD	Foundations for Measurement and Data Analysis	Compare more than two objects by size, length or weight and pick the longest or heaviest.	P-MATH 8	PK.GR.A.1,K.MD.A.2,K.GR.A.3
 MTE-5m	MD	Foundations for Measurement and Data Analysis	Put a few objects in order by size, length or weight, like shortest to longest.	P-MATH 8	K.GR.A.3
-MTE-5n	MD	Foundations for Measurement and Data Analysis	Try simple measuring tools like a ruler, measuring cup or scale, with an adult's help.		1.MD.A.2
-MTE-5o	MD	Foundations for Measurement and Data Analysis	Describe the weather as hot or cold, and keep exploring how warm or cool things are.		PK.GR.A.1
+MTE-5n	MD	Foundations for Measurement and Data Analysis	Try simple measuring tools like a ruler, measuring cup or scale, with an adult's help.		1.MD.A.2,pk-measuring,K.MD.A.1
+MTE-5o	MD	Foundations for Measurement and Data Analysis	Describe the weather as hot or cold, and keep exploring how warm or cool things are.		K.MD.A.1
 MTE-5p	MD	Foundations for Measurement and Data Analysis	Notice the parts of the day passing in order, like circle time, snack and outdoor play.		K.MG.3
 MTE-6d	MR	Mathematical Thinking and Reasoning	Use more and more kinds of math thinking to answer questions in play, like balancing a tower.	P-MATH 7,P-MATH 9	
 MTE-6e	MR	Mathematical Thinking and Reasoning	Show math ideas with drawings, writing or objects, like stacking blocks to show survey answers.	P-MATH 5	PK.DS.A.2

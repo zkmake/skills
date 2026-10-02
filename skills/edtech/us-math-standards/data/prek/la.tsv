@@ -7,14 +7,14 @@ CM 1.5.4	KN	Knowledge of Numbers	Compare two groups of objects and say if one ha
 CM 1.6.4	KN	Knowledge of Numbers	Name written numbers from 0 to 10 and match each one to a counted group.	P-MATH 5	
 CM 1.7.4	KN	Knowledge of Numbers	Read some written numbers up to 10 and start writing a few of them.	P-MATH 5	
 CM 1.8.4	KN	Knowledge of Numbers	Use first, second and third to say where someone or something is in a line.		MA.K.NSO.1.3
-CM 2.1.4	PO	Patterns and Operations	Spot, copy, continue and make up simple repeating patterns, like red-red-blue.	P-MATH 7	
+CM 2.1.4	PO	Patterns and Operations	Spot, copy, continue and make up simple repeating patterns, like red-red-blue.	P-MATH 7	K.AT.B.3
 CM 2.3.4	PO	Patterns and Operations	Solve simple adding and taking-away problems with objects or fingers in play and daily life.	P-MATH 6	PK.NOS.B.6
-CM 3.1.4	ME	Measurement	Sort objects by one feature, then sort them again by another and say why, with help.		PK.DS.A.1
+CM 3.1.4	ME	Measurement	Sort objects by one feature, then sort them again by another and say why, with help.		PK.DS.A.1,K.MD.B.3
 CM 3.2.4	ME	Measurement	Describe how big, long or heavy things are with comparing words like long, longer, longest.	P-MATH 8	PK.GR.A.1
 CM 3.3.4	ME	Measurement	Compare a few objects and put them in order by length or weight.	P-MATH 8	K.GR.A.3
-CM 3.4.4	ME	Measurement	Say what simple measuring tools, like a ruler or a scale, are used for.		1.MD.A.2
-CM 3.5.4	ME	Measurement	Measure things by lining up copies of one small object, like paper clips, with help.		1.MD.A.2
+CM 3.4.4	ME	Measurement	Say what simple measuring tools, like a ruler or a scale, are used for.		1.MD.A.2,K.MD.A.1,pk-measuring
+CM 3.5.4	ME	Measurement	Measure things by lining up copies of one small object, like paper clips, with help.		1.MD.A.2,pk-measuring
 CM 4.2.4	SS	Shapes and Spatial Relationships	Name circles, squares, triangles and rectangles whatever their size or which way they turn.	P-MATH 9	
-CM 4.3.4	SS	Shapes and Spatial Relationships	Describe flat and solid shapes, like a square has four sides and a ball rolls.	P-MATH 9	PK.GR.B.5
-CM 4.4.4	SS	Shapes and Spatial Relationships	Make and build shapes out of materials, like making a square from craft sticks.	P-MATH 9	
+CM 4.3.4	SS	Shapes and Spatial Relationships	Describe flat and solid shapes, like a square has four sides and a ball rolls.	P-MATH 9	PK.GR.B.5,K.G.B.4
+CM 4.4.4	SS	Shapes and Spatial Relationships	Make and build shapes out of materials, like making a square from craft sticks.	P-MATH 9	K.G.B.5
 CM 4.5.4	SS	Shapes and Spatial Relationships	Understand and use position words for place, direction and distance, like above, behind, near.	P-MATH 10	

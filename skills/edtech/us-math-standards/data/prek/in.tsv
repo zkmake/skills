@@ -1,11 +1,11 @@
 code	domain	domain_name	summary	head_start_goals	other_sheet_codes
 M1.1	N	Numeracy	Count to 20, count up to 10 things one by one, know the last number is how many, see up to 4 at a glance.	P-MATH 1,P-MATH 2,P-MATH 3	
 M1.2	N	Numeracy	Name the written numbers 0 to 10, match them to groups of up to 10, and begin writing them.	P-MATH 5	
-M1.3	N	Numeracy	Tell when two groups are the same by matching or counting, and say which of two numbers to 10 is bigger.	P-MATH 4	PK.DS.A.2
+M1.3	N	Numeracy	Tell when two groups are the same by matching or counting, and say which of two numbers to 10 is bigger.	P-MATH 4	PK.DS.A.2,K.CC.C.7
 M2.1	CA	Computation and Algebraic Thinking	Put small numbers together and break them apart to solve problems with fewer than 5 things.	P-MATH 6	PK.NOS.D.10,PK.AT.A.2
-M2.2	CA	Computation and Algebraic Thinking	Make up a new simple repeating pattern of your own and keep it going.	P-MATH 7	
-M3.1	DA	Data Analysis	Sort a group of things in more than one way and explain how they were sorted.		PK.DS.A.1
+M2.2	CA	Computation and Algebraic Thinking	Make up a new simple repeating pattern of your own and keep it going.	P-MATH 7	K.AT.B.3
+M3.1	DA	Data Analysis	Sort a group of things in more than one way and explain how they were sorted.		PK.DS.A.1,K.MD.B.3
 M4.1	G	Geometry	Fill shape puzzles with pattern blocks, and say where things are: above, below, beside, between.	P-MATH 10,P-MATH 9	
-M4.2	G	Geometry	Tell shapes apart by their sides and corners, and tell flat shapes from solid ones, like a square from a cube.	P-MATH 9	PK.GR.B.5
+M4.2	G	Geometry	Tell shapes apart by their sides and corners, and tell flat shapes from solid ones, like a square from a cube.	P-MATH 9	PK.GR.B.5,K.G.B.4,K.G.A.3
 M5.1	M	Measurement	Use time words like earlier and later, morning and afternoon, about the day.		K.MG.3
 M5.2	M	Measurement	Compare two or more things by length, weight or size, and play at measuring with rulers and cups.	P-MATH 8	PK.GR.A.1

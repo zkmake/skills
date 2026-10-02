@@ -1,9 +1,9 @@
 code	domain	domain_name	summary	head_start_goals	other_sheet_codes
-PK.CC.A.1	CC	Counting and Cardinality	Say the counting numbers in order, starting at 1 and going all the way up to 30.	P-MATH 1	
+PK.CC.A.1	CC	Counting and Cardinality	Say the counting numbers in order, starting at 1 and going all the way up to 30.	P-MATH 1	K.NS.2
 PK.CC.A.3	CC	Counting and Cardinality	Start writing numbers by making the circles, straight lines, slants and crosses they're built from.	P-MATH 5	
 PK.CC.A.4	CC	Counting and Cardinality	Begin to look at a written number from 0 to 10 and say its name.	P-MATH 5	
 PK.CC.B.4	CC	Counting and Cardinality	Count objects one at a time, know the last number said is how many, and see that adding one makes more.	P-MATH 3	PK.NOS.B.6
-PK.CC.B.5	CC	Counting and Cardinality	See up to 5 at a glance, count out a given number up to 10, and count to tell how many in a group.	P-MATH 2,P-MATH 3	
+PK.CC.B.5	CC	Counting and Cardinality	See up to 5 at a glance, count out a given number up to 10, and count to tell how many in a group.	P-MATH 2,P-MATH 3	K.CC.B.5
 PK.CC.C.6	CC	Counting and Cardinality	Compare two groups of things using words like more, less and the same.	P-MATH 4	PK.DS.A.2
 PK.OA.A.1	OA	Operations and Algebraic Thinking	With help, show adding and taking away using objects, fingers, drawings or acting it out.	P-MATH 6	
 PK.OA.A.2	OA	Operations and Algebraic Thinking	With help, solve small adding and taking-away stories within 5, using objects or drawings.	P-MATH 6	
@@ -11,12 +11,12 @@ PK.OA.A.3	OA	Operations and Algebraic Thinking	Put numbers up to 5 together and 
 PK.OA.A.4	OA	Operations and Algebraic Thinking	Show with objects or drawings how many more a number needs to make 5.		PK.AT.A.2
 PK.MD.A.1	MD	Measurement and Data	Talk about the parts of one object that can be measured, like how long, wide or tall it is.	P-MATH 8	PK.GR.A.1
 PK.MD.A.2	MD	Measurement and Data	Compare two or more objects and say which is heavier, lighter, longer or shorter.	P-MATH 8	PK.GR.A.1
-PK.MD.B.3	MD	Measurement and Data	Start to know coins and bills when you see them, and that money is used to buy things.		1.GR.C.6,K.9D
+PK.MD.B.3	MD	Measurement and Data	Start to know coins and bills when you see them, and that money is used to buy things.		1.GR.C.6,K.9D,K.9A
 PK.MD.C.4	MD	Measurement and Data	Sort a set of objects into the groups asked for, using more than one feature, like color and size.		PK.DS.A.1,PK.DS.A.2
 PK.G.A.1	G	Geometry	Use position words like above, below, beside and between to say where things are.	P-MATH 10	
 PK.G.A.2	G	Geometry	Name some flat shapes, like circles, squares, triangles and rectangles.	P-MATH 9	
-PK.G.A.3	G	Geometry	Explore shapes and start to tell flat shapes apart from solid ones.	P-MATH 9	PK.GR.B.5
-PK.G.A.4	G	Geometry	Begin to name the shapes you see in things around you, like a round clock or a square window.	P-MATH 9	
-PK.G.B.4	G	Geometry	Say how two flat shapes are alike and how they're different.	P-MATH 9	
-PK.G.B.5	G	Geometry	Make shapes from things in the world by building them and drawing them.	P-MATH 9	
+PK.G.A.3	G	Geometry	Explore shapes and start to tell flat shapes apart from solid ones.	P-MATH 9	PK.GR.B.5,K.G.A.3
+PK.G.A.4	G	Geometry	Begin to name the shapes you see in things around you, like a round clock or a square window.	P-MATH 9	K.G.A.2
+PK.G.B.4	G	Geometry	Say how two flat shapes are alike and how they're different.	P-MATH 9	K.G.B.4
+PK.G.B.5	G	Geometry	Make shapes from things in the world by building them and drawing them.	P-MATH 9	K.G.B.5,K.G.B.6
 PK.G.B.6	G	Geometry	Find small shapes inside a bigger shape, and see that shapes can be put together to make a new one.	P-MATH 9	

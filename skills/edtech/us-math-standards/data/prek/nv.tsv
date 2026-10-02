@@ -7,19 +7,19 @@ M.NQ.PK5	NQ	Number and Quantity	Use the order words first to fifth, like picking
 M.NQ.PK6	NQ	Number and Quantity	Count up to 10 things, saying one number for each thing and the numbers in the right order.	P-MATH 3	
 M.NQ.PK7	NQ	Number and Quantity	Count up to 10 things set out in a line, touching each once, and say how many there are.	P-MATH 3	
 M.NQ.PK8	NQ	Number and Quantity	See how many are in a small group, up to 5, straight away without counting one by one.	P-MATH 2	
-M.NQ.PK9	NQ	Number and Quantity	Count out exactly the number of things asked for, up to 10, like handing over five blocks.	P-MATH 3	
+M.NQ.PK9	NQ	Number and Quantity	Count out exactly the number of things asked for, up to 10, like handing over five blocks.	P-MATH 3	K.CC.B.5
 M.NQ.PK10	NQ	Number and Quantity	Say how many there are now when one is added to or taken from a group of up to 4.	P-MATH 6	PK.NOS.B.6
 M.NQ.PK11	NQ	Number and Quantity	Compare groups of up to 10 things and say which have more, which have fewer, or that they're equal.	P-MATH 4	PK.DS.A.2
 M.NQ.PK12	NQ	Number and Quantity	Know some of the written numbers from 0 to 10 by sight and say their names.	P-MATH 5	
 M.NQ.PK13	NQ	Number and Quantity	Count a group of 1 to 5 things and match it to the written number that says how many.	P-MATH 5	
 M.NQ.PK14	NQ	Number and Quantity	Show a number from 0 to 5 by writing it, drawing that many things or setting out objects.	P-MATH 5	
-M.PO.PK1	PO	Patterns and Operations	Sort things into groups by how they look, such as by size or by shape.		PK.DS.A.1
+M.PO.PK1	PO	Patterns and Operations	Sort things into groups by how they look, such as by size or by shape.		PK.DS.A.1,K.MD.B.3
 M.PO.PK2	PO	Patterns and Operations	Spot a simple repeating pattern, copy it, and say or add what comes next.	P-MATH 7	
-M.PO.PK3	PO	Patterns and Operations	Make up a repeating pattern of their own and point out the part that repeats.	P-MATH 7	
+M.PO.PK3	PO	Patterns and Operations	Make up a repeating pattern of their own and point out the part that repeats.	P-MATH 7	K.AT.B.3
 M.PO.PK4	PO	Patterns and Operations	Act out small adding and taking-away problems with objects, with answers of 5 or less.	P-MATH 6	PK.AT.A.2
 M.ME.PK1	ME	Measurement	Compare up to five things by height or weight, and put them in order from least to most.	P-MATH 8	PK.GR.A.1,K.GR.A.3
 M.ME.PK2	ME	Measurement	Use words like taller, heavier, shortest and biggest to compare two or more things.	P-MATH 8	PK.GR.A.1
-M.ME.PK3	ME	Measurement	Find how long something is by lining up other objects, like blocks, along it.		1.MD.A.2
+M.ME.PK3	ME	Measurement	Find how long something is by lining up other objects, like blocks, along it.		1.MD.A.2,pk-measuring
 M.GS.PK1	GS	Geometry and Spatial Sense	Name circles, triangles, squares and rectangles, whatever their size or which way they're turned.	P-MATH 9	
 M.GS.PK2	GS	Geometry and Spatial Sense	Describe and compare shapes by how many sides and corners they have and how long the sides are.	P-MATH 9	K.G.B.4
 M.GS.PK3	GS	Geometry and Spatial Sense	Find flat and solid shapes in the world around them, like a ball, a can or a cone.	P-MATH 9	PK.GR.B.5

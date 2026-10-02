@@ -1,13 +1,13 @@
 code	domain	domain_name	summary	head_start_goals	other_sheet_codes
 M A1	CC	Counting and Cardinality	Say the counting numbers in order to at least 20, and count on from any number between 1 and 10.	P-MATH 1	K.CC.A.2
-M A2	CC	Counting and Cardinality	Count up to 10 objects in any arrangement, know the last number tells how many, and count out up to 5.	P-MATH 3	
+M A2	CC	Counting and Cardinality	Count up to 10 objects in any arrangement, know the last number tells how many, and count out up to 5.	P-MATH 3	K.CC.B.5
 M A3	CC	Counting and Cardinality	Recognize written numbers up to at least 10, and write numbers 1 to 5 when play calls for it.	P-MATH 5	
 M A4	CC	Counting and Cardinality	Quickly say how many are in a small group of up to 5 things without counting.	P-MATH 2	
-M A5	CC	Counting and Cardinality	Compare two groups of up to 10 by matching or counting, and tell which number from 1 to 5 is more or less.	P-MATH 4	PK.DS.A.2
+M A5	CC	Counting and Cardinality	Compare two groups of up to 10 by matching or counting, and tell which number from 1 to 5 is more or less.	P-MATH 4	PK.DS.A.2,K.CC.C.7
 M B1	OA	Operations and Algebraic Thinking	Act out adding and taking away up to 5 with objects, and find the parts that make 5, like how many were hidden.	P-MATH 6	PK.NOS.D.10,PK.AT.A.2
 M C1	MD	Attributes and Relative Properties of Objects	Compare objects by length, weight or how much they hold, and start measuring length with blocks or a ruler.	P-MATH 8	PK.GR.A.1,1.MD.A.2
 M C2	MD	Attributes and Relative Properties of Objects	Show information with real objects, pictures or tally marks, like a simple picture graph.		K.8B,1.MD.C.4
-M C3	MD	Attributes and Relative Properties of Objects	Sort by one feature, explain and switch the sorting rule, and copy, extend and make repeating patterns.	P-MATH 7	PK.DS.A.1
+M C3	MD	Attributes and Relative Properties of Objects	Sort by one feature, explain and switch the sorting rule, and copy, extend and make repeating patterns.	P-MATH 7	PK.DS.A.1,K.AT.B.3,K.MD.B.3
 M D1	G	Geometry and Spatial Relationships	Say where something is using words like beside, next to, between, above, below, over and under.	P-MATH 10	
 M D2	G	Geometry and Spatial Relationships	Name and describe flat and solid shapes, like sphere, box and cylinder, whatever their size or turn.	P-MATH 9	PK.GR.B.5
 M D3	G	Geometry and Spatial Relationships	Fit several shapes together on purpose to finish a shape puzzle or make a new picture.	P-MATH 9	1.G.A.2

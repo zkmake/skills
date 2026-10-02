@@ -1,7 +1,7 @@
 code	grade	strand	strand_name	summary	ccss_carried	ccss_partly_or_moved	other_set_codes
 PK.NOS.A.1	PK	NOS	Number & operation sense	Count to 20 by ones.	P-MATH 1		
 PK.NOS.A.2	PK	NOS	Number & operation sense	Count backward from 10 by ones.			
-PK.NOS.A.3	PK	NOS	Number & operation sense	Say which number comes just after or just before a number, counting to 10.		P-MATH 1	
+PK.NOS.A.3	PK	NOS	Number & operation sense	Say which number comes just after or just before a number, counting to 10.		P-MATH 1,K.CC.B.4,K.CC.A.2	
 PK.NOS.A.4	PK	NOS	Number & operation sense	Recognize the written numbers 0 to 10.	P-MATH 5		
 PK.NOS.B.5	PK	NOS	Number & operation sense	Count up to 10 objects one by one, and know the last number said is how many.	P-MATH 3		
 PK.NOS.B.6	PK	NOS	Number & operation sense	See that each next number when counting means one more.			
@@ -18,7 +18,7 @@ PK.GR.B.3	PK	GR	Geometric reasoning & measurement	Sort circles, triangles and re
 PK.GR.B.4	PK	GR	Geometric reasoning & measurement	Match and name circles, triangles and rectangles whatever their size or which way they face.	P-MATH 9		
 PK.GR.B.5	PK	GR	Geometric reasoning & measurement	Match and sort cubes, spheres and cylinders.			
 PK.DS.A.1	PK	DS	Reasoning with data & statistics	Sort objects into groups.			
-PK.DS.A.2	PK	DS	Reasoning with data & statistics	Compare the groups: which has more, less or the same (up to 10 in a group).			
+PK.DS.A.2	PK	DS	Reasoning with data & statistics	Compare the groups: which has more, less or the same (up to 10 in a group).		P-MATH 4	
 K.NOS.A.1	K	NOS	Number & operation sense	Count to 100 by ones and by tens.	K.CC.A.1		
 K.NOS.A.2	K	NOS	Number & operation sense	Count forward from any number within 100, not just 1.	K.CC.A.2		
 K.NOS.A.3	K	NOS	Number & operation sense	Count backward from any number up to 20.			
