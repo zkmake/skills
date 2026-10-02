@@ -189,8 +189,7 @@ const TIMELINE: [string, string, [string, string][]][] = [
 // The coverage session's open items, in its priority order (2026-10-01).
 const OPEN = [
   ["State pre-K for Texas, Florida and Virginia", "43 states and DC are mapped in their own pre-K codes; the three own sets still show Head Start's goals. Missouri, Arizona, New Hampshire and Washington have no codes to map; DoDEA follows a commercial framework"],
-  ["Next standards when final", "Utah and Kentucky for 2027–28, North Carolina for 2028–29: one research file and one generated edition each"],
-  ["Probability in grades 1–2", "Puerto Rico asks for it; nothing below grade 3 yet"],
+  ["Next standards when final", "Utah and Kentucky for 2027–28: one research file and one generated edition each"],
   ["A Spanish edition", "Puerto Rico's standards are in Spanish; dual-language classrooms everywhere. The largest job here"],
   ["More curricula", "Bridges, Zearn, Into Math and Everyday Mathematics are next by use"],
 ];
@@ -848,8 +847,7 @@ html.dark .atlas {
   const XW_ROWS = PASSES.at(-1)![2];
   const NEXT_PUBLIC = [
     ["Pre-K for Texas, Florida and Virginia", "43 states and DC already have pre-K in their own codes; these three still use Head Start's preschool goals"],
-    ["New standards as they're adopted", "Utah and Kentucky for 2027–28, North Carolina for 2028–29, each once its text is published"],
-    ["Probability in grades 1–2", "Puerto Rico asks for it; nothing below grade 3 yet"],
+    ["New standards as they're adopted", "Utah and Kentucky for 2027–28, each once its text is published"],
     ["Sheets in Spanish", "for Puerto Rico's standards and dual-language classrooms"],
     ["More curricula", "Bridges, Zearn, Into Math and Everyday Mathematics, by how many teachers use them"],
   ];

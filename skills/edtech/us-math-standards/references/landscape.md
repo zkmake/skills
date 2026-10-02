@@ -92,7 +92,7 @@ The checklist to run against any catalogue built on Common Core. "Covered" is Ma
 | Temperature (warmer/cooler in K; °C and °F in G3) | AR, IN, AK, FL | covered |
 | Data investigations: pose a question, collect, show, conclude | NJ, OR, GA, NE, MN 2027, WA 2027, NC, SC, ND, IA | covered on paper (doing it on a computer can't be) |
 | More graph types: double-bar, Venn, timelines, line graphs G3/G5, circle graphs | OK, SD 2027, NC, SC, FL | covered |
-| Probability before grade 4 | PR from G1, SC from G3, MN 2027 | partial (grades 1–2 open) |
+| Probability before grade 4 | PR from G1, SC from G3, MN 2027 | covered ("Which is more likely?" bags of counters on grade 1 sort-and-graph and grade 2 picture-bar-graphs, 2026-10-02; "Could it happen?" in grade 2) |
 | Mean, median, mode, range in G4–5 | OK, PR, SC, FL, VA, MD | covered |
 | Patterns and function machines K–4 (repeating, growing, shrinking, input/output) | OK, SC, NY K, WV, AK (aabb), MO, TN K | covered |
 | Personal financial literacy | TX (full K–5 strand), MT appendix | covered |
@@ -123,9 +123,8 @@ To refresh this page: check each state agency's standards page for "revision", "
 ## Open items (2026-10-01, in priority order)
 
 1. State pre-K for Texas, Florida and Virginia, the three own sets still showing Head Start (43 states and DC are mapped; Missouri, Arizona, New Hampshire and Washington have no codes to map, DoDEA follows a commercial framework).
-2. Utah and Kentucky 2027–28 and North Carolina 2028–29 editions once final.
-3. Probability in grades 1–2 (Puerto Rico).
-4. A Spanish edition (Puerto Rico; dual-language classrooms). The largest job.
-5. More curricula: Bridges, Zearn, Into Math, Everyday Mathematics.
+2. Utah and Kentucky 2027–28 editions once final (North Carolina 2028–29 is built: `nc29`).
+3. A Spanish edition (Puerto Rico; dual-language classrooms). The largest job.
+4. More curricula: Bridges, Zearn, Into Math, Everyday Mathematics.
 
 Local and Indigenous contexts stay out of scope for generated sheets.
