@@ -171,6 +171,7 @@ const TIMELINE: [string, string, [string, string][]][] = [
     ["MT", "Montana's standards (adopted 2025) in effect from July 2026"],
     ["MS", "Mississippi's 2025 standards, second year"],
     ["SC", "South Carolina's “2025” standards, second year"],
+    ["FL", "Florida's rule now names “B.E.S.T. Standards Mathematics, 2026”; K–5 unchanged"],
   ]],
   ["2027–28", "Next school year", [
     ["WA", "WA Math 2026 required. In Mathness."],
@@ -178,14 +179,15 @@ const TIMELINE: [string, string, [string, string][]][] = [
     ["LA", "Louisiana's revised standards. In Mathness."],
     ["MN", "Minnesota 2022 standards. In Mathness."],
     ["HI", "Hawaiʻi's revision (approved June 2026). In Mathness."],
-    ["KY", "Kentucky revision, tentatively; text not published"],
-    ["UT", "Utah revision drafted; no adoption date"],
+    ["KY", "Kentucky revision, tentatively; not adopted, no board action yet"],
+    ["UT", "Utah PK–2 revision before the Board 1 Oct 2026, outcome not posted; grades 3–8 follow"],
+    ["IN", "Indiana revision under way, aiming at 2027–28; draft not public"],
   ]],
   ["2028–29", "Further out", [
-    ["NC", "North Carolina's new K–12 standards (adopted 1 Oct 2026). In Mathness."],
+    ["NC", "North Carolina's new K–12 standards (adopted 1 Oct 2026; minutes not yet posted). In Mathness."],
     ["MN", "Minnesota's updated early-learning indicators (ECIPs 2028), fall 2028"],
-    ["ID", "Idaho review: recommendations to the Legislature in 2027"],
-    ["TN", "Tennessee's current set runs to 2031–32"],
+    ["ID", "Idaho draft out for comment to 6 Oct 2026, codes renumbered; to the Legislature in 2027"],
+    ["TN", "Tennessee's review has begun, for 2031–32"],
   ]],
 ];
 // The coverage session's open items, in its priority order (2026-10-01).
@@ -343,6 +345,8 @@ const html = `<!doctype html>
   --grid: rgba(43, 76, 170, 0.07); --pen: #cc2f25; --marker: #f6cd3c; --marker-soft: rgba(246, 205, 60, 0.45);
   --own: #2b46a8; --xw: #11806a; --cc: #9cb7e3; --none: #f1f2f6; --none-edge: #cc2f25;
   --good: #11806a; --part: #e0a91c; --miss: #cc2f25;
+  /* Text on those fills, 4.5:1 or better (WCAG AA). */
+  --on-good: #fff; --on-part: #2a1d00; --on-own: #fff; --on-xw: #fff; --on-pen: #fff;
   --k-same: #c9d3e8; --k-edited: #6f8fd0; --k-moved: #e0a91c; --k-new: #cc2f25;
   --display: "Grandstander", ui-rounded, "Avenir Next", system-ui, sans-serif;
   --body: "Andika", ui-rounded, "Segoe UI", system-ui, sans-serif;
@@ -354,6 +358,7 @@ const html = `<!doctype html>
   --grid: rgba(140, 170, 255, 0.06); --pen: #ff6b5e; --marker: #f6cd3c; --marker-soft: rgba(246, 205, 60, 0.28);
   --own: #6f8cff; --xw: #2fc29f; --cc: #36507f; --none: #1b2440; --none-edge: #ff6b5e;
   --good: #2fc29f; --part: #f2bd3a; --miss: #ff6b5e;
+  --on-good: #06231b; --on-part: #2a1d00; --on-own: #0b1230; --on-xw: #06231b; --on-pen: #2a0905;
   --k-same: #2f3b5c; --k-edited: #5d7fd6; --k-moved: #f2bd3a; --k-new: #ff6b5e;
   color-scheme: dark; } }
 :root[data-theme="dark"] {
@@ -361,6 +366,7 @@ const html = `<!doctype html>
   --grid: rgba(140, 170, 255, 0.06); --pen: #ff6b5e; --marker: #f6cd3c; --marker-soft: rgba(246, 205, 60, 0.28);
   --own: #6f8cff; --xw: #2fc29f; --cc: #36507f; --none: #1b2440; --none-edge: #ff6b5e;
   --good: #2fc29f; --part: #f2bd3a; --miss: #ff6b5e;
+  --on-good: #06231b; --on-part: #2a1d00; --on-own: #0b1230; --on-xw: #06231b; --on-pen: #2a0905;
   --k-same: #2f3b5c; --k-edited: #5d7fd6; --k-moved: #f2bd3a; --k-new: #ff6b5e;
   color-scheme: dark;
 }
@@ -403,7 +409,7 @@ code, .mono { font-family: var(--mono); font-size: 0.86em; font-variant-numeric:
 .hero .stamp { margin-top: 22px; display: inline-flex; gap: 10px; align-items: center; font-family: var(--mono); font-size: 0.8rem; color: var(--pen); border: 1.5px solid var(--pen); border-radius: 6px; padding: 4px 10px; transform: rotate(-1.5deg); }
 .card { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; box-shadow: 0 1px 0 var(--rule), 0 12px 30px -18px rgba(20, 30, 70, 0.35); }
 .report { padding: 22px 24px; display: grid; gap: 14px; position: relative; }
-.report::before { content: "Answer key"; position: absolute; top: -12px; right: 18px; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; background: var(--pen); color: #fff; padding: 2px 10px; border-radius: 4px; }
+.report::before { content: "Answer key"; position: absolute; top: -12px; right: 18px; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; background: var(--pen); color: var(--on-pen); padding: 2px 10px; border-radius: 4px; }
 .score { display: grid; grid-template-columns: auto 1fr; gap: 2px 16px; align-items: center; }
 .score .ring { grid-row: span 2; width: 5.6rem; height: 3.4rem; display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 1.35rem; color: var(--pen); position: relative; font-variant-numeric: tabular-nums; }
 .score .ring svg { position: absolute; inset: -6px -8px; width: calc(100% + 16px); height: calc(100% + 12px); overflow: visible; }
@@ -466,7 +472,7 @@ section { padding-block: clamp(36px, 6vw, 56px); border-top: 1px dashed var(--ru
 .share { display: grid; gap: 12px; }
 .sharebar { display: flex; height: 46px; border-radius: 10px; overflow: hidden; border: 1px solid var(--rule); }
 .sharebar span { display: grid; place-items: center; font-weight: 700; font-size: 0.95rem; color: #fff; min-width: 0; }
-.sharebar .c-own { background: var(--own); } .sharebar .c-xw { background: var(--xw); } .sharebar .c-cc { background: var(--cc); color: var(--ink); }
+.sharebar .c-own { background: var(--own); color: var(--on-own); } .sharebar .c-xw { background: var(--xw); color: var(--on-xw); } .sharebar .c-cc { background: var(--cc); color: var(--ink); }
 .sharekey { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 14px; }
 .sharekey div { display: grid; grid-template-columns: 14px 1fr; gap: 2px 10px; }
 .sharekey .sw { margin-top: 5px; }
@@ -481,7 +487,8 @@ section { padding-block: clamp(36px, 6vw, 56px); border-top: 1px dashed var(--ru
 .stack { display: flex; height: 24px; border-radius: 5px; overflow: hidden; background: var(--rule); }
 .stack.small { height: 12px; }
 .stack i { display: grid; place-items: center; min-width: 0; overflow: hidden; }
-.stack b { font-family: var(--mono); font-size: 0.74rem; color: #fff; white-space: nowrap; }
+.stack b { font-family: var(--mono); font-size: 0.74rem; color: var(--on-good); white-space: nowrap; }
+.s-part b { color: var(--on-part); }
 .s-good { background: var(--good); } .s-part { background: var(--part); } .s-miss { background: var(--miss); }
 .pass.fresh .pname { color: var(--pen); }
 .pass.final .stack { box-shadow: 0 0 0 2px var(--pen); }
@@ -536,7 +543,7 @@ tr:last-child td { border-bottom: 0; }
 .cfill { display: block; height: 100%; border-radius: 5px; background: var(--muted); opacity: 0.55; }
 .cfill.mapped { background: var(--own); opacity: 1; }
 .cval { position: absolute; left: 8px; top: 50%; transform: translateY(-50%); font: 500 0.76rem var(--mono); color: var(--ink); mix-blend-mode: normal; }
-.cfill.mapped + .cval { color: #fff; }
+.cfill.mapped + .cval { color: var(--on-own); }
 .cunits { font-size: 0.85rem; font-family: var(--mono); }
 ol.tlwrap { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 16px; }
 .tl { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 16px 18px; display: grid; gap: 10px; align-content: start; }
@@ -604,7 +611,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
       <div><i class="sw own"></i><strong>${COUNT("own")} states</strong><small><b>Own set, fit-reviewed.</b> Their own codes and words, state-only sheets written, every row reviewed.</small></div>
       <div><i class="sw xw"></i><strong>${COUNT("xw")} states</strong><small><b>Crosswalk.</b> Every standard in the state's own code, mapped to Common Core and to sheets for what it adds. Six also have their next standards.</small></div>
       <div><i class="sw cc"></i><strong>${ROWS.filter((r) => r.model === "cc" && !["DC", "GU", "DoDEA"].includes(r.id)).length} states + DC + DoDEA</strong><small><b>Common Core codes</b> under the state's name, with any added standards slotted in. Guam uses Common Core's own pages.</small></div>
-      <div><i class="sw none"></i><strong>${COUNT("—")} territories</strong><small><b>Not yet.</b> Puerto Rico (standards in Spanish) and the U.S. Virgin Islands (K–5 detail unreachable).</small></div>
+      <div><i class="sw none"></i><strong>${COUNT("—")} territories</strong><small><b>Not yet.</b> Puerto Rico (standards in Spanish) and the U.S. Virgin Islands (its 2021 standards found, not yet modelled).</small></div>
     </div>
   </div>
 </section>
@@ -624,7 +631,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
       </div>
       <div class="extras" aria-label="Outside the 50 states">${terr.map((r) => `<button class="ext" type="button" data-id="${r.id}">${flagSvg(r)}${esc(r.name)}</button>`).join("")}</div>
     </div>
-    <aside class="card detail" id="detail" aria-live="polite"></aside>
+    <section class="card detail" id="detail" aria-live="polite" aria-label="Selected state"></section>
   </div>
 </section>
 
@@ -840,6 +847,7 @@ html.dark .atlas {
   --pen: #ff6b5e; --marker-soft: rgba(246, 205, 60, 0.28);
   --own: #6f8cff; --xw: #2fc29f; --cc: #36507f; --none: #1b2440; --none-edge: #ff6b5e;
   --good: #2fc29f; --part: #f2bd3a; --miss: #ff6b5e;
+  --on-good: #06231b; --on-part: #2a1d00; --on-own: #0b1230; --on-xw: #06231b; --on-pen: #2a0905;
   --k-same: #2f3b5c; --k-edited: #5d7fd6; --k-moved: #f2bd3a; --k-new: #ff6b5e;
 }
 `;
@@ -898,7 +906,7 @@ ${/<section id="share">[\s\S]*?<\/section>/.exec(html)![0]
 <section id="map">
   <div class="head"><span class="eyebrow">The map</span><h2>Find your state</h2>
   <p class="lede2">Choose a state for its standards, its codes, how far it sits from Common Core, and links to its worksheets and its official document. A dashed yellow edge marks a state whose next standards (2027–28, or 2028–29 for North Carolina) are already on Mathness.</p></div>
-  ${/<div class="mapgrid">[\s\S]*?<\/aside>\n  <\/div>/.exec(html)![0]}
+  ${/<div class="mapgrid">[\s\S]*?<\/section>\n  <\/div>/.exec(html)![0]}
 </section>
 
 ${/<section id="fit">[\s\S]*?<\/section>/.exec(html)![0]
