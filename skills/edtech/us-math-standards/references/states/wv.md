@@ -68,6 +68,4 @@
 - 17 rows link Head Start goals, 9 link other sheets. M.PK.7 (ordinals) borrows MA.K.NSO.1.3; M.PK.17 → PK.DS.A.1, PK.DS.A.2.
 
 ## Uncertain
-- **Year:** editions.ts uses 2023, the filing and adoption. gen.py's NAMES and the Atlas say 2024, the effective date (1 July 2024). Both are right for different events.
-- **Less certain in the Atlas:** "West Virginia … detail" is listed as less certain.
-- **Name:** the Atlas shortens it to "WV College- and Career-Readiness Standards for Mathematics".
+- **Year:** editions.ts uses 2023, the filing and adoption. gen.py's NAMES says 2024, the effective date (1 July 2024). Both are right for different events.

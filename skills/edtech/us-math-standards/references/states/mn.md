@@ -58,7 +58,7 @@ Next: the 2022 Minnesota K-12 Academic Standards in Mathematics, required from 2
   - Mean, median and range: Virginia 5.PS.2. Line graphs: Virginia 4.PS.1 plus 5.MD.B.2.
 - Written for Minnesota: "Slides and turns", MN.4.3.3.1 (grade 4, `slides-and-turns`). It serves 4.3.3.1, 4.3.3.3 and 4.3.3.4.
 - 64 rows carry `from` sheets in all, OVR plus 61 extra.tsv lines.
-- Fit review: no partial rows remain for `mn`. 3.2.2.1, 4.3.3.2, 5.1.2.1 and 5.3.2.1–2 were closed in rounds 9–11.
+- Fit review: no partial rows remain for `mn`. 3.2.2.1, 4.3.3.2, 5.1.2.1 and 5.3.2.1–2 were closed in passes 9–11.
 
 ## Next edition: Minnesota (2027–28), id `mn27`
 - 2022 Minnesota K-12 Academic Standards in Mathematics.
@@ -95,11 +95,10 @@ Next: the 2022 Minnesota K-12 Academic Standards in Mathematics, required from 2
   - Texas input-output 4.5B plus 4.OA.C.5 serve figure n.
   - 108 extra.tsv lines.
 - Fit review:
-  - 0.2.4.1 (sorting by thickness) was the last open row. Commit 84439010 added "Thick or thin?" and a re-review (fit round 14) found it good; 2.2.4.3 and 2.3.7.3 closed in round 13.
-  - Linked after their last partial verdict but not re-reviewed: 1.1.2.1, 4.3.5.10, 5.3.5.10 (estimated differences to the nearest half), 5.3.7.4.
+  - 0.2.4.1 (sorting by thickness) was the last open row. Commit 84439010 added "Thick or thin?" and the follow-up re-review after pass 13 found it good; 2.2.4.3 and 2.3.7.3 closed in pass 13.
+  - Linked or fixed after their last partial verdict and never re-reviewed, yet counted good in the 1,479 / 0 / 0 and 1,485 / 0 / 0 tallies: 1.1.2.1, 4.3.5.10, 5.3.5.10 (estimated differences to the nearest half), 5.3.7.4.
 
 ## Uncertain
 - The 2007 rule parts (3501.0700–.0745) show as [Repealed, 49 SR 1123], yet MDE says the 2007 standards are in effect through 2026–27. We follow MDE.
 - The year the 2007 standards were adopted comes only from MDE's page ("effect July 2007").
 - More MN27 judgment calls: x.1.1.1 statistical-question rows are marked new; 2.3.6.3, 3.3.6.1 and 4.3.6.1 are moved while 5.3.6.1 is new; 5.3.5.16 (n ÷ a/b) is edited onto 5.NF.B.7, though Common Core grade 5 limits it to unit fractions; 2.3.5.5 is moved from 3.OA.D.8.
-- Name variants: editions.ts "Minnesota K–12 Academic Standards in Mathematics", Atlas "Minnesota Academic Standards in Mathematics".

@@ -6,7 +6,7 @@
 // set below with their source. Run: bun scripts/atlas/build.ts (from the skill's root).
 
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
 
 const ROOT = join(import.meta.dir, "..", "..");
 const read = (p: string) => readFileSync(join(ROOT, p), "utf8");
@@ -578,7 +578,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
   </div>
   <div class="card report" aria-label="Headline figures">
     ${[
-      ["1,485/1,485", "crosswalk rows fit fully", "state rows that differ from Common Core, across all 38 crosswalks"],
+      ["1,481/1,485", "crosswalk rows reviewed good", "state rows that differ from Common Core, across all 38 crosswalks; 4 Minnesota 2027–28 rows relinked, re-review pending"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
       ["9,745", "standards, each with a sheet", "58 sets: Common Core, 4 own sets, 53 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
@@ -622,11 +622,12 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 </section>
 
 <section id="fit">
-  <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row now fits its sheets</h2>
+  <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row, read against its sheets</h2>
   <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet (1,485 once Hawaiʻi's 2027–28 rows joined) against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic.</p></div>
   <div class="card">
     <div class="passes">${passRows}</div>
     <div class="fitkey"><span><i class="sw" style="background:var(--good)"></i>Good: the sheets practise all of it</span><span><i class="sw" style="background:var(--part)"></i>Partial: a named part is missing</span><span><i class="sw" style="background:var(--miss)"></i>Mismatch: the sheets don't practise it</span><span class="mono">bars to scale · ${fmt(passMax)} rows</span></div>
+    <p class="muted" style="font-size:.84rem;padding:0 20px 16px">The last bars count four Minnesota 2027–28 rows as good: each was relinked to a better sheet after a partial verdict and hasn't been re-reviewed since.</p>
   </div>
   <div class="head"><h3>The four own sets</h3><p class="lede2">Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.</p></div>
   <div class="owns">${ownFit}</div>
@@ -641,7 +642,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 
 <section id="beyond">
   <div class="head"><span class="eyebrow">Content check</span><h2>Topics states teach that Common Core doesn't</h2>
-  <p class="lede2">What the state research turned up, where it appears, and whether a sheet practises it. Money before grade 2 is the most common addition, in about 30 states.</p></div>
+  <p class="lede2">What the state research turned up, where it appears, and whether a sheet practises it. Money before grade 2 is the most common addition, in 34 states.</p></div>
   <div class="card tablebox"><table><thead><tr><th>Topic</th><th>Where</th><th>Mathness</th></tr></thead><tbody>${topicRows}</tbody></table></div>
 </section>
 
@@ -770,5 +771,238 @@ if (at > 0) {
     .replace(/'<a href="data\/crosswalks\/'/g, `'<a href="${REPO}data/crosswalks/'`);
   writeFileSync(process.argv[at + 1], page);
   console.log(`artifact page: ${process.argv[at + 1]}`);
+}
+
+/* ---------- --blog <file.ts>: the article on mathness.app ---------- */
+// The atlas retold for teachers and parents, as a data module the site's shell wraps (Mathness:
+// src/site/blog/). The site supplies the header, footer, fonts and dark mode (`html.dark`), so the
+// atlas CSS is scoped under `.atlas` and its colours follow the site's slate palette; links go to
+// each state's Mathness page and its official document, never into this skill.
+const bl = process.argv.indexOf("--blog");
+if (bl > 0) {
+  const SLUG = "how-we-matched-every-state";
+  const SITE_PATH: Record<string, string> = { DC: "/washington-dc/", DoDEA: "/dodea/", GU: "/#by-grade" };
+  const slugify = (s: string) => s.toLowerCase().replace(/ʻ/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const sitePath = (id: string) => (["PR", "VI"].includes(id) ? "" : SITE_PATH[id] ?? `/${slugify(NAMES[id])}/`);
+  const plain = (s: string) => s.replace(/\bG([1-5])–([1-5])\b/g, "grades $1–$2").replace(/\bG([1-5])\b/g, "grade $1");
+
+  // Scope every rule under .atlas: tokens on .atlas itself, the page-level rules dropped.
+  const css0 = /<style>\n([\s\S]*?)<\/style>/.exec(html)![1]
+    .replace(/\/\*[\s\S]*?\*\//g, "")
+    .replace(/@media \(prefers-color-scheme: dark\) \{ :root:not\(\[data-theme="light"\]\) \{[\s\S]*?\} \}/, "")
+    .replace(/:root\[data-theme="dark"\] \{[\s\S]*?\}/, "");
+  const scope = (css: string): string => {
+    let out = "", i = 0;
+    while (i < css.length) {
+      const open = css.indexOf("{", i);
+      if (open < 0) break;
+      const head = css.slice(i, open).trim();
+      let depth = 1, j = open + 1;
+      while (depth) { if (css[j] === "{") depth++; else if (css[j] === "}") depth--; j++; }
+      const inner = css.slice(open + 1, j - 1);
+      if (head.startsWith("@media")) out += `${head} { ${scope(inner)} }\n`;
+      else {
+        const sels = head.split(/,(?![^(]*\))/).map((s) => s.trim())
+          .filter((s) => !/^(html|body)\b/.test(s) && !/^\.(bar|wrap|theme|brand)\b/.test(s) && !s.startsWith(".bar "));
+        const scoped = sels.map((s) => (s === ":root" ? ".atlas" : `.atlas ${s}`));
+        if (scoped.length) out += `${scoped.join(", ")} {${inner}}\n`;
+      }
+      i = j;
+    }
+    return out;
+  };
+  const css = scope(css0)
+    .replace(/--display: "Grandstander"/, '--display: "Grandstander Variable"')
+    .replace(/\.atlas \{([^}]*)--paper: #f5f7fb; --sheet: #ffffff; --ink: #18203a; --muted: #5a6382; --rule: #dde2ee;/,
+      ".atlas {$1--sheet: var(--color-white, #fff); --ink: var(--color-slate-900, #0f172a); --muted: var(--color-slate-600, #475569); --rule: var(--color-slate-200, #e2e8f0);")
+    + `.atlas { color: var(--ink); display: grid; gap: 0; }
+.atlas .hero { padding-block: 8px 28px; }
+.atlas section:first-of-type { border-top: 0; }
+.atlas .steps { list-style: none; margin: 0; padding: 0; counter-reset: s; display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 14px; }
+.atlas .steps li { counter-increment: s; padding: 16px 18px; display: grid; grid-template-columns: 2.4rem 1fr; gap: 4px 12px; align-content: start; }
+.atlas .steps li::before { content: counter(s); grid-row: span 3; font-family: var(--display); font-weight: 800; font-size: 1.7rem; color: var(--pen); line-height: 1; }
+.atlas .steps h3 { font-size: 1.08rem; }
+.atlas .steps p { font-size: 0.95rem; color: var(--muted); }
+.atlas .steps .fig { font-family: var(--display); font-weight: 800; font-size: 1.15rem; color: var(--ink); }
+.atlas .steps li:last-child:nth-child(3n + 1) { grid-column: 1 / -1; }
+.atlas .owns { grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+.atlas .prek { align-content: start; }
+.atlas .cta { display: flex; flex-wrap: wrap; gap: 10px; }
+.atlas .cta a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 999px; font-weight: 700; text-decoration: none; border: 1.5px solid var(--ink); }
+.atlas .cta a.go { background: var(--ink); color: var(--sheet); }
+html.dark .atlas {
+  --pen: #ff6b5e; --marker-soft: rgba(246, 205, 60, 0.28);
+  --own: #6f8cff; --xw: #2fc29f; --cc: #36507f; --none: #1b2440; --none-edge: #ff6b5e;
+  --good: #2fc29f; --part: #f2bd3a; --miss: #ff6b5e;
+  --k-same: #2f3b5c; --k-edited: #5d7fd6; --k-moved: #f2bd3a; --k-new: #ff6b5e;
+}
+`;
+
+  const BLOG_DATA = DATA.map((d) => ({ ...d, notable: plain(d.notable), next: plain(d.next), site: sitePath(d.id), file: undefined }));
+  const OWN_ROWS = OWN_FIT.reduce((a, r) => a + r[4], 0);
+  const XW_ROWS = PASSES.at(-1)![2];
+  const NEXT_PUBLIC = [
+    ["Pre-K in more states' own codes", "14 states so far; the rest use Head Start's preschool goals until theirs are mapped"],
+    ["New standards as they're adopted", "Utah and Kentucky for 2027–28, North Carolina for 2028–29, each once its text is published"],
+    ["Probability in grades 1–2", "Puerto Rico asks for it; nothing below grade 3 yet"],
+    ["Sheets in Spanish", "for Puerto Rico's standards and dual-language classrooms"],
+    ["More curricula", "Bridges, Zearn, Into Math and Everyday Mathematics, by how many teachers use them"],
+  ];
+  const sources = RESOURCES.filter(([h]) => h !== "In this skill").map(([h, items]) => `
+  <div class="res"><h3>${h}</h3><ul>${items.map(([t, u, d]) => `<li><a href="${esc(u)}" rel="noopener">${esc(t)}</a><span>${esc(d)}</span></li>`).join("")}</ul></div>`).join("");
+  const curPublic = curBars.replace(/<a href="data\/curricula\/[^"]*">(\d+ units)<\/a>/g, "$1 mapped");
+  const topicPublic = plain(topicRows).replace(/<span class="status">\(?\[?pre-k\.md\]?\)?<\/span>/g, "").replace(/\s*\(pre-k\.md\)/g, "");
+
+  const body0 = `<style>${css}</style>
+<article class="atlas">
+<header class="hero">
+  <div>
+    <span class="eyebrow">Mathness! blog · ${AS_OF}</span>
+    <h1>How we matched every state's math standards, <span class="hl">sheet by sheet</span></h1>
+    <p class="lede">“Common Core aligned” is where most worksheet sites stop. But ${COUNT("own") + COUNT("xw")} states teach from standards of their own, with their own codes, their own wording and topics Common Core never asks for, like coins in kindergarten. Here is how we gave every state its own pages, wrote a sheet for every standard, and checked that each sheet practises what its standard asks.</p>
+    <span class="stamp">✓ checked against each state's own documents</span>
+  </div>
+  <div class="card report" aria-label="Headline figures">
+    ${[
+      [fmt(XW_ROWS - 4), `of ${fmt(XW_ROWS)} state rows reviewed and fit their sheets`, "every state row that differs from Common Core; 4 Minnesota 2027–28 rows got better sheets and await a fresh look"],
+      [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
+      ["9,745", "standards, each with a sheet", "Common Core, 4 state frameworks and 53 state editions"],
+      ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
+    ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n}</span><b>${b}</b><small>${s}</small></div>`).join("")}
+  </div>
+</header>
+
+<section id="how">
+  <div class="head"><span class="eyebrow">How we did it</span><h2>Seven steps, every state</h2></div>
+  <ol class="steps">
+    <li class="card"><h3>One catalogue of sheets</h3><p>Every skill is written once. Each state's standards are a view over that catalogue: the same sheet prints Texas's code in Texas and Maryland's in Maryland, at the grade that state teaches it.</p><span class="fig">267 skills</span></li>
+    <li class="card"><h3>Read each state's own documents</h3><p>Not summaries: the standards each state adopted, from its own department of education, with the official title, the year, how its codes work and when the next revision is due.</p><span class="fig">${ROWS.length} jurisdictions</span></li>
+    <li class="card"><h3>Map every standard</h3><p>Each state standard is matched to Common Core as the same, edited, moved from another grade, or new. Texas, Florida, Virginia and Maryland, the furthest from Common Core, are modelled in full.</p><span class="fig">6,006 rows in 38 crosswalks</span></li>
+    <li class="card"><h3>Write what's missing</h3><p>Where a state asks for something Common Core doesn't, we wrote the sheet: coins in kindergarten, thermometers, mean, median and mode in grade 5, saving goals.</p><span class="fig">106 sheets for state-only content</span></li>
+    <li class="card"><h3>Check the fit, row by row</h3><p>A sheet existing isn't a sheet fitting. Every state row that differs from Common Core was read against everything its sheets show across 40 versions of each sheet, then rated good, partial or mismatch. We fixed what fell short and reviewed the changed rows again.</p><span class="fig">13 passes and a fresh review</span></li>
+    <li class="card"><h3>Check the facts</h3><p>Every state's title, adoption year and notes were checked against primary sources: board minutes, state rules, the agency's own pages. That check corrected 26 of 57 sets and found an adoption the same day it happened.</p><span class="fig">Primary sources only</span></li>
+    <li class="card"><h3>Keep watching</h3><p>Standards change. Five states' 2027–28 standards are already in, beside the ones in classrooms now, and the next revisions are on a watch list.</p><span class="fig">5 next-year editions</span></li>
+  </ol>
+</section>
+
+${/<section id="share">[\s\S]*?<\/section>/.exec(html)![0]
+  .replace("How each student's state is modelled", "Where students are")
+  .replace("<span class=\"eyebrow\">Where students are</span>", "<span class=\"eyebrow\">Who it reaches</span>")
+  .replace("by how Mathness shows their state's standards", "by how their state's standards appear on Mathness")}
+
+<section id="map">
+  <div class="head"><span class="eyebrow">The map</span><h2>Find your state</h2>
+  <p class="lede2">Choose a state for its standards, its codes, how far it sits from Common Core, and links to its worksheets and its official document. A dashed yellow edge marks a state whose 2027–28 standards are already on Mathness.</p></div>
+  ${/<div class="mapgrid">[\s\S]*?<\/aside>\n  <\/div>/.exec(html)![0]}
+</section>
+
+${/<section id="fit">[\s\S]*?<\/section>/.exec(html)![0]
+  .replace("Every crosswalk row, read against its sheets", "Every state row, read against its sheets")
+  .replace(/<p class="lede2">A sheet existing[\s\S]*?<\/p><\/div>/, `<p class="lede2">Coverage means a sheet exists for a standard. Fit means the sheet practises what the standard asks, at its grade. Each review read a state's wording against every section its sheets show, across 40 versions of each sheet. Each pass linked better sheets or added the missing activity; the changed rows were then reviewed again. Halfway, a fresh review started from scratch, without the earlier verdicts, and found the step-by-step reviews had grown too generous, so the bar went up for every pass after it.</p></div>`)
+  .replace("Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.", "Every K–5 row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw each sheet's topic; later ones saw every section of every sheet.")}
+
+${/<section id="distance">[\s\S]*?<\/section>/.exec(html)![0]
+  .replace("Each crosswalked state's K–5 standards by kind, from the research files, sorted by the share that differs from Common Core.", "Each state's K–5 standards by kind, sorted by the share that differs from Common Core. Choose one to see it on the map.")}
+
+${/<section id="beyond">[\s\S]*?<\/section>/.exec(html)![0]
+  .replace(/<tbody>[\s\S]*<\/tbody>/, `<tbody>${topicPublic}</tbody>`)
+  .replace("What the state research turned up, where it appears, and whether a sheet practises it.", "What reading every state's standards turned up, where it appears, and whether a sheet practises it.")
+  .replace(/<th>Mathness<\/th>/, "<th>On Mathness</th>")}
+
+${/<section id="prek">[\s\S]*?<\/section>/.exec(html)![0]
+  .replace(/ Data: <a href="data\/prek\/">data\/prek<\/a>\./, "")
+  .replace("Pre-K sheets follow", "Our pre-K sheets follow")}
+
+${/<section id="curricula">[\s\S]*?<\/section>/.exec(html)![0]
+  .replace(/<div class="card cbars">[\s\S]*?<\/div>\n<\/section>/, `<div class="card cbars">${curPublic}</div>\n<p class="muted" style="font-size:.88rem">Program names identify the programs only. Mathness is not affiliated with, sponsored or endorsed by any of their publishers.</p>\n</section>`)
+  .replace("Blue is mapped: each unit links the sheets for the standards it teaches; only unit numbers and titles are shown, and no curriculum name ever prints.", "Blue is mapped: each unit links the sheets for the standards it teaches, in the worksheet maker.")}
+
+<section id="ahead">
+  <div class="head"><span class="eyebrow">What's changing</span><h2>New standards already on the way</h2></div>
+  <ol class="tlwrap">${timeline.replaceAll("In Mathness.", "On Mathness.")}</ol>
+  <div class="head"><h3>What we're doing next</h3></div>
+  <ol class="open">${NEXT_PUBLIC.map(([t, d]) => `<li class="card"><b>${esc(t)}</b><span>${esc(d)}</span></li>`).join("")}</ol>
+</section>
+
+<section id="sources">
+  <div class="head"><span class="eyebrow">Sources</span><h2>Where everything comes from</h2>
+  <p class="lede2">Each state's own document is linked from its card on the map.</p></div>
+  <div class="resgrid">${sources}</div>
+  <div class="notes"><ul>
+    <li>Every summary on Mathness is in our own words; standards are cited by their codes. Where a state publishes no crosswalk to Common Core, the mapping is our judgement from the texts, and the site says so.</li>
+    <li>Titles and adoption years were checked against each state's primary sources on ${AS_OF}.</li>
+    <li>Enrollment weights the picture; it isn't a count of Mathness users. Curriculum use counts teachers, not students.</li>
+    <li>Flags are simplified drawings made for Mathness, not official artwork.</li>
+  </ul></div>
+  <div class="cta"><a class="go" href="/#by-grade">Browse worksheets by grade</a><a href="/maker/">Make your own sheet</a></div>
+  <p class="muted" style="font-size:.84rem">Common Core State Standards © Copyright 2010. National Governors Association Center for Best Practices and Council of Chief State School Officers. All rights reserved. Each state's standards belong to its education agency. Mathness is not affiliated with, sponsored or endorsed by any state agency or publisher named here.</p>
+</section>
+</article>
+<script>(() => {
+const A = document.querySelector(".atlas");
+const DATA = ${JSON.stringify(BLOG_DATA).replace(/</g, "\\u003c")};
+const LABEL = ${JSON.stringify({ own: "Own set", xw: "Crosswalk", cc: "Common Core codes", none: "Not yet" })};
+const NEXT = ${JSON.stringify(Object.fromEntries(Object.entries(NEXT_IDS).map(([k, v]) => [k, `/${slugify(NAMES[k])}-2027-28/`])))};
+const byId = Object.fromEntries(DATA.map((d) => [d.id, d]));
+const flag = (d, cls) => d.flag ? '<svg class="' + cls + '" viewBox="0 0 30 20" aria-hidden="true">' + d.flag + "</svg>" : '<span class="' + cls + ' badge" aria-hidden="true">' + (d.id === "DoDEA" ? "DD" : d.id) + "</span>";
+const fmt = (n) => n == null ? "" : n.toLocaleString("en-US");
+const kinds = (k) => { if (!k) return "";
+  return '<span class="kbar">' + ["same", "edited", "moved", "new"].map((x) => k[x] ? '<i class="k-' + x + '" style="flex:' + k[x] + '"></i>' : "").join("") + "</span>"
+    + '<span class="kpct">' + k.same + " same · " + k.edited + " edited · " + k.moved + " moved · " + k.new + " new</span>"; };
+const detail = A.querySelector("#detail");
+function show(id, scroll) {
+  const d = byId[id]; if (!d) return;
+  A.querySelectorAll(".st").forEach((p) => p.classList.toggle("sel", p.dataset.id === id));
+  const nextHtml = d.next ? '<div class="next-box"><b>Next:</b> ' + d.next + (d.nextKinds ? '<div style="margin-top:8px">' + kinds(d.nextKinds) + "</div>" : "") + (NEXT[d.id] ? ' <a href="' + NEXT[d.id] + '">Its 2027–28 pages</a>' : "") + "</div>" : "";
+  detail.innerHTML =
+    '<div class="dh">' + flag(d, "bigflag") + '<div><h3>' + d.name + '</h3><span class="tag t-' + d.model + '">' + LABEL[d.model] + "</span></div></div>"
+    + '<dl class="dl"><dt>Standards</dt><dd>' + d.title + '</dd><dt>Adopted</dt><dd class="mono">' + d.year + "</dd>"
+    + (d.notable ? "<dt>Beyond CCSS</dt><dd>" + d.notable + "</dd>" : "")
+    + (d.kinds ? "<dt>Rows</dt><dd>" + kinds(d.kinds) + "</dd>" : "")
+    + (d.enroll ? '<dt>Students</dt><dd class="mono">' + fmt(d.enroll) + " (fall 2023)</dd>" : "") + "</dl>"
+    + nextHtml
+    + '<div class="links">' + (d.site ? '<a href="' + d.site + '"><b>' + (d.id === "GU" ? "Common Core worksheets" : d.name + " worksheets") + " →</b></a>" : "") + (d.doc ? '<a href="' + d.doc + '" rel="noopener">Official standards ↗</a>' : "") + "</div>";
+  if (scroll && innerWidth < 900) detail.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+A.querySelectorAll(".st, .ext, .drow").forEach((el) => {
+  el.addEventListener("click", () => { show(el.dataset.id, true); if (el.classList.contains("drow")) A.querySelector("#map").scrollIntoView({ behavior: "smooth" }); });
+  el.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); el.click(); } });
+});
+A.querySelectorAll(".legend button").forEach((b) => b.addEventListener("click", () => {
+  A.querySelectorAll(".legend button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+  const f = b.dataset.f;
+  A.querySelectorAll(".st").forEach((p) => {
+    const d = byId[p.dataset.id];
+    p.classList.toggle("dim", !(f === "all" || (f === "next" ? !!NEXT[d.id] : d.model === f)));
+  });
+}));
+const start = location.hash.slice(1).toUpperCase();
+show(byId[start] ? start : "TX");
+})();</script>`;
+
+  // Class names the site already uses (the sheets' `.card`, `.stack`, `.stamp`; Tailwind's `ring`)
+  // get an `at-` prefix, in class attributes and in the scoped CSS.
+  const CLASH = /^(card|ring|stack|stamp)$/;
+  const body = body0
+    .replace(/class="([^"]*)"/g, (_, c: string) => `class="${c.split(" ").map((t) => (CLASH.test(t) ? `at-${t}` : t)).join(" ")}"`)
+    .replace(/\.(card|ring|stack|stamp)(?![\w-])/g, ".at-$1")
+    .replace("every row, a new reviewer", "every row, from scratch")
+    // mathness.app's spelling: "color", but its guides say a sheet "practises" a skill.
+    .replace(/\bmodelled\b/g, "modeled").replace(/\bjudgement\b/g, "judgment")
+    .replace(/\bcolour(s|ed)?\b/g, "color$1").replace(/\bColour\b/g, "Color");
+  const out = `// Generated by the us-math-standards skill's scripts/atlas/build.ts --blog (zkmake/skills); rebuild there,
+// don't edit here. The standards atlas as of ${AS_OF}, retold for the blog.
+export const STANDARDS_POST = {
+  slug: ${JSON.stringify(SLUG)},
+  title: "How we matched every state's math standards",
+  about: "How Mathness! gave every state its own worksheet pages: reading each state's standards, mapping 6,006 rows, writing sheets for what states add, and checking each fit.",
+  date: "2026-10-01",
+  body: ${JSON.stringify(body)},
+};
+`;
+  writeFileSync(process.argv[bl + 1], out);
+  // In the app's own format, so a rebuild with no changes leaves no diff.
+  Bun.spawnSync(["npx", "oxfmt", process.argv[bl + 1]], { cwd: dirname(process.argv[bl + 1]) });
+  console.log(`blog module: ${process.argv[bl + 1]} (${(out.length / 1024).toFixed(0)} KB)`);
 }
 console.log(`standards-atlas.html: ${ROWS.length} jurisdictions, ${xwSorted.length} crosswalk bars, ${(html.length / 1024).toFixed(0)} KB`);

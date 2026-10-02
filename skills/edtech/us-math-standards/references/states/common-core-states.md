@@ -6,7 +6,6 @@
 - `apps-web/mathness-app/src/standards/editions.ts`: names, years and notes, audited against primary sources 2026-10-01. Where sources differ, editions.ts wins.
 - `sets.ts` (`editionSet`, `editionGrades`).
 - `publishers.ts`.
-- The Standards Atlas `S` array.
 - Hawaiʻi DOE's 14 May 2026 memo to the Board's Student Achievement Committee, and the Board's 18 June 2026 minutes.
 - California's 2025 adoption Standards Map templates.
 - Puerto Rico's 2022 standards PDF.
@@ -17,11 +16,11 @@ Washington and Hawaiʻi are also in this group for 2026–27, but their next edi
 
 | Jurisdiction (id, page) | Official standards name (editions.ts) | Year | Notes / next |
 | --- | --- | --- | --- |
-| California (`ca`, /california/) | California Common Core State Standards: Mathematics | 2010 | Modified in 2013: two added standards (below) and added wording in a few others. The 2023 Mathematics Framework is guidance, not standards. Atlas gives year 2013. |
+| California (`ca`, /california/) | California Common Core State Standards: Mathematics | 2010 | Modified in 2013: two added standards (below) and added wording in a few others. The 2023 Mathematics Framework is guidance, not standards. |
 | Connecticut (`ct`, /connecticut/) | Connecticut Core Standards for Mathematics | 2010 | Common Core as written. |
-| Delaware (`de`, /delaware/) | Common Core State Standards for Mathematics | 2010 | Common Core as written. Atlas names it "Delaware Mathematics Standards". |
+| Delaware (`de`, /delaware/) | Common Core State Standards for Mathematics | 2010 | Common Core as written. |
 | District of Columbia (`dc`, /washington-dc/) | Common Core State Standards for Mathematics | 2010 | Shown as "Washington, DC". Publisher: Office of the State Superintendent of Education. |
-| DoDEA (`dodea`, /dodea/) | DoDEA College and Career Ready Standards for Mathematics | 2015 | Department of Defense Education Activity schools use Common Core's standards and codes. Badge "DD"; no flag. Atlas: "pre-K included", but Mathness serves DoDEA pre-K with Head Start's goals. |
+| DoDEA (`dodea`, /dodea/) | DoDEA College and Career Ready Standards for Mathematics | 2015 | Department of Defense Education Activity schools use Common Core's standards and codes. Badge "DD"; no flag. Mathness serves DoDEA pre-K with Head Start's goals. |
 | Hawaiʻi (`hi`, /hawaii/) | Hawaiʻi Common Core Standards for Mathematics | 2010 | Revised standards (approved June 2026) switch K–5 in 2027–28; modelled as the crosswalk edition `hi27`, see [hi.md](hi.md). |
 | Idaho (`id`, /idaho/) | Idaho Content Standards: Mathematics | 2022 | Keeps Common Core's codes; some standards rewritten; adds a grade 1 money standard 1.MD.D.5. A review is under way, with recommendations due to the Legislature in 2027. |
 | Illinois (`il`, /illinois/) | Illinois Learning Standards for Mathematics | 2010 | Common Core as written. |
@@ -29,14 +28,12 @@ Washington and Hawaiʻi are also in this group for 2026–27, but their next edi
 | Michigan (`mi`, /michigan/) | Michigan K-12 Standards for Mathematics | 2010 | Common Core as written. HB 4159 is on the watch list. |
 | Nevada (`nv`, /nevada/) | Nevada Academic Content Standards in Mathematics | 2010 | Common Core as written. |
 | New Hampshire (`nh`, /new-hampshire/) | New Hampshire College and Career Ready Standards | 2010 | Common Core as written. |
-| New Mexico (`nm`, /new-mexico/) | New Mexico Common Core Content Standards for Mathematics | 2010 | Common Core as written. Atlas names it "Mathematics Common Core Standards". |
+| New Mexico (`nm`, /new-mexico/) | New Mexico Common Core Content Standards for Mathematics | 2010 | Common Core as written. |
 | Vermont (`vt`, /vermont/) | Common Core State Standards for Mathematics | 2010 | Common Core as written. |
 | Washington (`wa`, /washington/) | Washington State K–12 Learning Standards for Mathematics | 2011 | Common Core as written in 2026–27. WA Math 2026 (`wa27`) is required from 2027–28; see `wa.md`. |
 | Guam (no edition) | Common Core State Standards for Mathematics | not confirmed | Common Core as written. Served by the Common Core pages; no Guam page or set. |
 | Puerto Rico (not covered) | Estándares de Contenido y Expectativas de Grado: Matemáticas | 2022 | Departamento de Educación de Puerto Rico, © July 2022. See "Not covered". |
 | US Virgin Islands (not covered) | Virgin Islands Standards of Achievement: Mathematics | 2021 | Derived from Common Core, but K–5 detail could not be reached. See "Not covered". |
-
-**Name variants:** the Atlas also shortens or varies other names: "CT Core…", "Nevada Academic Content Standards: Mathematics", "NH College and Career Ready Standards: Mathematics", and "Hawaiʻi Common Core State Standards…". Use the editions.ts names.
 
 **Publishers:** listed in `publishers.ts`. The pages and Terms credit them.
 
@@ -88,10 +85,10 @@ California's adoption documents say "California Common Core State Standards for 
   - Elementary: training year 2026–27, compliance year 2027–28.
   - Middle school: training 2027–28, compliance 2028–29.
   - High school: training 2027–28 and 2028–29.
-- **Board vote:** the Board approved the revised K–12 standards unanimously on 18 June 2026, as editions.ts says (General Business Meeting minutes: https://boe.hawaii.gov/wp-content/uploads/gbm_minutes_20260618.pdf). The Atlas still says the final vote is not confirmed.
+- **Board vote:** the Board approved the revised K–12 standards unanimously on 18 June 2026, as editions.ts says (General Business Meeting minutes: https://boe.hawaii.gov/wp-content/uploads/gbm_minutes_20260618.pdf).
 - **Done:** the final text (17 July 2026) is in Mathness as the crosswalk edition `hi27` (150 rows, 2026-10-01); see [hi.md](hi.md).
 
-**Michigan HB 4159.** The Atlas only: a bill that "would require new K–5 standards; not confirmed passed". There is no note in editions.ts. Recheck before acting.
+**Michigan HB 4159.** Passed the House in 2025 and stalled in the Senate ([landscape.md](../landscape.md)); no note in editions.ts. Recheck before acting.
 
 **Idaho review.** Recommendations are due to the Legislature in 2027 (editions.ts).
 
@@ -100,12 +97,9 @@ California's adoption documents say "California Common Core State Standards for 
 - **Puerto Rico:** its standards are its own and written in Spanish.
   - Own codes, e.g. 1.E.14.1.
   - Coins from K, probability from grade 1, and mean, median and mode in grade 5.
-  - Mapping codes alone wouldn't serve Spanish-language classrooms. The Atlas lists "Decide on a Spanish edition" as a separate, larger plan.
+  - Mapping codes alone wouldn't serve Spanish-language classrooms. A Spanish edition is a separate, larger job ([landscape.md](../landscape.md), open items).
 - **US Virgin Islands:** the standards are said to be derived from Common Core, but their K–5 detail could not be reached, so there is nothing to map.
-- **Guam:** uses Common Core as written, so the Common Core pages serve it. No set or page was made, since the adoption year is not confirmed.
 
 ## Uncertain
 
-- **California's year:** 2010 in editions.ts ("modified 2013" in its note), 2013 in the Atlas.
-- **Idaho and Maine:** the Atlas says "Common Core codes" covers states with "wording edits but no added K–5 topics (Idaho, Maine…)", and it calls Maine's additions "little added". editions.ts gives both a grade 1 money standard.
-- **Less certain in the Atlas:** Guam's adoption year, US Virgin Islands detail, Hawaiʻi's final vote (since confirmed by the minutes) and Michigan's bill.
+- **Less certain:** Guam's adoption year, US Virgin Islands detail and Michigan's bill.

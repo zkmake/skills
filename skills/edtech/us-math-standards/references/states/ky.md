@@ -19,7 +19,6 @@ In effect for 2026–27: Kentucky Academic Standards (KAS) for Mathematics, adop
   - The research TSV has one row per sub-part, plus a stem row when the stem has its own text: 269 rows.
   - The app folds sub-parts that equal Common Core into their standard, leaving 226 rows. 77 of them are lettered.
 - Mathness search strips a leading `KY.` from queries.
-- Pre-K: no state pre-K codes are mapped, so pre-K follows Head Start's goals.
 
 ## Against Common Core
 - Research TSV, 269 rows (K 36, 1 40, 2 33, 3 50, 4 61, 5 49): 162 same, 101 edited, 4 moved, 2 new. The app has 226 rows (K 32, 1 36, 2 30, 3 40, 4 53, 5 35).
@@ -74,12 +73,15 @@ In effect for 2026–27: Kentucky Academic Standards (KAS) for Mathematics, adop
   - Florida facts within 10, MA.K.NSO.3.2, for KY.1.OA.6a.
   - 2.MD.D.10 graphs for the grade 1–2 data rows.
 - No sheets were written under a KY code.
-- Fit review: every KY row was fully practised by the last review. KY.4.MD.2c, KY.3.MD.3b, KY.4.OA.3a and KY.1.MD.4b were partial earlier and closed in fit rounds 9–11.
+- Fit review: every KY row was fully practised by the last review. KY.4.MD.2c, KY.3.MD.3b, KY.4.OA.3a and KY.1.MD.4b were partial earlier and closed in passes 9–11.
+
+## Pre-K
+- Not mapped yet: pre-K follows Head Start's goals.
 
 ## Uncertain
 - Classroom start year of the 2019 standards is not recorded in the sources.
 - Replacement timing:
-  - editions.ts and the Standards Atlas say revised standards are "tentatively expected in classrooms in 2027–28", but no draft text has been published.
+  - editions.ts says revised standards are "tentatively expected in classrooms in 2027–28", but no draft text has been published.
   - The KDE timeline grid's year columns were hard to read from the PDF text.
   - Recheck KDE before relying on this set for 2027–28.
 - Equation images in the two-column PDF lose fraction symbols on text extraction. Codes and mappings are unaffected.

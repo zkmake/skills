@@ -78,8 +78,7 @@ No NC-prefixed sheets. The latest fit verdicts leave no partials.
 ## Next edition
 - The State Board adopted new K–12 math standards (Draft 3) on 1 October 2026, without opposition, planned for classrooms in 2028–29. The 2017 SCOS stays in use until then (editions.ts note, checked 2026-10-01).
 - Evidence: news reports (WRAL, 1 Oct 2026: https://www.wral.com/news/education/changes-to-nc-school-math-requirements-standards-vote-october-2026/). No State Board record of the vote was posted as of 2026-10-01; NCDPI's September 2026 bulletin only said action was expected at the October meeting. The 2028–29 start is DPI's tentative timeline (installation 2026–27 and 2027–28).
-- No text, code grammar or Mathness edition exists yet. Add one (e.g. `nc28`) once NCDPI publishes the document.
+- No text, code grammar or Mathness edition exists yet. Build `nc28` once the board's adoption is on record and NCDPI has published the K–5 text (SKILL.md workflow E).
 
 ## Uncertain
-- The adoption is confirmed by news reports but not yet by a State Board record. editions.ts says adopted on 1 Oct 2026; the Standards Atlas row still says "Revision in draft; earliest 2028–29."
-- The Mathness edition name has changed. editions.ts now says "Standard Course of Study for Mathematics"; the Atlas says "Standard Course of Study: Mathematics".
+- The adoption is confirmed by news reports but not yet by a State Board record (editions.ts says adopted on 1 Oct 2026).

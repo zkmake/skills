@@ -15,7 +15,6 @@ In effect for 2026–27: New York State Next Generation Mathematics Learning Sta
 - The `NY-` prefix is part of the official code. Mathness reads the grade and domain from the parts after splitting on `.` and `-`.
 - Lettered sub-parts: the research TSV has 218 rows (stems plus sub-parts). The app folds sub-parts that match Common Core into their standard, which leaves 177 rows. Sub-parts NY carved out on its own stay as rows (`NY-K.OA.2a`, `NY-2.OA.1b`, `NY-4.MD.2b`).
 - Collisions: none with other Mathness sets, because the prefix keeps NY codes unique.
-- Pre-K (prek.ts, from the 2017 NGLS): 14 codes in 4 domains. CC: `NY-PK.CC.1`–`.6`. OA: `NY-PK.OA.1`–`.2`. MD: `NY-PK.MD.1`–`.2`. G: `NY-PK.G.1`–`.4`. Twelve link to Head Start goals (P-MATH n); five link to Maryland pre-K sheets (PK.DS.A.1, PK.DS.A.2, PK.NOS.B.6, PK.GR.A.1, PK.GR.B.5). NY-PK.CC.6 (first/last) links only to Florida MA.K.NSO.1.3; NY-PK.MD.2 only to Maryland sheets.
 
 ## Against Common Core
 - Rows (TSV, K–5): 218, of which 165 same, 45 edited, 5 moved, 3 new. By grade: K 30, 1 27, 2 33, 3 44, 4 44, 5 40.
@@ -61,6 +60,10 @@ The fit review (extra.tsv, 20 links) added further sheets:
 
 No NY-prefixed sheets. The latest fit verdicts leave no partials for NY.
 
+## Pre-K
+- NYS Next Generation Mathematics Learning Standards (2017), pre-K: 14 rows in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ny`), data in `data/prek/ny.tsv` (not in the crosswalk TSV); the rows replace Head Start's 10 goals in this state's set.
+- Source: the P-12 standards PDF under Documents.
+- Codes in 4 domains. CC: `NY-PK.CC.1`–`.6`. OA: `NY-PK.OA.1`–`.2`. MD: `NY-PK.MD.1`–`.2`. G: `NY-PK.G.1`–`.4`. Twelve link to Head Start goals (P-MATH n); five link to Maryland pre-K sheets (PK.DS.A.1, PK.DS.A.2, PK.NOS.B.6, PK.GR.A.1, PK.GR.B.5). NY-PK.CC.6 (first/last) links only to Florida MA.K.NSO.1.3; NY-PK.MD.2 only to Maryland sheets.
+
 ## Uncertain
-- Pre-K rows are not in the TSV. They live only in prek.ts.
 - The moved/new labels on coins, four-digit place value and `NY-3.G.1` are research judgements.

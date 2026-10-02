@@ -81,5 +81,5 @@ In effect for 2026–27: the **Arkansas Mathematics Standards** (2023 K-8, Algeb
 - No sheets were written for Arkansas alone.
 
 ## Uncertain
-- **Name discrepancy:** the document title and the DESE page say "Arkansas Mathematics Standards", as do Mathness's `editions.ts` and this file. The generator's NAMES (so the header comment of `ar.ts`) and the Standards Atlas say "Arkansas Academic Standards for Mathematics".
+- **Name discrepancy:** the document title and the DESE page say "Arkansas Mathematics Standards", as do Mathness's `editions.ts` and this file. The generator's NAMES (so the header comment of `ar.ts`) says "Arkansas Academic Standards for Mathematics".
 - The year the standards reached classrooms is not in the sources.

@@ -16,13 +16,6 @@ In effect for 2026–27: Massachusetts Curriculum Framework for Mathematics, Gra
   - Florida's B.E.S.T. codes start `MA.` (MA.3.NSO.2.4).
   - Mathness also writes Colorado's codes as MA.K.CC.A.1.
   - Mathness search strips `ma.` from queries.
-- Pre-K (prek.ts, `STATE_PREK.ma`, 13 rows). Codes are PK.Domain.Cluster.Number in four domains:
-  - CC (5): PK.CC.A.1 number names, PK.CC.A.2 numerals 0–10, PK.CC.B.3, PK.CC.C.4 counting to 10, PK.CC.C.5 comparing groups.
-  - OA (1): PK.OA.A.1 putting together and taking away, up to 5.
-  - MD (4): PK.MD.A.1–2 measurable attributes, PK.MD.B.3 sorting by more than one feature, PK.MD.C.4 "coins and dollars are money".
-  - G (3): PK.G.A.1 positions, PK.G.A.2 flat shapes, PK.G.B.3 making solids.
-  - Rows list Head Start goals (P-MATH 1–10) as `ccss` and Maryland pre-K sheets (PK.NOS.A.2, PK.DS.A.2, PK.GR.A.1, PK.GR.B.5…) as `from`. PK.MD.B.3, PK.MD.C.4 and PK.G.B.3 have no Head Start goal; four rows have no `from`.
-  - PK.MD.C.4 borrows Maryland's grade 1 coin sheet 1.GR.C.6.
 
 ## Against Common Core
 - 151 K–5 rows (K 22, 1 22, 2 27, 3 25, 4 29, 5 26): 141 same, 7 edited, 2 moved, 1 new. No Common Core K–5 standard is dropped.
@@ -53,8 +46,18 @@ In effect for 2026–27: Massachusetts Curriculum Framework for Mathematics, Gra
 - Rhode Island shares these three OVR entries (RI follows MA 2017).
 - 5 fit-review links in extra.tsv.
 - No sheets were written under an MA code.
-- Fit review, K–5: no partial rows remain. 2.MD.C.8 (dollar-bill stories to $10) was closed in fit round 9.
-- Fit review, pre-K (research notes in prek/ma.tsv):
+- Fit review, K–5: no partial rows remain. 2.MD.C.8 (dollar-bill stories to $10) was closed in pass 9.
+
+## Pre-K
+- 2017 Massachusetts Curriculum Framework for Mathematics, pre-K standards (same document as K–5): 13 rows in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ma`), data in `data/prek/ma.tsv`; the rows replace Head Start's 10 goals in this state's set.
+- Codes are PK.Domain.Cluster.Number in four domains:
+  - CC (5): PK.CC.A.1 number names, PK.CC.A.2 numerals 0–10, PK.CC.B.3, PK.CC.C.4 counting to 10, PK.CC.C.5 comparing groups.
+  - OA (1): PK.OA.A.1 putting together and taking away, up to 5.
+  - MD (4): PK.MD.A.1–2 measurable attributes, PK.MD.B.3 sorting by more than one feature, PK.MD.C.4 "coins and dollars are money".
+  - G (3): PK.G.A.1 positions, PK.G.A.2 flat shapes, PK.G.B.3 making solids.
+  - Rows list Head Start goals (P-MATH 1–10) as `ccss` and Maryland pre-K sheets (PK.NOS.A.2, PK.DS.A.2, PK.GR.A.1, PK.GR.B.5…) as `from`. PK.MD.B.3, PK.MD.C.4 and PK.G.B.3 have no Head Start goal; four rows have no `from`.
+  - PK.MD.C.4 borrows Maryland's grade 1 coin sheet 1.GR.C.6.
+- Fit review (research notes in `data/prek/ma.tsv`):
   - PK.MD.B.3 is partial: the sheets sort by one feature only.
   - PK.G.B.3 is partial: the solids sheet finds cubes, spheres and cylinders but has no building.
 

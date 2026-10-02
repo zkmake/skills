@@ -67,7 +67,7 @@ In effect for 2026–27: New Jersey Student Learning Standards – Mathematics (
   - 5.DL.A.1: Maryland 5.DS.A.1 plus Virginia's line graphs 4.PS.1.
   - 5.DL.A.4: 5.MD.B.2.
   - 3.OA.D.8: Maryland's estimating sums 3.NOS.D.6 plus Virginia's making change 3.NS.4.
-- Fit review: no partial rows remain. 3.OA.D.8 (money in two-step problems) was closed in round 9.
+- Fit review: no partial rows remain. 3.OA.D.8 (money in two-step problems) was closed in pass 9.
 
 ## Pre-K
 - New Jersey Preschool Teaching and Learning Standards (2014), mathematics: 14 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.nj`), data in `data/prek/nj.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
@@ -77,5 +77,5 @@ In effect for 2026–27: New Jersey Student Learning Standards – Mathematics (
 - All 14 link Head Start goals; 7 also link Maryland pre-K sheets. No later-grade borrowing.
 
 ## Uncertain
-- The name varies. The TSV and NJDOE write "New Jersey Student Learning Standards – Mathematics". editions.ts writes "… for Mathematics". The Atlas writes "…Standards–Mathematics".
+- The name varies. The TSV and NJDOE write "New Jersey Student Learning Standards – Mathematics". editions.ts writes "… for Mathematics".
 - The app and the TSV differ in row count only because of folding. The TSV kind counts include the 43 lettered rows (all same); the app has no per-kind count.

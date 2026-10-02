@@ -17,7 +17,9 @@ Everything learned building Mathness (mathness.app), a generated worksheet site 
 - **Home**: the one row a set-only sheet is filed under (its own code), which fixes its grade and place in every set.
 - **Coverage**: a sheet exists for a standard (enforced by a test). **Fit**: the sheets practise what the standard asks at its grade (judged by a reviewer): **good**, **partial** (a named part missing, or only a sheet 2+ grades off), **mismatch**.
 - **Fresh review**: a fit review of every row with no earlier verdicts, the check on drifting incremental reviews.
+- **Pass**: one batch of fit fixes (links, alternatives, sheets) followed by a re-review of only the rows it touched. Mathness numbered its crosswalk passes 1–13; "closed in pass 9" means that pass's re-review found the row good.
 - **Alternative**: an activity offered in place of one of a sheet's sections (the seed picks one), adding coverage without lengthening the page.
+- **gen.py, OVR, NAMES, EXPLICIT, extra.tsv** (named in the state files): Mathness's crosswalk generator; its per-state table of sheets for moved and new rows; its edition titles; its list of states whose rows carry their grade explicitly; and the links fit reviews added, merged at generation. None is in a repo ([mathness.md](references/mathness.md)).
 - **Representation**: what a standard's wording requires beyond its topic: a model, a letter for the unknown, a drawing, an explanation, a unit of measure.
 
 ## Rules for every task
@@ -28,7 +30,7 @@ Everything learned building Mathness (mathness.app), a generated worksheet site 
 4. **Map content, never code shapes.** Tennessee's K.MD.B.3 is coins; many states renumber inside Common Core-shaped codes. Read every row.
 5. **Mark inferred mappings.** Only Maryland among the own sets publishes an official Common Core crosswalk; most states publish none. Where the mapping is your judgement, record it as such and name the source documents with URLs and fetch dates.
 6. **Every standard in every set has a sheet** before you call a set supported, enforced by a test, with no "coming soon".
-7. **Coverage is not fit.** At 100% coverage Mathness's crosswalk rows were 60% good. Fit-review before claiming alignment, and run a fresh review before calling it done.
+7. **Coverage is not fit.** At 100% coverage only 881 of Mathness's 1,479 crosswalk rows that differ from Common Core (60%) were good. Fit-review before claiming alignment, and run a fresh review before calling it done.
 8. **Read each standard's representation.** A symbols-only sheet for a "use a model" or "draw" standard is partial.
 9. **Answers are computed and checked independently**; sheets are black-and-white first and fit one page ([references/worksheet-design.md](references/worksheet-design.md)).
 10. **Name curricula by unit number and title only**, in plain text, with a "not affiliated" note, never on anything that prints.
@@ -52,7 +54,7 @@ Everything learned building Mathness (mathness.app), a generated worksheet site 
 | Competitors and auditing against one | [competitors.md](references/competitors.md) |
 | Researching a state: primary sources, sites that block scripts, mirrors, agent prompts, fact-checking, enrollment data, other countries | [research.md](references/research.md) + [assets/crosswalk-research-prompt.md](assets/crosswalk-research-prompt.md), [assets/fact-check-prompt.md](assets/fact-check-prompt.md) |
 | Every source URL in one place | [sources.md](references/sources.md) |
-| Reusable data: Common Core and the own frameworks with our summaries, 38 research crosswalks, state pre-K maps, curriculum unit maps (TSV) | [data/README.md](data/README.md) |
+| Reusable data: Common Core and the own frameworks with our summaries, the research TSVs behind all 38 crosswalks (33 states + 5 next-year), state pre-K maps, curriculum unit maps (TSV) | [data/README.md](data/README.md) |
 | A visual overview to share with people: map, fit passes, distance from Common Core, topics, curricula, watch list | [standards-atlas.html](standards-atlas.html), rebuilt by `bun scripts/atlas/build.ts` after editing `landscape.md`, the state files or `data/` |
 | Working in the Mathness repo itself, or reusing its code | [mathness.md](references/mathness.md) |
 
@@ -62,7 +64,7 @@ Everything learned building Mathness (mathness.app), a generated worksheet site 
 
 1. Model Common Core K–5 (148 standards, plus Head Start's 10 pre-K goals if you serve pre-K) as the first set, every row with your own summary. Done when the set has 148 rows by grade and domain and a test checks every code's grade and domain.
 2. Give every sheet one stable code and write sheets until every Common Core standard has one, reading each standard's representation. Done when the every-standard-has-a-sheet test passes and each sheet's checks, fit and no-repeat tests pass ([worksheet-design.md](references/worksheet-design.md)).
-3. Add sets in order of reach: the four own sets cover ~21% of US public-school students and need state-only sheets; the 33 crosswalks reach ~53%; Common Core-code editions are nearly free. Done per set when its every-standard test passes.
+3. Add sets in order of reach: the four own sets cover ~21% of US public-school students and need state-only sheets; the 33 crosswalked states reach ~53%; Common Core-code editions are nearly free. Done per set when its every-standard test passes.
 4. Fit-review, close gaps, fresh-review (workflow C).
 
 ### B. Add a state
@@ -71,7 +73,7 @@ Everything learned building Mathness (mathness.app), a generated worksheet site 
 2. Fetch the state's own current documents and the agency page that says whether a revision is adopted or pending; compare with the state file and record anything that changed (date, URL).
 3. Common Core-code state: derive an edition; slot any added standards after the standard they extend. Crosswalk: fill a research TSV from the template, every row, with its header sections ([crosswalk.md](references/crosswalk.md)); validate; generate. Own set: transcribe every row and map carries and partial covers ([frameworks.md](references/frameworks.md), _Mapping a framework_).
 4. Serve rows nothing covers by the gap ladder ([coverage.md](references/coverage.md)), with postal-prefixed codes for crosswalked-state sheets.
-5. Done when: every row has a sheet (test), every cited code is real (test), stored counts match, state pages render with the publisher credit, and a fit review of the rows that differ from Common Core is recorded with its counts.
+5. Done when: every row has a sheet (test), every cited code is real (test), stored counts match, state pages render with the publisher credit, and the rows that differ from Common Core or link another grade's sheet meet workflow C's step 5.
 
 ### C. Fit review and close gaps
 
@@ -88,5 +90,6 @@ Follow [curricula.md](references/curricula.md): pin the edition, find lesson-lev
 ### E. Refresh for a new school year
 
 1. Walk the watch list in [landscape.md](references/landscape.md) and each state agency's standards page; note adoptions, effective dates and new documents.
-2. Add newly adopted standards as next-year editions beside the current ones (workflow B); retire an edition once its successor is in classrooms.
-3. Update `landscape.md`, the state files and their dates. Done when every jurisdiction's row says which set is in effect this year and where next year's stands.
+2. Add newly adopted standards as a next-year edition beside the current one, only once the board's adoption is on record and the agency has published the K–5 text. Id `<postal><yy>`, where yy is the first school year required (`nc28` for 2028–29); research file `<postal><yy>.tsv`; a `starts` year; its own URL named for the school year (`/north-carolina-2028-29/`); the two state hubs link each other ([crosswalk.md](references/crosswalk.md) §4, [state-pages.md](references/state-pages.md)). Done when it passes workflow B.
+3. Retire an edition once its successor is in classrooms.
+4. Update `landscape.md`, the state files and their dates. Done when every jurisdiction's row says which set is in effect this year and where next year's stands.

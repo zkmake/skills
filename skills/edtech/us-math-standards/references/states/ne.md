@@ -77,7 +77,7 @@ In effect for 2026–27: Nebraska's College and Career Ready Standards for Mathe
   - 1.G.1.c serves from 4.G.A.1 (lines and rays) and 1.G.A.1.
   - 33 extra.tsv lines.
 - No sheets were written under an NE code.
-- Fit review: no partial rows remain. 1.N.2.b, 1.N.5.d, 1.G.1.c, 2.N.1.a, 4.N.2.a, 4.G.2.b and K.N.2.h, partial in the fresh full review, were closed in rounds 8–11.
+- Fit review: no partial rows remain. 1.N.2.b, 1.N.5.d, 1.G.1.c, 2.N.1.a, 4.N.2.a, 4.G.2.b and K.N.2.h, partial in the fresh full review, were closed in passes 8–11.
   - Minor note left on K.N.2.h: more/fewer groups stay 2–9, and groups of 11–20 appear only in "The same?".
 
 ## Uncertain

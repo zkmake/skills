@@ -1,6 +1,6 @@
 # Building a state crosswalk
 
-A **crosswalk** maps every K–5 standard of one state, in the state's own code, to the Common Core codes it **carries** and the sheets for anything it **moved or added**. It lets one skill catalogue serve a state without writing a new set from scratch. Mathness built 38 (33 states plus five next-year editions), all of them on 2026-10-01: 6,006 rows. Of the first 37 crosswalks' 5,856 rows, 1,479 differ from Common Core or link another grade's sheet. Research files: one TSV per state with a long comment header, turned into data by a generator.
+A **crosswalk** maps every K–5 standard of one state, in the state's own code, to the Common Core codes it **carries** and the sheets for anything it **moved or added**. It lets one skill catalogue serve a state without writing a new set from scratch. Mathness built 38 (33 states plus five next-year editions), all of them on 2026-10-01: 6,006 rows in the app, after lettered sub-parts that restate Common Core were folded. Of the first 37 crosswalks' 5,856 app rows, 1,479 differ from Common Core or link another grade's sheet. Research files: one TSV per state, its rows followed by a long `#` comment block, turned into data by a generator.
 
 ## 1. Research the state (the TSV)
 
@@ -14,9 +14,9 @@ Start from [assets/crosswalk-template.tsv](../assets/crosswalk-template.tsv). On
 | `kind` | `same` (Common Core's standard, any wording), `edited` (same standard, changed scope or detail), `moved` (Common Core content from another grade, or split/merged), `new` (no Common Core match) |
 | `summary` | your own plain-language summary; required unless `same` |
 
-Those 37 crosswalks' research files had 4,546 `same`, 998 `edited`, 246 `moved`, 234 `new` rows.
+Those 37 crosswalks' research files had 6,024 rows before folding: 4,546 `same`, 998 `edited`, 246 `moved`, 234 `new`.
 
-The comment header is where the research lives. Keep these sections in every file; future maintainers depend on them:
+The comment block (`#` lines after the rows) is where the research lives. Keep these sections in every file; future maintainers depend on them:
 
 - **SOURCES (fetched YYYY-MM-DD)**: every document with its exact URL, publisher, adoption and implementation dates, and the agency page that says whether a revision is pending. Note mirrors and why (several agency sites, such as azed.gov, return a Cloudflare 403 to scripts; read the same PDF through a `https://web.archive.org/web/<timestamp>id_/<url>` copy).
 - **Whether an official crosswalk exists.** Most states publish none (Oklahoma repealed Common Core in 2014 and publishes no crosswalk; Tennessee, Minnesota and South Dakota publish none). Then say plainly: "every ccss/kind value here is a judgement against the CCSS K–5 text."
@@ -55,11 +55,11 @@ In order: link an existing sheet that truly fits (any set's) → add an activity
 ## 4. Editions
 
 - **Common Core in the state's own codes or name** (15 in Mathness: Connecticut, Delaware, DC, Illinois, Nevada, New Hampshire, New Mexico, Vermont, Hawaiʻi, Idaho, Maine, California, Michigan, Washington's current set, DoDEA): derive the set from Common Core's; slot any added standard after the one it extends and serve it from an existing sheet (California 2.NBT.7.1 → an estimation sheet; 5.OA.2.1 prime factors → a prime factorisation sheet). See [states/common-core-states.md](states/common-core-states.md).
-- **Crosswalked** (38): the rows above, loaded on demand (an app shouldn't download 37 states to use one; store each edition's row count for pickers before it loads).
+- **Crosswalked** (38): the rows above, loaded on demand (an app shouldn't download 38 editions to use one; store each edition's row count for pickers before it loads).
 - **Next school year's standards** as a separate edition beside the current one, with a `starts` year, its own URL (`/washington-2027-28/`), and hubs linking each other, so teachers can plan ahead. In Mathness as of 2026-10-01: Washington (WA Math 2026), South Dakota (2026), Louisiana (2025 revision), Minnesota (2022) and Hawaiʻi (revision approved June 2026), all required from 2027–28.
 
 ## 5. Verify
 
-Tests: every row's codes are real (Common Core, Head Start, or some skill's own code); every row has a sheet; stored counts match; every state page's links and anchors land. Then fit-review the rows that differ from Common Core or link another grade's sheet ([fit-review.md](fit-review.md)). Rows identical to Common Core inherit its sheets; Mathness never fit-reviewed its ~4,377 `same` rows separately, which is fine only if the Common Core sheets themselves have been reviewed.
+Tests: every row's codes are real (Common Core, Head Start, or some skill's own code); every row has a sheet; stored counts match; every state page's links and anchors land. Then fit-review the rows that differ from Common Core or link another grade's sheet ([fit-review.md](fit-review.md)). Rows identical to Common Core inherit its sheets; Mathness never fit-reviewed the other 4,377 of its 5,856 app rows separately, which is fine only if the Common Core sheets themselves have been reviewed.
 
-Keep the TSVs, the generator, the override and extra-link tables, and the fit-review dump script **in the repo**. Mathness kept them in a session scratchpad, so regenerating a crosswalk today means recovering them from there.
+Keep the TSVs, the generator, the override and extra-link tables, and the fit-review dump script **in the repo**. The TSVs ship in this skill's `data/crosswalks/`; Mathness's generator, tables and dump script were never committed ([mathness.md](mathness.md)).

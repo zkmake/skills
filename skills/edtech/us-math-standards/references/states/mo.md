@@ -79,7 +79,7 @@ In effect for 2026–27: Missouri Learning Standards: Mathematics, Grade-Level E
   - Fives: 2.NBT.A.2 plus Texas 1.5B.
 - 42 rows carry `from` sheets, with 46 extra.tsv lines from the fit review.
 - No sheets were written under an MO code.
-- Fit review: no partial rows remain. 1.NBT.B.7, 2.GM.D.13, 2.DS.A.4–5, 3.GM.B.5 and 3.GM.B.8, partial or off in the fresh full review, were closed in rounds 8–10.
+- Fit review: no partial rows remain. 1.NBT.B.7, 2.GM.D.13, 2.DS.A.4–5, 3.GM.B.5 and 3.GM.B.8, partial or off in the fresh full review, were closed in passes 8–10.
 
 ## Uncertain
 - The many "edited" rows are our own judgment. A Missouri expectation that restates one Common Core sub-part is "same"; one that splits a Common Core sentence or changes its scope is "edited".

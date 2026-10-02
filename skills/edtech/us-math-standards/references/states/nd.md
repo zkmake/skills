@@ -85,4 +85,3 @@ No ND-prefixed sheets. The latest fit verdicts leave no partials.
 - Name variants:
   - editions.ts: "North Dakota Mathematics Content Standards K–12".
   - gen.py header: "North Dakota Mathematics K-12 Standards (2023, revised June 2024)".
-  - Atlas: "North Dakota Mathematics K–12 Standards".

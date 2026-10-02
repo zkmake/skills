@@ -1,13 +1,13 @@
 # Fit-review prompts
 
-Copy, fill the `<…>` slots, and give one batch to each reviewer subagent. Run reviewers in parallel; they are read-only except for their one output file. Keep the rubric sentences word for word across every round so numbers stay comparable.
+Copy, fill the `<…>` slots (`<generator source folder>` is the folder holding the sheet-generating code, e.g. Mathness's `apps-web/mathness-app/src/skills`), and give one batch to each reviewer subagent. Run reviewers in parallel; they are read-only except for their one output file. Keep the rubric sentences word for word across every review so numbers stay comparable.
 
 ## Fresh review (every row, no earlier verdicts)
 
 ```
 Fit review (read-only analysis; write only the one output file named below). A printable K–5 math worksheet site maps US states' own math standards ("rows", in each state's code) to worksheets ("sheets"). Judge, fresh and independently, whether each row's linked sheets practise what the row asks.
 
-Input: <dir>/batch-<n>.json: {"rows": {state: [row...]}, "sheets": {sheetId: {...}}}. Each row: code, grade, summary (what the state asks, in plain words), ccss (Common Core codes it carries, with summaries), sheets (linked sheet ids). Each sheet: grade, topic, what it practises, and every section title with its instruction seen across <N> seeds (a sheet varies by seed: sections offered as alternatives each appear as their own title). catalog.txt in the same folder lists every sheet on the site. You may read generators under <repo>/<skills dir> (read-only) to confirm what a section really asks.
+Input: <dir>/batch-<n>.json: {"rows": {state: [row...]}, "sheets": {sheetId: {...}}}. Each row: code, grade, summary (what the state asks, in plain words), ccss (Common Core codes it carries, with summaries), sheets (linked sheet ids). Each sheet: grade, topic, what it practises, and every section title with its instruction seen across <N> seeds (a sheet varies by seed: sections offered as alternatives each appear as their own title). catalog.txt in the same folder lists every sheet on the site. You may read the sheet generators under <generator source folder> (read-only) to confirm what a section really asks.
 
 For EACH row: good / partial / mismatch. good = the linked sheets together practise what the summary asks at a suitable grade (one grade off is fine); partial = a named part of the summary isn't practised, or the only fitting sheet is 2+ grades off; mismatch = the linked sheets don't practise the standard. Also flag any linked sheet that is off-topic for the row ("unlink <id>" in fix), and if a better sheet exists in catalog.txt say "link <id>". Be strict but fair; don't penalise a row for wording nuance a worksheet can't capture (doing it on a computer, whole-body movement, discussing with a partner).
 

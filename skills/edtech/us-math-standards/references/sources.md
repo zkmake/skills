@@ -29,6 +29,7 @@ Every document the Mathness research relied on, as fetched 2026-09-28 to 10-01. 
 - TEKS review pages: https://tea.texas.gov/academics/curriculum-standards/teks-review/mathematics-texas-essential-knowledge-and-skills · https://tea.texas.gov/academics/curriculum-standards/teks-review/teks-review-and-revision
 - SBOE review timeline (next math review ~2030–32): https://tea.texas.gov/sites/default/files/documents/sboe-teks-imra-timelines-approved-112224-1.pdf
 - Prekindergarten Guidelines (2022; review comment period Sep 2026): https://tea.texas.gov/educators/early-childhood-education/educator-resources/texas-prekindergarten-guidelines
+- Copyright and terms of service (checked 2026-10-02): https://tea.texas.gov/about-tea/welcome-and-overview/site-policies#copyright
 - Instructional materials (IMRA): https://sboe.texas.gov/state-board-of-education/imra/current-cycle-imra-2025/k-12-mathematics-materials-imra-2025
 
 ## Florida (B.E.S.T., FLDOE)

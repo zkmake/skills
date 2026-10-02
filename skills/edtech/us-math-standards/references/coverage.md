@@ -27,6 +27,7 @@ A standard whose sheets don't practise what it asks has a gap (found by a fit re
    - **State-only sheet**: content only one state asks for (Texas personal financial literacy, Maryland misleading graphs). File it under that state's code; it shows only in that state's browse until other sets cite it.
    - **Crosswalked-state sheet**: file it under the state's code **with the postal prefix** (`OK.5.GM.1.3`); the prefix must equal the edition id, and the suffix the row's own code, so the sheet finds its home row and loads that state's data first.
    - A set may restrict what its rows cite: Mathness's Maryland rows cite Common Core codes only, so Maryland's in-scope gaps were filled *on the Common Core sheets* as alternatives, and out-of-scope content got Maryland-only sheets.
+   - **Fewer grades**: a product serving fewer grades writes a sheet for any row whose sheets sit outside its grades, filed under the row's own code (Florida's grade 2 rounding row MA.2.NSO.1.4 is served in Mathness by grade 3's 3.NBT.A.1; a K–2 product files its own rounding sheet under MA.2.NSO.1.4).
 6. **Promote state work onto the Common Core sheets** wherever it fits: most visitors use Common Core and never see a state-only sheet.
 
 ## Tests that keep it honest

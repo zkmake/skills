@@ -68,5 +68,5 @@ In effect for 2026–27: the 2025 Mississippi College- and Career-Readiness Stan
 - 16 rows link Head Start goals, 7 link Maryland pre-K sheets; M.OA.PK4.3 → PK.NOS.D.10 and M.MD.PK4.3 → PK.DS.A.1 only. No later-grade borrowing.
 
 ## Uncertain
-- Year stamps disagree. editions.ts (year "2025") and the ms.ts header ("2025 …") are right for 2026–27. gen.py `NAMES` ("…(2016)") and the Standards Atlas row (2016) are stale.
+- Year stamps disagree. editions.ts (year "2025") and the ms.ts header ("2025 …") are right for 2026–27. gen.py `NAMES` ("…(2016)") is stale.
 - The Board's adoption date for the 2025 set is not recorded in the sources, only the required year, 2025–26.

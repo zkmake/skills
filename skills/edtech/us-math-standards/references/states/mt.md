@@ -69,7 +69,7 @@ In effect for 2026–27: the Montana Mathematics Content Standards. OPI's docume
 ## Uncertain
 - Year stamps disagree:
   - editions.ts says year "2025", the adoption year.
-  - mt.ts's header, gen.py `NAMES` and the Standards Atlas say 2026, the "Montana Mathematics Content Standards (2026)".
+  - mt.ts's header and gen.py `NAMES` say 2026, the "Montana Mathematics Content Standards (2026)".
   - OPI's own phrasing is "Adopted 2025, Implemented 2026".
 - Errors in Appendix A:
   - MT.K.CC.4 is listed as "CCSS.K.CC.B.1 and K.CC.B.1.c". No such codes exist; K.CC.B.4/4c is meant.

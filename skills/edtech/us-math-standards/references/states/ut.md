@@ -43,10 +43,9 @@ In effect for 2026–27: Utah Core Standards for Mathematics (adopted August 201
 ## Uncertain
 - The adoption date of the revision is uncertain:
   - USBE's October 2025 timeline estimates adoption in 2026–27 and implementation in 2027–28.
-  - The Atlas says "expected for 2027–28; not adopted yet (grades 3–5 still with the board)".
   - editions.ts says no adoption date is set.
 - The year differs across sources:
   - The PDF says adopted August 2010, revised April 2016.
   - The USBE page says the K–12 standards were adopted January 2016.
   - Mathness uses 2016.
-- Name: the PDF title says "Utah Core State Standards"; editions.ts and the Atlas say "Utah Core Standards for Mathematics".
+- Name: the PDF title says "Utah Core State Standards"; editions.ts says "Utah Core Standards for Mathematics".

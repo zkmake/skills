@@ -30,12 +30,6 @@ In effect for 2026–27: the **Colorado Academic Standards: Mathematics**, which
 - GLE names are exactly CCSS's cluster headings. Mathematical Practices, Colorado Essential Skills, inquiry questions and coherence connections are supporting text and are skipped.
 - Rows by grade: K 22, 1 21, 2 26, 3 25, 4 28, 5 26.
 
-### Pre-K (prek.ts, `STATE_PREK.co`, 25 rows)
-- Preschool learning and development expectations (LDEs) are coded `MA.P.<domain>.<letter>`, such as MA.P.CC.A. CDE numbers indicators of progress **continuously through each domain**, not restarting at each LDE.
-- Mathness writes `P.<domain>.<letter>.<indicator>`, with no `MA.`: P.CC.A.1, P.CC.B.2, P.CC.E.10, P.OA.B.6, P.MD.A.3, P.G.B.6. The LDE letter is followed by the domain-wide indicator number.
-- Domains: CC Counting & Cardinality (10), OA Operations & Algebraic Thinking (6), MD Measurement & Data (3), G Geometry (6).
-- Rows link Head Start goals (P-MATH n), Maryland pre-K codes, or both; P.CC.C.6 and P.OA.A.3 have only Maryland codes. Two rows borrow from later grades: P.CC.D.8 (ordinals first to fifth) borrows Florida's K sheet MA.K.NSO.1.3, and P.MD.A.3 (measure with repeated units) borrows 1.MD.A.2.
-
 ## Against Common Core
 - 148 rows: 148 same. No CCSS K–5 standard is dropped and nothing is added.
 - Wording edits only. "Understand" becomes "Describe" or "Explain" in 3.NF.A.1–2, 3.G.A.1, 4.NBT.A.1 and 5.G.B.3; "Apply" appears in K.CC.B.4 and "Model" in 5.MD.C.5a; CCSS footnotes are moved inline.
@@ -44,7 +38,13 @@ In effect for 2026–27: the **Colorado Academic Standards: Mathematics**, which
 ## Sheets for state content
 - None needed. OVR is empty, there are no extra links, and Common Core's sheets serve every row.
 
+## Pre-K
+- 2020 Colorado Academic Standards: Mathematics, preschool expectations (same documents as K–5): 25 rows in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.co`), data in `data/prek/co.tsv`; the rows replace Head Start's 10 goals in this state's set.
+- Preschool learning and development expectations (LDEs) are coded `MA.P.<domain>.<letter>`, such as MA.P.CC.A. CDE numbers indicators of progress **continuously through each domain**, not restarting at each LDE.
+- Mathness writes `P.<domain>.<letter>.<indicator>`, with no `MA.`: P.CC.A.1, P.CC.B.2, P.CC.E.10, P.OA.B.6, P.MD.A.3, P.G.B.6. The LDE letter is followed by the domain-wide indicator number.
+- Domains: CC Counting & Cardinality (10), OA Operations & Algebraic Thinking (6), MD Measurement & Data (3), G Geometry (6).
+- Rows link Head Start goals (P-MATH n), Maryland pre-K codes, or both; P.CC.C.6 and P.OA.A.3 have only Maryland codes. Two rows borrow from later grades: P.CC.D.8 (ordinals first to fifth) borrows Florida's K sheet MA.K.NSO.1.3, and P.MD.A.3 (measure with repeated units) borrows 1.MD.A.2.
+
 ## Uncertain
-- **Discrepancy:** the Standards Atlas row says "personal financial literacy inside math". The research and the 2020 documents find no financial literacy outcomes in K–5 math. Trust the research.
 - The `MA.<grade>.<domain>.<cluster>.<EO>` and `P.<domain>.<letter>.<n>` code strings are Mathness constructions, not printed by CDE.
 - K–5 uses the `MA.` prefix but pre-K drops it. The inconsistency is Mathness's, not CDE's.

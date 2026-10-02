@@ -25,12 +25,6 @@ In effect for 2026–27: PA Core Standards for Mathematics (published in the Pen
 - Typo: the 2014 PDF prints `C.2.3.4.A.2`.
 - The finer PSSA Eligible Content codes (e.g. `M03.A-T.1.1.1`, grades 3–8) are assessment limits, not standards, and are not rows.
 - The Standards for Mathematical Practice are skipped.
-- Pre-K (prek.ts): 8 codes.
-  - `CC.2.1.PreK.A.1`–`A.3`.
-  - `CC.2.2.PreK.A.1`.
-  - `CC.2.3.PreK.A.1`–`A.2`.
-  - `CC.2.4.PreK.A.1`, `CC.2.4.PreK.A.4`.
-  - Domains NO, AC, G, MDP. Seven link to Head Start goals and seven to Maryland pre-K sheets.
 
 ## Against Common Core
 - Rows: 73, of which 68 same, 2 edited, 3 moved. By grade: K 9, 1 10, 2 13, 3 14, 4 15, 5 12.
@@ -59,6 +53,15 @@ In effect for 2026–27: PA Core Standards for Mathematics (published in the Pen
   - Tally charts in `CC.2.4.3.A.4` → Texas `3.8A`.
   - Maryland `4.DS.A.1` on the grade 5 data row.
 - No PA-prefixed sheets. The latest fit verdicts leave no partials.
+
+## Pre-K
+- PA Core Standards for Mathematics, PreK standards (same documents as K–5): 8 rows in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.pa`), data in `data/prek/pa.tsv`; the rows replace Head Start's 10 goals in this state's set.
+- Codes:
+  - `CC.2.1.PreK.A.1`–`A.3`.
+  - `CC.2.2.PreK.A.1`.
+  - `CC.2.3.PreK.A.1`–`A.2`.
+  - `CC.2.4.PreK.A.1`, `CC.2.4.PreK.A.4`.
+  - Domains NO, AC, G, MDP. Seven link to Head Start goals and seven to Maryland pre-K sheets.
 
 ## Uncertain
 - The mappings are not official, because no current crosswalk exists.

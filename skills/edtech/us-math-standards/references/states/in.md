@@ -79,7 +79,7 @@ In effect for 2026–27: the **Indiana Academic Standards for Mathematics**, ado
   - Data: 5.DA.2 → 5.PS.2 (Virginia mean, median, mode).
 - Sheet written for Indiana: **IN.5.NS.4 "Percents as parts of 100"** (grade 5, `percents` in `#skills/states-editions.ts`), with percents on hundredths grids.
 - extra.tsv adds about 50 more fit-review links. Examples: 1.M.1 + K.MD.A.1/K.MD.A.2; 3.CA.3 + 3.MD.C.6 and 3.OA.B.5; 5.DA.1 + NJ.4.DL.A.2 (New Jersey data planning); 5.G.1 + 5.G.B.3 and 4.G.A.2; 4.NS.5 + 5.NS.1.
-- In the full review, several Indiana rows were partial (1.CA.1, 1.M.1, 2.M.1, 3.CA.3, 4.M.3, 5.CA.6, 5.CA.8, K.NS.2, K.NS.6, 5.NS.2). The last one, 5.NS.2 (part of a set at grades 4–5), was rated good in the thirteenth pass (fit13) after a part-of-a-set section was added to its linked sheet `fraction-as-division`. None remain.
+- In the full review, several Indiana rows were partial (1.CA.1, 1.M.1, 2.M.1, 3.CA.3, 4.M.3, 5.CA.6, 5.CA.8, K.NS.2, K.NS.6, 5.NS.2). The last one, 5.NS.2 (part of a set at grades 4–5), was rated good in pass 13 after a part-of-a-set section was added to its linked sheet `fraction-as-division`. None remain.
 
 ## Uncertain
 - The research had no CCSS match for 2.G.2, 4.G.1 or 4.M.1, so they're kept as new.

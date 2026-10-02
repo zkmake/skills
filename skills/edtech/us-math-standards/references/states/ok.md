@@ -20,12 +20,6 @@ In effect for 2026–27: Oklahoma Academic Standards for Mathematics (OAS-M), da
 - Skipped: the Mathematical Actions and Processes (MAPs).
 - Typo: the PDF prints `3.GM 1.1` for 3.GM.1.1.
 - Collisions: no exact matches with other Mathness sets. Do not confuse OK codes with Nebraska's lettered `K.N.1.a`.
-- Pre-K (prek.ts, OAS-M 2022): 16 objectives.
-  - N: `PK.N.1.1`–`1.3`, `PK.N.2.1`–`2.4`, `PK.N.3.1`.
-  - A: `PK.A.1.1`–`1.2`.
-  - GM: `PK.GM.1.1`, `PK.GM.2.1`–`2.3`.
-  - D: `PK.D.1.1`–`1.2`.
-  - Most link to Head Start goals, and eight to Maryland pre-K sheets; `PK.D.1.1`–`1.2` link only to Maryland sheets. `PK.N.1.3` (zero) borrows K.CC.A.3.
 
 ## Against Common Core
 - Rows: 203, of which 46 same, 93 edited, 39 moved, 25 new.
@@ -88,10 +82,18 @@ Sheets written for Oklahoma (skills/states-editions.ts), filed with the postal p
 
 The fit review added 101 lines of links (extra.tsv).
 
-The last partial, `5.N.3.2` (mixed numbers with models; fit13), was closed by the "Mixed numbers on bars" alternative (commit 84439010); fit14 marks it good. The latest fit verdicts leave no partials.
+The last partial, `5.N.3.2` (mixed numbers with models, still partial after pass 13), was closed by the "Mixed numbers on bars" alternative (commit 84439010); the follow-up re-review found it good. The latest fit verdicts leave no partials.
+
+## Pre-K
+- Oklahoma Academic Standards for Mathematics (2022), pre-K objectives (same PDF as K–5): 16 rows in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ok`), data in `data/prek/ok.tsv`; the rows replace Head Start's 10 goals in this state's set.
+- Codes:
+  - N: `PK.N.1.1`–`1.3`, `PK.N.2.1`–`2.4`, `PK.N.3.1`.
+  - A: `PK.A.1.1`–`1.2`.
+  - GM: `PK.GM.1.1`, `PK.GM.2.1`–`2.3`.
+  - D: `PK.D.1.1`–`1.2`.
+  - Most link to Head Start goals, and eight to Maryland pre-K sheets; `PK.D.1.1`–`1.2` link only to Maryland sheets. `PK.N.1.3` (zero) borrows K.CC.A.3.
 
 ## Uncertain
 - Every CCSS mapping is a judgement; there is no official crosswalk.
 - `5.N.1.4` partly matches 7.NS.A.2d.
 - `5.GM.2.2` and `5.GM.3.2` are mapped only loosely.
-- The Atlas says "coins K–3", but the crosswalk also has grade 4 coin objectives (`4.N.4.1`, `4.N.4.2`).

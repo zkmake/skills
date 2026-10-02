@@ -1,6 +1,6 @@
 # Fact-check prompt: what the product says about each state
 
-Run after building or refreshing sets, and yearly. Export what the product prints about every set to a JSON file (keyed by set id: name, short name, official title, year, notes, next-edition start, added standards, pre-K framework name and year, whether it has a crosswalk), split the ids into ~6 batches, and give one batch to each subagent. Mathness's 2026-10-01 audit with a prompt like this corrected 26 of its 57 sets and found a same-day adoption (North Carolina).
+Run after building or refreshing sets, and yearly. Export what the product prints about every set to a JSON file (keyed by set id: name, short name, official title, year, notes, next-edition start, added standards, pre-K framework name and year, whether it has a crosswalk), split the ids into ~6 batches, and give one batch to each subagent. Mathness's 2026-10-01 audit with a prompt like this corrected 26 of its 57 sets (57 before Hawaiʻi 2027–28 was added) and found a same-day adoption (North Carolina).
 
 ```
 You are fact-checking how a free K–5 math worksheet site names and describes US state math standards. Accuracy must be 100%. Do NOT edit any files.

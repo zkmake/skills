@@ -35,7 +35,7 @@ How to get a state's standards right the first time: which sources count, how to
 
 - One research agent per 3–5 states, writing one TSV per state into a scratch folder: [assets/crosswalk-research-prompt.md](../assets/crosswalk-research-prompt.md).
 - Then validate every TSV with a script (codes, kinds, summaries, dropped list; [crosswalk.md](crosswalk.md)), generate, test.
-- Then a fact-check round on what the product *says* about each state (title, short name, adoption year, notes, next edition, publisher), in parallel batches against primary sources: [assets/fact-check-prompt.md](../assets/fact-check-prompt.md). Mathness's audit corrected 26 of its 57 sets the same day.
+- Then a fact-check round on what the product *says* about each state (title, short name, adoption year, notes, next edition, publisher), in parallel batches against primary sources: [assets/fact-check-prompt.md](../assets/fact-check-prompt.md). Mathness's audit corrected 26 of its 57 sets the same day (57 before Hawaiʻi 2027–28 was added).
 - Keep every TSV, script and downloaded document in the repo or a durable folder: a session scratchpad under `/tmp` doesn't survive.
 
 ## Data worth having

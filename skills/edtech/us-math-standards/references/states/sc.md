@@ -90,7 +90,6 @@ No SC-prefixed sheets. The latest fit verdicts leave no partials. An earlier pas
 ## Uncertain
 - The year differs by source:
   - editions.ts shows 2023 (the adoption year).
-  - The Atlas row shows 2025 (the standards' name).
   - gen.py NAMES says "2025; in classrooms since 2025-26".
-  - All three fit "adopted Dec 2023, named 2025, taught from 2025–26".
+  - Both fit "adopted Dec 2023, named 2025, taught from 2025–26".
 - `5.MGSR.2.2` (eighth inch) and `5.DPSR.1.2/1.3` (line and circle graphs) link to 5.MD.B.2 only loosely.

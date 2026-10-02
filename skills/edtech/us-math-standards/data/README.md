@@ -12,14 +12,14 @@ Exported from Mathness's `src/standards/*.ts` at 2026-10-01.
 | `tx.tsv`, `fl.tsv`, `va.tsv` | 246 / 184 / 72 K–5 + Head Start's 10 pre-K | `code grade strand strand_name summary ccss_carried ccss_partly_or_moved other_set_codes` |
 | `md.tsv` | 156 K–5 + Maryland's own 20 pre-K | same |
 
-`ccss_carried`: Common Core codes (or Head Start goals) whose content the row carries, possibly from another grade. `ccss_partly_or_moved`: codes that only partly cover the row (Texas, Florida, Virginia) or were moved or split into it (Maryland). `other_set_codes`: codes of another set's standard that Mathness used to serve the row (e.g. Maryland `K.NOS.A.3` for Texas's counting back); a row with no Common Core code is content Common Core lacks. Mappings for Texas, Florida and Virginia are our judgement (no official crosswalk exists); Maryland's come from MSDE's crosswalks.
+`ccss_carried`: Common Core codes (or Head Start goals) whose content the row carries, possibly from another grade. `ccss_partly_or_moved`: codes that only partly cover the row (Texas, Florida, Virginia) or were moved or split into it (Maryland). `other_set_codes`: Mathness sheet ids from other sets (mostly Texas's and Maryland's, some Virginia's and Florida's) that serve the row (e.g. Maryland `K.NOS.A.3` for Texas's counting back); a product without those sets writes that sheet itself, filed under the row's own code; a row with no Common Core code is content Common Core lacks. Mappings for Texas, Florida and Virginia are our judgement (no official crosswalk exists); Maryland's come from MSDE's crosswalks.
 
 ## `crosswalks/`
 
-The research files themselves, one per state, as the research agents wrote them on 2026-10-01 (`hi27.tsv` derived from Mathness's data the same night). Each opens with a `#` comment block: sources with URLs and dates, how codes are written, Common Core standards the state dropped, its additions, and judgement calls. Columns: `state_code grade ccss kind summary` ([../references/crosswalk.md](../references/crosswalk.md)).
+The research files themselves, one per state, as the research agents wrote them on 2026-10-01 (`hi27.tsv` derived from Mathness's data the same night). Each lists its rows first and ends with a `#` comment block: sources with URLs and dates, how codes are written, Common Core standards the state dropped, its additions, and judgement calls (`hi27.tsv` has a short block at the top instead). Columns: `state_code grade ccss kind summary` ([../references/crosswalk.md](../references/crosswalk.md)).
 
 - 33 states plus next-year editions `la27`, `mn27`, `sd27`, `wa27`, `hi27`.
-- New York, North Carolina, Ohio, Kentucky and New Jersey keep lettered sub-parts as rows here; Mathness folds the ones identical to Common Core.
+- New York, Ohio, Kentucky and New Jersey keep lettered sub-parts as rows here; Mathness folds the ones identical to Common Core.
 - Mathness's generated `src/standards/states/<st>.ts` is the final form: it adds the sheets that serve moved and new rows and fit-review links (product-specific), and corrects a few names and years after a 2026-10-01 audit (the state files in `../references/states/` carry the corrected facts).
 
 ## `prek/`

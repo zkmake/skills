@@ -77,4 +77,4 @@
 - **Same vs edited** is our judgment from comparing Common Core text (Crosswalk tab, column C) with the WA Word doc.
 - **Partial overlaps not in the ccss column** (OSPI marks them NA): M.1.DA.DS.3 ~ 1.MD.C.4, M.2.DA.DS.2 ~ 2.MD.D.10, M.3.DA.DS.3 ~ 3.MD.B.3.
 - **Text differences:** in about 25 rows the Crosswalk tab's WA text differs slightly from the Word doc and the K–8 tab (typos, an omitted example, word order). Codes agree everywhere.
-- **Current edition's name:** editions.ts uses "Washington State K–12 Learning Standards for Mathematics" (2011) for both editions. The Atlas writes "Washington K–12 Learning Standards for Mathematics". gen.py calls the new one "WA Math 2026".
+- **Current edition's name:** editions.ts uses "Washington State K–12 Learning Standards for Mathematics" (2011) for both editions. gen.py calls the new one "WA Math 2026".

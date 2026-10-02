@@ -84,7 +84,6 @@ In effect for 2026–27: Tennessee Math Standards, called "Tennessee Academic St
 - 17 rows link Head Start goals, 9 link other sheets. PK.OA.A.3 → PK.NOS.D.10; PK.OA.A.4 → PK.AT.A.2; PK.MD.B.3 (coins) borrows 1.GR.C.6 and K.9D; PK.MD.C.4 → PK.DS.A.1, PK.DS.A.2.
 
 ## Uncertain
-- The Atlas lists "Tennessee's grade 3 place value" (3.NBT.A.4, numbers to 100,000) as less certain.
-- The Atlas says a standards review began in 2026 and that the current set runs to 2031–32. The TSV gives only "until revised standards in 2031-32". Neither is in editions.ts.
-- Name: editions.ts says "Tennessee Academic Standards for Mathematics". The TSV header and the Atlas say "Tennessee Math Standards".
+- landscape.md says the current set runs to 2031–32; the TSV gives only "until revised standards in 2031-32". Neither is in editions.ts, and the review's start year is unconfirmed.
+- Name: editions.ts says "Tennessee Academic Standards for Mathematics". The TSV header says "Tennessee Math Standards".
 - The current PDF's file name says 6-9-2022, but its text is marked "Revised November 6, 2020".

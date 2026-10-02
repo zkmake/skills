@@ -55,5 +55,4 @@
 - **Fit review:** no partial rows remain.
 
 ## Uncertain
-- **Counting back in K:** the Atlas lists it as Wisconsin content beyond Common Core. The TSV records only "previous number is one smaller" in M.K.CC.B.4, so treat "counting back" as unconfirmed.
 - **When taught:** the TSV gives no first year in classrooms for the 2021 standards.

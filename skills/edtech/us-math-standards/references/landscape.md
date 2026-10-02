@@ -8,8 +8,8 @@ Which standards every jurisdiction uses, how to model each, what states add beyo
 | --- | --- | --- | --- |
 | **Own set** | the state wrote its own framework with its own codes and wording; build a full set, write state-only sheets, fit-review every row | Texas (TEKS), Florida (B.E.S.T.), Virginia (SOL), Maryland (MCCRS 2025) | ~21% |
 | **Crosswalk** | the state renumbered, reworded, added to or replaced Common Core; map every row in its own code ([crosswalk.md](crosswalk.md)) | 33 states (below); plus next-year editions for Washington, South Dakota, Louisiana, Minnesota and Hawaiʻi | ~53% |
-| **Common Core under the state's name** | Common Core's codes, as written or with small edits and additions | 13 states + DC + DoDEA ([states/common-core-states.md](states/common-core-states.md)) | ~26% |
-| **Not yet** | standards in another language, or K–5 detail unreachable | Puerto Rico (Spanish), US Virgin Islands; Guam uses Common Core as written and is served by Common Core's pages | |
+| **Common Core under the state's name** | Common Core's codes, as written or with small edits and additions | 13 states + DC + DoDEA; Guam uses Common Core's own pages ([states/common-core-states.md](states/common-core-states.md)) | ~26% |
+| **Not yet** | standards in another language, or K–5 detail unreachable | Puerto Rico (Spanish), US Virgin Islands | |
 
 *NCES, ~49 million students, rounded; a weighting, not a count.
 
@@ -85,7 +85,7 @@ The checklist to run against any catalogue built on Common Core. "Covered" is Ma
 
 | Topic | Where | Status |
 | --- | --- | --- |
-| **Money before grade 2**: coin names in K, values and collections in G1, bills early | ~30 states, the most common addition (NY, NJ, OH, NC, GA, IN, MO, OK, SC, KY, MS, MA, TN, AZ, AL…) | covered (incl. half-dollar and dollar coins, bills to $100); open: "is there enough to buy it?" |
+| **Money before grade 2**: coin names in K, values and collections in G1, bills early | 34 states in 2026–27, the most common addition: 28 crosswalked (AK, AL, AR, AZ, GA, IA, IN, KY, LA, MA, MN, MO, MS, MT, NC, ND, NE, NJ, NY, OH, OK, RI, SC, SD, TN, UT, WV, WY), the four own sets (TX, FL, VA, MD), ID and ME; also PR, and HI from 2027–28 | covered: Maryland's grade 1 coin sheet 1.GR.C.6 serves all 34, Common Core's 2.MD.C.8 adds collections and bills (incl. half-dollar and dollar coins, bills to $100); open: "is there enough to buy it?" |
 | Making change; money in decimals | PA G2–3, OK G4 (to $20), OH, ND, SC, AZ, IN G3 | covered |
 | Calendar and time words K–1 (days, months, seasons, yesterday/tomorrow) | AK, AR, IN, MO, MS, MT, GA, ND, IA, MA | covered |
 | Elapsed time; a.m. and p.m. | OH, ND, SC, OK, NC, LA, NE, KY, AL; time zones (AK) | covered |
@@ -114,7 +114,7 @@ The checklist to run against any catalogue built on Common Core. "Covered" is Ma
 
 - **2026–27**: Montana's standards (adopted 2025) in effect from July 2026; Mississippi's 2025 standards in their second year; South Carolina's "2025" standards in their second year.
 - **2027–28**: Washington (WA Math 2026), South Dakota (2026), Minnesota (2022), Louisiana (2025 revision) and Hawaiʻi (revision approved 18 Jun 2026, per the Board's minutes) required; all five modelled as next-year editions. Kentucky's revision is tentatively due; Utah's is drafted with no adoption date. Add them the same way (one research TSV, one generated edition beside the current one) once adopted and published.
-- **2028–29 and later**: North Carolina's new K–12 standards (adopted 1 Oct 2026 per news reports; implementation and tests planned 2028–29, marked tentative by DPI; build a next-year edition once the board record and crosswalk are posted); Idaho review (recommendations due 2027); Michigan bill; Massachusetts, Maine and Kansas reviews open or due; Tennessee's current set runs to 2031–32.
+- **2028–29 and later**: North Carolina's new K–12 standards (adopted 1 Oct 2026 per news reports; implementation and tests planned 2028–29, marked tentative by DPI; build `nc28` once the board's adoption is on record and NCDPI has published the K–5 text, per SKILL.md workflow E); Idaho review (recommendations due 2027); Michigan bill; Massachusetts, Maine and Kansas reviews open or due; Tennessee's current set runs to 2031–32.
 - **Pre-K**: New Jersey proposed a 2026 revision of its Preschool Teaching and Learning Standards, not adopted as of 2026-10-01; remap `data/prek/nj.tsv` if it is.
 - Less certain: Louisiana 2025's grade 4–5 code layout (its legal text groups clusters differently), Michigan's bill, West Virginia and USVI detail, Guam's adoption year, Tennessee's review start.
 
