@@ -594,7 +594,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
       ["1,807/1,807", "crosswalk rows fit fully", "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
       ["10,441", "standards, each with a sheet", "60 sets: Common Core, 4 own sets, 55 state editions"],
-      ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
+      ["269", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n.includes("/") ? n.split("/")[0] : n}</span><b>${n.includes("/") ? `of ${n.split("/")[1]} ${b}` : b}</b><small>${s}</small></div>`).join("")}
   </div>
 </header>
@@ -636,7 +636,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 
 <section id="fit">
   <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row now fits its sheets</h2>
-  <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet (1,485 once Hawaiʻi's 2027–28 rows joined) against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic. North Carolina's 2028–29 crosswalk, added on 2 October, was reviewed row by row, all 322: 225 good, 93 partial and 4 mismatch at first; 286 / 36 / 0 in a fresh review after its first pass; 316 / 6 / 0 in a second fresh review after its second; then every row good.</p></div>
+  <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet (1,485 once Hawaiʻi's 2027–28 rows joined) against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic. North Carolina's 2028–29 crosswalk, added on 2 October, was reviewed row by row, all 322: 225 good, 93 partial and 4 mismatch at first; 286 / 36 / 0 in a fresh review after its first pass; 316 / 6 / 0 in a second fresh review after its second; then every row good. Texas's, Florida's and Virginia's pre-K, 75 rows mapped the same day, had a fresh review of its own: 60 good and 15 partial, then all 75 good after one pass.</p></div>
   <div class="card">
     <div class="passes">${passRows}</div>
     <div class="fitkey"><span><i class="sw" style="background:var(--good)"></i>Good: the sheets practise all of it</span><span><i class="sw" style="background:var(--part)"></i>Partial: a named part is missing</span><span><i class="sw" style="background:var(--miss)"></i>Mismatch: the sheets don't practise it</span><span class="mono">bars to scale · ${fmt(passMax)} rows</span></div>
@@ -878,7 +878,7 @@ html.dark .atlas {
       [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
       ["10,441", "standards, each with a sheet", "Common Core, 4 state frameworks and 55 state editions"],
-      ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
+      ["269", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n}</span><b>${b}</b><small>${s}</small></div>`).join("")}
   </div>
 </header>
@@ -886,7 +886,7 @@ html.dark .atlas {
 <section id="how">
   <div class="head"><span class="eyebrow">How we did it</span><h2>Seven steps, every state</h2></div>
   <ol class="steps">
-    <li class="card"><h3>One catalogue of sheets</h3><p>Every skill is written once. Each state's standards are a view over that catalogue: the same sheet prints Texas's code in Texas and Maryland's in Maryland, at the grade that state teaches it.</p><span class="fig">267 skills</span></li>
+    <li class="card"><h3>One catalogue of sheets</h3><p>Every skill is written once. Each state's standards are a view over that catalogue: the same sheet prints Texas's code in Texas and Maryland's in Maryland, at the grade that state teaches it.</p><span class="fig">269 skills</span></li>
     <li class="card"><h3>Read each state's own documents</h3><p>Not summaries: the standards each state adopted, from its own department of education, with the official title, the year, how its codes work and when the next revision is due.</p><span class="fig">${ROWS.length} jurisdictions</span></li>
     <li class="card"><h3>Map every standard</h3><p>Each state standard is matched to Common Core as the same, edited, moved from another grade, or new. Texas, Florida, Virginia and Maryland, the furthest from Common Core, are modelled in full.</p><span class="fig">6,328 rows in 39 crosswalks</span></li>
     <li class="card"><h3>Write what's missing</h3><p>Where a state asks for something Common Core doesn't, we wrote the sheet: coins in kindergarten, thermometers, mean, median and mode in grade 5, saving goals.</p><span class="fig">106 sheets for state-only content</span></li>
@@ -909,7 +909,7 @@ ${/<section id="share">[\s\S]*?<\/section>/.exec(html)![0]
 
 ${/<section id="fit">[\s\S]*?<\/section>/.exec(html)![0]
   .replace("Every crosswalk row now fits its sheets", "Every state row now fits its sheets")
-  .replace(/<p class="lede2">A sheet existing[\s\S]*?<\/p><\/div>/, `<p class="lede2">Coverage means a sheet exists for a standard. Fit means the sheet practises what the standard asks, at its grade. Each review read a state's wording against every section its sheets show, across 40 versions of each sheet. Each pass linked better sheets or added the missing activity; the changed rows were then reviewed again. Halfway, a fresh review started from scratch, without the earlier verdicts, and found the step-by-step reviews had grown too generous, so the bar went up for every pass after it. North Carolina's 2028–29 crosswalk, added on 2 October, was reviewed row by row, all 322: 225 good, 93 partial and 4 mismatch at first; 286 / 36 / 0 in a fresh review after its first pass; 316 / 6 / 0 in a second fresh review after its second; then every row good.</p></div>`)
+  .replace(/<p class="lede2">A sheet existing[\s\S]*?<\/p><\/div>/, `<p class="lede2">Coverage means a sheet exists for a standard. Fit means the sheet practises what the standard asks, at its grade. Each review read a state's wording against every section its sheets show, across 40 versions of each sheet. Each pass linked better sheets or added the missing activity; the changed rows were then reviewed again. Halfway, a fresh review started from scratch, without the earlier verdicts, and found the step-by-step reviews had grown too generous, so the bar went up for every pass after it. North Carolina's 2028–29 crosswalk, added on 2 October, was reviewed row by row, all 322: 225 good, 93 partial and 4 mismatch at first; 286 / 36 / 0 in a fresh review after its first pass; 316 / 6 / 0 in a second fresh review after its second; then every row good. Texas's, Florida's and Virginia's pre-K, 75 rows mapped the same day, had a fresh review of its own: 60 good and 15 partial, then all 75 good after one pass.</p></div>`)
   .replace("Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.", "Every K–5 row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw each sheet's topic; later ones saw every section of every sheet.")}
 
 ${/<section id="distance">[\s\S]*?<\/section>/.exec(html)![0]

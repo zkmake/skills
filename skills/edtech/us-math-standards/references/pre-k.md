@@ -59,6 +59,8 @@ Common Core starts at kindergarten, so pre-K needs its own framework and its own
 
 Every state has early-learning guidelines somewhere (often birth-to-5, outside the math standards); the states worth mapping first are the ones that put pre-K **inside their math standards** (Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania), since that's where a teacher looks; next, states whose early-learning standards have a math domain with coded indicators a sheet can practise (Mathness mapped 41 such jurisdictions). A state whose pre-K math has no codes (Missouri, Arizona, New Hampshire, Washington) keeps Head Start's goals: a code is what a sheet prints.
 
+**Fit**: Texas's, Florida's and Virginia's 75 rows were fit-reviewed fresh (60 / 15 / 0), then fixed to 75 / 0 / 0 ([fit-review.md](fit-review.md)); the fixes added two pre-K sheets filed under Head Start goals, *On, between, near and far* (P-MATH 10) and *Holds more, cubes long* (P-MATH 8). Other states' pre-K rows have not been fit-reviewed.
+
 **Labels**: name pre-K's framework, not the set ("Head Start P-MATH 3" beside a state code; "Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015)… Missouri's pre-K math has no codes to map"). Head Start has no domain codes: show goal ranges ("P-MATH 1–5"). Curricula have no pre-K units.
 
 ## Add a state's pre-K

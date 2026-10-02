@@ -2,21 +2,21 @@ code	domain	domain_name	summary	head_start_goals	other_sheet_codes
 PK4.V.A.1	NS	Number Sense	Say the counting numbers in order from 1 all the way to 30.	P-MATH 1	K.CC.A.1
 PK4.V.A.2	NS	Number Sense	Count up to 10 objects, touching or pointing to each one once while saying one number.	P-MATH 3	
 PK4.V.A.3	NS	Number Sense	Count up to 10 things and tell that the last number said is how many there are.	P-MATH 3	
-PK4.V.A.4	NS	Number Sense	See how many are in a small group of up to 6 things at a glance, without counting.	P-MATH 2	
+PK4.V.A.4	NS	Number Sense	See how many are in a small group of up to 6 things at a glance, without counting.	P-MATH 2	K.NOS.B.8
 PK4.V.A.5	NS	Number Sense	Know and name the written numbers from 0 to 10.	P-MATH 5	
 PK4.V.A.6	NS	Number Sense	Show how many a number from 0 to 10 stands for, with dots, counters or a matching group.	P-MATH 3,P-MATH 5	
 PK4.V.A.7	NS	Number Sense	Begin to see that a number up to 10 can be made from two parts in different ways, like 5 as 4 and 1 or 3 and 2.		PK.NOS.D.10,PK.AT.A.2,K.OA.A.3
 PK4.V.A.8	NS	Number Sense	Compare two groups of up to 10 things and say which has more, which has fewer, or that they're the same.	P-MATH 4	PK.DS.A.2
 PK4.V.B.1	JS	Joining and Separating	Show putting groups together to make up to 5 with objects, pictures or a told story, and count them all.	P-MATH 6	PK.NOS.B.6
 PK4.V.B.2	JS	Joining and Separating	Show taking some away from a group of up to 5 with objects, pictures or a told story, and say how many are left.	P-MATH 6	PK.NOS.D.10
-PK4.V.C.1	GS	Geometry and Spatial Sense	Name and describe circles, squares, triangles and rectangles, and name at least one solid shape, like a ball or a can.	P-MATH 9	PK.GR.B.5
+PK4.V.C.1	GS	Geometry and Spatial Sense	Name and describe circles, squares, triangles and rectangles, and name at least one solid shape, like a ball or a can.	P-MATH 9	PK.GR.B.5,K.G.B.4
 PK4.V.C.2	GS	Geometry and Spatial Sense	Make shapes from materials, like two triangles put together to make a square.	P-MATH 9	K.G.B.6
 PK4.V.C.3	GS	Geometry and Spatial Sense	Use position words like on, under, beside, between, in front of, behind, near and far.	P-MATH 10	
 PK4.V.C.4	GS	Geometry and Spatial Sense	Know a shape is still the same shape whatever its size and however it's turned.	P-MATH 9	
 PK4.V.D.1	M	Measurement	Compare the heights or lengths of people and things, with words like taller, shorter and longer.	P-MATH 8	PK.GR.A.1
-PK4.V.D.2	M	Measurement	Compare containers to tell which holds more and which holds less.		K.MD.A.2
-PK4.V.D.3	M	Measurement	Compare the weights of things, with words like heavy, light, heavier and lighter.	P-MATH 8	PK.GR.A.1
+PK4.V.D.2	M	Measurement	Compare containers to tell which holds more and which holds less.	P-MATH 8	K.MD.A.2
+PK4.V.D.3	M	Measurement	Compare the weights of things, with words like heavy, light, heavier and lighter.	P-MATH 8	PK.GR.A.1,K.MD.A.1
 PK4.V.D.4	M	Measurement	Talk about time within the day with words like morning, after snack and before we go home.		K.MG.3
 PK4.V.E.1	CP	Classification and Patterns	Sort things into groups of the same kind and say how the groups are alike and different.		PK.DS.A.1,PK.DS.A.2
-PK4.V.E.2	CP	Classification and Patterns	Collect answers or objects and show them in a simple graph, like a picture or floor graph.		PK.DS.A.2,K.8B
-PK4.V.E.3	CP	Classification and Patterns	Spot, copy, continue and make repeating patterns, like red, blue, red, blue.	P-MATH 7	
+PK4.V.E.2	CP	Classification and Patterns	Collect answers or objects and show them in a simple graph, like a picture or floor graph.		PK.DS.A.2,K.8B,K.MD.B.3
+PK4.V.E.3	CP	Classification and Patterns	Spot, copy, continue and make repeating patterns, like red, blue, red, blue.	P-MATH 7	K.AT.B.3

@@ -1,6 +1,6 @@
 code	domain	domain_name	summary	head_start_goals	other_sheet_codes
 V.A.1	NS	Number Sense	See how many are in a small group, up to 5, at a glance without counting.	P-MATH 2	
-V.A.2	NS	Number Sense	Say the counting numbers in order from 1 to 31 and know the written numbers in that order.	P-MATH 1	K.CC.A.1
+V.A.2	NS	Number Sense	Say the counting numbers in order from 1 to 31 and know the written numbers in that order.	P-MATH 1	K.CC.A.1,K.NS.2
 V.A.3	NS	Number Sense	Count objects in a row by touching each one once while saying one number, to 15 and past it.	P-MATH 3	K.CC.B.5
 V.A.4	NS	Number Sense	Know that the last number said when counting up to 10 things tells how many there are.	P-MATH 3	
 V.A.5	NS	Number Sense	Make a group of a given size and count groups, from 1 to 10 and beyond.	P-MATH 3	K.CC.B.5
@@ -9,16 +9,16 @@ V.A.7	NS	Number Sense	Read and write some of the numbers from 1 to 10.	P-MATH 5
 V.B.1	NO	Number and Operations	Solve everyday putting-together and taking-apart problems with up to 8 things, using objects, fingers or acting out.	P-MATH 6	K.OA.A.2
 V.B.2	NO	Number and Operations	Start to build and break apart groups of up to 8 in different ways with objects or fingers.	P-MATH 6	PK.NOS.D.10,PK.AT.A.2,K.OA.A.3
 V.C.1	P	Patterns	Spot a simple AB repeating pattern and keep it going.	P-MATH 7	
-V.C.2	P	Patterns	Copy a simple AB pattern, making it again with different things.	P-MATH 7	
+V.C.2	P	Patterns	Copy a simple AB pattern, making it again with different things.	P-MATH 7	K.AT.B.3
 V.C.3	P	Patterns	Find the part that repeats in a harder pattern, like ABB or ABC, and keep it going.	P-MATH 7	K.AT.B.3
 V.D.1	G	Geometry	Know and name circles, squares, triangles and rectangles whatever their size or turn.	P-MATH 9	
-V.D.2	G	Geometry	Describe and sort flat and solid shapes by features like size, sides and corners.	P-MATH 9	PK.GR.B.5,K.G.B.4
+V.D.2	G	Geometry	Describe and sort flat and solid shapes by features like size, sides and corners.	P-MATH 9	PK.GR.B.5,K.G.B.4,K.G.A.3
 V.D.3	G	Geometry	Put flat shapes together to make a new shape, like two squares making a rectangle.	P-MATH 9	K.G.B.6
 V.D.4	G	Geometry	Build things in play with solid shapes like blocks, balls and cylinders.		PK.GR.B.5
 V.E.1	SR	Spatial Relations	Say where things are compared with each other using words like beside, next to, between, over and under, and show it with models.	P-MATH 10	
 V.E.2	SR	Spatial Relations	Follow directions to move around a space and find a place in it.	P-MATH 10	
-V.F.1	MD	Measurement and Data	Measure things with tools, both everyday objects like blocks and real ones like a ruler.		1.MD.A.2
-V.F.2	MD	Measurement and Data	Name what can be measured, like length and weight, and compare two things side by side to solve a problem.	P-MATH 8	PK.GR.A.1
+V.F.1	MD	Measurement and Data	Measure things with tools, both everyday objects like blocks and real ones like a ruler.	P-MATH 8	1.MD.A.2
+V.F.2	MD	Measurement and Data	Name what can be measured, like length and weight, and compare two things side by side to solve a problem.	P-MATH 8	PK.GR.A.1,K.MD.A.1
 V.F.3	MD	Measurement and Data	Put up to 6 things in order by height or length.		K.GR.A.3,1.MD.A.1
 V.F.4	MD	Measurement and Data	Show information in charts, graphs and tally marks, and talk about what it shows.		PK.DS.A.2,K.8B,K.MD.B.3
 V.F.5	MD	Measurement and Data	Begin to guess what a count or survey will show before collecting it.		K.MD.B.3
