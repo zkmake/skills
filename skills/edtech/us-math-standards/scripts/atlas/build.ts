@@ -152,7 +152,7 @@ const OWN_FIT: [string, string, [number, number, number], [number, number, numbe
 // Pre-K, fresh reviews 2026-10-02 (rows of each state's own pre-K codes), then after the fit passes.
 const PREK_FIT: [string, string, number, [number, number, number], [string, [number, number, number]]][] = [
   ["Texas, Florida and Virginia", "mapped the same day", 75, [60, 15, 0], ["After one pass", [75, 0, 0]]],
-  ["43 states and DC", "Maryland's own 20 included", 701, [479, 215, 7], ["After 3 passes", [692, 7, 2]]],
+  ["43 states and DC", "Maryland's own 20 included", 701, [479, 215, 7], ["After 4 passes", [701, 0, 0]]],
 ];
 // RAND AIRS 2025 (RRA4594-1): share of elementary math teachers using each weekly; family totals overlap.
 const CURRICULA: [string, string, number, boolean, string, number][] = [
@@ -200,7 +200,6 @@ const TIMELINE: [string, string, [string, string][]][] = [
 ];
 // The coverage session's open items, in its priority order (2026-10-01).
 const OPEN = [
-  ["Pre-K's last nine rows", "a map to draw, shapes that make a picture, a shape's other half, a change in the day's routine, a pattern that changes two things, predicting from data: each needs a new activity"],
   ["Next standards when final", "Utah and Kentucky for 2027–28: one research file and one generated edition each"],
   ["A Spanish edition", "Puerto Rico's standards are in Spanish; dual-language classrooms everywhere. The largest job here"],
   ["More curricula", "ten mapped; Big Ideas Math, Reveal Math, Math Expressions and Eureka Math² are next by use"],
@@ -624,7 +623,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
       ["1,807/1,807", "crosswalk rows fit fully", "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
       ["10,441", "standards, each with a sheet", "60 sets: Common Core, 4 own sets, 55 state editions"],
-      ["270", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
+      ["271", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n.includes("/") ? n.split("/")[0] : n}</span><b>${n.includes("/") ? `of ${n.split("/")[1]} ${b}` : b}</b><small>${s}</small></div>`).join("")}
   </div>
 </header>
@@ -673,7 +672,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
   </div>
   <div class="head"><h3>The four own sets</h3><p class="lede2">Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.</p></div>
   <div class="owns">${ownFit}</div>
-  <div class="head"><h3>Pre-K</h3><p class="lede2">Every row of each state's own pre-K codes, 776 of them, reviewed fresh on 2 October the same way, then fixed with links to kindergarten sheets and new pre-K sheets and sections: sorting two ways, guessing before counting, position words, measuring, a piece turned to fit. Nine rows still need an activity no sheet has yet: drawing a map, shapes that make a picture, drawing a shape's other half, noticing a change in the day's routine, a pattern that changes two things, predicting from data.</p></div>
+  <div class="head"><h3>Pre-K</h3><p class="lede2">Every row of each state's own pre-K codes, 776 of them, reviewed fresh on 2 October the same way, then fixed with links to kindergarten sheets and new pre-K sheets and sections: sorting two ways, guessing before counting, position words, measuring, a piece turned to fit, maps, shapes that make a picture, a shape's other half, a day that changed, a guess from a picture graph. After four passes every row fits.</p></div>
   <div class="owns">${prekFit}</div>
 </section>
 
@@ -702,7 +701,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
     <div class="card prek"><p>Common Core starts at kindergarten. Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015), goals P-MATH 1–10, in every state not yet mapped. ${PREK_STATES} states and DC are mapped in their own pre-K codes, from their math or early-learning standards:</p>
       <div class="prekflags">${prekIds.map((id) => `<span>${flagFor(id)}${esc(NAMES[id])}</span>`).join("")}</div>
       <p class="muted" style="font-size:.88rem">Missouri, Arizona, New Hampshire and Washington have no pre-K codes to map and show Head Start's goals, and DoDEA follows a commercial framework. Data: <a href="data/prek/">data/prek</a>.</p></div>
-    <div class="card prek"><h3>Sheets read aloud</h3><p>Pre-K sheets are made to be read by a grown-up: 24pt answers, pictures 80–140pt, a picture cue beside every title (trace, circle, colour, line, draw), and answers made by circling, tracing or drawing, never writing.</p><p>Every pre-K row has a sheet, and 767 of the 776 in states' own codes fit theirs after a fresh review and its passes (<a href="#fit">Fit review</a>).</p></div>
+    <div class="card prek"><h3>Sheets read aloud</h3><p>Pre-K sheets are made to be read by a grown-up: 24pt answers, pictures 80–140pt, a picture cue beside every title (trace, circle, colour, line, draw), and answers made by circling, tracing or drawing, never writing.</p><p>Every pre-K row has a sheet, and all 776 in states' own codes fit theirs after a fresh review and its passes (<a href="#fit">Fit review</a>).</p></div>
   </div>
 </section>
 
@@ -887,7 +886,6 @@ html.dark .atlas {
   const OWN_ROWS = OWN_FIT.reduce((a, r) => a + r[4], 0);
   const XW_ROWS = PASSES.at(-1)![2];
   const NEXT_PUBLIC = [
-    ["The last pre-K activities", "drawing a simple map, making a picture from shapes, drawing a shape's other half, and a few more"],
     ["New standards as they're adopted", "Utah and Kentucky for 2027–28, each once its text is published"],
     ["Sheets in Spanish", "for Puerto Rico's standards and dual-language classrooms"],
     ["More curricula", "ten are mapped; Big Ideas Math, Reveal Math, Math Expressions and Eureka Math² are next, by how many teachers use them"],
@@ -915,7 +913,7 @@ html.dark .atlas {
       [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
       ["10,441", "standards, each with a sheet", "Common Core, 4 state frameworks and 55 state editions"],
-      ["270", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
+      ["271", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n}</span><b>${b}</b><small>${s}</small></div>`).join("")}
   </div>
 </header>
@@ -923,7 +921,7 @@ html.dark .atlas {
 <section id="how">
   <div class="head"><span class="eyebrow">How we did it</span><h2>Seven steps, every state</h2></div>
   <ol class="steps">
-    <li class="card"><h3>One catalogue of sheets</h3><p>Every skill is written once. Each state's standards are a view over that catalogue: the same sheet prints Texas's code in Texas and Maryland's in Maryland, at the grade that state teaches it.</p><span class="fig">270 skills</span></li>
+    <li class="card"><h3>One catalogue of sheets</h3><p>Every skill is written once. Each state's standards are a view over that catalogue: the same sheet prints Texas's code in Texas and Maryland's in Maryland, at the grade that state teaches it.</p><span class="fig">271 skills</span></li>
     <li class="card"><h3>Read each state's own documents</h3><p>Not summaries: the standards each state adopted, from its own department of education, with the official title, the year, how its codes work and when the next revision is due.</p><span class="fig">${ROWS.length} jurisdictions</span></li>
     <li class="card"><h3>Map every standard</h3><p>Each state standard is matched to Common Core as the same, edited, moved from another grade, or new. Texas, Florida, Virginia and Maryland, the furthest from Common Core, are modelled in full.</p><span class="fig">6,328 rows in 39 crosswalks</span></li>
     <li class="card"><h3>Write what's missing</h3><p>Where a state asks for something Common Core doesn't, we wrote the sheet: coins in kindergarten, thermometers, mean, median and mode in grade 5, saving goals.</p><span class="fig">106 sheets for state-only content</span></li>
@@ -945,7 +943,7 @@ ${/<section id="share">[\s\S]*?<\/section>/.exec(html)![0]
 </section>
 
 ${/<section id="fit">[\s\S]*?<\/section>/.exec(html)![0]
-  .replace("Every crosswalk row now fits its sheets", "Every K–5 state row now fits its sheets")
+  .replace("Every crosswalk row now fits its sheets", "Every state row now fits its sheets")
   .replace(/<p class="lede2">A sheet existing[\s\S]*?<\/p><\/div>/, `<p class="lede2">Coverage means a sheet exists for a standard. Fit means the sheet practises what the standard asks, at its grade. Each review read a state's wording against every section its sheets show, across 40 versions of each sheet. Each pass linked better sheets or added the missing activity; the changed rows were then reviewed again. Halfway, a fresh review started from scratch, without the earlier verdicts, and found the step-by-step reviews had grown too generous, so the bar went up for every pass after it. North Carolina's 2028–29 crosswalk, added on 2 October, was reviewed row by row, all 322: 225 good, 93 partial and 4 mismatch at first; 286 / 36 / 0 in a fresh review after its first pass; 316 / 6 / 0 in a second fresh review after its second; then every row good.</p></div>`)
   .replace("Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.", "Every K–5 row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw each sheet's topic; later ones saw every section of every sheet.")}
 
