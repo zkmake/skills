@@ -364,6 +364,8 @@ const html = `<!doctype html>
   --good: #11806a; --part: #e0a91c; --miss: #cc2f25;
   /* Text on those fills, 4.5:1 or better (WCAG AA). */
   --on-good: #fff; --on-part: #2a1d00; --on-own: #fff; --on-xw: #fff; --on-pen: #fff;
+  /* A ring round each flag, so a dark or white field still shows its edge. */
+  --flag-edge: rgba(0, 0, 0, 0.16);
   --k-same: #c9d3e8; --k-edited: #6f8fd0; --k-moved: #e0a91c; --k-new: #cc2f25;
   --display: "Grandstander", ui-rounded, "Avenir Next", system-ui, sans-serif;
   --body: "Andika", ui-rounded, "Segoe UI", system-ui, sans-serif;
@@ -377,6 +379,7 @@ const html = `<!doctype html>
   --good: #2fc29f; --part: #f2bd3a; --miss: #ff6b5e;
   --on-good: #06231b; --on-part: #2a1d00; --on-own: #0b1230; --on-xw: #06231b; --on-pen: #2a0905;
   --k-same: #2f3b5c; --k-edited: #5d7fd6; --k-moved: #f2bd3a; --k-new: #ff6b5e;
+  --flag-edge: rgba(255, 255, 255, 0.32);
   color-scheme: dark; } }
 :root[data-theme="dark"] {
   --paper: #0d1324; --sheet: #141c31; --ink: #e9edf6; --muted: #9ea8c2; --rule: #27304a;
@@ -385,6 +388,7 @@ const html = `<!doctype html>
   --good: #2fc29f; --part: #f2bd3a; --miss: #ff6b5e;
   --on-good: #06231b; --on-part: #2a1d00; --on-own: #0b1230; --on-xw: #06231b; --on-pen: #2a0905;
   --k-same: #2f3b5c; --k-edited: #5d7fd6; --k-moved: #f2bd3a; --k-new: #ff6b5e;
+  --flag-edge: rgba(255, 255, 255, 0.32);
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -402,6 +406,8 @@ h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); font-weight: 800; }
 h3 { font-size: 1.1rem; font-weight: 700; }
 p { margin: 0; max-width: 68ch; }
 a { color: inherit; text-decoration-color: color-mix(in oklab, var(--pen) 55%, transparent); text-underline-offset: 3px; }
+/* A link inside running text is underlined, so it never relies on colour alone (WCAG 1.4.1). */
+p a, td a, small a { text-decoration-line: underline; }
 a:hover { color: var(--pen); }
 a:focus-visible, button:focus-visible, input:focus-visible, .st:focus-visible { outline: 3px solid var(--marker); outline-offset: 2px; border-radius: 4px; }
 code, .mono { font-family: var(--mono); font-size: 0.86em; font-variant-numeric: tabular-nums; }
@@ -455,7 +461,7 @@ section { padding-block: clamp(36px, 6vw, 56px); border-top: 1px dashed var(--ru
 .sw.next { background: transparent; box-shadow: inset 0 0 0 2px var(--marker); }
 .extras { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
 .ext { font: inherit; font-size: 0.86rem; display: inline-flex; gap: 8px; align-items: center; padding: 4px 10px 4px 6px; border-radius: 8px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); cursor: pointer; }
-.flag { width: 30px; height: 20px; border-radius: 3px; flex: none; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12); display: inline-block; vertical-align: middle; }
+.flag { width: 30px; height: 20px; border-radius: 3px; flex: none; box-shadow: 0 0 0 1px var(--flag-edge); display: inline-block; vertical-align: middle; }
 .flag.badge { display: inline-grid; place-items: center; font: 700 0.6rem/1 var(--mono); background: var(--ink); color: var(--sheet); }
 .detail { padding: 20px 22px; display: grid; gap: 12px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); }
 .detail .dh { display: flex; gap: 12px; align-items: center; }
@@ -607,7 +613,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
     <p class="lede">All 50 states, DC, Defense Department schools and the U.S. Virgin Islands have Mathness pages under their own name, ${COUNT("own") + COUNT("xw")} of them in their own codes. Every standard in every set has a printable sheet with an answer key, and a reviewer read each state row that differs from Common Core against what its sheets actually ask.</p>
     <span class="stamp">✓ checked against each state's own documents</span>
   </div>
-  <div class="card report" aria-label="Headline figures">
+  <div class="card report" role="group" aria-label="Headline figures">
     ${[
       ["1,807/1,807", "crosswalk rows fit fully", "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
@@ -646,7 +652,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
         <button type="button" data-f="cc" aria-pressed="false"><i class="sw cc"></i>Common Core codes</button>
         <button type="button" data-f="next" aria-pressed="false"><i class="sw next"></i>Next standards modelled</button>
       </div>
-      <div class="extras" aria-label="Outside the 50 states">${terr.map((r) => `<button class="ext" type="button" data-id="${r.id}">${flagSvg(r)}${esc(r.name)}</button>`).join("")}</div>
+      <div class="extras" role="group" aria-label="Outside the 50 states">${terr.map((r) => `<button class="ext" type="button" data-id="${r.id}">${flagSvg(r)}${esc(r.name)}</button>`).join("")}</div>
     </div>
     <section class="card detail" id="detail" aria-live="polite" aria-label="Selected state"></section>
   </div>
@@ -863,7 +869,7 @@ if (bl > 0) {
 .atlas .cta a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 999px; font-weight: 700; text-decoration: none; border: 1.5px solid var(--ink); }
 .atlas .cta a.go { background: var(--ink); color: var(--sheet); }
 html.dark .atlas {
-  --pen: #ff6b5e; --marker-soft: rgba(246, 205, 60, 0.28);
+  --pen: #ff6b5e; --marker-soft: rgba(246, 205, 60, 0.28); --flag-edge: rgba(255, 255, 255, 0.32);
   --own: #6f8cff; --xw: #2fc29f; --cc: #36507f; --none: #1b2440; --none-edge: #ff6b5e;
   --good: #2fc29f; --part: #f2bd3a; --miss: #ff6b5e;
   --on-good: #06231b; --on-part: #2a1d00; --on-own: #0b1230; --on-xw: #06231b; --on-pen: #2a0905;
@@ -883,7 +889,11 @@ html.dark .atlas {
   const sources = RESOURCES.filter(([h]) => h !== "In this skill").map(([h, items]) => `
   <div class="res"><h3>${h}</h3><ul>${items.map(([t, u, d]) => `<li><a href="${esc(u)}" rel="noopener">${esc(t)}</a><span>${esc(d)}</span></li>`).join("")}</ul></div>`).join("");
   const curPublic = curBars.replace(/<a href="data\/curricula\/[^"]*">(\d+ units)<\/a>/g, "$1 mapped");
-  const topicPublic = plain(topicRows).replace(/<span class="status">\(?\[?pre-k\.md\]?\)?<\/span>/g, "").replace(/\s*\(pre-k\.md\)/g, "");
+  // The skill's file names drop out; a note that started after one ("(pre-k.md); MO, AZ…") starts clean.
+  const topicPublic = plain(topicRows)
+    .replace(/<span class="status">\(?\[?pre-k\.md\]?\)?<\/span>/g, "")
+    .replace(/(<span class="status">)\s*\(?\[?pre-k\.md\]?\)?;\s*/g, "$1")
+    .replace(/\s*\(pre-k\.md\)/g, "");
 
   const body0 = `<style>${css}</style>
 <article class="atlas">
@@ -894,7 +904,7 @@ html.dark .atlas {
     <p class="lede">“Common Core aligned” is where most worksheet sites stop. But ${COUNT("own") + COUNT("xw")} states teach from standards of their own, with their own codes, their own wording and topics Common Core never asks for, like coins in kindergarten. Here is how we gave every state its own pages, wrote a sheet for every standard, and checked that each sheet practises what its standard asks.</p>
     <span class="stamp">✓ checked against each state's own documents</span>
   </div>
-  <div class="card report" aria-label="Headline figures">
+  <div class="card report" role="group" aria-label="Headline figures">
     ${[
       [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
@@ -962,7 +972,7 @@ ${/<section id="curricula">[\s\S]*?<\/section>/.exec(html)![0]
   <div class="resgrid">${sources}</div>
   <div class="notes"><ul>
     <li>Every summary on Mathness is in our own words; standards are cited by their codes. Where a state publishes no crosswalk to Common Core, the mapping is our judgement from the texts, and the site says so.</li>
-    <li>Titles and adoption years were checked against each state's primary sources on ${AS_OF}.</li>
+    <li>Titles and adoption years were checked against each state's primary sources on 1 and 2 October 2026.</li>
     <li>Enrollment weights the picture; it isn't a count of Mathness users. Curriculum use counts teachers, not students.</li>
     <li>Flags are simplified drawings made for Mathness, not official artwork.</li>
   </ul></div>
