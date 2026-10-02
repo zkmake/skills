@@ -18,7 +18,7 @@ Exported from Mathness's `src/standards/*.ts` at 2026-10-01.
 
 The research files themselves, one per state, as the research agents wrote them on 2026-10-01 (`hi27.tsv` derived from Mathness's data the same night). Each lists its rows first and ends with a `#` comment block: sources with URLs and dates, how codes are written, Common Core standards the state dropped, its additions, and judgement calls (`hi27.tsv` has a short block at the top instead). Columns: `state_code grade ccss kind summary` ([../references/crosswalk.md](../references/crosswalk.md)).
 
-- 33 states plus next-year editions `la27`, `mn27`, `sd27`, `wa27`, `hi27`.
+- 33 states plus next editions `la27`, `mn27`, `sd27`, `wa27`, `hi27` and `nc29` (North Carolina 2028–29, researched 2026-10-02 from the State Board's Draft 3 attachment and NCDPI's 2017-to-2026 crosswalk; kinds judged against Common Core, since NCDPI's "New" marks compare with North Carolina's 2017 standards).
 - New York, Ohio, Kentucky and New Jersey keep lettered sub-parts as rows here; Mathness folds the ones identical to Common Core.
 - Mathness's generated `src/standards/states/<st>.ts` is the final form: it adds the sheets that serve moved and new rows and fit-review links (product-specific), and corrects a few names and years after a 2026-10-01 audit (the state files in `../references/states/` carry the corrected facts).
 

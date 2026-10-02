@@ -137,6 +137,7 @@ const PASSES: [string, string, number, number, number][] = [
   ["Pass 13", "left and right, patterns as sums", 1477, 2, 0],
   ["Follow-ups", "thick or thin, mixed numbers on bars", 1479, 0, 0],
   ["Hawaiʻi 2027–28", "6 more rows, the 38th crosswalk", 1485, 0, 0],
+  ["North Carolina 2028–29", "322 more rows, the 39th crosswalk", 1807, 0, 0],
 ];
 // Own sets: first reviews 2026-09-30 (rows incl. pre-K); fresh K–5 review 2026-10-01; after pass 13.
 const OWN_FIT: [string, string, [number, number, number], [number, number, number], number][] = [
@@ -272,9 +273,9 @@ const xwSorted = ROWS.filter((r) => r.kinds).sort((a, b) => {
   return d(b.kinds!) - d(a.kinds!);
 });
 
-const passMax = 1485;
+const passMax = 1807;
 const passRows = PASSES.map(([name, sub, g, p, m]) => `
-  <div class="pass${name === "Fresh review" ? " fresh" : ""}${name === "Hawaiʻi 2027–28" ? " final" : ""}">
+  <div class="pass${name === "Fresh review" ? " fresh" : ""}${name === "North Carolina 2028–29" ? " final" : ""}">
     <span class="pname">${esc(name)}<small>${esc(sub)}</small></span>
     <span class="stack" role="img" aria-label="${fmt(g)} good, ${fmt(p)} partial, ${fmt(m)} mismatch">
       <i class="s-good" style="flex:${g}"><b>${fmt(g)}</b></i>${p ? `<i class="s-part" style="flex:${p}">${p > 60 ? `<b>${fmt(p)}</b>` : ""}</i>` : ""}${m ? `<i class="s-miss" style="flex:${m}"></i>` : ""}
@@ -583,7 +584,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
   </div>
   <div class="card report" aria-label="Headline figures">
     ${[
-      ["1,485/1,485", "crosswalk rows fit fully", "state rows that differ from Common Core, across the first 38 crosswalks; North Carolina 2028–29 is under review"],
+      ["1,807/1,807", "crosswalk rows fit fully", "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
       ["10,241", "standards, each with a sheet", "59 sets: Common Core, 4 own sets, 54 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
@@ -627,8 +628,8 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 </section>
 
 <section id="fit">
-  <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row, read against its sheets</h2>
-  <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet (1,485 once Hawaiʻi's 2027–28 rows joined) against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic. North Carolina's 2028–29 crosswalk, added on 2 October, had its first review (225 good, 93 partial, 4 mismatch of 322 rows); its fix passes followed, and their final tally isn't in yet.</p></div>
+  <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row now fits its sheets</h2>
+  <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet (1,485 once Hawaiʻi's 2027–28 rows joined) against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic. North Carolina's 2028–29 crosswalk, added on 2 October, was reviewed row by row, all 322: 225 good, 93 partial and 4 mismatch at first; 286 / 36 / 0 in a fresh review after its first pass; 316 / 6 / 0 in a second fresh review after its second; then every row good.</p></div>
   <div class="card">
     <div class="passes">${passRows}</div>
     <div class="fitkey"><span><i class="sw" style="background:var(--good)"></i>Good: the sheets practise all of it</span><span><i class="sw" style="background:var(--part)"></i>Partial: a named part is missing</span><span><i class="sw" style="background:var(--miss)"></i>Mismatch: the sheets don't practise it</span><span class="mono">bars to scale · ${fmt(passMax)} rows</span></div>
@@ -867,7 +868,7 @@ html.dark .atlas {
   </div>
   <div class="card report" aria-label="Headline figures">
     ${[
-      [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "every row that differs from Common Core in the first 38 crosswalks; North Carolina 2028–29 is under review"],
+      [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
       ["10,241", "standards, each with a sheet", "Common Core, 4 state frameworks and 54 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
@@ -900,8 +901,8 @@ ${/<section id="share">[\s\S]*?<\/section>/.exec(html)![0]
 </section>
 
 ${/<section id="fit">[\s\S]*?<\/section>/.exec(html)![0]
-  .replace("Every crosswalk row, read against its sheets", "Every state row, read against its sheets")
-  .replace(/<p class="lede2">A sheet existing[\s\S]*?<\/p><\/div>/, `<p class="lede2">Coverage means a sheet exists for a standard. Fit means the sheet practises what the standard asks, at its grade. Each review read a state's wording against every section its sheets show, across 40 versions of each sheet. Each pass linked better sheets or added the missing activity; the changed rows were then reviewed again. Halfway, a fresh review started from scratch, without the earlier verdicts, and found the step-by-step reviews had grown too generous, so the bar went up for every pass after it. North Carolina's 2028–29 crosswalk, added on 2 October, had its first review (225 good, 93 partial, 4 mismatch of 322 rows); its fix passes followed, and their final tally isn't in yet.</p></div>`)
+  .replace("Every crosswalk row now fits its sheets", "Every state row now fits its sheets")
+  .replace(/<p class="lede2">A sheet existing[\s\S]*?<\/p><\/div>/, `<p class="lede2">Coverage means a sheet exists for a standard. Fit means the sheet practises what the standard asks, at its grade. Each review read a state's wording against every section its sheets show, across 40 versions of each sheet. Each pass linked better sheets or added the missing activity; the changed rows were then reviewed again. Halfway, a fresh review started from scratch, without the earlier verdicts, and found the step-by-step reviews had grown too generous, so the bar went up for every pass after it. North Carolina's 2028–29 crosswalk, added on 2 October, was reviewed row by row, all 322: 225 good, 93 partial and 4 mismatch at first; 286 / 36 / 0 in a fresh review after its first pass; 316 / 6 / 0 in a second fresh review after its second; then every row good.</p></div>`)
   .replace("Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.", "Every K–5 row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw each sheet's topic; later ones saw every section of every sheet.")}
 
 ${/<section id="distance">[\s\S]*?<\/section>/.exec(html)![0]

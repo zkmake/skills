@@ -1,0 +1,401 @@
+state_code	grade	ccss	kind	summary
+K.ANR.1.1	K	K.CC.B.4,K.CC.B.5	same	Count a group of up to 20 objects, saying the numbers in order.
+K.ANR.1.2	K	K.CC.B.4	same	Touch and count each object once, without skipping or counting twice.
+K.ANR.1.3	K	K.CC.B.4	same	Know the last number counted tells how many there are.
+K.ANR.1.4	K	K.CC.A.3	same	Write a number from 0 to 20 for how many are in a counted group, with 0 for none.
+K.ANR.1.5	K	K.CC.B.5	same	Count out a group of objects to match a number from 0 to 20.
+K.ANR.1.6	K	K.CC.B.4,K.CC.B.5	same	Name the next number when one more object is added.
+K.ANR.1.7	K	K.CC.A.3	same	Write the numbers 0 to 20.
+K.ANR.1.8	K		new	Say how many are in a group of up to 5 at a glance, without counting.
+K.ANR.2.1	K	K.CC.A.1	same	Count to 100 by ones.
+K.ANR.2.2	K	K.CC.A.2	same	Count on by ones from any number up to 100.
+K.ANR.2.3	K		new	Count back by ones from any number up to 10.
+K.ANR.2.4	K	K.CC.A.1	same	Count to 100 by tens.
+K.ANR.3.1	K	K.CC.C.6	edited	Compare two groups of up to 20 objects: more, fewer or the same.
+K.ANR.3.2	K	K.CC.C.6	edited	Make a group of up to 20 with more, fewer or the same number of objects as another group.
+K.ANR.3.3	K	K.CC.C.7	edited	Compare two numbers up to 20: greater, less or equal.
+K.ANR.3.4	K	K.CC.C.6,K.CC.B.5	edited	Make a group with more, fewer or the same number of objects as a given number up to 20.
+K.ANR.4.1	K		new	See small groups together and know the total up to 10 without counting.
+K.ANR.4.2	K	K.OA.A.1	same	Act out adding to and taking from with objects, within 10.
+K.ANR.4.3	K	K.OA.A.2,1.OA.C.5	edited	Add and subtract within 10 by counting all, counting on or back, one more or less, and making 10.
+K.ANR.4.4	K	K.OA.A.2	same	Show add-to, take-from, put-together and take-apart story problems within 10 with objects or drawings.
+K.ANR.4.5	K	K.OA.A.2	same	Solve the same story problem types within 10 with drawings, numbers or words.
+K.ANR.4.6	K	K.OA.A.1,K.OA.A.3	same	Record putting together and taking apart as expressions with + and −.
+K.ANR.4.7	K	K.OA.A.3	same	Put together and break apart numbers up to 10 in more than one way.
+K.ANR.4.8	K	K.OA.A.4	same	Find the number that makes 10 with a given number.
+K.ANR.5.1	K	K.OA.A.5,1.OA.C.6	edited	Add and subtract 0 or 1 within 10 quickly and accurately.
+K.ANR.5.2	K	K.OA.A.5	same	Add and subtract within 5 quickly and accurately.
+K.ANR.6.1	K	K.NBT.A.1	same	Build teen numbers as ten ones and some more ones.
+K.ANR.6.2	K	K.NBT.A.1	same	Break teen numbers into ten ones and some more ones.
+K.ANR.6.3	K	K.NBT.A.1	same	Write teen numbers as ten and some more (10 + 4 = 14).
+K.ANR.7.1	K		new	Find the part that repeats in a pattern (AB, AAB, ABB, ABC).
+K.ANR.7.2	K		new	Continue a repeating pattern (AB, AAB, ABB, ABC) by adding its repeating part two more times.
+K.ANR.7.3	K		new	Make a repeating pattern (AB, AAB, ABB or ABC).
+K.SGMR.1.1	K	K.G.A.2	same	Name flat and solid shapes (triangle to sphere) whatever their size or which way they face.
+K.SGMR.1.2	K	K.G.A.3	same	Sort shapes into flat (2-D) and solid (3-D).
+K.SGMR.1.3	K	K.G.B.4	edited	Compare flat shapes of different sizes and turns by their features.
+K.SGMR.2.1	K	K.G.B.5	same	Draw triangles, rectangles, squares and circles.
+K.SGMR.2.2	K	K.G.B.5	same	Build triangles, rectangles, squares and circles.
+K.SGMR.2.3	K	K.G.B.6	same	Put triangles, rectangles and squares together to make bigger shapes.
+K.SGMR.3.1	K	K.MD.A.1	same	Describe what can be measured about an object: length, height, weight.
+K.SGMR.3.2	K	K.MD.A.2	same	Compare two objects by length, height or weight with words like longer and heavier.
+K.RD.1.1	K	K.MD.B.3	same	Sort up to 20 objects or pictures by one feature.
+K.RD.1.2	K	K.MD.B.3	edited	Say what feature was used to sort a group.
+K.RD.2.1	K		new	Decide what data answers a teacher's question, up to 20 pieces in three groups.
+K.RD.2.2	K		new	Collect data in groups to answer a teacher's question.
+K.RD.2.3	K	1.MD.C.4	moved	Show collected data on an object graph or picture graph, going up or across.
+K.RD.2.4	K	K.MD.B.3	edited	Count how many are in each group of data and in all.
+K.RD.2.5	K	K.MD.B.3	edited	Compare the groups in a data set: more, less, the same.
+K.RD.2.6	K		new	Tell what the data shows about the question.
+1.ANR.1.1	1	1.NBT.A.1	edited	Count on from any number by ones to 120 and by tens to 100.
+1.ANR.1.2	1		new	Count back from any number by ones within 120 and by tens within 100.
+1.ANR.1.3	1	2.NBT.A.2	moved	Count by 5s from any multiple of 5 up to 100.
+1.ANR.1.4	1	2.NBT.A.2	moved	Describe how counting by 5s or 10s within 100 grows by the same amount each time.
+1.ANR.2.1	1	1.NBT.A.1,1.NBT.B.2	edited	Count a collection by putting objects into groups to find the total.
+1.ANR.2.2	1	1.NBT.A.1	same	Write the numeral for a group of objects.
+1.ANR.3.1	1	1.NBT.B.2	same	See ten ones as one ten.
+1.ANR.3.2	1	1.NBT.B.2	same	Build and break two-digit numbers into tens and ones.
+1.ANR.3.3	1	1.NBT.A.1,2.NBT.A.3	edited	Read and write numbers in standard and expanded form using place value.
+1.ANR.4.1	1	2.MD.B.6	moved	Show numbers up to 20 as distances from 0 on a number line.
+1.ANR.4.2	1	1.NBT.B.3	same	Compare numbers up to 100 using tens and ones, a number line, and >, < and =.
+1.ANR.4.3	1		new	Estimate where a number up to 100 goes on a number line, using benchmarks like 10, 50 and 100.
+1.ANR.5.1	1	1.OA.C.6,1.OA.B.3	same	Add and subtract within 20 by counting on or back, doubles, making ten, fact families and equal sums.
+1.ANR.5.2	1	1.OA.A.1	same	Write equations with a symbol for the unknown for story problems within 20: change, part and difference unknown.
+1.ANR.5.3	1	1.OA.A.1	same	Solve story problems within 20, including unknown changes, parts and differences.
+1.ANR.5.4	1	1.OA.A.2,1.OA.B.3	same	Add three numbers within 20 by turning and grouping them.
+1.ANR.6.1	1	1.OA.C.6	same	Add and subtract within 10 quickly and accurately.
+1.ANR.6.2	1	1.OA.C.6,2.OA.B.2	edited	Know 10 + a number and doubles within 20 quickly.
+1.ANR.7.1	1	1.OA.D.7	same	Know the equal sign means both sides have the same value.
+1.ANR.7.2	1	1.OA.D.7	same	Decide and show why two addition or subtraction expressions within 20 are or aren't equal.
+1.ANR.7.3	1	1.OA.D.8,1.OA.B.4	same	Find the missing number in any position of an addition or subtraction equation.
+1.ANR.8.1	1	1.NBT.C.4	edited	Add and subtract a two-digit and a one-digit number using place value.
+1.ANR.8.2	1	1.NBT.C.4,1.NBT.C.6	edited	Add and subtract a multiple of 10 to or from a two-digit number.
+1.ANR.8.3	1	1.NBT.C.4	edited	Explain why an adding or subtracting strategy within 100 works.
+1.ANR.8.4	1	1.NBT.C.5	same	Find 10 more or 10 less than a two-digit number in your head.
+1.SGMR.1.1	1	1.G.A.1	same	Tell which features of a shape define it and which don't.
+1.SGMR.1.2	1	1.G.A.1	same	Describe flat shapes by their sides, corners and angles.
+1.SGMR.1.3	1	1.G.A.1	same	Draw triangles, rectangles, squares, hexagons and circles.
+1.SGMR.1.4	1	1.G.A.1,K.G.A.2	edited	Name cubes, rectangular prisms, spheres, cones and cylinders by their faces and flat or curved surfaces.
+1.SGMR.1.5	1	1.G.A.1	same	Build cubes, rectangular prisms, spheres, cones and cylinders.
+1.SGMR.1.6	1	K.G.B.4	moved	Compare solid shapes by their faces and flat or curved surfaces.
+1.SGMR.2.1	1	1.G.A.3	same	Split circles and rectangles into two and four equal shares.
+1.SGMR.2.2	1	1.G.A.3	same	Name equal shares as halves and fourths.
+1.SGMR.2.3	1	1.G.A.3	same	Know a whole is two halves or four fourths.
+1.SGMR.2.4	1	1.G.A.3	same	Explain why fourths are smaller than halves of the same whole.
+1.SGMR.3.1	1	1.MD.A.1	same	Put three objects in order by length.
+1.SGMR.3.2	1	1.MD.A.1	same	Compare two lengths by using a third object.
+1.SGMR.4.1	1	1.MD.A.2	same	Give a length as a whole number of non-standard units, like cubes.
+1.SGMR.4.2	1	1.MD.A.2	same	Measure by laying units end to end with no gaps or overlaps.
+1.SGMR.5.1	1	1.MD.B.3	same	Know clocks show hours and minutes.
+1.SGMR.5.2	1	1.MD.B.3	same	Tell time to the hour and half hour on analog and digital clocks.
+1.SGMR.6.1	1	2.MD.C.8	moved	Name quarters, dimes, nickels and pennies.
+1.SGMR.6.2	1	2.MD.C.8	moved	Know what quarters, dimes, nickels and pennies are worth.
+1.SGMR.6.3	1	2.MD.C.8	moved	Count a group of pennies, nickels or dimes by 1s, 5s or 10s up to 100 cents.
+1.RD.1.1	1	1.MD.C.4,K.MD.B.3	edited	Sort up to 20 objects or pictures by one or two features.
+1.RD.1.2	1	1.MD.C.4,K.MD.B.3	edited	Say what features were used to sort a group.
+1.RD.2.1	1	1.MD.C.4	edited	Ask questions that need data in groups to answer.
+1.RD.2.2	1	1.MD.C.4	edited	Decide what data answers a question, up to 20 pieces in four groups.
+1.RD.2.3	1	1.MD.C.4	edited	Collect data in groups to answer a question.
+1.RD.2.4	1	1.MD.C.4	same	Show data on an object graph or picture graph.
+1.RD.2.5	1	1.MD.C.4	same	Describe and compare data in groups and draw conclusions.
+1.RD.2.6	1	1.MD.C.4	same	Tell what the data shows about the question.
+2.ANR.1.1	2	2.NBT.A.2	edited	Count on and back by 1s, 2s, 5s, 10s and 100s from any number up to 1,000 to solve problems.
+2.ANR.1.2	2	2.OA.C.3	same	Tell whether a group of up to 20 is odd or even.
+2.ANR.1.3	2	2.OA.C.4	same	Find the total in an array of up to 5 rows and 5 columns by skip counting or adding.
+2.ANR.2.1	2	2.NBT.A.1	same	See ten tens as one hundred.
+2.ANR.2.2	2	2.NBT.A.1	same	Build and break three-digit numbers into hundreds, tens and ones.
+2.ANR.2.3	2	2.NBT.A.1	same	Know the value of each digit in a three-digit number.
+2.ANR.2.4	2	2.NBT.A.1	edited	Show numbers up to 200 in different ways by regrouping.
+2.ANR.2.5	2	2.NBT.A.3	same	Read and write numbers to 1,000 in standard, expanded and word form.
+2.ANR.3.1	2	2.NBT.A.4	same	Compare and order numbers to 1,000 with place value, a number line, and >, < and =.
+2.ANR.3.2	2		new	Estimate where a number up to 1,000 goes on a number line by comparing it to benchmark numbers.
+2.ANR.4.1	2	2.OA.B.2	edited	Add and subtract within 20 quickly and accurately.
+2.ANR.4.2	2	2.NBT.B.8	same	Add or subtract 10 or 100 within 1,000.
+2.ANR.5.1	2	2.NBT.B.5	same	Add and subtract within 100 fluently using place value, properties, inverse operations and equal sums or differences.
+2.ANR.5.2	2	2.OA.A.1	same	Write equations for one-step story problems within 100, including unknown starts and compare problems.
+2.ANR.5.3	2	2.OA.A.1	same	Write equations for two-step story problems within 100.
+2.ANR.5.4	2	2.OA.A.1	same	Solve one- and two-step story problems within 100.
+2.ANR.5.5	2	2.NBT.B.9,2.NBT.B.5	same	Choose and explain a good adding or subtracting strategy.
+2.ANR.6.1	2	1.OA.D.7	moved	Decide, and show why, whether two addition or subtraction expressions within 100 are equal.
+2.ANR.6.2	2	2.OA.A.1,1.OA.D.8	edited	Find the missing number in any position of an addition or subtraction equation within 100.
+2.ANR.7.1	2	2.NBT.B.6	edited	Add three two-digit numbers using place value and properties.
+2.ANR.7.2	2	2.NBT.B.7	same	Add and subtract within 1,000 using place value, properties, inverse operations and equal sums or differences.
+2.ANR.7.3	2	2.NBT.B.9,2.NBT.B.7	same	Explain why an adding or subtracting strategy within 1,000 works.
+2.SGMR.1.1	2	2.G.A.1	same	Compare triangles, quadrilaterals, pentagons, hexagons, octagons and circles by sides, corners and angles.
+2.SGMR.1.2	2	1.G.A.2	moved	Describe the new shape made by joining three or more flat shapes.
+2.SGMR.1.3	2	1.G.A.2	moved	Name the shapes inside a figure that has been split apart.
+2.SGMR.1.4	2	4.G.A.3	moved	Decide and explain whether a shape or a figure made of shapes has a line of symmetry.
+2.SGMR.2.1	2	2.G.A.3	same	Split circles and rectangles into two, three and four equal shares.
+2.SGMR.2.2	2	2.G.A.3	same	Name equal shares as halves, thirds, fourths and quarters.
+2.SGMR.2.3	2	2.G.A.3	same	Know a whole is two halves, three thirds or four fourths.
+2.SGMR.2.4	2	2.G.A.3	same	Explain why equal shares of the same whole can look different but are the same amount.
+2.SGMR.2.5	2	2.G.A.3	same	Explain why more equal shares of a whole are smaller.
+2.SGMR.3.1	2	2.MD.A.1	same	Measure length to the nearest inch, foot, yard, centimeter or meter with the right tool.
+2.SGMR.3.2	2	2.MD.A.2	same	Measure one object in two units of the same system and explain why the numbers differ.
+2.SGMR.3.3	2	2.MD.A.1	same	Choose a sensible unit to measure a length.
+2.SGMR.3.4	2	2.MD.A.3	same	Estimate lengths in customary or metric units using benchmark lengths.
+2.SGMR.3.5	2	2.MD.A.4	same	Measure two objects to find how much longer one is.
+2.SGMR.4.1	2	2.MD.C.7,3.MD.A.1	edited	Tell time on analog and digital clocks to the nearest 5 minutes and to the minute, with a.m. and p.m.
+2.SGMR.4.2	2	2.MD.C.7,3.MD.A.1	edited	Write times from analog and digital clocks to the nearest 5 minutes and to the minute, with a.m. and p.m.
+2.SGMR.5.1	2	2.MD.C.8	edited	Choose coins that make an amount up to $1.00.
+2.SGMR.5.2	2	2.MD.C.8	edited	Find the value of a mix of quarters, dimes, nickels and pennies up to $1.00.
+2.RD.1.1	2	K.MD.B.3,1.MD.C.4	moved	Sort up to 30 objects or pictures by one or two features.
+2.RD.1.2	2	K.MD.B.3,1.MD.C.4	moved	Say what features were used to sort a group.
+2.RD.2.1	2	2.MD.D.10	edited	Ask questions that need data in groups to answer.
+2.RD.2.2	2	2.MD.D.10	edited	Decide what data answers a question, up to 30 pieces in four groups.
+2.RD.2.3	2	2.MD.D.10	edited	Collect data in groups to answer a question.
+2.RD.2.4	2	2.MD.D.10	same	Show data on a picture graph or bar graph.
+2.RD.2.5	2	2.MD.D.10	same	Describe and compare data in groups and draw conclusions.
+2.RD.2.6	2	2.MD.D.10	edited	Tell what the data shows about the question.
+3.ANR.1.1	3	4.NBT.A.2	moved	Read and write numbers to 10,000 and know each digit's value.
+3.ANR.1.2	3	4.NBT.A.2	moved	Write numbers to 10,000 in standard, expanded and word form.
+3.ANR.1.3	3	2.NBT.A.1	moved	Show numbers up to 1,000 in different ways by regrouping.
+3.ANR.1.4	3	2.NBT.B.8	moved	Add or subtract multiples of 10, 100 or 1,000 to numbers up to 10,000 in your head.
+3.ANR.1.5	3	4.NBT.A.2	moved	Compare and order numbers to 10,000 with >, <, = and ≠.
+3.ANR.2.1	3	3.NBT.A.2	same	Solve one-step story problems adding and subtracting within 1,000.
+3.ANR.2.2	3	3.NBT.A.2	same	Add and subtract within 1,000 using expanded form, properties, and how adding and subtracting undo each other.
+3.ANR.2.3	3	3.NBT.A.2	same	Build fluency adding and subtracting within 1,000 by comparing strategies.
+3.ANR.3.1	3	3.OA.A.1	same	Understand factors up to 10 as the number of groups and the size of each group.
+3.ANR.3.2	3	3.OA.B.5,3.OA.C.7	same	Multiply within 10 × 10 by repeated adding, skip counting, splitting a factor or switching the order.
+3.ANR.3.3	3	3.OA.A.3	same	Solve equal-groups and array multiplication story problems with factors to 10.
+3.ANR.3.4	3	3.OA.A.3,3.OA.A.4	same	Write a multiplication equation with an unknown for a story problem.
+3.ANR.3.5	3	3.OA.D.9	same	Find patterns in multiplication on hundred charts, tables and number lines.
+3.ANR.3.6	3	3.NBT.A.3	same	Multiply a one-digit number by a multiple of 10 up to 90.
+3.ANR.4.1	3	3.OA.A.2	same	Read a division (divisor and quotient up to 10) as number of groups and size of each group.
+3.ANR.4.2	3	3.OA.A.2,3.OA.C.7	same	Divide within 10 × 10 by repeated adding or subtracting, skip counting, or splitting a factor.
+3.ANR.4.3	3	3.OA.A.3	same	Solve equal-groups and array division story problems within 10 × 10.
+3.ANR.4.4	3	3.OA.A.3,3.OA.A.4	same	Write a division equation with an unknown for a story problem.
+3.ANR.5.1	3	3.OA.A.1,3.OA.A.2	same	Explain how a story problem shows multiplying or dividing.
+3.ANR.5.2	3	3.OA.B.6,3.OA.C.7	same	Use multiplication to divide, and division to multiply.
+3.ANR.5.3	3		new	Decide and explain whether two multiplication or division expressions within 100 are equal.
+3.ANR.5.4	3	3.OA.C.7	same	Know multiplication and division facts to 10 × 10 using strategies.
+3.ANR.5.5	3	3.OA.C.7	edited	Know the 0s, 1s, 2s, 5s and 10s facts by heart.
+3.ANR.6.1	3	3.OA.D.8	edited	Solve two-step story problems with adding, subtracting and multiplying.
+3.ANR.6.2	3	3.OA.D.8	edited	Estimate sums, differences, products and quotients in one- and two-step story problems.
+3.ANR.7.1	3	3.NF.A.1,3.G.A.2	same	Know a unit fraction is one of the equal parts of a whole (halves, thirds, fourths, sixths, eighths).
+3.ANR.7.2	3	3.NF.A.1,3.G.A.2	same	Find unit fractions on area and length models (halves, thirds, fourths, sixths, eighths).
+3.ANR.7.3	3	3.NF.A.1	same	Explain with area models what a fraction's numerator counts (halves, thirds, fourths, sixths, eighths).
+3.ANR.7.4	3	3.NF.A.2	same	Explain with a number line what a fraction's numerator counts (halves, thirds, fourths, sixths, eighths).
+3.ANR.7.5	3	3.NF.A.3	same	Find equivalent fractions with models: halves, fourths and eighths; thirds and sixths.
+3.ANR.7.6	3	3.NF.A.3	same	Know a fraction with the same top and bottom is one whole (halves, thirds, fourths, sixths, eighths).
+3.ANR.7.7	3	3.NF.A.3	same	Write whole numbers up to 4 as fractions (halves, thirds, fourths, sixths, eighths).
+3.ANR.7.8	3	3.NF.A.3	same	Know two fractions can be compared only when they refer to the same whole.
+3.ANR.7.9	3	3.NF.A.3	same	Compare and order fractions with the same top or bottom number, using models and >, < or =.
+3.SGMR.1.1	3	4.G.A.1	moved	Draw points, lines, line segments, and parallel and perpendicular lines.
+3.SGMR.1.2	3	4.G.A.1	moved	Find points, lines, segments, and parallel and perpendicular lines in shapes.
+3.SGMR.1.3	3	4.MD.C.5	moved	Know an angle is two rays with a shared endpoint.
+3.SGMR.1.4	3	4.G.A.1	moved	Name angles as acute, right, obtuse or straight by comparing them to a square corner or a straight line.
+3.SGMR.1.5	3	3.G.A.1	same	Draw shapes that are and are not quadrilaterals.
+3.SGMR.1.6	3	3.G.A.1	edited	Name parallelograms, rhombuses, rectangles, squares and trapezoids by their features.
+3.SGMR.2.1	3	3.MD.A.1	same	Solve problems about start times, end times and time passed within an hour.
+3.SGMR.2.2	3	3.MD.A.2,2.MD.A.3	edited	Estimate length, capacity and weight in customary units using known benchmarks.
+3.SGMR.2.3	3	3.MD.B.4	same	Measure length to the half and quarter inch, and in feet and yards.
+3.SGMR.2.4	3	3.MD.A.2	edited	Measure capacity in cups, pints, quarts and gallons.
+3.SGMR.2.5	3	3.MD.A.2	edited	Measure weight in ounces and pounds.
+3.SGMR.2.6	3	3.MD.A.2	edited	Solve one-step story problems with whole-number lengths, weights or capacities in one customary unit, any operation.
+3.SGMR.3.1	3	3.MD.C.5,3.MD.C.6	same	Find the area of a rectangle by covering it with unit squares.
+3.SGMR.3.2	3	3.MD.C.7	same	Find the area of rectangles with whole-number sides, including story problems.
+3.SGMR.3.3	3	3.MD.C.7	same	Find a rectangle's area by splitting it into two smaller rectangles.
+3.SGMR.3.4	3	3.MD.D.8	edited	Find the perimeter of shapes with up to 8 sides, including story problems.
+3.SGMR.3.5	3	3.MD.D.8	same	Use what you know about quadrilaterals and regular shapes to find a missing side from the perimeter.
+3.RD.1.1	3	3.MD.B.3	edited	Ask questions that need data in groups to answer.
+3.RD.1.2	3	3.MD.B.3	edited	Decide what data answers a question, with up to 5 groups.
+3.RD.1.3	3	3.MD.B.3	edited	Plan how to collect data in groups to answer a question.
+3.RD.1.4	3	3.MD.B.3	edited	Collect data in groups to answer a question.
+3.RD.1.5	3	3.MD.B.3	edited	Show data on a frequency table, scaled bar graph or picture graph.
+3.RD.1.6	3	3.MD.B.3	edited	Describe and compare data, draw conclusions and back them up with the data.
+3.RD.1.7	3		new	Spot patterns in data and use them to make predictions.
+4.ANR.1.1	4	4.NBT.A.2	edited	Read and write numbers to 100,000 and know each digit's value.
+4.ANR.1.2	4	4.NBT.A.2	edited	Match numbers to 100,000 in standard, expanded, word and regrouped forms (like 14 hundreds 3 tens).
+4.ANR.1.3	4	4.NBT.A.1	edited	Know a digit is worth ten times the same digit one place to its right, in numbers to 100,000.
+4.ANR.1.4	4	4.NBT.A.2	edited	Compare and order numbers to 100,000 with >, <, = and ≠.
+4.ANR.2.1	4	4.NBT.B.4	edited	Connect adding and subtracting strategies within 1,000 to the standard method.
+4.ANR.2.2	4	4.NBT.B.4	edited	Add and subtract numbers to 100,000 with the standard method.
+4.ANR.3.1	4	4.OA.B.4	edited	Find the factor pairs of a number up to 50.
+4.ANR.3.2	4	4.OA.B.4	edited	Tell whether a number up to 50 is prime, composite or neither.
+4.ANR.3.3	4	4.OA.B.4	same	Know a number is a multiple of each of its factors.
+4.ANR.3.4	4	4.OA.B.4	same	Tell whether a number is a multiple of a one-digit number.
+4.ANR.3.5	4	3.OA.C.7	moved	Know multiplication facts to 10 × 10 using strategies.
+4.ANR.3.6	4	3.OA.C.7	moved	Know multiplication facts to 10 × 10 by heart.
+4.ANR.3.7	4	4.OA.A.2,4.OA.A.1	same	Tell 'times as many' comparisons apart from 'more than' comparisons.
+4.ANR.3.8	4	4.OA.A.2	edited	Solve 'times as many' story problems with factors to 10.
+4.ANR.3.9	4	4.NBT.B.5	edited	Multiply up to three digits by one digit, or two digits by two digits, using place value and area models.
+4.ANR.3.10	4	4.NBT.B.6	edited	Divide up to three digits by one digit, with remainders.
+4.ANR.3.11	4	4.OA.A.3	same	Decide what a remainder means in a story problem dividing up to three digits by one.
+4.ANR.4.1	4	4.OA.A.3	edited	Solve two-step story problems with all four operations, using a letter for the unknown.
+4.ANR.4.2	4	4.OA.A.3	same	Check that an answer makes sense by estimating.
+4.ANR.5.1	4	4.NF.A.1	same	Explain with area and length models why two fractions are equivalent (denominators 2–6, 8, 10, 12, 100).
+4.ANR.5.2	4	4.NF.A.2	same	Compare and order fractions (denominators 2–6, 8, 10, 12, 100) with models and >, < and =.
+4.ANR.5.3	4	4.NF.A.2	same	Compare and order fractions (denominators 2–6, 8, 10, 12, 100) using 0, ½ and 1 as benchmarks.
+4.ANR.5.4	4	4.NF.A.2	edited	Compare and order related fractions (halves-fourths-eighths, thirds-sixths-twelfths, fifths-tenths-hundredths) through equivalent fractions.
+4.ANR.5.5	4	4.NF.C.6,4.NF.C.5	edited	Write decimals under 2 in tenths and hundredths, and link them to fractions.
+4.ANR.5.6	4	4.NF.C.7	same	Know decimals can only be compared when they are of the same whole.
+4.ANR.5.7	4	4.NF.C.7	same	Compare and order decimals to hundredths with models and >, < and =.
+4.ANR.6.1	4	4.NF.B.3	same	Add and subtract like-denominator fractions as joining and separating parts of one whole, with models and equations.
+4.ANR.6.2	4	4.NF.B.3	same	Break a fraction into a sum of unit fractions, or other like-denominator sums, in more than one way.
+4.ANR.6.3	4	4.NF.B.3	same	Add and subtract fractions and mixed numbers with the same denominator (denominators 2–6, 8, 10, 12, 100).
+4.ANR.6.4	4	4.NF.B.3	same	Solve one- and two-step story problems adding and subtracting fractions and mixed numbers with the same denominator.
+4.ANR.6.5	4	4.NF.B.4	edited	Use models to show a fraction as a whole number up to 12 times a unit fraction.
+4.ANR.6.6	4	4.NF.B.4	edited	Multiply a whole number by a fraction less than one (denominators 2–6, 8, 10, 12).
+4.ANR.6.7	4	4.NF.B.4,5.NF.B.4	edited	Find a fraction of a set (like ¾ of 12) by multiplying, with set models and arrays.
+4.ANR.6.8	4	4.NF.B.4	edited	Solve one-step story problems multiplying a fraction by a whole number up to 12 (denominators 2–6, 8, 10, 12).
+4.ANR.7.1	4	4.OA.C.5	same	Make a shape or number pattern from a rule.
+4.ANR.7.2	4	4.OA.C.5	edited	Find the rule of a shape or number pattern.
+4.ANR.7.3	4	4.OA.C.5	edited	Tell growing patterns from repeating ones and continue them, including in story problems.
+4.SGMR.1.1	4	4.MD.C.5	same	Know angles are measured in degrees, parts of a circle.
+4.SGMR.1.2	4	4.MD.C.6	edited	Estimate angles using angle types (acute, right, obtuse, straight) and benchmark angles.
+4.SGMR.1.3	4	4.MD.C.6	same	Measure angles in whole degrees with a protractor.
+4.SGMR.1.4	4	4.MD.C.7	same	Find a missing angle by adding or subtracting, on a diagram or in one- or two-step story problems.
+4.SGMR.2.1	4	4.G.A.1	same	Draw and name points, lines, rays, angles, and parallel and perpendicular lines.
+4.SGMR.2.2	4	4.G.A.2	edited	Draw triangles of each angle type and side type, including both at once (like a right isosceles triangle).
+4.SGMR.2.3	4	4.G.A.2	edited	Name triangles by their angles and by their sides, including both at once.
+4.SGMR.2.4	4	4.G.A.2	edited	Sort triangles and quadrilaterals by angles, sides and parallel or perpendicular lines.
+4.SGMR.3.1	4	4.MD.A.2,3.MD.A.1	edited	Solve problems about start times, end times and time passed across the hour.
+4.SGMR.3.2	4	3.MD.A.2,2.MD.A.3	moved	Estimate metric length, capacity and weight using benchmarks (like a liter bottle or a 1 kg bag).
+4.SGMR.3.3	4	2.MD.A.1	moved	Measure length in centimeters and meters.
+4.SGMR.3.4	4	3.MD.A.2	moved	Measure capacity in liters and milliliters.
+4.SGMR.3.5	4	3.MD.A.2	moved	Measure weight in grams and kilograms.
+4.SGMR.3.6	4	4.MD.A.2,3.MD.A.2	edited	Solve one-step story problems with whole-number metric lengths, weights or capacities in one unit, any operation.
+4.SGMR.3.7	4	4.MD.A.1	edited	Convert metric measures from a larger unit to a smaller one using a table.
+4.SGMR.4.1	4	4.MD.A.3	same	Use area and perimeter formulas for rectangles in story problems.
+4.SGMR.4.2	4	3.MD.C.7	moved	Find the area of shapes made of two or three rectangles.
+4.SGMR.4.3	4	3.MD.D.8	moved	Solve problems where rectangles share an area but not a perimeter, or the reverse.
+4.RD.1.1	4	4.MD.B.4	edited	Ask questions that need data in groups or numbers to answer.
+4.RD.1.2	4	4.MD.B.4	edited	Tell whether a question will give data in groups or numbers.
+4.RD.1.3	4	4.MD.B.4	edited	Plan how to collect data to answer a question.
+4.RD.1.4	4	4.MD.B.4	edited	Collect data to answer a question.
+4.RD.1.5	4	4.MD.B.4,3.MD.B.3	edited	Show data on a frequency table, line plot, or single or double bar graph.
+4.RD.1.6	4		new	Find the range (how spread out data is) and the mode (most common value) of a data set.
+4.RD.1.7	4		new	Find the median of a data set.
+4.RD.1.8	4	4.MD.B.4	edited	Describe and compare data, draw conclusions and back them up with the data.
+4.RD.1.9	4		new	Spot patterns in data and use them to make predictions.
+5.ANR.1.1	5	5.OA.A.1	edited	Work out two-step expressions in the right order.
+5.ANR.1.2	5	5.OA.A.2	edited	Explain expressions using the turn-around, grouping and distributive properties.
+5.ANR.1.3	5	5.OA.A.2	same	Match expressions to pictures, words and models.
+5.ANR.2.1	5	4.NBT.A.2	moved	Read and write numbers to one million and know each digit's value.
+5.ANR.2.2	5	5.NBT.A.3	same	Read and write decimals to thousandths and know each digit's value.
+5.ANR.2.3	5	5.NBT.A.3	same	Write decimals to thousandths in standard, expanded and word form.
+5.ANR.2.4	5	5.NBT.A.2	edited	Explain patterns when multiplying by 1,000, 100, 10, 0.1 and 0.01 and dividing by 10 and 100.
+5.ANR.2.5	5	5.NBT.A.1	same	Know a digit is worth 10 times the place to its right and 1/10 the place to its left.
+5.ANR.2.6	5	5.NBT.A.3	same	Compare and order decimals to thousandths with >, <, = and ≠.
+5.ANR.3.1	5	5.NBT.B.5	edited	Multiply up to three digits by two digits, with area models and the standard method.
+5.ANR.3.2	5	5.NBT.B.6,4.NBT.B.6	edited	Divide up to four digits by one digit, with remainders.
+5.ANR.3.3	5	5.NBT.B.6	edited	Build to long division of up to four digits by one digit.
+5.ANR.3.4	5	4.OA.A.3	moved	Decide what a remainder means in a story problem dividing up to four digits by one.
+5.ANR.3.5	5	4.OA.A.3	moved	Solve multi-step story problems with whole numbers and all four operations.
+5.ANR.3.6	5	4.OA.A.3	moved	Check that a whole-number answer makes sense by estimating.
+5.ANR.4.1	5	5.NBT.B.7	edited	Add and subtract decimals to thousandths, with up to six digits in all.
+5.ANR.4.2	5	5.NBT.B.7	edited	Multiply a decimal to hundredths by a whole number up to 4.
+5.ANR.4.3	5	5.NBT.B.7	edited	Divide with a whole number up to 4 and a decimal to hundredths.
+5.ANR.4.4	5	5.NBT.B.7	edited	Solve two-step story problems with decimals.
+5.ANR.4.5	5	5.NBT.B.7	edited	Check decimal answers by estimating.
+5.ANR.5.1	5	5.NF.A.1	edited	Add and subtract fractions and mixed numbers with related unlike denominators (like fourths and eighths).
+5.ANR.5.2	5	5.NF.A.2	edited	Solve one- and two-step story problems adding and subtracting fractions and mixed numbers with related unlike denominators.
+5.ANR.5.3	5	5.NF.B.3	edited	Understand a fraction as top divided by bottom, with sharing stories and models; denominators 2–6, 8, 10, 12.
+5.ANR.5.4	5	5.NF.B.4,5.NF.B.6	edited	Multiply a whole number up to 12 by a fraction or mixed number (denominators 2–6, 8, 10, 12).
+5.ANR.5.5	5	5.NF.B.4,5.NF.B.6	edited	Multiply two fractions or mixed numbers up to 12 with halves, thirds and fourths.
+5.ANR.5.6	5	5.NF.B.5	same	Explain why multiplying by more than 1 makes a number bigger, and by less than 1 smaller.
+5.ANR.5.7	5	5.NF.B.7	edited	Divide unit fractions by whole numbers, and whole numbers up to 10 by unit fractions.
+5.ANR.6.1	5	5.OA.B.3	same	Make two number patterns from two rules.
+5.ANR.6.2	5	5.OA.B.3	same	Describe how matching terms in two patterns are related.
+5.ANR.6.3	5	5.OA.B.3	edited	Use pattern relationships to solve story problems.
+5.SGMR.1.1	5	5.G.B.4	edited	Sort quadrilaterals into a family tree by their properties.
+5.SGMR.1.2	5	5.G.B.3	edited	Know every property of a quadrilateral family belongs to its smaller families too.
+5.SGMR.2.1	5	5.G.A.1	same	Plot points on a coordinate grid.
+5.SGMR.2.2	5	5.G.A.2	same	Solve coordinate grid problems, like moving between points or finding a missing corner.
+5.SGMR.2.3	5	5.OA.B.3	same	Make ordered pairs from two pattern rules and plot them.
+5.SGMR.2.4	5	5.OA.B.3,5.G.A.2	edited	Solve story problems using patterns plotted on a grid.
+5.SGMR.3.1	5	5.MD.A.1	edited	Check that a metric or customary unit conversion in a story makes sense.
+5.SGMR.3.2	5	5.MD.A.1	edited	Solve one- and two-step story problems converting customary units, given the conversion.
+5.SGMR.3.3	5	5.MD.A.1	edited	Solve one- and two-step story problems converting metric units, given the conversion.
+5.SGMR.4.1	5	5.MD.C.3,5.MD.C.4	same	Understand volume by filling prisms with unit cubes.
+5.SGMR.4.2	5	5.MD.C.5	same	Find the volume of a box by packing it with unit cubes.
+5.SGMR.4.3	5	5.MD.C.5	same	Link volume to length × width × height and to base area × height.
+5.SGMR.4.4	5	5.MD.C.5	same	Use the volume formula for rectangular prisms, including story problems.
+5.SGMR.4.5	5	5.MD.C.5	edited	Find a missing edge length from a prism's volume.
+5.SGMR.4.6	5	5.MD.C.5	edited	Find the volume of solids made of two rectangular prisms with one-digit sides, in story problems.
+5.RD.1.1	5	5.MD.B.2	edited	Ask questions that need data in groups, numbers or changes over time to answer.
+5.RD.1.2	5	5.MD.B.2	edited	Tell whether a question will give data in groups, numbers or changes over time.
+5.RD.1.3	5	5.MD.B.2	edited	Plan how to collect data, including data that changes over time, to answer a question.
+5.RD.1.4	5	5.MD.B.2	edited	Collect data to answer a question, including data that changes over time.
+5.RD.1.5	5	5.MD.B.2	edited	Show data on a line graph, line plot or bar graph.
+5.RD.1.6	5	5.MD.B.2	edited	Describe and compare data, draw conclusions and back them up with the data.
+5.RD.1.7	5		new	Spot patterns and trends in data and use them to make predictions.
+#
+# STATUS: ADOPTED, NOT YET IN EFFECT. North Carolina 2026 K-12 Mathematics Standard Course of Study ("Draft 3"), K-5 objectives.
+# - Approved by the State Board of Education on 1 October 2026 (agenda item SSE 3, for Action; recommendation: approve the standards and Extended
+#   Content Standards as submitted). Vote reported by WRAL 2026-10-01 ("without opposition"); no SBE minutes for 1 Oct 2026 posted as of 2026-10-02.
+# - Draft 3 was first presented for discussion at the 2-3 September 2026 meeting. Timeline (NCDPI slides, FAQ): installation 2026-27 and 2027-28,
+#   in classrooms and state tests from 2028-29 (tentative). The 2017 NC SCOS (nc.tsv) stays in effect until then.
+#
+# SOURCES (fetched 2026-10-02)
+# - SBE meeting 2026-10-01, agenda (item SSE 3 "Standards to Students: K-12 Mathematics Standards Draft 3"):
+#   https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=10399&MID=19087&Tab=Agenda  (Incapsula blocks scripts; read in a browser)
+# - Standards: "Copy of Draft 3 - K-12 Math Standards for SBE (1)", 105-page PDF, pages dated "September, 2026", watermarked DRAFT:
+#   https://simbli.eboardsolutions.com/Meetings/Attachment.aspx?S=10399&AID=487705&MID=19087
+# - NCDPI crosswalk: "Copy of Draft 3 2026 NCSCOS K- 12 Math Crosswalks (2)", 221-page PDF (K-8 grade crosswalks, 2026 objective -> 2017 NC standard or "New"):
+#   https://simbli.eboardsolutions.com/Meetings/Attachment.aspx?S=10399&AID=487706&MID=19087
+# - Slides "[Math Standards Draft 3] October 2026 SBE": https://simbli.eboardsolutions.com/Meetings/Attachment.aspx?S=10399&AID=487709&MID=19087
+# - Also attached: Data Report Review of Draft 2 (AID=487704), K-12 ECS Math Proposed 2026 (AID=487707), OCS Introduction to Math (AID=487708).
+# - NCDPI bulletin 2026-09-04 (Draft 3 to SBE in September, action expected October): https://content.govdelivery.com/accounts/NCSBE/bulletins/4286d21
+# - NCDPI FAQ (timeline): https://docs.google.com/document/d/1PVLvNv6B52X2J10Li4P0cLsOyJqZnTdIpAVEdoLrAIY
+# - News of the vote: https://www.wral.com/news/education/changes-to-nc-school-math-requirements-standards-vote-october-2026/
+# - dpi.nc.gov's mathematics pages still list only the 2017 SCOS (checked 2026-10-02); the adopted text is not yet posted there.
+# - CCSS baseline: https://corestandards.org/wp-content/uploads/2023/09/Math_Standards1.pdf ; 2017 NC -> CCSS through nc.tsv in this folder.
+#
+# HOW CODES ARE WRITTEN
+# - Grade.Domain.Standard.Objective, e.g. K.ANR.2.3 = kindergarten, Algebraic and Numerical Reasoning, standard 2, objective 3. No "NC." prefix
+#   (2017 codes had one). Standards are numbered from 1 within each grade's domain; objectives from 1 within each standard. Rows are objectives.
+# - K-5 domains (same three every grade): ANR Algebraic and Numerical Reasoning; SGMR Spatial, Geometric, and Measurement Reasoning;
+#   RD Reasoning with Data. (Grades 6-7 add RPR, Ratio and Proportional Reasoning; grade 8 codes use ANFR.)
+# - Sub-bullets (problem types, strategy lists) belong to their objective. The four Mathematical and Statistical Practices carry no codes; skipped.
+# - K-5: 76 standards, 322 objectives. K 12/48, grade 1 16/52, grade 2 14/48, grade 3 11/58, grade 4 12/64, grade 5 11/52 (standards/objectives).
+#
+# KINDS (judgement against the CCSS K-5 text; counts)
+# - same 153, edited 116, moved 35, new 18 (322).
+# - By grade: K 48 (28 same, 10 edited, 1 moved, 9 new); 1 52 (30 same, 13 edited, 7 moved, 2 new); 2 48 (28 same, 13 edited, 6 moved, 1 new); 3 58 (32 same, 15 edited, 9 moved, 2 new); 4 64 (20 same, 33 edited, 8 moved, 3 new); 5 52 (15 same, 32 edited, 4 moved, 1 new).
+# - same = carries one CCSS standard (or a faithful part of one; splits count as same) with no change in substance.
+#   edited = CCSS content at the same grade with changed range, scope or added parts (other-grade codes may be listed too).
+#   moved = the content is CCSS at another K-5 grade (that grade's code is in ccss). new = no CCSS K-5 content (including grade 6+ content).
+# - ccss: started from NCDPI's crosswalk (2026 objective -> 2017 NC standard -> CCSS via nc.tsv), then narrowed to the CCSS standard(s) the
+#   objective's own text carries (e.g. 4.SGMR.1.x split over 4.MD.C.5/6/7 instead of all three). Codes outside K-5 are never listed.
+# - NCDPI marks 55 K-5 objectives "New" relative to 2017 NC: 44 plain "New" and 11 "New Content Incorporated from NC.x" (another grade).
+#   Plain "New" (44) here: 14 new; 17 moved (K.RD.2.3, 1.ANR.1.3-1.4, 1.ANR.4.1, 1.SGMR.1.6, 1.SGMR.6.3, 2.ANR.6.1, 2.RD.1.1-1.2,
+#   3.ANR.1.1-1.5, 5.ANR.2.1, 5.ANR.3.5-3.6); 13 edited (K.ANR.3.2, K.ANR.3.4, K.ANR.4.3, K.ANR.5.1, K.RD.2.4-2.5, 1.ANR.2.1, 1.ANR.6.2,
+#   1.RD.1.1-1.2, 2.ANR.6.2, 3.ANR.6.2, 5.SGMR.3.1). "Incorporated from" (11): 9 moved, 2 new (4.RD.1.6-1.7, from NC.6.SP).
+# - Paired with a 2017 standard by NCDPI but moved against CCSS: 1.SGMR.6.1-6.2 (coins), 4.SGMR.3.2-3.5 (metric), 4.SGMR.4.2-4.3, 5.ANR.3.4.
+# - Not marked New by NCDPI but new against CCSS: K.ANR.1.8 and K.ANR.4.1 (subitizing; NC already had it in 2017).
+#
+# CCSS K-5 STANDARDS NO ROW CARRIES
+# - K.G.A.1 (position words), 2.G.A.2 (rows and columns of squares), 2.MD.B.5 (length word problems), 2.MD.D.9 (line plot of lengths).
+# - Rounding is never named: 3.NBT.A.1, 4.NBT.A.3 and 5.NBT.A.4 (rounding decimals) have no row of their own; the estimation rows
+#   (3.ANR.6.2, 4.ANR.4.2, 5.ANR.4.5) may use rounding but do not say so. 5.NBT.A.4 is listed nowhere here either.
+# - Partly dropped: 5.NBT.B.6 two-digit divisors (grade 5 divides by one digit only); 5.NBT.B.7 decimal x decimal (only whole number up to 4
+#   times or divided with a decimal); 5.NBT.A.2 exponents; 5.OA.A.1 brackets and braces; 4.NBT.B.5 four-digit by one-digit (three-digit kept);
+#   4.MD.B.4 and 5.MD.B.2 fraction line plots; 4.MD.A.1 customary conversions (grade 5 converts customary); 3.MD.A.2 grams/kilograms/liters
+#   (grade 3 is customary; metric goes to grade 4); 2.NBT.B.6 four addends (three kept); 2.MD.B.6 number line moved to grade 1 (1.ANR.4.1).
+#
+# NOTABLE NON-CCSS CONTENT AND MOVES
+# - New: subitizing (K.ANR.1.8, K.ANR.4.1); counting back (K.ANR.2.3 within 10, 1.ANR.1.2 within 120); repeating patterns (K.ANR.7.x);
+#   estimating on a number line (1.ANR.4.3, 2.ANR.3.2); the data cycle from K (posing questions, collecting) and predicting from data
+#   (3.RD.1.7, 4.RD.1.9, 5.RD.1.7); range, mode, median in grade 4 (4.RD.1.6-1.7, from 6.SP); equal-or-not reasoning for x and / (3.ANR.5.3).
+# - Earlier than CCSS: skip counting by 5s and coins in grade 1; number line in grade 1; composing shapes and symmetry in grade 2; time to
+#   the minute in grade 2; place value to 10,000 in grade 3; lines, segments, parallel/perpendicular and angle types in grade 3.
+# - Later than CCSS: metric measuring and area of rectilinear figures in grade 4; full x facts by heart in grade 4 (grade 3 recalls 0,1,2,5,10s);
+#   whole-number place value to 1,000,000 in grade 5; interpreting remainders and multistep whole-number problems in grade 5.
+# - Narrowed ranges: K compares to 20 (CCSS 10); grade 4 whole numbers to 100,000; factor pairs to 50; fraction work limited to related
+#   denominators (4.ANR.5.4, 5.ANR.5.1-5.2); triangles classified by sides too (4.SGMR.2.x).
+#
+# UNCERTAIN / JUDGEMENT CALLS
+# - The adopted text is the Draft 3 PDF attached to the action item (still marked DRAFT, footer "September, 2026"); a clean final edition may
+#   follow on dpi.nc.gov. The vote itself is from news and the agenda; minutes are not posted yet.
+# - NCDPI's crosswalk is labelled DRAFT and "an initial comparison" against 2017 NC, not CCSS; it has typos ("NC.4.NBT. 7", "NC.5.G.3Classify").
+# - Data-cycle rows: posing, planning, collecting and communicating are edited (CCSS grade data standard extended) where NCDPI pairs them with
+#   a 2017 data standard (grades 1-5), new in K where NCDPI marks them New. Sorting in grade 2 marked moved (K.MD.B.3, 1.MD.C.4).
+# - 5.ANR.3.2-3.3 (four-digit by one-digit, long division) kept as edited 5.NBT.B.6 although the range is CCSS grade 4's (4.NBT.B.6);
+#   NCDPI says 5.ANR.3.3 takes the algorithm from NC.6.NS.2 (CCSS 6.NS.B.2).
+# - 2.SGMR.1.2-1.3 NCDPI says "incorporated from NC.3.G.1"; the CCSS content (composing/decomposing shapes) is 1.G.A.2, so moved from grade 1.
+# - 4.SGMR.3.3-3.5 (measure in cm, m, l, ml, g, kg) marked moved (2.MD.A.1, 3.MD.A.2); 4.SGMR.3.6-3.7 edited (4.MD.A.1-2).
+# - same vs edited is judgement; added examples, "using representations", "in context" and splits of one CCSS standard count as same;
+#   any change of numeric range or added/removed part counts as edited.
+# - Summaries are ours (from Mathness nc29.ts, a few reworded), never the official text.
