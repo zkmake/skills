@@ -754,4 +754,21 @@ document.getElementById("theme").addEventListener("click", () => {
 `;
 
 writeFileSync(join(ROOT, "standards-atlas.html"), html);
+
+// --artifact <file>: the same page for a claude.ai artifact, which supplies its own document skeleton
+// and can't follow links into this folder, so skill files link to the repo on GitHub instead.
+const at = process.argv.indexOf("--artifact");
+if (at > 0) {
+  const REPO = "https://github.com/zkmake/skills/blob/main/skills/edtech/us-math-standards/";
+  const page = html
+    .replace(/^<!doctype html>\n<html lang="en">\n<head>\n/, "")
+    .replace(/<meta charset="utf-8">\n<meta name="viewport"[^>]*>\n/, "")
+    .replace("</head>\n<body>\n", "")
+    .replace(/<\/body>\n<\/html>\n$/, "")
+    .replace(/href="((?:references|data|scripts)\/[^"]*|SKILL\.md)"/g, (_, p) => `href="${REPO}${p}"`)
+    .replace(/'<a href="references\/' \+ d\.file/g, `'<a href="${REPO}references/' + d.file`)
+    .replace(/'<a href="data\/crosswalks\/'/g, `'<a href="${REPO}data/crosswalks/'`);
+  writeFileSync(process.argv[at + 1], page);
+  console.log(`artifact page: ${process.argv[at + 1]}`);
+}
 console.log(`standards-atlas.html: ${ROWS.length} jurisdictions, ${xwSorted.length} crosswalk bars, ${(html.length / 1024).toFixed(0)} KB`);
