@@ -19,7 +19,7 @@ In effect for 2026–27: Tennessee Math Standards, called "Tennessee Academic St
   - TN 2.OA.D.5 is hundreds-chart patterns (CC 3.OA.D.9). TN 3.NBT.A.4 is numbers to 100,000.
 - 3.MD.A.1 is split into 3.MD.A.1a (time) and 3.MD.A.1b (money), as in the TN crosswalk. Other lettered parts restate Common Core and are folded.
 - Merged standards: CC 1.OA.C.5 and 1.OA.C.6 into TN 1.OA.C.5; 2.NBT.B.9 into 2.NBT.B.7; 5.G.B.4 into 5.G.B.3.
-- Pre-K: Head Start's goals (no state pre-K codes are mapped).
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - 154 K–5 rows (K 24, 1 23, 2 26, 3 28, 4 28, 5 25): 123 same, 23 edited, 6 moved, 2 new.
@@ -75,6 +75,12 @@ In effect for 2026–27: Tennessee Math Standards, called "Tennessee Academic St
   - 2.NBT.A.2 gets Maryland skip counting (2.NOS.A.2).
 - No sheets were written under a TN code.
 - Fit review: no partial rows remain.
+
+## Pre-K
+- Tennessee Early Learning Developmental Standards (TN-ELDS) for Four-Year-Olds (2018), mathematics: 21 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.tn`), data in `data/prek/tn.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Codes Common Core-shaped: `PK.CC.A.1`, `PK.OA.A.1`, `PK.MD.A.1`, `PK.G.A.1` (PK.CC.A.2 is left out; PK.G.A.4 and PK.G.B.4 both exist, as in the document).
+- Domains: CC (6), OA (4), MD (4), G (7).
+- 17 rows link Head Start goals, 9 link other sheets. PK.OA.A.3 → PK.NOS.D.10; PK.OA.A.4 → PK.AT.A.2; PK.MD.B.3 (coins) borrows 1.GR.C.6 and K.9D; PK.MD.C.4 → PK.DS.A.1, PK.DS.A.2.
 
 ## Uncertain
 - The Atlas lists "Tennessee's grade 3 place value" (3.NBT.A.4, numbers to 100,000) as less certain.

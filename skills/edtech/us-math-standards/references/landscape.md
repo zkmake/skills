@@ -15,7 +15,7 @@ Which standards every jurisdiction uses, how to model each, what states add beyo
 
 Maryland is the only own set with an official Common Core crosswalk (from MSDE). Texas, Florida and Virginia never adopted Common Core; Oklahoma repealed it in 2014; most crosswalked states publish no official crosswalk, so the mapping is your judgement and says so.
 
-Mathness at the end of 2026-10-01: 58 sets (Common Core, 4 own sets, 53 editions: 15 in Common Core's codes, 38 crosswalks = 33 states + 5 next-year), 6,006 crosswalk rows, 9,652 standards (9,036 K–5 + 616 pre-K), every one with a sheet.
+Mathness at the end of 2026-10-01: 58 sets (Common Core, 4 own sets, 53 editions: 15 in Common Core's codes, 38 crosswalks = 33 states + 5 next-year), 6,006 crosswalk rows, 9,745 standards (9,036 K–5 + 709 pre-K), every one with a sheet (state pre-K codes replace Head Start's 10 goals in that state's set, so mapping a state's pre-K changes the total by its row count minus 10).
 
 ## Every jurisdiction
 
@@ -23,7 +23,7 @@ Mathness at the end of 2026-10-01: 58 sets (Common Core, 4 own sets, 53 editions
 
 | | Standards in effect, 2026–27 | Adopted | Model | Notable beyond Common Core | Next |
 | --- | --- | --- | --- | --- | --- |
-| AL | Alabama Course of Study: Mathematics | 2019 | xw | numbered within each grade (written `AL.1.20`); pennies and dimes in G1; probability from a picture G3 | |
+| AL | Alabama Course of Study: Mathematics | 2019 | xw | numbered within each grade (written `AL.1.20`); pennies and dimes in G1; probability from a picture G3; own pre-K | |
 | AK | Alaska Mathematics Standards | 2012 | xw | renumbered and added: calendars, time zones, patterns; $ and ¢ in G1; input/output G4 | |
 | AZ | Arizona Mathematics Standards | 2016 | xw | coins G1 (1.MD.B.3b); money to $20 with decimals G3; prime factors G5 (5.OA.B.4) | |
 | AR | Arkansas Mathematics Standards | 2023 | xw | own strands (`K.NPV.1`, `K.GM.8`); pennies and dimes, calendar words, temperature in K | |
@@ -33,7 +33,7 @@ Mathness at the end of 2026-10-01: 58 sets (Common Core, 4 own sets, 53 editions
 | DE | Common Core State Standards for Mathematics | 2010 | cc | as written | |
 | DC | Common Core State Standards for Mathematics | 2010 | cc | as written | |
 | FL | Florida's B.E.S.T. Standards for Mathematics | 2020 | own | see frameworks.md | |
-| GA | Georgia's K-12 Mathematics Standards | 2021 | xw | own strands (`K.NR.1.4`); coins in K; statistical-reasoning cycle every grade | |
+| GA | Georgia's K-12 Mathematics Standards | 2021 | xw | own strands (`K.NR.1.4`); coins in K; statistical-reasoning cycle every grade; own pre-K | |
 | HI | Hawaiʻi Common Core Standards for Mathematics | 2010 | cc | as written | revision approved 18 Jun 2026 (K data standard K.MD.4, grade 1 coins 1.MD.4; cluster letters dropped), elementary in 2027–28; in Mathness |
 | ID | Idaho Content Standards: Mathematics | 2022 | cc | Common Core codes, some rewritten; a grade 1 money standard | review under way; recommendations to the Legislature in 2027 |
 | IL | Illinois Learning Standards for Mathematics | 2010 | cc | as written | |
@@ -47,31 +47,31 @@ Mathness at the end of 2026-10-01: 58 sets (Common Core, 4 own sets, 53 editions
 | MA | Massachusetts Curriculum Framework for Mathematics | 2017 | xw | own pre-K; coins G1; units of time G2; facts to 12 × 12 G4 | |
 | MI | Michigan K-12 Standards for Mathematics | 2010 | cc | as written | HB 4159 (2025) passed the House, stalled in the Senate; the 2026 Michigan Mathematics Framework is guidance |
 | MN | Minnesota K–12 Academic Standards in Mathematics | 2007 | xw | numeric codes (`3.1.3.2`); thermometers G3; slides and turns G4; nets, mean and median G5 | 2022 standards required 2027–28 (data and probability every grade, no clock time; K codes start `0.`); in Mathness |
-| MS | Mississippi College- and Career-Readiness Standards for Mathematics | 2025 | xw | required from 2025–26: calendars and coins in G1 (incl. half-dollar and dollar), calendar problems G2 | |
+| MS | Mississippi College- and Career-Readiness Standards for Mathematics | 2025 | xw | required from 2025–26: calendars and coins in G1 (incl. half-dollar and dollar), calendar problems G2; own pre-K | |
 | MO | Missouri Learning Standards: Mathematics | 2016 | xw | own codes (`K.GM.B.5`), Common Core-shaped but renumbered; coins and days of the week K | |
 | MT | Montana Mathematics Content Standards | 2025 | xw | in effect July 2026; `MT.` codes renumbered; coins from K; Indigenous and local contexts | |
 | NE | Nebraska's College and Career Ready Standards for Mathematics | 2022 | xw | own codes (`K.G.3.a`); coins and clocks K; own data questions G2 | |
 | NV | Nevada Academic Content Standards in Mathematics | 2010 | cc | as written | |
 | NH | New Hampshire College and Career Ready Standards | 2010 | cc | as written | |
-| NJ | New Jersey Student Learning Standards for Mathematics | 2023 | xw | Measurement (M) and Data Literacy (DL) replace MD; coins and $1 K; bills to $20 G1 | |
+| NJ | New Jersey Student Learning Standards for Mathematics | 2023 | xw | Measurement (M) and Data Literacy (DL) replace MD; coins and $1 K; bills to $20 G1; own pre-K | |
 | NM | New Mexico Common Core Content Standards for Mathematics | 2010 | cc | as written | |
 | NY | New York State Next Generation Mathematics Learning Standards | 2017 | xw | `NY-` codes; own pre-K; coins to 100¢ G1; 4-digit place value G3 | |
-| NC | North Carolina Standard Course of Study for Mathematics | 2017 | xw | `NC.` codes; coins G1; frequency tables G4; line graphs G5 | new K–12 standards adopted 1 Oct 2026 (news reports; board record pending), planned for 2028–29 |
+| NC | North Carolina Standard Course of Study for Mathematics | 2017 | xw | `NC.` codes; coins G1; frequency tables G4; line graphs G5; own pre-K | new K–12 standards adopted 1 Oct 2026 (news reports; board record pending), planned for 2028–29 |
 | ND | North Dakota Mathematics Content Standards K–12 | 2023 | xw | four categories (`3.GM.M.5`); time words K; coins and $1 G1 | |
-| OH | Ohio's Learning Standards for Mathematics | 2017 | xw | pennies K; pennies and dimes G1; money in decimals G4 | |
+| OH | Ohio's Learning Standards for Mathematics | 2017 | xw | pennies K; pennies and dimes G1; money in decimals G4; own pre-K | |
 | OK | Oklahoma Academic Standards for Mathematics | 2022 | xw | own codes (`4.N.4.2`); own pre-K; coins K–4; patterns strand; mean/median/mode G5; some grade 4–5 Common Core topics in grade 6 | |
 | OR | Oregon Mathematics Standards | 2021 | xw | Data Reasoning domain every grade (`K.DR.A.1`) | |
 | PA | PA Core Standards for Mathematics | 2014 | xw | broad statements; codes don't lead with the grade (`CC.2.4.3.A.3` is grade 3); own pre-K | |
 | RI | Rhode Island Core Standards for Mathematics | 2021 | xw | follows Massachusetts 2017; coins G1 (1.MD.D.5) | |
 | SC | South Carolina College- and Career-Ready Mathematics Standards | 2023 (the "2025" standards) | xw | in classrooms 2025–26; own strands (`1.MGSR.1.4`); probability from G3 | |
 | SD | South Dakota State Standards for Mathematics | 2018 | xw | time and money cluster K–1 | 2026 standards in effect 2027–28, renumbered (`3.M.17`); in Mathness |
-| TN | Tennessee Academic Standards for Mathematics | 2021 | xw | **Common Core-shaped codes with other content** (K.MD.B.3 is coins); numbers to 100,000 G3 | |
+| TN | Tennessee Academic Standards for Mathematics | 2021 | xw | **Common Core-shaped codes with other content** (K.MD.B.3 is coins); numbers to 100,000 G3; own pre-K | |
 | TX | Texas Essential Knowledge and Skills for Mathematics | 2012 | own | see frameworks.md | |
 | UT | Utah Core Standards for Mathematics | 2016 | xw | coins and ¢ G1 (1.MD.5) | revision drafted; no adoption date set |
 | VT | Common Core State Standards for Mathematics | 2010 | cc | as written | |
 | VA | Virginia Mathematics Standards of Learning | 2023 | own | see frameworks.md | |
 | WA | Washington State K–12 Learning Standards for Mathematics | 2011 | cc | as written today | WA Math 2026 required 2027–28: four domains (`M.3.R.MD.5`), data science every grade; in Mathness |
-| WV | West Virginia College- and Career-Readiness Standards for Mathematics | 2023 | xw | in effect July 2024; sequential codes (`M.3.18`); numbers to 10,000 G3 | |
+| WV | West Virginia College- and Career-Readiness Standards for Mathematics | 2023 | xw | in effect July 2024; sequential codes (`M.3.18`); numbers to 10,000 G3; own pre-K | |
 | WI | Wisconsin Standards for Mathematics | 2021 | xw | `M.` codes renumbered where Wisconsin inserted rows (`M.K.CC.B.6` is K.CC.B.5) | |
 | WY | Wyoming Content and Performance Standards for Mathematics | 2023 | xw | 63 standards, mostly Common Core reworded, own codes (`K.G.4`) | |
 | PR | Estándares de Contenido y Expectativas de Grado: Matemáticas | 2022 | — | in Spanish; own codes (`1.E.14.1`); probability from G1 | |
@@ -106,6 +106,7 @@ The checklist to run against any catalogue built on Common Core. "Covered" is Ma
 | Saving goals | MN 2027 G3, TX | covered |
 | Picture patterns drawn as figures; curved shapes on grid paper | MN 2027, OK | covered |
 | State pre-K inside the math standards | MD, NY, MA, OK, CO, PA | covered ([pre-k.md](pre-k.md)) |
+| State pre-K in early-learning standards | AL, GA, MS, NC, NJ, OH, TN, WV | covered ([pre-k.md](pre-k.md)) |
 | **Sheets in Spanish** | PR; dual-language classrooms everywhere | gap (needs an i18n layer: every title, instruction, story and riddle word) |
 | Local and Indigenous contexts | MT (Indian Education for All), ID | gap (themes could carry regional settings) |
 
@@ -120,7 +121,7 @@ To refresh this page: check each state agency's standards page for "revision", "
 
 ## Open items (2026-10-01, in priority order)
 
-1. State pre-K in states' own codes beyond Maryland, New York, Massachusetts, Oklahoma, Colorado and Pennsylvania.
+1. State pre-K in states' own codes beyond the 14 mapped (Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania, Alabama, Georgia, Mississippi, North Carolina, New Jersey, Ohio, Tennessee, West Virginia): next the other crosswalked states, then states in Common Core's own codes (needs app support).
 2. Utah and Kentucky 2027–28 and North Carolina 2028–29 editions once final.
 3. Probability in grades 1–2 (Puerto Rico).
 4. A Spanish edition (Puerto Rico; dual-language classrooms). The largest job.

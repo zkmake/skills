@@ -185,7 +185,7 @@ const TIMELINE: [string, string, [string, string][]][] = [
 ];
 // The coverage session's open items, in its priority order (2026-10-01).
 const OPEN = [
-  ["State pre-K in states' own codes", "done for Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania; the rest show Head Start's goals"],
+  ["State pre-K in states' own codes", "done for 14: Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania, Alabama, Georgia, Mississippi, North Carolina, New Jersey, Ohio, Tennessee, West Virginia; next, the other crosswalked states, then pre-K for states in Common Core's own codes (needs app support); the rest show Head Start's goals"],
   ["Next standards when final", "Utah and Kentucky for 2027–28, North Carolina for 2028–29: one research file and one generated edition each"],
   ["Probability in grades 1–2", "Puerto Rico asks for it; nothing below grade 3 yet"],
   ["A Spanish edition", "Puerto Rico's standards are in Spanish; dual-language classrooms everywhere. The largest job here"],
@@ -315,7 +315,7 @@ const timeline = TIMELINE.map(([year, lab, items]) => `
 const resources = RESOURCES.map(([h, items]) => `
   <div class="res"><h3>${h}</h3><ul>${items.map(([t, u, d]) => `<li><a href="${esc(href(u))}">${esc(t)}</a><span>${esc(d)}</span></li>`).join("")}</ul></div>`).join("");
 
-const prekIds = ["MD", "NY", "MA", "OK", "CO", "PA"];
+const prekIds = ["MD", "NY", "MA", "OK", "CO", "PA", "AL", "GA", "MS", "NC", "NJ", "OH", "TN", "WV"];
 const terr = ROWS.filter((r) => ["PR", "GU", "VI", "DoDEA"].includes(r.id));
 
 const html = `<!doctype html>
@@ -580,7 +580,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
     ${[
       ["1,485/1,485", "crosswalk rows fit fully", "state rows that differ from Common Core, across all 38 crosswalks"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
-      ["9,652", "standards, each with a sheet", "58 sets: Common Core, 4 own sets, 53 state editions"],
+      ["9,745", "standards, each with a sheet", "58 sets: Common Core, 4 own sets, 53 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n.includes("/") ? n.split("/")[0] : n}</span><b>${n.includes("/") ? `of ${n.split("/")[1]} ${b}` : b}</b><small>${s}</small></div>`).join("")}
   </div>
@@ -654,7 +654,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 <section id="prek">
   <div class="head"><span class="eyebrow">Before kindergarten</span><h2>Pre-K in states' own codes</h2></div>
   <div class="two">
-    <div class="card prek"><p>Common Core starts at kindergarten. Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015), goals P-MATH 1–10, in every state that hasn't put pre-K in its math standards. Six states that have are mapped in their own codes:</p>
+    <div class="card prek"><p>Common Core starts at kindergarten. Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015), goals P-MATH 1–10, in every state not yet mapped. Fourteen states are mapped in their own pre-K codes, from their math or early-learning standards:</p>
       <div class="prekflags">${prekIds.map((id) => `<span>${flagFor(id)}${esc(NAMES[id])}</span>`).join("")}</div>
       <p class="muted" style="font-size:.88rem">Texas (Prekindergarten Guidelines 2022), Florida (4 years to kindergarten, 2017) and Virginia (2021) show Head Start's goals until mapped. Data: <a href="data/prek/">data/prek</a>.</p></div>
     <div class="card prek"><h3>Sheets read aloud</h3><p>Pre-K sheets are made to be read by a grown-up: 24pt answers, pictures 80–140pt, a picture cue beside every title (trace, circle, colour, line, draw), and answers made by circling, tracing or drawing, never writing.</p></div>

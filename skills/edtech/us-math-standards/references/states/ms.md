@@ -18,7 +18,7 @@ In effect for 2026–27: the 2025 Mississippi College- and Career-Readiness Stan
 - Numbers match Common Core's, so adding the cluster letter gives the Common Core code (3.OA.7 is 3.OA.C.7). The exception is Mississippi's own lettered codes, which are kept as rows: K.CC.1a/1b, K.OA.5a/5b, 1.MD.3a/3b/3c, 1.MD.5a–5d, 2.MD.8a/8b.
 - Lettered parts that restate Common Core sub-parts (K.CC.4a–c, 3.NF.3a–d, 5.MD.5a–c) are folded. The app has 13 lettered rows.
 - Practice standards are coded K.SMP.1–8 and are skipped.
-- Pre-K: no state pre-K codes are mapped, so pre-K follows Head Start's goals.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - 157 K–5 rows (K 24, 1 27, 2 27, 3 25, 4 28, 5 26): 140 same, 10 edited, 4 moved, 3 new. No Common Core K–5 standard is dropped.
@@ -59,6 +59,12 @@ In effect for 2026–27: the 2025 Mississippi College- and Career-Readiness Stan
   - 4.G.2: Virginia's sorting triangles (5.MG.3).
 - No sheets were written under an MS code.
 - Fit review: no partial rows remain.
+
+## Pre-K
+- Mississippi Early Learning Standards for Four-Year-Old Children (2018): 18 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.ms`), data in `data/prek/ms.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Codes `M.CC.PK4.1`, `M.OA.PK4.1`, `M.MD.PK4.1`, `M.G.PK4.1`. The document never prints the measurement codes; Mathness follows its own `M.<domain>.PK4.n` pattern for them.
+- Domains: CC (6), OA (4), MD (3), G (5).
+- 16 rows link Head Start goals, 7 link Maryland pre-K sheets; M.OA.PK4.3 → PK.NOS.D.10 and M.MD.PK4.3 → PK.DS.A.1 only. No later-grade borrowing.
 
 ## Uncertain
 - Year stamps disagree. editions.ts (year "2025") and the ms.ts header ("2025 …") are right for 2026–27. gen.py `NAMES` ("…(2016)") and the Standards Atlas row (2016) are stale.

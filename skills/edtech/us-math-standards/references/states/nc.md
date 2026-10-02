@@ -1,6 +1,6 @@
 # North Carolina (NC)
 
-In effect for 2026–27: North Carolina Standard Course of Study for Mathematics (2017; K–8 in classrooms from 2018–19). Mathness models it as a crosswalk in NC's own codes (edition `nc`, 131 rows; pre-K follows Head Start). New K–12 standards were adopted on 1 October 2026, planned for 2028–29; see Next edition.
+In effect for 2026–27: North Carolina Standard Course of Study for Mathematics (2017; K–8 in classrooms from 2018–19). Mathness models it as a crosswalk in NC's own codes (edition `nc`, 131 rows; pre-K in NC's own codes, see Pre-K). New K–12 standards were adopted on 1 October 2026, planned for 2028–29; see Next edition.
 
 ## Documents
 - Standards: NCDPI K-12 Mathematics Standard Course of Study (English), a Google Doc linked by NCDPI: https://docs.google.com/document/d/1ZCt83aTtuev58rHlZkakK989vziGI3eLk2xNXi8u_4o
@@ -67,6 +67,12 @@ The fit review (extra.tsv, 23 lines) added:
 - Solids: Texas `2.8B`.
 
 No NC-prefixed sheets. The latest fit verdicts leave no partials.
+
+## Pre-K
+- North Carolina Foundations for Early Learning and Development (2013), older preschooler indicators: 23 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.nc`), data in `data/prek/nc.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Codes `CD-10n` … `CD-13h` (Cognitive Development goals CD-10 to CD-13, the letter is the indicator; older-preschooler letters start partway through the alphabet).
+- Domains: NQ Numbers and Quantities (10), CM Compare, Sort, Measure and Pattern (6), SP Shapes and Position (3), PS Mathematical Problem Solving (4).
+- 19 rows link Head Start goals, 11 link other sheets. Borrowed later-grade sheets: CD-10w → MA.K.NSO.1.3; CD-11m → 1.MD.A.2; CD-11o → K.GR.A.3.
 
 ## Next edition
 - The State Board adopted new K–12 math standards (Draft 3) on 1 October 2026, without opposition, planned for classrooms in 2028–29. The 2017 SCOS stays in use until then (editions.ts note, checked 2026-10-01).

@@ -1,6 +1,6 @@
 # Pre-K: frameworks and read-aloud sheets
 
-Common Core starts at kindergarten, so pre-K needs its own framework and its own sheet design. Mathness added a Pre-K grade on 2026-09-29 (12 Head Start skills), then Maryland's own pre-K (8 more Maryland-only skills), then five more states' own pre-K codes on 2026-10-01.
+Common Core starts at kindergarten, so pre-K needs its own framework and its own sheet design. Mathness added a Pre-K grade on 2026-09-29 (12 Head Start skills), then Maryland's own pre-K (8 more Maryland-only skills), then thirteen more states' own pre-K codes on 2026-10-01 (five from their math standards, eight from their early-learning standards). A state's mapped rows replace Head Start's 10 goals in its set.
 
 ## Which framework each set shows
 
@@ -13,13 +13,21 @@ Common Core starts at kindergarten, so pre-K needs its own framework and its own
 | Oklahoma | Oklahoma Academic Standards for Mathematics (2022): 16 rows, `PK.N.1.1` | mapped |
 | Colorado | Colorado Academic Standards for Mathematics (2020), one row per indicator: 25 rows, `P.CC.A.1` | mapped |
 | Pennsylvania | PA Core Standards for Mathematics: 8 rows, `CC.2.1.PreK.A.1` | mapped |
+| Alabama | Alabama's Standards for Early Learning and Development (2023), older preschooler: 36 rows, `MAT1aOP-1` | mapped |
+| Georgia | Georgia Early Learning and Development Standards, 48–60 months (2026): 32 rows, `CD-MA1.4a` | mapped |
+| Mississippi | Mississippi Early Learning Standards for Four-Year-Old Children (2018): 18 rows, `M.CC.PK4.1` | mapped |
+| North Carolina | North Carolina Foundations for Early Learning and Development (2013), older preschooler: 23 rows, `CD-10n` | mapped |
+| New Jersey | New Jersey Preschool Teaching and Learning Standards (2014): 14 rows, `4.1.1` | mapped |
+| Ohio | Ohio's Early Learning and Development Standards (2022): 10 rows, `MA.1.a` | mapped |
+| Tennessee | Tennessee Early Learning Developmental Standards for Four-Year-Olds (2018): 21 rows, `PK.CC.A.1` | mapped |
+| West Virginia | West Virginia Pre-K Standards, Policy 2520.15 (2025): 19 rows, `M.PK.1` | mapped |
 | Texas | Prekindergarten Guidelines (2022; revision under review) | shows Head Start; "not mapped yet" |
 | Florida | Early Learning and Developmental Standards, 4 years to kindergarten (2017) | shows Head Start; "not mapped yet" |
 | Virginia | Early Learning and Development Standards (2021) | shows Head Start; "not mapped yet" |
 
-Every state has early-learning guidelines somewhere (often birth-to-5, outside the math standards); the states worth mapping first are the ones that put pre-K **inside their math standards** (Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania), since that's where a teacher looks.
+Every state has early-learning guidelines somewhere (often birth-to-5, outside the math standards); the states worth mapping first are the ones that put pre-K **inside their math standards** (Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania), since that's where a teacher looks; next, states whose early-learning standards have a math domain with indicators a sheet can practise (Alabama, Georgia, Mississippi, North Carolina, New Jersey, Ohio, Tennessee, West Virginia). Name the document and the age band you map (four-year-olds, older preschooler, 48–60 months), and leave out what the state says begins in kindergarten. State pages for each: `states/<postal>.md`, section Pre-K.
 
-**How a state's pre-K row maps:** each row lists the Head Start goals whose sheets practise it, then Maryland's pre-K sheets for content Head Start doesn't carry (Maryland's eight extras serve the other five states too), and, where pre-K has nothing, a kindergarten or grade 1 sheet (zero; first and last; coins; measuring with units). Note rows a worksheet can't practise ("whole-body movement") rather than forcing a link. Rows are links-only, like crosswalk rows. Watch moves: Maryland moved pre-K position words to K.GR.B.4, so the positions sheet sits at kindergarten in Maryland's view.
+**How a state's pre-K row maps:** each row lists the Head Start goals whose sheets practise it, then Maryland's pre-K sheets for content Head Start doesn't carry (Maryland's eight extras serve the other thirteen states too), and, where pre-K has nothing, a kindergarten or grade 1 sheet (zero; first and last; coins; measuring with units). Note rows a worksheet can't practise ("whole-body movement") rather than forcing a link. Rows are links-only, like crosswalk rows. Watch moves: Maryland moved pre-K position words to K.GR.B.4, so the positions sheet sits at kindergarten in Maryland's view.
 
 **Labels**: name pre-K's framework, not the set ("Head Start P-MATH 3" beside a state code; "Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015)… Texas's Prekindergarten Guidelines (2022) aren't mapped yet"). Head Start has no domain codes: show goal ranges ("P-MATH 1–5"). Curricula have no pre-K units.
 

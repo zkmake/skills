@@ -21,7 +21,7 @@
 - **Domains and clusters are Common Core's names.** The documents list number ranges per cluster. WV adds clusters "Recognize patterns" (K OA) and "Work with money" (K MD), and "Work with time and money" in grades 1–2.
 - **Sub-parts folded:** lettered or bulleted sub-parts (M.3.24, M.4.14, M.5.17) restate Common Core and are folded into their standard. The Mathematical Habits of Mind (MHM1–8, which equal Common Core's practices) are skipped.
 - **Typo:** the WVDE grade 3 PDF prints M.3.15 as a second "M.3.13". The policy text has M.3.15.
-- **Pre-K:** Head Start's goals; no state pre-K codes are mapped.
+- **Pre-K:** own codes, see Pre-K.
 
 ## Against Common Core
 - **Row counts:** 156 K–5 rows (K 25, 1 23, 2 27, 3 27, 4 28, 5 26): 145 same, 3 edited, 5 moved, 3 new. No Common Core K–5 standard is dropped.
@@ -59,6 +59,12 @@
   - M.3.11 gets Florida's number line MA.3.NSO.1.3.
 - No sheets were written under a WV code.
 - **Fit review:** no partial rows remain.
+
+## Pre-K
+- West Virginia Pre-K Standards, Policy 2520.15 (2025), mathematics: 19 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.wv`), data in `data/prek/wv.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Codes run in sequence, `M.PK.1` … `M.PK.25`, with gaps where rows were left out (2, 11, 12, 14, 18, 19).
+- Domains (Common Core's names): CC (6), OA (4), MD (3), G (6).
+- 17 rows link Head Start goals, 9 link other sheets. M.PK.7 (ordinals) borrows MA.K.NSO.1.3; M.PK.17 → PK.DS.A.1, PK.DS.A.2.
 
 ## Uncertain
 - **Year:** editions.ts uses 2023, the filing and adoption. gen.py's NAMES and the Atlas say 2024, the effective date (1 July 2024). Both are right for different events.

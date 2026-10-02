@@ -24,7 +24,7 @@ The research files themselves, one per state, as the research agents wrote them 
 
 ## `prek/`
 
-Exported from Mathness's `src/standards/states/prek.ts`: the pre-K standards of New York (14), Massachusetts (13), Oklahoma (16), Colorado (25) and Pennsylvania (8), each mapped to the Head Start goals that practise it (`head_start_goals`) and to other sheets' codes where Head Start has nothing (`other_sheet_codes`: mostly Maryland's own pre-K codes, a few kindergarten or grade 1 codes).
+Exported from Mathness's `src/standards/states/prek.ts`: the pre-K standards of New York (14), Massachusetts (13), Oklahoma (16), Colorado (25), Pennsylvania (8), Alabama (36), Georgia (32), Mississippi (18), North Carolina (23), New Jersey (14), Ohio (10), Tennessee (21) and West Virginia (19), 249 rows, each mapped to the Head Start goals that practise it (`head_start_goals`) and to other sheets' codes where Head Start has nothing (`other_sheet_codes`: mostly Maryland's own pre-K codes, a few kindergarten or grade 1 codes).
 
 ## `curricula/`
 

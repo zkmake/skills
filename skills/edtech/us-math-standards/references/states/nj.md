@@ -24,7 +24,7 @@ In effect for 2026–27: New Jersey Student Learning Standards – Mathematics (
   - The research TSV has a row per lettered sub-part (206 rows, 43 lettered).
   - The app folds sub-parts that equal Common Core, which is all of them, leaving 163 rows with no lettered codes.
   - 147 of the 163 app rows are bare `[code, ccss]` pairs with no summary.
-- Pre-K: no state pre-K codes are mapped, so pre-K follows Head Start's goals.
+- Pre-K: own codes, see Pre-K.
 
 ## Against Common Core
 - Research TSV, 206 rows: 190 same, 1 edited, 3 moved, 12 new. App (K 23, 1 23, 2 28, 3 27, 4 32, 5 30): 163 rows. No Common Core K–5 standard is dropped.
@@ -68,6 +68,12 @@ In effect for 2026–27: New Jersey Student Learning Standards – Mathematics (
   - 5.DL.A.4: 5.MD.B.2.
   - 3.OA.D.8: Maryland's estimating sums 3.NOS.D.6 plus Virginia's making change 3.NS.4.
 - Fit review: no partial rows remain. 3.OA.D.8 (money in two-step problems) was closed in round 9.
+
+## Pre-K
+- New Jersey Preschool Teaching and Learning Standards (2014), mathematics: 14 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.nj`), data in `data/prek/nj.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Codes `4.1.1` … `4.4.3` (math is the document's fourth domain).
+- Domains: NC Number and Counting (6), NO Numerical Operations (2), MA Measurable Attributes (3), G Spatial and Geometric Sense (3).
+- All 14 link Head Start goals; 7 also link Maryland pre-K sheets. No later-grade borrowing.
 
 ## Uncertain
 - The name varies. The TSV and NJDOE write "New Jersey Student Learning Standards – Mathematics". editions.ts writes "… for Mathematics". The Atlas writes "…Standards–Mathematics".

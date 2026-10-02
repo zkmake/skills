@@ -1,6 +1,6 @@
 # Ohio (OH)
 
-In effect for 2026–27: Ohio's Learning Standards for Mathematics (adopted by the State Board, February 2017; the classroom start year is not in our sources). The ODE page, last modified Feb 2026, still lists them as current. Mathness models them as a crosswalk in Ohio's codes (edition `oh`, 159 rows; pre-K follows Head Start). No next edition is recorded.
+In effect for 2026–27: Ohio's Learning Standards for Mathematics (adopted by the State Board, February 2017; the classroom start year is not in our sources). The ODE page, last modified Feb 2026, still lists them as current. Mathness models them as a crosswalk in Ohio's codes (edition `oh`, 159 rows; pre-K in Ohio's own codes, see Pre-K). No next edition is recorded.
 
 ## Documents
 - Standards PDF: https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Mathematics/Ohio-s-Learning-Standards-in-Mathematics/MATH-Standards-2017.pdf.aspx?lang=en-US
@@ -63,6 +63,12 @@ Further fit-review links (extra.tsv has 17 OH lines in total):
 - Triangles: Virginia `5.MG.3`.
 
 No OH-prefixed sheets. The latest fit verdicts leave no partials. An earlier pass flagged money to $1,000 in `3.MD.1b` and gaps in `4.MD.2a–c`; later passes cleared them.
+
+## Pre-K
+- Ohio's Early Learning and Development Standards (2022), mathematics: 10 rows. Mapped 2026-10-01 in Mathness's `src/standards/states/prek.ts` (`STATE_PREK.oh`), data in `data/prek/oh.tsv`; the rows replace Head Start's 10 goals in this state's set. Summaries are ours; standards the state says begin in kindergarten are left out, so numbering can skip.
+- Codes `MA.1.a` … `MA.4.b`.
+- Domains: NS Number Sense (4), NR Number Relationships and Operations (1), M Measurement (3), G Geometry (2).
+- 9 rows link Head Start goals, 4 link Maryland pre-K sheets; MA.3.b links only PK.DS.A.1 and PK.DS.A.2. With 10 rows the set's pre-K count matches Head Start's.
 
 ## Uncertain
 - The classroom start year for the 2017 standards is not stated in our sources.
