@@ -271,6 +271,12 @@ const DATA = ROWS.map((r) => ({
   nextRows: r.nextRows, enroll: r.enroll, flag: r.flag ?? "",
 }));
 
+/** What a row of the distance chart says, for a screen reader: the share that differs, then the counts. */
+const kindWords = (k: Kinds | undefined) => {
+  if (!k) return "";
+  const t = k.same + k.edited + k.moved + k.new;
+  return `${Math.round((100 * (t - k.same)) / t)}% differs from Common Core (${k.same} same, ${k.edited} edited, ${k.moved} moved, ${k.new} new)`;
+};
 const kindBar = (k: Kinds | undefined) => {
   if (!k) return "";
   const t = k.same + k.edited + k.moved + k.new;
@@ -675,7 +681,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
   <div class="head"><span class="eyebrow">Distance from Common Core</span><h2>How much of each state's set is its own</h2>
   <p class="lede2">Each crosswalked state's K–5 standards by kind, from the research files, sorted by the share that differs from Common Core.</p>
   <div class="kkey"><span><i class="sw k-same"></i>Same as Common Core</span><span><i class="sw k-edited"></i>Edited</span><span><i class="sw k-moved"></i>Moved from another grade</span><span><i class="sw k-new"></i>New content</span></div></div>
-  <div class="card dist">${xwSorted.map((r) => `<div class="drow" data-id="${r.id}" role="button" tabindex="0" aria-label="${esc(r.name)}">${flagSvg(r)}<b>${r.id}</b>${kindBar(r.kinds)}</div>`).join("")}</div>
+  <div class="card dist">${xwSorted.map((r) => `<div class="drow" data-id="${r.id}" role="button" tabindex="0" aria-label="${esc(r.name)}: ${kindWords(r.kinds)}">${flagSvg(r)}<b>${r.id}</b>${kindBar(r.kinds)}</div>`).join("")}</div>
 </section>
 
 <section id="beyond">
