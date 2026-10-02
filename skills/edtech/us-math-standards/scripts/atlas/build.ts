@@ -192,7 +192,6 @@ const TIMELINE: [string, string, [string, string][]][] = [
 ];
 // The coverage session's open items, in its priority order (2026-10-01).
 const OPEN = [
-  ["State pre-K for Texas, Florida and Virginia", "43 states and DC are mapped in their own pre-K codes; the three own sets still show Head Start's goals. Missouri, Arizona, New Hampshire and Washington have no codes to map; DoDEA follows a commercial framework"],
   ["Next standards when final", "Utah and Kentucky for 2027–28: one research file and one generated edition each"],
   ["A Spanish edition", "Puerto Rico's standards are in Spanish; dual-language classrooms everywhere. The largest job here"],
   ["More curricula", "ten mapped; Big Ideas Math, Reveal Math, Math Expressions and Eureka Math² are next by use"],
@@ -594,7 +593,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
     ${[
       ["1,807/1,807", "crosswalk rows fit fully", "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
-      ["10,396", "standards, each with a sheet", "60 sets: Common Core, 4 own sets, 55 state editions"],
+      ["10,441", "standards, each with a sheet", "60 sets: Common Core, 4 own sets, 55 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n.includes("/") ? n.split("/")[0] : n}</span><b>${n.includes("/") ? `of ${n.split("/")[1]} ${b}` : b}</b><small>${s}</small></div>`).join("")}
   </div>
@@ -670,7 +669,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
   <div class="two">
     <div class="card prek"><p>Common Core starts at kindergarten. Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015), goals P-MATH 1–10, in every state not yet mapped. ${PREK_STATES} states and DC are mapped in their own pre-K codes, from their math or early-learning standards:</p>
       <div class="prekflags">${prekIds.map((id) => `<span>${flagFor(id)}${esc(NAMES[id])}</span>`).join("")}</div>
-      <p class="muted" style="font-size:.88rem">Texas (Prekindergarten Guidelines 2022), Florida (4 years to kindergarten, 2017) and Virginia (2021) show Head Start's goals until mapped; Missouri, Arizona, New Hampshire and Washington have no pre-K codes to map, and DoDEA follows a commercial framework. Data: <a href="data/prek/">data/prek</a>.</p></div>
+      <p class="muted" style="font-size:.88rem">Missouri, Arizona, New Hampshire and Washington have no pre-K codes to map and show Head Start's goals, and DoDEA follows a commercial framework. Data: <a href="data/prek/">data/prek</a>.</p></div>
     <div class="card prek"><h3>Sheets read aloud</h3><p>Pre-K sheets are made to be read by a grown-up: 24pt answers, pictures 80–140pt, a picture cue beside every title (trace, circle, colour, line, draw), and answers made by circling, tracing or drawing, never writing.</p></div>
   </div>
 </section>
@@ -856,7 +855,6 @@ html.dark .atlas {
   const OWN_ROWS = OWN_FIT.reduce((a, r) => a + r[4], 0);
   const XW_ROWS = PASSES.at(-1)![2];
   const NEXT_PUBLIC = [
-    ["Pre-K for Texas, Florida and Virginia", "43 states and DC already have pre-K in their own codes; these three still use Head Start's preschool goals"],
     ["New standards as they're adopted", "Utah and Kentucky for 2027–28, each once its text is published"],
     ["Sheets in Spanish", "for Puerto Rico's standards and dual-language classrooms"],
     ["More curricula", "ten are mapped; Big Ideas Math, Reveal Math, Math Expressions and Eureka Math² are next, by how many teachers use them"],
@@ -879,7 +877,7 @@ html.dark .atlas {
     ${[
       [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
-      ["10,396", "standards, each with a sheet", "Common Core, 4 state frameworks and 55 state editions"],
+      ["10,441", "standards, each with a sheet", "Common Core, 4 state frameworks and 55 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n}</span><b>${b}</b><small>${s}</small></div>`).join("")}
   </div>

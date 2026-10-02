@@ -9,7 +9,7 @@ Exported from Mathness's `src/standards/*.ts` at 2026-10-01.
 | File | Rows | Columns |
 | --- | --- | --- |
 | `ccss.tsv` | 148 K–5 + 10 Head Start pre-K (`P-MATH 1`–`10`) | `code grade domain domain_name summary` |
-| `tx.tsv`, `fl.tsv`, `va.tsv` | 246 / 184 / 72 K–5 + Head Start's 10 pre-K | `code grade strand strand_name summary ccss_carried ccss_partly_or_moved other_set_codes` |
+| `tx.tsv`, `fl.tsv`, `va.tsv` | 246 / 184 / 72 K–5 (their own pre-K: `prek/`) | `code grade strand strand_name summary ccss_carried ccss_partly_or_moved other_set_codes` |
 | `md.tsv` | 156 K–5 + Maryland's own 20 pre-K | same |
 
 `ccss_carried`: Common Core codes (or Head Start goals) whose content the row carries, possibly from another grade. `ccss_partly_or_moved`: codes that only partly cover the row (Texas, Florida, Virginia) or were moved or split into it (Maryland). `other_set_codes`: Mathness sheet ids from other sets (mostly Texas's and Maryland's, some Virginia's and Florida's) that serve the row (e.g. Maryland `K.NOS.A.3` for Texas's counting back); a product without those sets writes that sheet itself, filed under the row's own code; a row with no Common Core code is content Common Core lacks. Mappings for Texas, Florida and Virginia are our judgement (no official crosswalk exists); Maryland's come from MSDE's crosswalks.
@@ -24,7 +24,7 @@ The research files themselves, one per state, as the research agents wrote them 
 
 ## `prek/`
 
-Exported from Mathness's `src/standards/states/prek.ts` (commit 1206bc4f): the pre-K standards of 43 states and DC, 681 rows in all (Connecticut remapped to its 2025 edition, 12 rows, in app commit adfdf473), one file per jurisdiction (`<postal>.tsv`; `hi27`, `la27`, `mn27` and `sd27` reuse their state's), each row mapped to the Head Start goals that practise it (`head_start_goals`) and to other sheets' codes where Head Start has nothing (`other_sheet_codes`: mostly Maryland's own pre-K codes, a few kindergarten or grade 1 codes). Each jurisdiction's document, date and URL: `../references/states/<postal>.md` under Pre-K, or `common-core-states.md` for states in Common Core's own codes. Maryland's 20 are in `frameworks/md.tsv`.
+Exported from Mathness's `src/standards/states/prek.ts` (commit 1206bc4f): the pre-K standards of 43 states and DC, 681 rows in all (Connecticut remapped to its 2025 edition, 12 rows, in app commit adfdf473); Texas, Florida and Virginia (21, 23 and 31 rows) from `src/standards/own-prek.ts` (app commit 16913e3f), so 46 states and DC, 756 rows, one file per jurisdiction (`<postal>.tsv`; `hi27`, `la27`, `mn27` and `sd27` reuse their state's), each row mapped to the Head Start goals that practise it (`head_start_goals`) and to other sheets' codes where Head Start has nothing (`other_sheet_codes`: mostly Maryland's own pre-K codes, a few kindergarten or grade 1 codes). Each jurisdiction's document, date and URL: `../references/states/<postal>.md` under Pre-K, `common-core-states.md` for states in Common Core's own codes, or `../references/frameworks.md` for Texas, Florida and Virginia. Maryland's 20 are in `frameworks/md.tsv`.
 
 ## `curricula/`
 

@@ -28,7 +28,7 @@ Every document the Mathness research relied on, as fetched 2026-09-28 to 10-01. 
 - 19 TAC Chapter 111, Subchapter A: https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch111a.pdf · TOC: …/ch111toc.pdf
 - TEKS review pages (moved from `/academics/curriculum-standards/…`, 2026-10-02): https://tea.texas.gov/curriculum-and-instruction/curriculum-standards/teks-review/mathematics-texas-essential-knowledge-and-skills · https://tea.texas.gov/curriculum-and-instruction/curriculum-standards/teks-review-and-revision
 - SBOE review timeline (next math review ~2030–32): https://tea.texas.gov/about-tea/newsroom/media/sboe-teks-imra-timelines-approved-112224-1.pdf
-- Prekindergarten Guidelines (2022; under revision, see [frameworks.md](frameworks.md)): https://tea.texas.gov/educators/early-childhood-education/educator-resources/texas-prekindergarten-guidelines
+- Prekindergarten Guidelines (2022; under revision, see [frameworks.md](frameworks.md)): https://tea.texas.gov/educators/early-childhood-education/educator-resources/texas-prekindergarten-guidelines · comprehensive guide (math pp. 48–58): https://tea.texas.gov/educators/early-childhood-education/2022-texas-pkg-comprehensive-guide.pdf · PK4 version: https://tea.texas.gov/curriculum-and-instruction/curriculum-standards/2022-texas-prekindergarten-guidelines-pk4.pdf
 - Copyright and terms of service (checked 2026-10-02): https://tea.texas.gov/about-tea/welcome-and-overview/site-policies#copyright
 - Instructional materials (IMRA; the 2025 page now redirects to 2026): https://sboe.texas.gov/state-board-of-education/imra/current-cycle-imra-2025/k-12-mathematics-materials-imra-2026
 
@@ -39,13 +39,13 @@ Every document the Mathness research relied on, as fetched 2026-09-28 to 10-01. 
 - FLDOE copies (use `cdn.fldoe.org`; www.fldoe.org returns 403 to scripts): https://cdn.fldoe.org/core/fileparse.php/18736/urlt/StandardsMathematics.pdf · https://cdn.fldoe.org/core/fileparse.php/7576/urlt/BESTK-5Math.pdf · transition guide https://cdn.fldoe.org/core/fileparse.php/7576/urlt/BEST-TransitionResource.pdf
 - Benchmark pages: `https://www.cpalms.org/PreviewStandard/PrintStandard/<id>`
 - 2026–27 adopted math materials: https://cdn.fldoe.org/file/5574/2627-Math-IMAL-092126.pdf
-- Pre-K: Early Learning and Developmental Standards, 4 Years Old to Kindergarten (2017): https://flbt5.floridaearlylearning.com/
+- Pre-K: Early Learning and Developmental Standards, 4 Years Old to Kindergarten (2017; Rule 6M-8.602): https://flbt5.floridaearlylearning.com/docs/OEL-VPK154yo.pdf · interactive site https://flbt5.floridaearlylearning.com/standards.html · Birth to Kindergarten edition (same 4-year-old column): https://flbt5.floridaearlylearning.com/docs/OEL-SR15BtoK.pdf
 
 ## Virginia (SOL 2023, VDOE)
 
 - Standards page: https://www.doe.virginia.gov/teaching-learning-assessment/instruction/mathematics/standards-of-learning-for-mathematics (403 to scripts; read in a browser and download the public Word files)
 - Grade documents: https://www.doe.virginia.gov/home/showpublisheddocument/48570/638741649713570000 · …/48910/638325355131700000 · …/48914/638296738975170000 · …/48918/638296964771970000 · …/48922/638303051658470000
-- Pre-K: Early Learning and Development Standards, Birth–Five (approved 18 Mar 2021): https://virginiaisforlearners.virginia.gov/early-childhood/curriculum/index.shtml (host dead on 2026-10-02; no working copy found, see [pre-k.md](pre-k.md))
+- Pre-K: Early Learning and Development Standards, Birth–Five (approved 18 Mar 2021): https://www.doe.virginia.gov/home/showpublisheddocument/41062/638096390492770000 (403 to scripts; read in a browser), linked from https://www.doe.virginia.gov/teaching-learning-assessment/early-childhood-care-education/early-childhood-curriculum . The old host (virginiaisforlearners.virginia.gov) is dead; Wayback copy, byte-identical: https://web.archive.org/web/20230224185534/https://virginiaisforlearners.virginia.gov/early-childhood/curriculum/va-elds-birth-5.pdf
 
 ## Curricula
 

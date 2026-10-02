@@ -8,11 +8,11 @@ Structure, code grammar, counts and what each covers beyond Common Core, for the
 | --- | --- | --- | --- | --- | --- | --- |
 | Common Core | 148 | 10 (Head Start) | 158 | 22/21/26/25/28/26 | n/a | n/a |
 | Maryland MCCRS (2025) | 156 | 20 (own) | 176 | 25/24/24/26/30/27 | yes (MSDE grade-level crosswalks) | "was" (Maryland replaced it) |
-| Texas TEKS | 246 | 10 (Head Start) | 256 | 29/43/43/46/46/39 | no: mapping is yours | "Common Core" (Texas never used it) |
-| Florida B.E.S.T. | 184 | 10 (Head Start) | 194 | 22/26/27/34/39/36 | no: mapping is yours | "Common Core" |
-| Virginia SOL | 72 | 10 (Head Start) | 82 | 8/9/11/12/18/14 | no: mapping is yours | "Common Core" |
+| Texas TEKS | 246 | 21 (own) | 267 | 29/43/43/46/46/39 | no: mapping is yours | "Common Core" (Texas never used it) |
+| Florida B.E.S.T. | 184 | 23 (own) | 207 | 22/26/27/34/39/36 | no: mapping is yours | "Common Core" |
+| Virginia SOL | 72 | 31 (own) | 103 | 8/9/11/12/18/14 | no: mapping is yours | "Common Core" |
 
-**Always say whether a count includes pre-K.** "Texas 256" and "Texas 246 K–5" are the same set; mixing them produced apparent contradictions in Mathness's own docs. The four own sets total 658 K–5 rows.
+**Always say whether a count includes pre-K.** "Texas 267" and "Texas 246 K–5" are the same set; mixing them produced apparent contradictions in Mathness's own docs. The four own sets total 658 K–5 rows.
 
 Granularity differs wildly: one Virginia row (3.CE.2) carries six Common Core codes; one Texas grade has 43 rows. Expect a state row to map to zero, one or many CCSS codes, and to carry CCSS content from a **different grade**.
 
@@ -44,7 +44,7 @@ Show goal ranges ("P-MATH 1–5") where a UI expects a domain code, and label pr
   - **Earlier**: coins in K (K.4) and grade 1 (1.4A–C); multiplication and division concepts in grade 2 (2.6A–B); area by tiles in grade 2 (2.9F); time to the minute in grade 2 (2.9G); multiplicative comparison in grade 3 (3.5C).
   - **Content CCSS lacks**: personal financial literacy every grade (K.9A–D, 1.9A–D, 2.11A–F, 3.9A–F, 4.10A–E, 5.10A–F: earning, saving, credit and debit, budgets, gross and net income, job skills, cost to make an item, reasons to save); faces, edges and vertices (1.6E, 2.8B); polygons to 12 sides (2.8C); fractions past one whole and eighths in grade 2 (2.3A–D); frequency tables (3.8A); stem-and-leaf (4.9A–B, 5.9A); scatterplots (5.9B–C); strip diagrams (3.3A, 3.5A–B, 4.5A); input-output tables (3.5E, 4.5B); squares to 15 × 15 (4.4C); estimating with all four operations (5.3A); kindergarten picture graphs (K.8B–C).
   - **Later**: primes and composites at grade 5 (5.4A; CCSS 4.OA.B.4); whole × fraction at 5.3I (CCSS 4.NF.B.4).
-- **Pre-K**: Texas Prekindergarten Guidelines (2022), not mapped in Mathness ([pre-k.md](pre-k.md)). A revision is under way: TEA took feedback on initial recommendations, posted per domain, on "September 14-30, 2026" (closed); no adoption date as of 2026-10-02. Math, science and technology domain: https://tea.texas.gov/educators/early-childhood-education/tpg-math-science-technology_0.pdf
+- **Pre-K**: Texas Prekindergarten Guidelines (2022), Domain V Mathematics, PK4 outcomes (four-year-olds; the PK3 column is left out): 21 rows, codes as printed `PK4.V.<skill>.<n>` (`PK4.V.A.1`); domains are ours for the five skills (NS Number Sense, JS Joining and Separating, GS Geometry and Spatial Sense, M Measurement, CP Classification and Patterns). Mapped in Mathness 2026-10-02 (`src/standards/own-prek.ts`, `TX_PK`; data `data/prek/tx.tsv`): 16 rows link Head Start goals, 13 other sheets. Source: the comprehensive guide (pp. 48–58) and the PK4 streamlined version, same 21 outcomes ([sources.md](sources.md)). A revision is under way: TEA took feedback on initial recommendations, posted per domain, on "September 14-30, 2026" (closed); no adoption date as of 2026-10-02. Math, science and technology domain: https://tea.texas.gov/educators/early-childhood-education/tpg-math-science-technology_0.pdf . The recommendations would rename skill A, renumber outcomes (subitizing to A.2) and fold joining and separating (B.1, B.2) into A as A.9 and A.10; remap when TEA adopts them.
 - **Range sheets**: where TEKS only extends a CCSS topic's range, write a sheet under the Texas code that also carries the CCSS code, and let it through the "set-only sheets are for content CCSS lacks" test by an explicit exception list.
 
 ## Florida's B.E.S.T. Standards for Mathematics
@@ -55,6 +55,7 @@ Show goal ranges ("P-MATH 1–5") where a UI expects a domain code, and label pr
 - **Strands**: NSO Number Sense and Operations, FR Fractions (grades 1–5), AR Algebraic Reasoning, M Measurement, GR Geometric Reasoning, DP Data Analysis and Probability; plus MA.K12.MTR Mathematical Thinking and Reasoning standards (not content rows).
 - **Code grammar**: `MA.<grade>.<strand>.<standard>.<benchmark>`: `MA.3.NSO.2.4`, `MA.K.GR.1.5`, `MA.5.DP.1.2`.
 - **Beyond Common Core**: ordinals in K (MA.K.NSO.1.3); counting back from 20 in K; measuring with units in K; rulers, and coins with $1/$5/$10 bills to $100 in grade 1; rounding, symmetry and perimeter in grade 2; numbers to 10,000, the standard algorithm, facts to 12 × 12 (MA.3.NSO.2.4), lines and rays, temperature (MA.3.M.1.1) and circle graphs (MA.3.DP.1.2) in grade 3; straight and reflex angles, mode/median/range, 0.1 and 0.01 more or less, remainders as fractions and stem-and-leaf in grade 4; × and ÷ by 0.1 and 0.01 (MA.5.NSO.2.5), area with fraction and decimal sides (MA.5.GR.2.1), mean/median/mode/range and line graphs in grade 5; true/false equations in every grade 3–5.
+- **Pre-K**: Florida Early Learning and Developmental Standards: 4 Years Old to Kindergarten (2017), Form OEL-VPK 15, incorporated by Rule 6M-8.602 (effective 28 Dec 2017; no amendment since), domain V Mathematical Thinking: 23 standards, no benchmarks, none left for kindergarten. The document prints no compact codes; Mathness builds them from its numbering, `V.<component>.<n>` (`V.A.1`; components A Number Sense to F Measurement and Data). Mapped 2026-10-02 (`FL_PK`; `data/prek/fl.tsv`): 18 rows link Head Start goals, 15 other sheets.
 
 ## Virginia Mathematics Standards of Learning (2023)
 
@@ -63,6 +64,7 @@ Show goal ranges ("P-MATH 1–5") where a UI expects a domain code, and label pr
 - **Code grammar**: `<grade>.<strand>.<n>`: `5.PFA.2`, `3.NS.4`, `K.MG.3`. Lettered sub-bullets fold into the row, so rows are broad.
 - **Beyond Common Core**: numbers to 30 and counting back in K; days, months, yesterday/today/tomorrow (K.MG.3); coins and fair shares of sets in grade 1; calendar (1.MG.3); growing patterns (1.PFA.1); skip counting by 25s, sixths and eighths, money to $2, pounds and cups, symmetry, faces/edges/vertices in grade 2; six-digit numbers, making change to $5 (3.NS.4), customary and metric weight and volume (3.MG.1) in grade 3; nine digits, decimals to thousandths, facts to 12 × 12, elapsed time across noon (4.MG.2), line graphs and probability in grade 4; fraction↔decimal (5.NS.1), prime factorisation (5.NS.2), triangle 180° sum (5.MG.3), mean/median/mode/range, tree diagrams, letters for unknowns (5.PFA.2) in grade 5.
 - **Later**: angle measure with a protractor at grade 5 (CCSS 4.MD.C.5–7); the shape hierarchy at grade 4.
+- **Pre-K**: Virginia's Early Learning and Development Standards: Birth–Five Learning Guidelines (approved 18 Mar 2021), Area Five Cognitive Development, CD3 Mathematics (pp. 64–68), the Later Preschool band (44–60 months, the oldest of six): 31 indicators, codes as printed (`CD3.1q`); domains are ours for the five focus areas (CQ = CD3.1, NO = CD3.2, GS = CD3.3, SP = CD3.4, DM = CD3.5). Mapped 2026-10-02 (`VA_PK`; `data/prek/va.tsv`): 18 rows link Head Start goals, 23 other sheets. The old virginiaisforlearners host is dead; VDOE's copy is byte-identical to the Wayback copy ([sources.md](sources.md)).
 
 ## Maryland College and Career Ready Standards (MCCRS) for Mathematics, 2025 revision
 

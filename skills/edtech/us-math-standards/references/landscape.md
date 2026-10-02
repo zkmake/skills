@@ -139,9 +139,8 @@ To refresh this page: check each state agency's standards page for "revision", "
 
 ## Open items (2026-10-02, in priority order)
 
-1. State pre-K for Texas, Florida and Virginia, the three own sets still showing Head Start (43 states and DC are mapped; Missouri, Arizona, New Hampshire and Washington have no codes to map, DoDEA follows a commercial framework).
-2. Utah, Indiana and Kentucky 2027–28 editions, and Idaho's, once adopted and published (North Carolina 2028–29 is built: `nc29`).
-3. A Spanish edition (Puerto Rico; dual-language classrooms). The largest job.
-4. More curricula: Big Ideas Math, Reveal Math, Math Expressions and Eureka Math², by how many teachers use them (ten are mapped).
+1. Utah, Indiana and Kentucky 2027–28 editions, and Idaho's, once adopted and published (North Carolina 2028–29 is built: `nc29`).
+2. A Spanish edition (Puerto Rico; dual-language classrooms). The largest job.
+3. More curricula: Big Ideas Math, Reveal Math, Math Expressions and Eureka Math², by how many teachers use them (ten are mapped).
 
 Local and Indigenous contexts stay out of scope for generated sheets.

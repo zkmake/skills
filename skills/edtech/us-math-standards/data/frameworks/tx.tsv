@@ -1,14 +1,4 @@
 code	grade	strand	strand_name	summary	ccss_carried	ccss_partly_or_moved	other_set_codes
-P-MATH 1	PK	CC	Counting & cardinality	Say the counting numbers in order, working up to 20.	P-MATH 1		
-P-MATH 2	PK	CC	Counting & cardinality	See how many are in a small group, up to 5, without counting.	P-MATH 2		
-P-MATH 3	PK	CC	Counting & cardinality	Count things one by one, and know the last number said tells how many.	P-MATH 3		
-P-MATH 4	PK	CC	Counting & cardinality	Compare two groups: which has more, which has fewer, or the same.	P-MATH 4		
-P-MATH 5	PK	CC	Counting & cardinality	Match written numbers to amounts up to 5, and begin to write numbers.	P-MATH 5		
-P-MATH 6	PK	OA	Operations & algebraic thinking	Add by putting groups together and subtract by taking some away, with objects or fingers.	P-MATH 6		
-P-MATH 7	PK	OA	Operations & algebraic thinking	See, copy and continue simple repeating patterns.	P-MATH 7		
-P-MATH 8	PK	MD	Measurement	Compare things by size, length, height or weight: bigger, longer, heavier.	P-MATH 8		
-P-MATH 9	PK	G	Geometry & spatial sense	Name and compare shapes of any size or turn, and put shapes together.	P-MATH 9		
-P-MATH 10	PK	G	Geometry & spatial sense	Describe where things are: above, below, beside, in front, behind.	P-MATH 10		
 K.2A	K	NO	Number & operations	Count forward and backward to 20, with and without objects.		K.CC.A.1,K.CC.A.2	K.NOS.A.3
 K.2B	K	NO	Number & operations	Read, write and show numbers 0 to 20, with and without objects or pictures.	K.CC.A.3		
 K.2C	K	NO	Number & operations	Count up to 20 objects and know the last number says how many, however they are arranged.	K.CC.B.4,K.CC.B.5		

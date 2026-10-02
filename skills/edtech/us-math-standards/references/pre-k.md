@@ -1,6 +1,6 @@
 # Pre-K: frameworks and read-aloud sheets
 
-Common Core starts at kindergarten, so pre-K needs its own framework and its own sheet design. Mathness added a Pre-K grade on 2026-09-29 (12 Head Start skills), then Maryland's own pre-K (8 more Maryland-only skills), then thirteen more states' own pre-K codes on 2026-10-01 (five from their math standards, eight from their early-learning standards) and 30 more states and DC on 2026-10-02: 43 states and DC in all, 681 rows plus Maryland's 20. A state's mapped rows replace Head Start's 10 goals in its set; a next-year edition (`hi27`, `la27`, `mn27`, `sd27`) reuses its state's. States in Common Core's own codes show their own pre-K too: the set fetches it on demand and the state gets a `/<state>/pre-k/` page.
+Common Core starts at kindergarten, so pre-K needs its own framework and its own sheet design. Mathness added a Pre-K grade on 2026-09-29 (12 Head Start skills), then Maryland's own pre-K (8 more Maryland-only skills), then thirteen more states' own pre-K codes on 2026-10-01 (five from their math standards, eight from their early-learning standards) and 30 more states and DC on 2026-10-02, then the own sets Texas, Florida and Virginia the same day: 46 states and DC in all, 756 rows plus Maryland's 20. A state's mapped rows replace Head Start's 10 goals in its set; a next-year edition (`hi27`, `la27`, `mn27`, `sd27`) reuses its state's. States in Common Core's own codes show their own pre-K too: the set fetches it on demand and the state gets a `/<state>/pre-k/` page.
 
 ## Which framework each set shows
 
@@ -16,6 +16,7 @@ Common Core starts at kindergarten, so pre-K needs its own framework and its own
 | Connecticut | Connecticut Early Learning and Development Standards (2025): 12 rows, one per progression, `M A1` | mapped |
 | Delaware | Delaware Early Learning Foundations: Preschool (2010): 22 rows, `MA31` | mapped |
 | District of Columbia | District of Columbia Early Learning Standards (2019): 18 rows, `14a` | mapped |
+| Florida | Florida Early Learning and Developmental Standards: 4 Years Old to Kindergarten (2017): 23 rows, `V.A.1` (built from the document's numbering) | mapped |
 | Georgia | Georgia Early Learning and Development Standards, 48–60 months (2026): 32 rows, `CD-MA1.4a` | mapped |
 | Hawaiʻi | Hawaiʻi Early Learning and Development Standards (2014): 13 rows, `GK.KE.a` | mapped |
 | Idaho | Idaho Early Learning eGuidelines (2019): 3 rows, `Goal 39` | mapped |
@@ -46,20 +47,19 @@ Common Core starts at kindergarten, so pre-K needs its own framework and its own
 | South Carolina | South Carolina Early Learning Standards (2017): 31 rows, `MTE-1q` | mapped |
 | South Dakota | South Dakota Early Learning Guidelines (2023): 4 rows, `CD Goal - 4` | mapped |
 | Tennessee | Tennessee Early Learning Developmental Standards for Four-Year-Olds (2018): 21 rows, `PK.CC.A.1` | mapped |
+| Texas | Texas Prekindergarten Guidelines (2022), PK4 outcomes: 21 rows, `PK4.V.A.1`; a revision is under review ([frameworks.md](frameworks.md)) | mapped |
 | Utah | Utah Core State Standards for Early Learning, Ages 3 to 5 (2023): 22 rows, `Math 4 yr.1.1` | mapped |
 | Vermont | Vermont Early Learning Standards (2015): 21 rows, `MA.1a.1.OP.1` | mapped |
+| Virginia | Virginia's Early Learning and Development Standards (2021), later preschool (44–60 months): 31 rows, `CD3.1q` | mapped |
 | West Virginia | West Virginia Pre-K Standards, Policy 2520.15 (2025): 19 rows, `M.PK.1` | mapped |
 | Wisconsin | Wisconsin Model Early Learning Standards, Fifth Edition (2017): 6 rows, `V.B.EL.1` | mapped |
 | Wyoming | Wyoming's Early Learning Standards, Birth through Kindergarten (2022): 14 rows, `Math 1a` | mapped |
-| Texas | Prekindergarten Guidelines (2022; revision under review) | shows Head Start; "not mapped yet" |
-| Florida | Early Learning and Developmental Standards, 4 years to kindergarten (2017) | shows Head Start; "not mapped yet" |
-| Virginia | Early Learning and Development Standards (2021); its host was dead on 2026-10-02 ([sources.md](sources.md)) | shows Head Start; "not mapped yet" |
 | Missouri, Arizona, New Hampshire, Washington | early-learning standards whose pre-K math has no codes | shows Head Start |
 | DoDEA | Teaching Strategies GOLD (a commercial framework), adopted as its preschool standards (2016) | shows Head Start |
 
-Every state has early-learning guidelines somewhere (often birth-to-5, outside the math standards); the states worth mapping first are the ones that put pre-K **inside their math standards** (Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania), since that's where a teacher looks; next, states whose early-learning standards have a math domain with coded indicators a sheet can practise (Mathness mapped 38 such jurisdictions). A state whose pre-K math has no codes (Missouri, Arizona, New Hampshire, Washington) keeps Head Start's goals: a code is what a sheet prints.
+Every state has early-learning guidelines somewhere (often birth-to-5, outside the math standards); the states worth mapping first are the ones that put pre-K **inside their math standards** (Maryland, New York, Massachusetts, Oklahoma, Colorado, Pennsylvania), since that's where a teacher looks; next, states whose early-learning standards have a math domain with coded indicators a sheet can practise (Mathness mapped 41 such jurisdictions). A state whose pre-K math has no codes (Missouri, Arizona, New Hampshire, Washington) keeps Head Start's goals: a code is what a sheet prints.
 
-**Labels**: name pre-K's framework, not the set ("Head Start P-MATH 3" beside a state code; "Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015)… Texas's Prekindergarten Guidelines (2022) aren't mapped yet"). Head Start has no domain codes: show goal ranges ("P-MATH 1–5"). Curricula have no pre-K units.
+**Labels**: name pre-K's framework, not the set ("Head Start P-MATH 3" beside a state code; "Pre-K sheets follow Head Start's Early Learning Outcomes Framework (2015)… Missouri's pre-K math has no codes to map"). Head Start has no domain codes: show goal ranges ("P-MATH 1–5"). Curricula have no pre-K units.
 
 ## Add a state's pre-K
 
