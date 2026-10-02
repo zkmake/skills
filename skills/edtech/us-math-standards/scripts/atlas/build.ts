@@ -587,14 +587,14 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
   <div>
     <span class="eyebrow">Coverage report · school year 2026–27</span>
     <h1>Every state's K–5 math, <span class="hl">matched sheet by sheet</span></h1>
-    <p class="lede">All 50 states, DC and Defense Department schools have Mathness pages under their own name, ${COUNT("own") + COUNT("xw")} of them in their own codes. Every standard in every set has a printable sheet with an answer key, and a reviewer read each state row that differs from Common Core against what its sheets actually ask.</p>
+    <p class="lede">All 50 states, DC, Defense Department schools and the U.S. Virgin Islands have Mathness pages under their own name, ${COUNT("own") + COUNT("xw")} of them in their own codes. Every standard in every set has a printable sheet with an answer key, and a reviewer read each state row that differs from Common Core against what its sheets actually ask.</p>
     <span class="stamp">✓ checked against each state's own documents</span>
   </div>
   <div class="card report" aria-label="Headline figures">
     ${[
       ["1,807/1,807", "crosswalk rows fit fully", "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
-      ["10,238", "standards, each with a sheet", "59 sets: Common Core, 4 own sets, 54 state editions"],
+      ["10,396", "standards, each with a sheet", "60 sets: Common Core, 4 own sets, 55 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n.includes("/") ? n.split("/")[0] : n}</span><b>${n.includes("/") ? `of ${n.split("/")[1]} ${b}` : b}</b><small>${s}</small></div>`).join("")}
   </div>
@@ -610,8 +610,8 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
     <div class="sharekey">
       <div><i class="sw own"></i><strong>${COUNT("own")} states</strong><small><b>Own set, fit-reviewed.</b> Their own codes and words, state-only sheets written, every row reviewed.</small></div>
       <div><i class="sw xw"></i><strong>${COUNT("xw")} states</strong><small><b>Crosswalk.</b> Every standard in the state's own code, mapped to Common Core and to sheets for what it adds. Six also have their next standards.</small></div>
-      <div><i class="sw cc"></i><strong>${ROWS.filter((r) => r.model === "cc" && !["DC", "GU", "DoDEA"].includes(r.id)).length} states + DC + DoDEA</strong><small><b>Common Core codes</b> under the state's name, with any added standards slotted in. Guam uses Common Core's own pages.</small></div>
-      <div><i class="sw none"></i><strong>${COUNT("—")} territories</strong><small><b>Not yet.</b> Puerto Rico (standards in Spanish) and the U.S. Virgin Islands (its 2021 standards found, not yet modelled).</small></div>
+      <div><i class="sw cc"></i><strong>${ROWS.filter((r) => r.model === "cc" && !["DC", "GU", "DoDEA", "VI"].includes(r.id)).length} states + DC + DoDEA</strong><small><b>Common Core codes</b> under the state's name, with any added standards slotted in; so do the U.S. Virgin Islands. Guam uses Common Core's own pages.</small></div>
+      <div><i class="sw none"></i><strong>${COUNT("—")} territory</strong><small><b>Not yet.</b> Puerto Rico, whose standards are in Spanish.</small></div>
     </div>
   </div>
 </section>
@@ -794,9 +794,9 @@ if (at > 0) {
 const bl = process.argv.indexOf("--blog");
 if (bl > 0) {
   const SLUG = "how-we-matched-every-state";
-  const SITE_PATH: Record<string, string> = { DC: "/washington-dc/", DoDEA: "/dodea/", GU: "/#by-grade" };
+  const SITE_PATH: Record<string, string> = { DC: "/washington-dc/", DoDEA: "/dodea/", GU: "/#by-grade", VI: "/us-virgin-islands/" };
   const slugify = (s: string) => s.toLowerCase().replace(/ʻ/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-  const sitePath = (id: string) => (["PR", "VI"].includes(id) ? "" : SITE_PATH[id] ?? `/${slugify(NAMES[id])}/`);
+  const sitePath = (id: string) => (id === "PR" ? "" : SITE_PATH[id] ?? `/${slugify(NAMES[id])}/`);
   const plain = (s: string) => s.replace(/\bG([1-5])–([1-5])\b/g, "grades $1–$2").replace(/\bG([1-5])\b/g, "grade $1");
 
   // Scope every rule under .atlas: tokens on .atlas itself, the page-level rules dropped.
@@ -879,7 +879,7 @@ html.dark .atlas {
     ${[
       [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "across all 39 crosswalks: every row that differs from Common Core, and all of North Carolina 2028–29"],
       [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
-      ["10,238", "standards, each with a sheet", "Common Core, 4 state frameworks and 54 state editions"],
+      ["10,396", "standards, each with a sheet", "Common Core, 4 state frameworks and 55 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
     ].map(([n, b, s]) => `<div class="score"><span class="ring"><svg viewBox="0 0 120 70" aria-hidden="true"><path d="M8 37c0-17 25-30 54-30s52 12 52 28c0 18-24 29-55 29C29 64 7 54 9 33" fill="none" stroke="var(--pen)" stroke-width="2.4" stroke-linecap="round"/></svg>${n}</span><b>${b}</b><small>${s}</small></div>`).join("")}
   </div>

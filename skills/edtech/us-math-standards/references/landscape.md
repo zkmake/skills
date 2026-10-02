@@ -8,14 +8,14 @@ Which standards every jurisdiction uses, how to model each, what states add beyo
 | --- | --- | --- | --- |
 | **Own set** | the state wrote its own framework with its own codes and wording; build a full set, write state-only sheets, fit-review every row | Texas (TEKS), Florida (B.E.S.T.), Virginia (SOL), Maryland (MCCRS 2025) | ~21% |
 | **Crosswalk** | the state renumbered, reworded, added to or replaced Common Core; map every row in its own code ([crosswalk.md](crosswalk.md)) | 33 states (below); plus next-year editions for Washington, South Dakota, Louisiana, Minnesota and Hawaiʻi | ~53% |
-| **Common Core under the state's name** | Common Core's codes, as written or with small edits and additions | 13 states + DC + DoDEA; Guam uses Common Core's own pages ([states/common-core-states.md](states/common-core-states.md)) | ~26% |
-| **Not yet** | standards in another language, or not yet mapped | Puerto Rico (Spanish), US Virgin Islands | |
+| **Common Core under the state's name** | Common Core's codes, as written or with small edits and additions | 13 states + DC + DoDEA + the U.S. Virgin Islands; Guam uses Common Core's own pages ([states/common-core-states.md](states/common-core-states.md)) | ~26% |
+| **Not yet** | standards in another language, or not yet mapped | Puerto Rico (Spanish) | |
 
 *NCES, ~49 million students, rounded; a weighting, not a count.
 
 Maryland is the only own set with an official Common Core crosswalk (from MSDE). Texas, Florida and Virginia never adopted Common Core; Oklahoma repealed it in 2014; most crosswalked states publish no official crosswalk, so the mapping is your judgement and says so.
 
-Mathness on 2026-10-02 (commit 1206bc4f): 59 sets (Common Core, 4 own sets, 54 editions: 15 in Common Core's codes, 39 crosswalks = 33 states + 6 next editions, five for 2027–28 and North Carolina for 2028–29), 6,328 crosswalk rows, 10,238 standards (9,358 K–5 + 880 pre-K; Connecticut's 2025 pre-K is 12 rows, the 2014 edition's was 15), every one with a sheet (state pre-K codes replace Head Start's 10 goals in that state's set, so mapping a state's pre-K changes the total by its row count minus 10).
+Mathness on 2026-10-02 (commit a4f81661): 60 sets (Common Core, 4 own sets, 55 editions: 16 in Common Core's codes, 39 crosswalks = 33 states + 6 next editions, five for 2027–28 and North Carolina for 2028–29), 6,328 crosswalk rows, 10,396 standards (9,506 K–5 + 890 pre-K; Connecticut's 2025 pre-K is 12 rows, the 2014 edition's was 15), every one with a sheet (state pre-K codes replace Head Start's 10 goals in that state's set, so mapping a state's pre-K changes the total by its row count minus 10).
 
 ## Every jurisdiction
 
@@ -76,7 +76,7 @@ Mathness on 2026-10-02 (commit 1206bc4f): 59 sets (Common Core, 4 own sets, 54 e
 | WY | Wyoming Content and Performance Standards for Mathematics | 2023 | xw | 63 standards, mostly Common Core reworded, own codes (`K.G.4`); own pre-K | |
 | PR | Estándares de Contenido y Expectativas de Grado: Matemáticas | 2022 | — | in Spanish; own codes (`1.E.14.1`); probability from G1 | |
 | GU | Common Core State Standards for Mathematics | unconfirmed | cc | served by Common Core's pages | |
-| VI | Virgin Islands Standards of Achievement: Mathematics | 2021 | — | Common Core-derived (`VISA.Math.Content.K.CC.A.1`), some text edited; grade PDFs reachable, not mapped | |
+| VI | Virgin Islands Standards of Achievement (VISA) for Mathematics | 2021 | cc | Common Core with a `VISA.Math.Content` prefix; numerals 1–20 in K (K.CC.A.3) | |
 | DoDEA | DoDEA College and Career Ready Standards for Mathematics | 2015 | cc | as written; secondary name DoWEA (states/common-core-states.md) | |
 
 ## What states teach that Common Core doesn't
@@ -133,7 +133,6 @@ The checklist to run against any catalogue built on Common Core. "Covered" is Ma
   - Wisconsin's Early Learning and Development Guidelines (ELDGs), with new learning areas, strands and goals, will replace WMELS: in leadership review, to be published later in 2026; keep WMELS until further notice ([states/wi.md](states/wi.md)).
   - North Dakota's early-learning standards are under revision; the fall-2026 date is gone and there is no new document ([states/nd.md](states/nd.md)).
   - Texas's Prekindergarten Guidelines: feedback on initial recommendations ran 14–30 Sep 2026; no adoption date ([frameworks.md](frameworks.md)).
-- **Not yet covered**: the US Virgin Islands' K–5 grade PDFs are reachable ([states/common-core-states.md](states/common-core-states.md)).
 - **Less certain**: Utah's 1 Oct 2026 vote and North Carolina's 1 Oct minutes (both unpublished on 2026-10-02); Louisiana 2025's grade 4–5 code layout (its legal text groups clusters differently); Michigan's bill; West Virginia detail; Guam's adoption year.
 
 To refresh this page: check each state agency's standards page for "revision", "adopted", "implementation"; read the board's minutes for votes; record dates and URLs in the state file.

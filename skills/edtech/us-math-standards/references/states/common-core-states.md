@@ -33,7 +33,7 @@ Washington and Hawaiʻi are also in this group for 2026–27, but their next edi
 | Washington (`wa`, /washington/) | Washington State K–12 Learning Standards for Mathematics | 2011 | Common Core as written in 2026–27. WA Math 2026 (`wa27`) is required from 2027–28; see `wa.md`. |
 | Guam (no edition) | Common Core State Standards for Mathematics | not confirmed | Common Core as written. Served by the Common Core pages; no Guam page or set. |
 | Puerto Rico (not covered) | Estándares de Contenido y Expectativas de Grado: Matemáticas | 2022 | Departamento de Educación de Puerto Rico, © July 2022. See "Not covered". |
-| US Virgin Islands (not covered) | Virgin Islands Standards of Achievement: Mathematics | 2021 | Common Core with VI codes and some edited text; grade PDFs reachable since the 2026-10-02 check. See "Not covered". |
+| U.S. Virgin Islands (`vi`, /us-virgin-islands/) | Virgin Islands Standards of Achievement (VISA) for Mathematics | 2021 | Common Core with a `VISA.Math.Content` prefix (`VISA.Math.Content.3.OA.A.1`), added 2026-10-02 (app commit a4f81661). 191 K–5 entries, nothing added or removed; one change: K.CC.A.3 writes numerals 1 to 20, not 0 to 20. Printed typos: K.MD.A.3 for K.MD.B.3, 1.OAC..6 for 1.OA.C.6. Issued by the VI Department of Education (Division of Curriculum and Instruction), June 2021; no dated Board act found (EdGate: Common Core adopted 30 Sep 2010). Badge "VI", no flag; running text says "the U.S. Virgin Islands" (`the: true`); search names USVI, VISA, St. Thomas, St. Croix, St. John; Cloudflare's country "VI" offers it. Pre-K: Head Start, since the USVI Early Learning Guidelines (April 2010, DHS and VIDE) have uncoded math indicators: https://dhs.vi.gov/wp-content/uploads/2023/02/OCCRS_Virgin-Islands-Early-Learning-Guidelines.pdf |
 
 **Publishers:** listed in `publishers.ts`. The pages and Terms credit them.
 
@@ -125,11 +125,10 @@ Still Head Start: New Hampshire (its pre-K math has no codes) and DoDEA (its pre
   - Own codes, e.g. 1.E.14.1.
   - Coins from K, probability from grade 1, and mean, median and mode in grade 5.
   - Mapping codes alone wouldn't serve Spanish-language classrooms. A Spanish edition is a separate, larger job ([landscape.md](../landscape.md), open items).
-- **US Virgin Islands:** Virgin Islands Standards of Achievement (VISA) for Mathematics, by the VIDE Mathematics Curriculum Workgroup. Reachable since the 2026-10-02 check: the #GoOpenUSVI page "VISA Mathematics at a Glance" (added 1 Sep 2021, licence CC BY-NC-ND) links a Google Drive folder of grade PDFs and a K–12 PDF.
-  - Page: https://goopenusvi.vide.vi/courses/visa-mathematics-at-a-glance · folder: https://drive.google.com/drive/folders/1Ozi4tl3-yU8fcU6q8Rs7SMX13x9OeFc0
-  - Codes are Common Core's with a prefix, `VISA.Math.Content.K.CC.A.1`; some text is edited (per the 2026-10-02 check; not yet compared row by row).
-  - Not mapped yet: it would need a crosswalk edition.
+- **U.S. Virgin Islands (now served, 2026-10-02):** the VISA document, by the VIDE Mathematics Curriculum Workgroup, on the #GoOpenUSVI page "VISA Mathematics at a Glance" (added 1 Sep 2021, licence CC BY-NC-ND), which links a Google Drive folder of grade PDFs and a K–12 PDF. The page returns 403 without browser headers.
+  - Page: https://goopenusvi.vide.vi/courses/visa-mathematics-at-a-glance · folder: https://drive.google.com/drive/folders/1Ozi4tl3-yU8fcU6q8Rs7SMX13x9OeFc0 · K–12 PDF: https://drive.google.com/file/d/1OjdAV02tuA9xH99MT5_BFA-LB-lI1WXK/view
+  - Compared row by row: Common Core's K–5 with the prefix and one change (K.CC.A.3, 1 to 20), so a Common Core-code edition, not a crosswalk.
 
 ## Uncertain
 
-- **Less certain:** Guam's adoption year, how far the US Virgin Islands edited Common Core, and Michigan's bill.
+- **Less certain:** Guam's adoption year, the U.S. Virgin Islands' adoption date (no Board act found), and Michigan's bill.
