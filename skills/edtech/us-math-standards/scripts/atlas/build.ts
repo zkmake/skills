@@ -578,7 +578,7 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
   </div>
   <div class="card report" aria-label="Headline figures">
     ${[
-      ["1,481/1,485", "crosswalk rows reviewed good", "state rows that differ from Common Core, across all 38 crosswalks; 4 Minnesota 2027–28 rows relinked, re-review pending"],
+      ["1,485/1,485", "crosswalk rows fit fully", "state rows that differ from Common Core, across all 38 crosswalks"],
       ["658/658", "own-set rows fit fully", "Texas, Florida, Virginia and Maryland, K–5"],
       ["9,745", "standards, each with a sheet", "58 sets: Common Core, 4 own sets, 53 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a parent guide"],
@@ -622,12 +622,11 @@ footer { padding-block: 26px 48px; border-top: 1px dashed var(--rule); color: va
 </section>
 
 <section id="fit">
-  <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row, read against its sheets</h2>
+  <div class="head"><span class="eyebrow">Fit review</span><h2>Every crosswalk row now fits its sheets</h2>
   <p class="lede2">A sheet existing for a standard is coverage. Fit means the sheet practises what the standard asks, at its grade. Reviewers read each of 1,479 state rows that reword Common Core or link another grade's sheet (1,485 once Hawaiʻi's 2027–28 rows joined) against every section its sheets show across 40 seeds. Each pass linked better sheets or added the missing activity, then the changed rows were reviewed again. Midway, a fresh reviewer re-read every row without the earlier verdicts and found the incremental reviews had drifted optimistic.</p></div>
   <div class="card">
     <div class="passes">${passRows}</div>
     <div class="fitkey"><span><i class="sw" style="background:var(--good)"></i>Good: the sheets practise all of it</span><span><i class="sw" style="background:var(--part)"></i>Partial: a named part is missing</span><span><i class="sw" style="background:var(--miss)"></i>Mismatch: the sheets don't practise it</span><span class="mono">bars to scale · ${fmt(passMax)} rows</span></div>
-    <p class="muted" style="font-size:.84rem;padding:0 20px 16px">The last bars count four Minnesota 2027–28 rows as good: each was relinked to a better sheet after a partial verdict and hasn't been re-reviewed since.</p>
   </div>
   <div class="head"><h3>The four own sets</h3><p class="lede2">Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.</p></div>
   <div class="owns">${ownFit}</div>
@@ -864,7 +863,7 @@ html.dark .atlas {
   </div>
   <div class="card report" aria-label="Headline figures">
     ${[
-      [fmt(XW_ROWS - 4), `of ${fmt(XW_ROWS)} state rows reviewed and fit their sheets`, "every state row that differs from Common Core; 4 Minnesota 2027–28 rows got better sheets and await a fresh look"],
+      [fmt(XW_ROWS), `of ${fmt(XW_ROWS)} state rows fit their sheets`, "every state row that differs from Common Core, in the latest review"],
       [fmt(OWN_ROWS), `of ${fmt(OWN_ROWS)} rows fit in Texas, Florida, Virginia and Maryland`, "K–5, the four states with standards all their own"],
       ["9,745", "standards, each with a sheet", "Common Core, 4 state frameworks and 53 state editions"],
       ["267", "skills, pre-K to grade 5", "each a sheet, an answer key laid out like it, and a guide for grown-ups"],
@@ -897,7 +896,7 @@ ${/<section id="share">[\s\S]*?<\/section>/.exec(html)![0]
 </section>
 
 ${/<section id="fit">[\s\S]*?<\/section>/.exec(html)![0]
-  .replace("Every crosswalk row, read against its sheets", "Every state row, read against its sheets")
+  .replace("Every crosswalk row now fits its sheets", "Every state row now fits its sheets")
   .replace(/<p class="lede2">A sheet existing[\s\S]*?<\/p><\/div>/, `<p class="lede2">Coverage means a sheet exists for a standard. Fit means the sheet practises what the standard asks, at its grade. Each review read a state's wording against every section its sheets show, across 40 versions of each sheet. Each pass linked better sheets or added the missing activity; the changed rows were then reviewed again. Halfway, a fresh review started from scratch, without the earlier verdicts, and found the step-by-step reviews had grown too generous, so the bar went up for every pass after it.</p></div>`)
   .replace("Every row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw only each sheet's topic; later ones saw every section.", "Every K–5 row of Texas, Florida, Virginia and Maryland, reviewed the same way. The first reviews saw each sheet's topic; later ones saw every section of every sheet.")}
 

@@ -96,7 +96,7 @@ Next: the 2022 Minnesota K-12 Academic Standards in Mathematics, required from 2
   - 108 extra.tsv lines.
 - Fit review:
   - 0.2.4.1 (sorting by thickness) was the last open row. Commit 84439010 added "Thick or thin?" and the follow-up re-review after pass 13 found it good; 2.2.4.3 and 2.3.7.3 closed in pass 13.
-  - Linked or fixed after their last partial verdict and never re-reviewed, yet counted good in the 1,479 / 0 / 0 and 1,485 / 0 / 0 tallies: 1.1.2.1, 4.3.5.10, 5.3.5.10 (estimated differences to the nearest half), 5.3.7.4.
+  - Four rows were linked or fixed after their last partial verdict and counted good unseen in the 1,479 / 0 / 0 and 1,485 / 0 / 0 tallies. A fresh review on 2026-10-02 found all good: 1.1.2.1 (grade 2 picture bar graphs' "Could it happen?"), 4.3.5.10 (mixed numbers on a line, after compare-fractions "On the line" was widened from 0–2 to 0–3, app commit 1ffc485b), 5.3.5.10 (fraction stories "To the nearest half"), 5.3.7.4 (two-patterns "Ratio table" with scaling "Bigger or smaller?").
 
 ## Uncertain
 - The 2007 rule parts (3501.0700–.0745) show as [Repealed, 49 SR 1123], yet MDE says the 2007 standards are in effect through 2026–27. We follow MDE.
