@@ -83,7 +83,7 @@ Mapped 2026-10-02 (`STATE_PREK` in `src/standards/states/prek.ts`; data in `data
 
 | Jurisdiction | Document | Rows | First code | Source |
 | --- | --- | --- | --- | --- |
-| California (`ca`) | California Preschool/Transitional Kindergarten Learning Foundations, Mathematics (2024) | 24 | `MATH 1.1` | https://www.cde.ca.gov/sp/cd/re/documents/ptklfmathdomain.pdf |
+| California (`ca`) | California Preschool/Transitional Kindergarten Learning Foundations, Mathematics (2024) | 24 | `Math 1.1` | https://www.cde.ca.gov/sp/cd/re/documents/ptklfmathdomain.pdf |
 | Connecticut (`ct`) | Connecticut Early Learning and Development Standards (CT ELDS), Mathematics (2014) | 15 | `M.60.1` | https://www.ctoec.org/wp-content/uploads/2019/12/ctelds-11.20.24.pdf |
 | District of Columbia (`dc`) | District of Columbia Early Learning Standards, Mathematics, Pre-K Exit Expectations (2019) | 18 | `14a` | https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2019%20District%20of%20Columbia%20Early%20Learning%20Standards.%203.17.20.pdf |
 | Delaware (`de`) | Delaware Early Learning Foundations: Preschool, Mathematics (2010) | 22 | `MA31` | https://dieecpd.org/static/uploads/files/elfpreschool9-10.pdf |
@@ -95,7 +95,7 @@ Mapped 2026-10-02 (`STATE_PREK` in `src/standards/states/prek.ts`; data in `data
 | Nevada (`nv`) | Nevada Pre-Kindergarten Standards, Revised 2023 (2023) | 27 | `M.NQ.PK1` | https://webapp-strapi-paas-prod-nde-001.azurewebsites.net/uploads/nevada_pre_kindergarten_standards_cce1a3f525.pdf |
 | Vermont (`vt`) | Vermont Early Learning Standards (2015) | 21 | `MA.1a.1.OP.1` | https://education.vermont.gov/sites/aoe/files/documents/edu-early-education-early-learning-standards.pdf |
 
-California: codes carry the math prefix, `MATH 1.1`, since the foundations' numbers repeat in other domains. Michigan: codes carry the math prefix, `Mathematics 1a`, since the bare numbers repeat in other subjects. Vermont: the document prints no compact codes; Mathness uses its manual's shorthand.
+California: codes carry the math prefix, `Math 1.1` (the document says "Foundation 1.1" inside its Mathematics domain), as Kentucky and Wyoming do, since the bare numbers repeat in other domains. Michigan: codes carry the math prefix, `Mathematics 1a`, since the bare numbers repeat in other subjects. Vermont: the document prints no compact codes; Mathness uses its manual's shorthand.
 
 Still Head Start: New Hampshire (its pre-K math has no codes) and DoDEA (its pre-K follows Teaching Strategies GOLD, a commercial framework).
 

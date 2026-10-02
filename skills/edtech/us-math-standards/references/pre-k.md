@@ -11,7 +11,7 @@ Common Core starts at kindergarten, so pre-K needs its own framework and its own
 | Alabama | Alabama's Standards for Early Learning and Development (2023): 36 rows, `MAT1aOP-1` | mapped |
 | Alaska | State of Alaska Early Learning Guidelines (2020): 4 rows, `Goal 34` | mapped |
 | Arkansas | Arkansas Child Development and Early Learning Standards: Birth through 60 Months (2016): 5 rows, `MT1.1` | mapped |
-| California | California Preschool/Transitional Kindergarten Learning Foundations (2024): 24 rows, `MATH 1.1` | mapped |
+| California | California Preschool/Transitional Kindergarten Learning Foundations (2024): 24 rows, `Math 1.1` | mapped |
 | Colorado | 2020 Colorado Academic Standards: Mathematics: 25 rows, `P.CC.A.1` | mapped |
 | Connecticut | Connecticut Early Learning and Development Standards (2014): 15 rows, `M.60.1` | mapped |
 | Delaware | Delaware Early Learning Foundations: Preschool (2010): 22 rows, `MA31` | mapped |
