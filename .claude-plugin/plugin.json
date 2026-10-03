@@ -31,6 +31,7 @@
     "./skills/react/tanstack-query",
     "./skills/react/tanstack-router",
     "./skills/styling/tailwind-to-stylex",
+    "./skills/workflow/artifact-report",
     "./skills/workflow/implement-plan-phase",
     "./skills/writing/study-writing-style"
   ]
