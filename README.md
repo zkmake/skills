@@ -44,7 +44,7 @@ Versioned with [Changesets](https://github.com/changesets/changesets); see [CHAN
 
 | Skill                                                    | Description                                                                                                          |
 | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [design-critique](skills/design/design-critique)        | Critique a site, app or game as an interactive page of annotated screenshots, findings and pickable ideas that copy out as a build prompt. |
+| [zk-design-critique](skills/design/zk-design-critique)  | Critique a site, app or game as an interactive page of annotated screenshots, findings and pickable ideas that copy out as a build prompt. |
 
 ### Edtech
 
