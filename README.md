@@ -89,8 +89,8 @@ Versioned with [Changesets](https://github.com/changesets/changesets); see [CHAN
 
 | Skill                                                                | Description                                                                                     |
 | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [artifact-report](skills/workflow/artifact-report)                   | Turn the session's findings and suggestions into a polished Claude artifact, with charts, diagrams and images where they clarify. |
 | [implement-plan-phase](skills/workflow/implement-plan-phase)         | Implement a single phase of a plan file, verify it, update plan progress, and commit — then stop. |
+| [zk-claude-artifact](skills/workflow/zk-claude-artifact)             | Turn the session's findings and suggestions into a polished Claude artifact, with charts, diagrams and images where they clarify. |
 
 ### Writing
 

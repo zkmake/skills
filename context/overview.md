@@ -40,7 +40,7 @@ Personal collection of agent skills for Claude Code and other agents. Grown orga
 | `media` | `optimize-audio` |
 | `react` | `tanstack-query`, `tanstack-router` |
 | `styling` | `tailwind-to-stylex` |
-| `workflow` | `artifact-report`, `implement-plan-phase` |
+| `workflow` | `implement-plan-phase`, `zk-claude-artifact` |
 | `writing` | `study-writing-style` |
 
 ## Gotchas

@@ -1,11 +1,11 @@
 ---
-name: artifact-report
+name: zk-claude-artifact
 description: Turn this session's findings and suggestions into a polished Claude artifact page, with charts, diagrams and images wherever they make things clearer.
 argument-hint: "[focus or audience]"
 disable-model-invocation: true
 ---
 
-# Artifact report
+# Claude artifact report
 
 Put the session's work on one page the user can read, keep and share: everything found and everything suggested, answered against the request that started the session. The **report** is the deliverable; chat carries only its link and a short summary.
 
