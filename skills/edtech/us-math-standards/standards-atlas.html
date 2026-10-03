@@ -63,7 +63,7 @@ a { color: inherit; text-decoration-color: color-mix(in oklab, var(--pen) 55%, t
 /* A link inside running text is underlined, so it never relies on colour alone (WCAG 1.4.1). */
 p a, td a, small a { text-decoration-line: underline; }
 a:hover { color: var(--pen); }
-a:focus-visible, button:focus-visible, input:focus-visible, .st:focus-visible { outline: 3px solid var(--marker); outline-offset: 2px; border-radius: 4px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--marker); outline-offset: 2px; border-radius: 4px; }
 code, .mono { font-family: var(--mono); font-size: 0.86em; font-variant-numeric: tabular-nums; }
 .muted { color: var(--muted); }
 .eyebrow { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
@@ -107,6 +107,9 @@ section { padding-block: clamp(36px, 6vw, 56px); border-top: 1px dashed var(--ru
 .st:hover, .st.sel { filter: brightness(1.15) saturate(1.1); }
 .st.sel { stroke: var(--pen); stroke-width: 3; stroke-dasharray: none; }
 .st.dim { opacity: 0.18; }
+/* A state takes the focus as a ring on its own outline: the browser's outline is a box round the shape, and a click shows none. */
+.st:focus { outline: none; }
+.st:focus-visible { stroke: var(--ink); stroke-width: 3; stroke-dasharray: none; filter: brightness(1.15) saturate(1.1); }
 .legend { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
 .legend button { font: inherit; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 7px; padding: 4px 11px; border-radius: 999px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); cursor: pointer; }
 .legend button[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
