@@ -37,5 +37,7 @@ jobs:
           commit: "chore: version skills"
           title: "chore: version skills"
           createGithubReleases: true
+          # API commits are GitHub-signed; main's ruleset requires signatures
+          commitMode: github-api
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
