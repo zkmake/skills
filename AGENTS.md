@@ -25,9 +25,9 @@ Orientation index for coding tasks on this personal agent-skills collection (pub
 
 Adopted mattpocock/skills' setup: Changesets v2 (private `zkmake-skills` package, starts 0.0.0; first changeset is `major` → 1.0.0), `.claude-plugin/` plugin + `zkmake` marketplace, `release.yml` via `changesets/action`. Added `scripts/check-skills.mjs` since plugin.json is a fourth hand-kept skill list. Needs repo setting "Allow GitHub Actions to create and approve pull requests".
 
-### Add model-pass skill (2026-09-27)
+### Add zk-model-pass skill (2026-09-27)
 
-New `3d` category for three.js/R3F skills. `skills/3d/model-pass/` generalises keyboard-express's project-local `model-pass` (edtech-apps). First run writes `3D-STYLE.md` into the consumer project (survey → user-settled look/natures/budgets → studio → guide + AGENTS.md pointer); every pass reads and updates it. Assets are tested drop-in TS (typechecked against three + meshoptimizer; `zfight` checks neighbour buckets, has a same-mesh mode).
+New `3d` category for three.js/R3F skills. `skills/3d/zk-model-pass/` generalises keyboard-express's project-local `model-pass` (edtech-apps). First run writes `3D-STYLE.md` into the consumer project (survey → user-settled look/natures/budgets → studio → guide + AGENTS.md pointer); every pass reads and updates it. Assets are tested drop-in TS (typechecked against three + meshoptimizer; `zfight` checks neighbour buckets, has a same-mesh mode).
 
 ### Add tailwind-to-stylex skill (2026-08-24)
 

@@ -18,7 +18,7 @@
     "education"
   ],
   "skills": [
-    "./skills/3d/model-pass",
+    "./skills/3d/zk-model-pass",
     "./skills/agents-md/bootstrap-agents-md",
     "./skills/agents-md/update-agents-md",
     "./skills/design/zk-design-critique",

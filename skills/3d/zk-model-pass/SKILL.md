@@ -1,5 +1,5 @@
 ---
-name: model-pass
+name: zk-model-pass
 description: Remodel one three.js / R3F object at a time for silhouette, topology, triangle budget and z-fighting, measured in a model studio and verified with screenshots against the project's 3D style guide.
 disable-model-invocation: true
 ---

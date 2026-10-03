@@ -13,7 +13,7 @@ claude plugin install zkmake-skills@zkmake
 
 Update with `claude plugin marketplace update zkmake && claude plugin update zkmake-skills@zkmake`.
 
-Plugin skills are namespaced: `/zkmake-skills:model-pass`.
+Plugin skills are namespaced: `/zkmake-skills:zk-model-pass`.
 
 **Other agents**, or to pick individual skills:
 
@@ -31,7 +31,7 @@ Versioned with [Changesets](https://github.com/changesets/changesets); see [CHAN
 
 | Skill                                        | Description                                                                                                   |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| [model-pass](skills/3d/model-pass)           | Remodel one three.js/R3F object at a time, measured and screenshot-verified in a model studio against the project's 3D style guide. |
+| [zk-model-pass](skills/3d/zk-model-pass)     | Remodel one three.js/R3F object at a time, measured and screenshot-verified in a model studio against the project's 3D style guide. |
 
 ### AGENTS.md
 

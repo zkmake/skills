@@ -5,7 +5,7 @@ The shape of the project's `3D-STYLE.md`. Keep the headings; fill every section;
 ```md
 # 3D style guide
 
-_One line: what this world is and how it should feel._ Read before modelling or adding scene content; `/model-pass` keeps it current.
+_One line: what this world is and how it should feel._ Read before modelling or adding scene content; `/zk-model-pass` keeps it current.
 
 ## Survey
 

@@ -13,7 +13,7 @@ Personal collection of agent skills for Claude Code and other agents. Grown orga
 | `skills/<category>/<skill-name>/` | One skill per directory, grouped by category |
 | `skills/<category>/<skill-name>/SKILL.md` | The skill itself: YAML frontmatter + instructions |
 | `skills/github/gh-cli/references/` | Per-topic reference sheets the skill loads on demand (`pr.md`, `issues.md`, `actions.md`, `repo-release.md`, `core.md`) |
-| `skills/3d/model-pass/` | `references/` per step (`setup.md` first run, `studio.md`, `natures.md`, `gotchas.md`, `verification.md`, `style-template.md`); `assets/` drop-in TS copied into the consumer project (`studio-helpers.ts`, `lod.ts`, `chunked.ts`); `scripts/` shell (`shot.sh`, `compare.sh`) |
+| `skills/3d/zk-model-pass/` | `references/` per step (`setup.md` first run, `studio.md`, `natures.md`, `gotchas.md`, `verification.md`, `style-template.md`); `assets/` drop-in TS copied into the consumer project (`studio-helpers.ts`, `lod.ts`, `chunked.ts`); `scripts/` shell (`shot.sh`, `compare.sh`) |
 | `skills/design/zk-design-critique/` | `assets/critique-page.html` (page template: fill the `DATA` block per round); `references/` per step (`capture.md`, `page.md`) |
 | `skills/edtech/us-math-standards/` | `references/` one sheet per branch (`landscape.md`, `frameworks.md`, `crosswalk.md`, `coverage.md`, `fit-review.md`, `curricula.md`, `pre-k.md`, `worksheet-design.md`, `licensing.md`, `research.md`, `sources.md`, `state-pages.md`, `competitors.md`, `mathness.md`) plus `references/states/<postal>.md`, one per crosswalked state; `assets/` the research TSV template and agent prompts; `data/` reusable TSVs (Common Core and the four own frameworks with our summaries, the per-state research crosswalks, state pre-K maps, curriculum unit maps); `standards-atlas.html` built by `scripts/atlas/build.ts` |
 | `skills/game/three-game-starter/references/` | One reference sheet per game system, loaded per interview answer (`core-runtime.md`, `assets.md`, `rendering.md`, `audio.md`, `physics.md`, `performance.md`, `debug-tooling.md`) |
@@ -31,7 +31,7 @@ Personal collection of agent skills for Claude Code and other agents. Grown orga
 
 | Category | Skills |
 | --- | --- |
-| `3d` | `model-pass` |
+| `3d` | `zk-model-pass` |
 | `agents-md` | `bootstrap-agents-md`, `update-agents-md` |
 | `design` | `zk-design-critique` |
 | `edtech` | `us-math-standards` |
